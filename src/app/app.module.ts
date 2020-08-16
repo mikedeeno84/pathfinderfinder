@@ -3,14 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SmartSearchPipe } from './smart-search.pipe';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FullFilterPipe } from './full-filter.pipe';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SmartSearchPipe,
+    FullFilterPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
