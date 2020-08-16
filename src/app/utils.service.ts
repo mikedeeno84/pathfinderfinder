@@ -43,6 +43,10 @@ export class UtilsService {
           containsMatch = valueToCheck.every(value => {
             return (inputToCheck as any).some(inputValue => isEqual(inputValue, value));
           });
+        } else if (valueToCheck && typeof valueToCheck === 'object') {
+          return Object.keys(valueToCheck).every(key => {
+            return isEqual(valueToCheck[key], inputToCheck[key]);
+          });
         }
         if (!containsMatch) { break; }
       }
