@@ -1,21 +1,10 @@
 <div>
+  <app-filter-group></app-filter-group>
+</div>
+<div>
   <h1>Its like anon but with better styling</h1>
-  <form [formGroup]="filterForm">
-    <label>
-      Search:
-      <input type="text" formControlName="$" />
-    </label>
-    <label>
-      Traits:
-      <select [formControl]="filterForm.controls.traits" multiple>
-        <option [ngValue]="traitLabel" *ngFor="let traitLabel of traitList">
-          {{ traitLabel }}
-        </option>
-      </select>
-    </label>
-  </form>
   <ul>
-    <li *ngFor="let feat of feats | fullFilter: filterForm.value">
+    <li *ngFor="let feat of feats | fullFilter: filter ">
       <h2>{{ feat.name }} {{ feat.level }}</h2>
       <h3>
         Traits:

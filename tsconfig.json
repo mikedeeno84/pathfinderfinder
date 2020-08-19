@@ -6,6 +6,9 @@
 */
 {
   "files": [],
+  "paths": {
+    "@app/*": ["src/app/*"]
+  },
   "references": [
     {
       "path": "./tsconfig.app.json"

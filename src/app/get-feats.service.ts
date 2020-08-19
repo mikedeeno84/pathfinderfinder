@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { feats, Feat, FeatCollection } from '../assets/utils';
+import { feats, FeatCollection } from '../assets/utils';
 @Injectable({
   providedIn: 'root'
 })
@@ -24,5 +24,16 @@ export class GetFeatsService {
       }
     });
     return Object.keys(traits).sort();
+   }
+   public getActionList(): string[] {
+    const actions = {};
+    Object.values(this.feats).forEach(feat => {
+      if (feat.actions) {
+          if (!actions[feat.actions]) {
+            actions[feat.actions] = true;
+          }
+      }
+    });
+    return Object.keys(actions).sort();
    }
 }
