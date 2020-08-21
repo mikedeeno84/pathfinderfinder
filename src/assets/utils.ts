@@ -26940,7 +26940,7 @@ export interface Feat extends BaseFeat {
   };
   // [otherProps: string]: any;
 }
-export const extendedFeatKeys = [
+export const extendedFeatKeys: (keyof Feat)[] = [
   'actions',
   'source',
   'archetype',

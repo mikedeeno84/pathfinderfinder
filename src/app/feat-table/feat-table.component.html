@@ -22,10 +22,23 @@
       </td>
       <td>{{ feat.level }}</td>
     </tr>
-    <tr *ngIf="feat.actions">Action: {{ feat.actions }}</tr>
+    <tr *ngIf="feat.actions">
+      Action:
+      {{
+        feat.actions | titlecase
+      }}
+    </tr>
+    <tr>
+        <td colspan="3">
+          {{ feat.text }}
+        </td>
+      </tr>
     <tr>
       <td colspan="3">
-        {{ feat.text }}
+        <span class="additional-prop" *ngFor="let extendedField of getExtendedKeyListPerFeat(feat)">
+            <span class="additional-prop-name">{{ extendedField.propName | titlecase }}: </span>{{ extendedField.value }}
+        </span>
+        
       </td>
     </tr>
   </tbody>

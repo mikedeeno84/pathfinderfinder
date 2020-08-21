@@ -12,5 +12,10 @@
     tbody {
         border: $standard-border;
     }
-
+    .additional-prop {
+        padding-right: 5px;
+        .additional-prop-name {
+            font-weight: 600;
+        }
+    }
 }

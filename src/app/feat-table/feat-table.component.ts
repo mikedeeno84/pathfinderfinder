@@ -21,8 +21,10 @@ export class FeatTableComponent implements OnInit {
   feats: Feat[];
   public filter: FilterState;
   public extendedKeys = extendedFeatKeys;
-  public getExtendedKeyListPerFeat(feat: Feat): string[] {
-    return this.extendedKeys.filter((key) => feat[key]);
+  public getExtendedKeyListPerFeat(feat: Feat): { propName: string, value: any }[] {
+    return this.extendedKeys.filter((key) => feat[key] && key !== 'actions' ).map((propName) => {
+      return { propName, value: feat[propName] }
+    } );
   }
   ngOnInit(): void {
     this.filterStateService.getFilters(this.filterKey).subscribe((filter) => {
