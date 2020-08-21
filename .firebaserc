@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "pathfinderfinder-bb712"
+  },
+  "targets": {
+    "pathfinderfinder-bb712": {
+      "hosting": {
+        "better-aon": [
+          "pathfinderfinder-bb712"
+        ]
+      }
+    }
+  }
+}

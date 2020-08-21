@@ -114,7 +114,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 10,
     text: [
-      'You have a deep reverence for and connection to stone. You gain <i>meld into stone</i> as a 3rd-level divine innate spell that you can cast once per day.',
+      'You have a deep reverence for and connection to stone. You gain meld into stone as a 3rd-level divine innate spell that you can cast once per day.',
       ' If you have the Stonecunning dwarf ancestry feat, you can attempt to find unusual stonework and stonework traps that require legendary proficiency in Perception. If you have both Stonecunning and legendary proficiency in Perception, when you&#x2019;re not Seeking and the GM rolls a secret check for you to notice unusual stonework, you keep the bonus from Stonecunning and don&#x2019;t take the &#x2013;2 circumstance penalty.',
     ],
     source: 'Core Rulebook pg. 37',
@@ -407,7 +407,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 35,
     text: [
-      'Over time your fey magic has grown stronger. You gain <i>faerie fire</i> and <i>invisibility</i> as 2nd-level primal innate spells. You can cast each of these primal innate spells once per day.',
+      'Over time your fey magic has grown stronger. You gain faerie fire and invisibility as 2nd-level primal innate spells. You can cast each of these primal innate spells once per day.',
     ],
     source: 'Core Rulebook pg. 45',
     prerequisites: 'at least one primal innate spell',
@@ -955,7 +955,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 81,
     text: [
-      'The elven magic in your blood manifests as a force you can use to become more appealing or alluring. You can cast 1st-level <i>charm</i> as an arcane innate spell once per day.',
+      'The elven magic in your blood manifests as a force you can use to become more appealing or alluring. You can cast 1st-level charm as an arcane innate spell once per day.',
     ],
     source: 'Core Rulebook pg. 58',
   },
@@ -1313,7 +1313,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 111,
     text: [
-      'You mix a special additive into your elixir that calms the drinker&#x2019;s body and mind. The elixir of life attempts to counteract one fear effect or one effect imposing the paralyzed condition on the drinker using the item&apos;s level and a counteract modifier equal to your class DC - 10.',
+      'You mix a special additive into your elixir that calms the drinker&#x2019;s body and mind. The elixir of life attempts to counteract one fear effect or one effect imposing the paralyzed condition on the drinker using the item\'s level and a counteract modifier equal to your class DC - 10.',
     ],
     source: 'Core Rulebook pg. 79',
     frequency: 'once per round',
@@ -1467,7 +1467,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 124,
     text: [
-      'With a minor adjustment of ratios in the formula for your serene mutagen, you gain mental protections. When you&#x2019;re affected by a serene mutagen, detection, revelation, and scrying effects of 9th level or lower detect nothing from you or your possessions and auras. For instance, <i>detect magic</i> would still detect other magic in the area, but not any magic on you.',
+      'With a minor adjustment of ratios in the formula for your serene mutagen, you gain mental protections. When you&#x2019;re affected by a serene mutagen, detection, revelation, and scrying effects of 9th level or lower detect nothing from you or your possessions and auras. For instance, detect magic would still detect other magic in the area, but not any magic on you.',
     ],
     source: 'Core Rulebook pg. 81',
   },
@@ -1750,7 +1750,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 148,
     text: [
-      'You breathe deeply and exhale powerful energy in a 30-foot cone or 60-foot line, dealing 1d6 damage per level. The area and damage type match those of your dragon (see Table 3&#x2013;4. If you used this ability in the last hour, the area and the damage are halved (15-foot cone or 30-foot line; 1d6 damage for every 2 levels). Each creature in the area must attempt a basic Reflex save.<h2>Table 3-4: Dragon Instincts</h2><table class="inner"> <tbody><tr><td><b>Dragon</b></td><td><b>Type</b></td><td><b>Breath Weapon</b></td></tr> <tr><td>Black</td><td>Chromatic</td><td>Line of acid</td></tr> <tr><td>Blue</td><td>Chromatic</td><td>Line of electricity</td></tr> <tr><td>Green</td><td>Chromatic</td><td>Cone of poison</td></tr> <tr><td>Red</td><td>Chromatic</td><td>Cone of fire</td></tr> <tr><td>White</td><td>Chromatic</td><td>Cone of cold</td></tr> <tr><td>Brass</td><td>Metallic</td><td>Line of fire</td></tr> <tr><td>Bronze</td><td>Metallic</td><td>Line of electricity</td></tr> <tr><td>Copper</td><td>Metallic</td><td>Line of acid</td></tr> <tr><td>Gold</td><td>Metallic</td><td>Cone of fire</td></tr> <tr><td>Silver</td><td>Metallic</td><td>Cone of cold</td></tr> </tbody></table>',
+      `You breathe deeply and exhale powerful energy in a 30-foot cone or 60-foot line, dealing 1d6 damage per level. The area and damage type match those of your dragon (see Table 3&#x2013;4. If you used this ability in the last hour, the area and the damage are halved (15-foot cone or 30-foot line; 1d6 damage for every 2 levels). Each creature in the area must attempt a basic Reflex save.Table 3-4: Dragon Instincts<table class="inner"> <tbody><tr><td><b>Dragon</b></td><td><b>Type</b></td><td><b>Breath Weapon</b></td></tr> <tr><td>Black</td><td>Chromatic</td><td>Line of acid</td></tr> <tr><td>Blue</td><td>Chromatic</td><td>Line of electricity</td></tr> <tr><td>Green</td><td>Chromatic</td><td>Cone of poison</td></tr> <tr><td>Red</td><td>Chromatic</td><td>Cone of fire</td></tr> <tr><td>White</td><td>Chromatic</td><td>Cone of cold</td></tr> <tr><td>Brass</td><td>Metallic</td><td>Line of fire</td></tr> <tr><td>Bronze</td><td>Metallic</td><td>Line of electricity</td></tr> <tr><td>Copper</td><td>Metallic</td><td>Line of acid</td></tr> <tr><td>Gold</td><td>Metallic</td><td>Cone of fire</td></tr> <tr><td>Silver</td><td>Metallic</td><td>Cone of cold</td></tr> </tbody></table>`,
     ],
     source: 'Core Rulebook pg. 90',
     prerequisites: 'dragon instinct',
@@ -1803,7 +1803,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 151,
     text: [
-      'You transform into your animal. You gain the effects of the 3rd-level <i>animal form</i> spell except you use your own statistics, temporary Hit Points, and unarmed attacks instead of those granted by animal form. You also retain the constant abilities of your gear. If your animal is a frog, your tongue&#x2019;s reach increases to 15 feet. Dismissing the transformation gains the rage trait.',
+      'You transform into your animal. You gain the effects of the 3rd-level animal form spell except you use your own statistics, temporary Hit Points, and unarmed attacks instead of those granted by animal form. You also retain the constant abilities of your gear. If your animal is a frog, your tongue&#x2019;s reach increases to 15 feet. Dismissing the transformation gains the rage trait.',
     ],
     source: 'Core Rulebook pg. 91',
     prerequisites: 'animal instinct',
@@ -2077,7 +2077,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 172,
     text: [
-      'You transform into a ferocious Large dragon, gaining the effects of 6th-level <i>dragon form</i> except that you use your own AC and attack modifier; you also apply your extra damage from Rage. You use your class DC for your breath weapon DC. The action to Dismiss the transformation gains the rage trait.',
+      'You transform into a ferocious Large dragon, gaining the effects of 6th-level dragon form except that you use your own AC and attack modifier; you also apply your extra damage from Rage. You use your class DC for your breath weapon DC. The action to Dismiss the transformation gains the rage trait.',
       ' At 18th level, you gain a +20-foot status bonus to your fly Speed, your damage bonus with dragon Strikes increases to +12, and you gain a +14 status bonus to your breath weapon damage.',
     ],
     source: 'Core Rulebook pg. 93',
@@ -2148,7 +2148,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 178,
     text: [
-      'You stomp the ground with such force that it creates a minor earthquake, with the effects of the <i>earthquake</i> spell.',
+      'You stomp the ground with such force that it creates a minor earthquake, with the effects of the earthquake spell.',
     ],
     source: 'Core Rulebook pg. 93',
     frequency: 'once per 10 minutes',
@@ -2172,7 +2172,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 180,
     text: [
-      'By adding a flourish, you make your compositions last longer. You learn the <i>lingering composition</i> focus spell. Increase the number of Focus Points in your focus pool by 1.',
+      'By adding a flourish, you make your compositions last longer. You learn the lingering composition focus spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 99',
     prerequisites: 'maestro muse, focus pool',
@@ -2245,7 +2245,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 185,
     text: [
-      'You learn the <i>inspire competence</i> composition cantrip, which aids your allies&#x2019; skills.',
+      'You learn the inspire competence composition cantrip, which aids your allies&#x2019; skills.',
     ],
     source: 'Core Rulebook pg. 100',
     prerequisites: 'maestro muse',
@@ -2257,7 +2257,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 186,
     text: [
-      'You magically unlock memories, making them easier to recall. You learn the <i>loremaster&#x2019;s etude</i> composition spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You magically unlock memories, making them easier to recall. You learn the loremaster&#x2019;s etude composition spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 100',
     prerequisites: 'enigma muse, focus pool',
@@ -2282,7 +2282,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 188,
     text: [
-      'You learn the <i>inspire defense</i> composition cantrip, which protects you and allies.',
+      'You learn the inspire defense composition cantrip, which protects you and allies.',
     ],
     source: 'Core Rulebook pg. 100',
     prerequisites: 'maestro muse',
@@ -2306,7 +2306,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 190,
     text: [
-      'You learn the <i>triple time</i> composition cantrip, which speeds up you and your allies for a round.',
+      'You learn the triple time composition cantrip, which speeds up you and your allies for a round.',
     ],
     source: 'Core Rulebook pg. 101',
   },
@@ -2329,7 +2329,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 192,
     text: [
-      'You learn the <i>dirge of doom</i> composition cantrip, which frightens your enemies.',
+      'You learn the dirge of doom composition cantrip, which frightens your enemies.',
     ],
     source: 'Core Rulebook pg. 101',
   },
@@ -2383,7 +2383,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 196,
     text: [
-      'Your performances inspire even greater deeds in your allies. You learn the <i>inspire heroics</i> metamagic focus spell. Increase the number of Focus Points in your focus pool by 1.',
+      'Your performances inspire even greater deeds in your allies. You learn the inspire heroics metamagic focus spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 102',
     prerequisites: 'maestro muse, focus pool',
@@ -2407,7 +2407,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 198,
     text: [
-      'You erect an imaginary barrier others believe to be real. You learn the <i>house of imaginary walls</i> composition cantrip.',
+      'You erect an imaginary barrier others believe to be real. You learn the house of imaginary walls composition cantrip.',
     ],
     source: 'Core Rulebook pg. 102',
   },
@@ -2475,7 +2475,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 203,
     text: [
-      'You can quicken your allies with a fast-paced performance. You learn the <i>allegro</i> composition cantrip.',
+      'You can quicken your allies with a fast-paced performance. You learn the allegro composition cantrip.',
     ],
     source: 'Core Rulebook pg. 103',
   },
@@ -2486,7 +2486,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 204,
     text: [
-      'You soothe your allies&#x2019; wounds with the power of your performance. You learn the <i>soothing ballad</i> composition spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You soothe your allies&#x2019; wounds with the power of your performance. You learn the soothing ballad composition spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 103',
     prerequisites: 'focus pool',
@@ -2571,7 +2571,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 211,
     text: [
-      'Your songs overwhelm the target with unbearable emotion, potentially striking them dead on the spot. You learn the <i>fatal aria</i> composition spell. Increase the number of Focus Points in your focus pool by 1.',
+      'Your songs overwhelm the target with unbearable emotion, potentially striking them dead on the spot. You learn the fatal aria composition spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 103',
     prerequisites: 'focus pool',
@@ -2709,7 +2709,7 @@ export const feats: FeatCollection = {
     id: 222,
     text: [
       'You&#x2019;ve sworn an oath to hunt down wicked evildoers and bring them to judgment. Add the following tenet to your code after the others: &#x201C;You must hunt down and exterminate evil creatures that have committed heinous atrocities as long as you have a reasonable chance of success and aren&#x2019;t engaged in a mission that would prevent your doing so.&#x201D;',
-      ' You can use <i>lay on hands</i> to damage a creature you witness harming an innocent or a good ally as if it were undead; in this case, lay on hands deals good damage instead of positive damage and gains the good trait. This good damage can affect non-evil creatures. This doesn&#x2019;t prevent you from healing such a creature with <i>lay on hands</i>; you choose whether to heal or harm.',
+      ' You can use lay on hands to damage a creature you witness harming an innocent or a good ally as if it were undead; in this case, lay on hands deals good damage instead of positive damage and gains the good trait. This good damage can affect non-evil creatures. This doesn&#x2019;t prevent you from healing such a creature with lay on hands; you choose whether to heal or harm.',
     ],
     source: 'Core Rulebook pg. 111',
     prerequisites: 'paladin cause',
@@ -2745,7 +2745,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 225,
     text: [
-      'Your touch relieves fear and restores movement. If the next action you use is to cast <i>lay on hands</i>, you can attempt to counteract a fear effect or an effect imposing the paralyzed condition on the target, in addition to the other benefits of <i>lay on hands</i>.',
+      'Your touch relieves fear and restores movement. If the next action you use is to cast lay on hands, you can attempt to counteract a fear effect or an effect imposing the paralyzed condition on the target, in addition to the other benefits of lay on hands.',
     ],
     source: 'Core Rulebook pg. 111',
   },
@@ -2756,7 +2756,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 227,
     text: [
-      'You excoriate a foe for its wrath against goodly creatures. You can cast the <i>litany against wrath</i> devotion spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You excoriate a foe for its wrath against goodly creatures. You can cast the litany against wrath devotion spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 112',
     prerequisites: 'devotion spells, tenets of good',
@@ -2830,7 +2830,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 233,
     text: [
-      'Your devotion to your mount manifests as a surge of positive energy. When you cast <i>lay on hands</i> on your mount, you can restore 10 Hit Points, plus 10 for each heightened level.',
+      'Your devotion to your mount manifests as a surge of positive energy. When you cast lay on hands on your mount, you can restore 10 Hit Points, plus 10 for each heightened level.',
     ],
     source: 'Core Rulebook pg. 113',
     prerequisites: 'divine ally (steed)',
@@ -2901,7 +2901,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 239,
     text: [
-      'You rail against the sin of sloth, turning a foe&#x2019;s laziness against it. You can cast the <i>litany against sloth</i> devotion spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You rail against the sin of sloth, turning a foe&#x2019;s laziness against it. You can cast the litany against sloth devotion spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 113',
     prerequisites: 'devotion spells, tenets of good',
@@ -2913,7 +2913,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 240,
     text: [
-      'Your divine ally radiates power, enhancing your chosen weapon. When you choose the weapon for your blade ally during your daily preparations, add the following property runes to the list of effects you can choose from: <i>flaming</i> and any aligned properties (<i>anarchic</i>, <i>axiomatic</i>, <i>holy</i>, or <i>unholy</i>) that match your cause&#x2019;s alignment.',
+      'Your divine ally radiates power, enhancing your chosen weapon. When you choose the weapon for your blade ally during your daily preparations, add the following property runes to the list of effects you can choose from: flaming and any aligned properties (anarchic, axiomatic, holy, or unholy) that match your cause&#x2019;s alignment.',
     ],
     source: 'Core Rulebook pg. 113',
     prerequisites: 'divine ally (blade)',
@@ -2976,7 +2976,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 245,
     text: [
-      'You can suffer so that others might live. You can cast the <i>champion&#x2019;s sacrifice</i> devotion spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can suffer so that others might live. You can cast the champion&#x2019;s sacrifice devotion spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 114',
     prerequisites: 'tenets of good',
@@ -3083,7 +3083,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 254,
     text: [
-      'You call upon righteousness to expose an evil foe&#x2019;s weakness. You can cast the <i>litany of righteousness</i> devotion spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You call upon righteousness to expose an evil foe&#x2019;s weakness. You can cast the litany of righteousness devotion spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 115',
     prerequisites: 'tenets of good',
@@ -3156,7 +3156,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 260,
     text: [
-      'Your mercy transcends the bounds of life and death. When you use Mercy, you can cast <i>lay on hands</i> on a creature that died since your last turn to return it to life. The target returns to life with 1 hit point and becomes wounded 1. You can&#x2019;t use Ultimate Mercy if the triggering effect was <i>disintegrate</i> or a death effect.',
+      'Your mercy transcends the bounds of life and death. When you use Mercy, you can cast lay on hands on a creature that died since your last turn to return it to life. The target returns to life with 1 hit point and becomes wounded 1. You can&#x2019;t use Ultimate Mercy if the triggering effect was disintegrate or a death effect.',
     ],
     source: 'Core Rulebook pg. 115',
     prerequisites: 'Mercy',
@@ -3181,7 +3181,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 262,
     text: [
-      'Your divine ally turns your chosen weapon into a paragon of its type. When you choose the weapon for your blade divine ally during your preparations, add the following property runes to the list of effects you can choose from: <i>dancing</i>, <i>greater disrupting</i>, and <i>keen</i>.',
+      'Your divine ally turns your chosen weapon into a paragon of its type. When you choose the weapon for your blade divine ally during your preparations, add the following property runes to the list of effects you can choose from: dancing, greater disrupting, and keen.',
     ],
     source: 'Core Rulebook pg. 115',
     prerequisites: 'divine ally (blade), Radiant Blade Spirit',
@@ -3233,7 +3233,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 266,
     text: [
-      'The mordant power of your negative energy grows. When you cast <i>harm</i>, you roll d10s instead of d8s.',
+      'The mordant power of your negative energy grows. When you cast harm, you roll d10s instead of d8s.',
     ],
     source: 'Core Rulebook pg. 121',
     prerequisites: 'harmful font',
@@ -3245,7 +3245,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 267,
     text: [
-      'Your positive energy is even more vibrant and restorative. When you cast <i>heal</i>, you roll d10s instead of d8s.',
+      'Your positive energy is even more vibrant and restorative. When you cast heal, you roll d10s instead of d8s.',
     ],
     source: 'Core Rulebook pg. 121',
     prerequisites: 'healing font',
@@ -3257,7 +3257,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 268,
     text: [
-      'You combine holy energy with positive energy to damage demons, devils, and their evil ilk. <i>Heal</i> spells you cast damage fiends as though they were undead.',
+      'You combine holy energy with positive energy to damage demons, devils, and their evil ilk. Heal spells you cast damage fiends as though they were undead.',
     ],
     source: 'Core Rulebook pg. 121',
     prerequisites: 'good alignment',
@@ -3269,7 +3269,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 271,
     text: [
-      'You&#x2019;re a conduit for positive energy, and as you channel it through you, it heals some of your minor injuries. When you cast the <i>heal</i> spell to heal a single creature other than yourself, you regain Hit Points equal to the spell level of the <i>heal</i> spell.',
+      'You&#x2019;re a conduit for positive energy, and as you channel it through you, it heals some of your minor injuries. When you cast the heal spell to heal a single creature other than yourself, you regain Hit Points equal to the spell level of the heal spell.',
     ],
     source: 'Core Rulebook pg. 122',
   },
@@ -3302,7 +3302,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 273,
     text: [
-      'You draw the life force out of your enemies to heal your own wounds. When you cast a <i>harm</i> spell and damage at least one living creature, you regain Hit Points equal to the spell level of your <i>harm</i> spell. If you aren&#x2019;t a living creature, you gain no benefit from this feat.',
+      'You draw the life force out of your enemies to heal your own wounds. When you cast a harm spell and damage at least one living creature, you regain Hit Points equal to the spell level of your harm spell. If you aren&#x2019;t a living creature, you gain no benefit from this feat.',
     ],
     source: 'Core Rulebook pg. 122',
   },
@@ -3313,7 +3313,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 274,
     text: [
-      'Undead harmed by your positive energy might flee, compelled by an innate aversion to the force opposite undeath. When you use a <i>heal</i> spell to damage undead, each undead of your level or lower that critically fails its save gains the fleeing condition for 1 round.',
+      'Undead harmed by your positive energy might flee, compelled by an innate aversion to the force opposite undeath. When you use a heal spell to damage undead, each undead of your level or lower that critically fails its save gains the fleeing condition for 1 round.',
     ],
     source: 'Core Rulebook pg. 122',
   },
@@ -3324,7 +3324,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 275,
     text: [
-      'As you explore your deity&#x2019;s aspects, you move beyond restrictions on healing or harming. You can prepare either <i>harm</i> or <i>heal</i> in the spell slots gained from the harmful font or healing font.',
+      'As you explore your deity&#x2019;s aspects, you move beyond restrictions on healing or harming. You can prepare either harm or heal in the spell slots gained from the harmful font or healing font.',
     ],
     source: 'Core Rulebook pg. 122',
     prerequisites:
@@ -3337,7 +3337,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 276,
     text: [
-      'You siphon the destructive energies of positive or negative energy through a melee attack and into your foe. Make a melee Strike and add the spell&#x2019;s damage to the Strike&#x2019;s damage. This is negative damage if you expended a <i>harm</i> spell or positive damage if you expended a <i>heal</i> spell. The spell is expended with no effect if your Strike fails or hits a creature that isn&#x2019;t damaged by that energy type (such as if you hit a non-undead creature with a <i>heal</i> spell).',
+      'You siphon the destructive energies of positive or negative energy through a melee attack and into your foe. Make a melee Strike and add the spell&#x2019;s damage to the Strike&#x2019;s damage. This is negative damage if you expended a harm spell or positive damage if you expended a heal spell. The spell is expended with no effect if your Strike fails or hits a creature that isn&#x2019;t damaged by that energy type (such as if you hit a non-undead creature with a heal spell).',
     ],
     source: 'Core Rulebook pg. 122',
     cost: 'Expend a',
@@ -3350,7 +3350,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 277,
     text: [
-      'You grasp the animating force within an undead creature and bend it to your will. If the next action you use is to cast <i>harm</i> targeting one undead creature, you transform the effects of that <i>harm</i> spell. Instead of <i>harm&#x2019;s</i> normal effects, the target becomes controlled by you if its level is equal to or lower than your level &#x2013; 3. It can attempt a Will saving throw to resist being controlled by you. If the target is already under someone else&#x2019;s command, the controlling creature also rolls a saving throw, and the undead uses the better result.',
+      'You grasp the animating force within an undead creature and bend it to your will. If the next action you use is to cast harm targeting one undead creature, you transform the effects of that harm spell. Instead of harm&#x2019;s normal effects, the target becomes controlled by you if its level is equal to or lower than your level &#x2013; 3. It can attempt a Will saving throw to resist being controlled by you. If the target is already under someone else&#x2019;s command, the controlling creature also rolls a saving throw, and the undead uses the better result.',
     ],
     source: 'Core Rulebook pg. 123',
     prerequisites: 'harmful font, evil alignment',
@@ -3368,7 +3368,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 278,
     text: [
-      'You can shape the energy you channel in a single direction, reaching farther and in a more directed fashion. When you cast a version of <i>harm</i> or <i>heal</i> that has an area, you can make its area a 60-foot cone instead of a 30-foot emanation.',
+      'You can shape the energy you channel in a single direction, reaching farther and in a more directed fashion. When you cast a version of harm or heal that has an area, you can make its area a 60-foot cone instead of a 30-foot emanation.',
     ],
     source: 'Core Rulebook pg. 123',
   },
@@ -3379,7 +3379,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 279,
     text: [
-      'You can direct excess channeled energy outward to benefit an ally. You can grant the Hit Points you would regain from Communal Healing to any one creature within the range of your <i>heal</i> spell instead of yourself. You can also use Communal Healing when you target only yourself with a <i>heal</i> spell, though if you do, you must grant the additional healing to someone other than yourself.',
+      'You can direct excess channeled energy outward to benefit an ally. You can grant the Hit Points you would regain from Communal Healing to any one creature within the range of your heal spell instead of yourself. You can also use Communal Healing when you target only yourself with a heal spell, though if you do, you must grant the additional healing to someone other than yourself.',
     ],
     source: 'Core Rulebook pg. 123',
     prerequisites: 'Communal Healing',
@@ -3391,7 +3391,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 280,
     text: [
-      'You pour negative energy into your undead subject to empower its attacks. If the next action you use is to cast <i>harm</i> to restore Hit Points to a single undead creature, the target then deals an additional 1d6 negative damage with its melee weapons and unarmed attacks until the end of its next turn. If the <i>harm</i> spell is at least 5th level, this damage increases to 2d6, and if the <i>harm</i> spell is at least 8th level, the damage increases to 3d6.',
+      'You pour negative energy into your undead subject to empower its attacks. If the next action you use is to cast harm to restore Hit Points to a single undead creature, the target then deals an additional 1d6 negative damage with its melee weapons and unarmed attacks until the end of its next turn. If the harm spell is at least 5th level, this damage increases to 2d6, and if the harm spell is at least 8th level, the damage increases to 3d6.',
     ],
     source: 'Core Rulebook pg. 123',
     prerequisites: 'harmful font, evil alignment',
@@ -3403,7 +3403,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 281,
     text: [
-      'The sheer force of your faith can bring a foe crashing down. If the next action you use is to cast <i>harm</i> or <i>heal</i> to damage one creature, the target is knocked prone if it takes any damage from the spell. If the target critically fails its save against the spell, it also takes a &#x2013;10-foot status penalty to its Speed for 1 minute.',
+      'The sheer force of your faith can bring a foe crashing down. If the next action you use is to cast harm or heal to damage one creature, the target is knocked prone if it takes any damage from the spell. If the target critically fails its save against the spell, it also takes a &#x2013;10-foot status penalty to its Speed for 1 minute.',
     ],
     source: 'Core Rulebook pg. 123',
     prerequisites: 'harmful font or healing font',
@@ -3429,7 +3429,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 283,
     text: [
-      'As you call down divine power, you can prevent some enemies from benefiting or some allies from being hurt. When you cast a version of <i>harm</i> or <i>heal</i> that has an area, you can designate a number of creatures equal to your Charisma modifier (minimum 1) that are not targeted by the spell.',
+      'As you call down divine power, you can prevent some enemies from benefiting or some allies from being hurt. When you cast a version of harm or heal that has an area, you can designate a number of creatures equal to your Charisma modifier (minimum 1) that are not targeted by the spell.',
     ],
     source: 'Core Rulebook pg. 123',
   },
@@ -3470,7 +3470,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 287,
     text: [
-      'You can remove conditions with divine grace. You can sacrifice one <i>heal</i> spell you&#x2019;ve prepared in your extra slots from healing font to cast one of the following spells instead: <i>remove curse</i>, <i>remove disease</i>, <i>remove paralysis</i>, or <i>restoration</i>. The spell is heightened to the same level as the <i>heal</i> spell you sacrificed.',
+      'You can remove conditions with divine grace. You can sacrifice one heal spell you&#x2019;ve prepared in your extra slots from healing font to cast one of the following spells instead: remove curse, remove disease, remove paralysis, or restoration. The spell is heightened to the same level as the heal spell you sacrificed.',
     ],
     source: 'Core Rulebook pg. 124',
     prerequisites: 'healing font',
@@ -3482,7 +3482,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 288,
     text: [
-      'Your positive energy sets undead alight. When you use a <i>heal</i> spell to damage undead, each undead that takes damage also takes persistent fire damage equal to the spell&#x2019;s level.',
+      'Your positive energy sets undead alight. When you use a heal spell to damage undead, each undead that takes damage also takes persistent fire damage equal to the spell&#x2019;s level.',
     ],
     source: 'Core Rulebook pg. 124',
   },
@@ -3517,7 +3517,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 290,
     text: [
-      'The force of your deity&#x2019;s castigation strengthens your body so you can strike down the wicked. After you damage a fiend using a <i>heal</i> spell, your weapon or unarmed Strikes deal extra good damage to fiends equal to half the level of the <i>heal</i> spell until the end of your next turn. This is cumulative with any good damage the weapon already deals (such as from a holy rune).',
+      'The force of your deity&#x2019;s castigation strengthens your body so you can strike down the wicked. After you damage a fiend using a heal spell, your weapon or unarmed Strikes deal extra good damage to fiends equal to half the level of the heal spell until the end of your next turn. This is cumulative with any good damage the weapon already deals (such as from a holy rune).',
     ],
     source: 'Core Rulebook pg. 125',
     prerequisites: 'Holy Castigation',
@@ -3529,7 +3529,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 291,
     text: [
-      'The restorative power of your healing invigorates the recipient. If the next action you use is to cast <i>heal</i> targeting a single living creature and the target regains Hit Points from the spell, it also gains three bonuses until the end of its next turn: a +5-foot status bonus to its Speed, a +1 status bonus to attack rolls, and a +1 status bonus to damage rolls.',
+      'The restorative power of your healing invigorates the recipient. If the next action you use is to cast heal targeting a single living creature and the target regains Hit Points from the spell, it also gains three bonuses until the end of its next turn: a +5-foot status bonus to its Speed, a +1 status bonus to attack rolls, and a +1 status bonus to damage rolls.',
     ],
     source: 'Core Rulebook pg. 125',
     prerequisites: 'healing font, good alignment',
@@ -3565,7 +3565,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 294,
     text: [
-      'Your faith provides temporary protection in addition to healing. If the next action you use is to cast <i>harm</i> or <i>heal</i> on a single target and the target regains Hit Points from the spell, it also gains a +2 status bonus to AC and saving throws for 1 round.',
+      'Your faith provides temporary protection in addition to healing. If the next action you use is to cast harm or heal on a single target and the target regains Hit Points from the spell, it also gains a +2 status bonus to AC and saving throws for 1 round.',
     ],
     source: 'Core Rulebook pg. 125',
     prerequisites: 'harmful font or healing font',
@@ -3649,8 +3649,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 300,
     text: [
-      'Divine power is always at your fingertips, swiftly responding to your call. When you cast <i>harm</i> or <i>heal</i> by spending 2 actions, you can get the effects of the 3-action version instead of the 2-action version.',
-      ' You can do this with <i>harm</i> if you have harmful font or <i>heal</i> if you have healing font (or both if you have Versatile Font).',
+      'Divine power is always at your fingertips, swiftly responding to your call. When you cast harm or heal by spending 2 actions, you can get the effects of the 3-action version instead of the 2-action version.',
+      ' You can do this with harm if you have harmful font or heal if you have healing font (or both if you have Versatile Font).',
     ],
     source: 'Core Rulebook pg. 125',
     prerequisites: 'harmful font or healing font',
@@ -3662,7 +3662,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 301,
     text: [
-      'The force of your blow sends your victim back to its home plane. You expend a <i>banishment</i> spell you have prepared, affecting the creature you critically hit without needing to cast the spell. The creature can attempt to resist the spell as normal.',
+      'The force of your blow sends your victim back to its home plane. You expend a banishment spell you have prepared, affecting the creature you critically hit without needing to cast the spell. The creature can attempt to resist the spell as normal.',
     ],
     source: 'Core Rulebook pg. 126',
     requirements: 'You have a',
@@ -3675,7 +3675,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 302,
     text: [
-      'A life of evil has made you a nexus for your deity&#x2019;s vile power. You&#x2019;re continuously surrounded by a <i>bane</i> spell with a spell level equal to half your level (rounded up). The radius is 15 feet, and you can&#x2019;t increase it. You can Dismiss the spell; if you do, it returns automatically after 1 minute.',
+      'A life of evil has made you a nexus for your deity&#x2019;s vile power. You&#x2019;re continuously surrounded by a bane spell with a spell level equal to half your level (rounded up). The radius is 15 feet, and you can&#x2019;t increase it. You can Dismiss the spell; if you do, it returns automatically after 1 minute.',
     ],
     source: 'Core Rulebook pg. 126',
     prerequisites: 'evil alignment',
@@ -3687,7 +3687,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 303,
     text: [
-      'Your good deeds have brought your deity&#x2019;s grace to you for all of eternity. You&#x2019;re continuously surrounded by a <i>bless</i> spell with a spell level equal to half your level (rounded up). The radius is 15 feet, and you can&#x2019;t increase it. You can Dismiss the spell; if you do, it returns automatically after 1 minute.',
+      'Your good deeds have brought your deity&#x2019;s grace to you for all of eternity. You&#x2019;re continuously surrounded by a bless spell with a spell level equal to half your level (rounded up). The radius is 15 feet, and you can&#x2019;t increase it. You can Dismiss the spell; if you do, it returns automatically after 1 minute.',
     ],
     source: 'Core Rulebook pg. 126',
     prerequisites: 'good alignment',
@@ -3722,7 +3722,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 306,
     text: [
-      'When you pull forth positive or negative energy, you also create a smaller pocket of that energy. If the next action you use is to cast a 2-action <i>harm</i> or <i>heal</i> to heal or damage a single creature, choose one additional creature adjacent to either you or the target. Target that creature with a 1-action version of the same spell. This spell is the same level as the 2-action <i>harm</i> or <i>heal</i> you cast and doesn&#x2019;t cost another spell slot.',
+      'When you pull forth positive or negative energy, you also create a smaller pocket of that energy. If the next action you use is to cast a 2-action harm or heal to heal or damage a single creature, choose one additional creature adjacent to either you or the target. Target that creature with a 1-action version of the same spell. This spell is the same level as the 2-action harm or heal you cast and doesn&#x2019;t cost another spell slot.',
     ],
     source: 'Core Rulebook pg. 127',
   },
@@ -3733,7 +3733,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 307,
     text: [
-      'You easily banish creatures with your weapon. You can use Swift Banishment as long as you have a spell slot of 5th level or higher remaining, even if you don&#x2019;t have <i>banishment</i> prepared. You must sacrifice a prepared spell of 5th level or higher, and the <i>banishment</i> effect you create is heightened to the level of that spell. Your weapon serves as the special material component of <i>banishment</i>, causing the target to take the &#x2013;2 penalty to its save against any <i>banishment</i> you cast using Swift Banishment.',
+      'You easily banish creatures with your weapon. You can use Swift Banishment as long as you have a spell slot of 5th level or higher remaining, even if you don&#x2019;t have banishment prepared. You must sacrifice a prepared spell of 5th level or higher, and the banishment effect you create is heightened to the level of that spell. Your weapon serves as the special material component of banishment, causing the target to take the &#x2013;2 penalty to its save against any banishment you cast using Swift Banishment.',
     ],
     source: 'Core Rulebook pg. 127',
     prerequisites: 'Swift Banishment',
@@ -3745,7 +3745,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 308,
     text: [
-      'Your extensive service has made you a lesser herald of your deity, which affords you certain privileges. First, any creature you encounter knows instinctively that you speak for your deity. Second, if you conduct the commune ritual to contact your deity, you don&#x2019;t have to pay any cost and you automatically get a critical success. Third, once per day, you can cast <i>plane shift</i> as a divine innate spell, but only to travel to the realm of your deity. When you cast it this way, its casting time is 1 minute, your religious symbol is a sufficient tuning fork for this spell, and you appear exactly where you want to be. If you&#x2019;re in your deity&#x2019;s realm due to this spell, you can return to the point you left when you cast it by spending a single action, which has the concentrate and divine traits.',
+      'Your extensive service has made you a lesser herald of your deity, which affords you certain privileges. First, any creature you encounter knows instinctively that you speak for your deity. Second, if you conduct the commune ritual to contact your deity, you don&#x2019;t have to pay any cost and you automatically get a critical success. Third, once per day, you can cast plane shift as a divine innate spell, but only to travel to the realm of your deity. When you cast it this way, its casting time is 1 minute, your religious symbol is a sufficient tuning fork for this spell, and you appear exactly where you want to be. If you&#x2019;re in your deity&#x2019;s realm due to this spell, you can return to the point you left when you cast it by spending a single action, which has the concentrate and divine traits.',
     ],
     source: 'Core Rulebook pg. 127',
   },
@@ -3768,7 +3768,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 310,
     text: [
-      'Deep understanding of divine revelations into the nature of vital essence allows you to freely manipulate the effects of your positive or negative energy. Use 1 metamagic action that you can perform that normally takes 1 action and can be applied to the <i>harm</i> or <i>heal</i> spell. If you use it in this way, its effects apply only to a <i>harm</i> or <i>heal</i> spell.',
+      'Deep understanding of divine revelations into the nature of vital essence allows you to freely manipulate the effects of your positive or negative energy. Use 1 metamagic action that you can perform that normally takes 1 action and can be applied to the harm or heal spell. If you use it in this way, its effects apply only to a harm or heal spell.',
     ],
     source: 'Core Rulebook pg. 127',
   },
@@ -3836,7 +3836,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 316,
     text: [
-      'You are one with the wild, always changing and adapting to meet any challenge. You gain the <i>wild shape</i> order spell, which lets you transform into a variety of forms that you can expand with druid feats.',
+      'You are one with the wild, always changing and adapting to meet any challenge. You gain the wild shape order spell, which lets you transform into a variety of forms that you can expand with druid feats.',
     ],
     source: 'Core Rulebook pg. 134',
     prerequisites: 'wild order',
@@ -3848,7 +3848,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 317,
     text: [
-      'You call upon the creatures of nature to come to your aid. You can spend 10 minutes in concert with nature to replace one of the spells you&#x2019;ve prepared in one of your druid spell slots with a <i>summon animal</i> or <i>summon plants and fungi</i> spell of the same level.',
+      'You call upon the creatures of nature to come to your aid. You can spend 10 minutes in concert with nature to replace one of the spells you&#x2019;ve prepared in one of your druid spell slots with a summon animal or summon plants and fungi spell of the same level.',
     ],
     source: 'Core Rulebook pg. 134',
   },
@@ -3872,7 +3872,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 321,
     text: [
-      'With additional care and effort, you can take on an alternate form for a longer period of time. If your next action is to cast <i>wild shape</i>, <i>wild shape&#x2019;s</i> spell level is 2 lower than normal (minimum 1st level), but you can remain transformed for up to 1 hour or the listed duration (whichever is longer). You can still Dismiss the form at any time, as permitted by the spell.',
+      'With additional care and effort, you can take on an alternate form for a longer period of time. If your next action is to cast wild shape, wild shape&#x2019;s spell level is 2 lower than normal (minimum 1st level), but you can remain transformed for up to 1 hour or the listed duration (whichever is longer). You can still Dismiss the form at any time, as permitted by the spell.',
     ],
     source: 'Core Rulebook pg. 135',
     prerequisites: 'Strength 14, Wild Shape',
@@ -3910,7 +3910,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 324,
     text: [
-      'Your form is as mutable as the weather, changing to meet your whim. You add the forms listed in <i>humanoid form</i> to your <i>wild shape</i> list.',
+      'Your form is as mutable as the weather, changing to meet your whim. You add the forms listed in humanoid form to your wild shape list.',
     ],
     source: 'Core Rulebook pg. 135',
     prerequisites: 'Wild Shape',
@@ -3946,7 +3946,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 327,
     text: [
-      'Your understanding of life expands, allowing you to mimic a wider range of creatures. Add the forms in <i>insect form</i> to your <i>wild shape</i> list. Whenever you use <i>wild shape</i> to polymorph into the non-flying insect form listed in <i>pest form</i>, the duration is 24 hours instead of 10 minutes.',
+      'Your understanding of life expands, allowing you to mimic a wider range of creatures. Add the forms in insect form to your wild shape list. Whenever you use wild shape to polymorph into the non-flying insect form listed in pest form, the duration is 24 hours instead of 10 minutes.',
     ],
     source: 'Core Rulebook pg. 136',
     prerequisites: 'Wild Shape',
@@ -3958,7 +3958,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 329,
     text: [
-      'You lash out, directing a burst of storming fury toward a creature that has harmed you. You cast <i>tempest surge</i> on the triggering opponent and push that creature, moving it 5 feet away from you if it fails its Reflex save, or 10 feet if it critically fails. This movement is forced movement.',
+      'You lash out, directing a burst of storming fury toward a creature that has harmed you. You cast tempest surge on the triggering opponent and push that creature, moving it 5 feet away from you if it fails its Reflex save, or 10 feet if it critically fails. This movement is forced movement.',
     ],
     source: 'Core Rulebook pg. 136',
     prerequisites: 'storm order, tempest surge order spell',
@@ -3973,7 +3973,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 330,
     text: [
-      'You have mastered the shape of ferocious dinosaurs. Add the forms listed in <i>dinosaur form</i> to your <i>wild shape</i> list. Whenever you use <i>wild shape</i> to take a form that grants you a specific Athletics modifier, you gain a +1 status bonus to your Athletics checks.',
+      'You have mastered the shape of ferocious dinosaurs. Add the forms listed in dinosaur form to your wild shape list. Whenever you use wild shape to take a form that grants you a specific Athletics modifier, you gain a +1 status bonus to your Athletics checks.',
     ],
     source: 'Core Rulebook pg. 136',
     prerequisites: 'Wild Shape',
@@ -3985,7 +3985,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 331,
     text: [
-      'You have learned some of the tricks the fey use to bend primal magic toward illusions and trickery. Add <i>illusory disguise</i>, <i>illusory object</i>, <i>illusory scene</i>, and <i>veil</i> to your spell list as primal spells.',
+      'You have learned some of the tricks the fey use to bend primal magic toward illusions and trickery. Add illusory disguise, illusory object, illusory scene, and veil to your spell list as primal spells.',
     ],
     source: 'Core Rulebook pg. 136',
   },
@@ -4008,7 +4008,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 333,
     text: [
-      'Wings free you from the shackles of the ground below. Add the bat and bird forms in <i>aerial form</i> to your <i>wild shape</i> list. If you have Insect Shape, you also add the wasp form to your <i>wild shape</i> list. If you have Ferocious Shape, you also add the pterosaur form to your <i>wild shape</i> list. Whenever you use <i>wild shape</i> to gain a form that grants you a specific Acrobatics modifier, you gain a +1 status bonus to Acrobatics checks.',
+      'Wings free you from the shackles of the ground below. Add the bat and bird forms in aerial form to your wild shape list. If you have Insect Shape, you also add the wasp form to your wild shape list. If you have Ferocious Shape, you also add the pterosaur form to your wild shape list. Whenever you use wild shape to gain a form that grants you a specific Acrobatics modifier, you gain a +1 status bonus to Acrobatics checks.',
     ],
     source: 'Core Rulebook pg. 137',
     prerequisites: 'Wild Shape',
@@ -4020,7 +4020,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 334,
     text: [
-      'You bid the winds to lift and carry you through the air. You gain the <i>stormwind flight</i> order spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You bid the winds to lift and carry you through the air. You gain the stormwind flight order spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 137',
     prerequisites: 'storm order',
@@ -4032,7 +4032,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 335,
     text: [
-      'You understand the fundamental elements of nature such that you can imbue them into your body and manifest as a living embodiment of those elements. Add the forms in <i>elemental form</i> to your <i>wild shape</i> list. Whenever you&#x2019;re polymorphed into another form using <i>wild shape</i>, you gain resistance 5 to fire.',
+      'You understand the fundamental elements of nature such that you can imbue them into your body and manifest as a living embodiment of those elements. Add the forms in elemental form to your wild shape list. Whenever you&#x2019;re polymorphed into another form using wild shape, you gain resistance 5 to fire.',
     ],
     source: 'Core Rulebook pg. 137',
     prerequisites: 'Wild Shape',
@@ -4055,7 +4055,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 337,
     text: [
-      'You alter your spells to overcome resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target&#x2019;s resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by <i>wall of fire</i>. A creature&#x2019;s immunities are unaffected.',
+      'You alter your spells to overcome resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target&#x2019;s resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by wall of fire. A creature&#x2019;s immunities are unaffected.',
     ],
     source: 'Core Rulebook pg. 200',
   },
@@ -4066,7 +4066,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 338,
     text: [
-      'You can take the form of a plant creature. Add the forms listed in <i>plant form</i> to your <i>wild shape</i> list; if you don&#x2019;t have <i>wild shape</i>, you can instead cast <i>plant form</i> once per day, heightened to the highest spell level you can cast. Whenever you&#x2019;re polymorphed into another form using <i>wild shape</i>, you gain resistance 5 to poison.',
+      'You can take the form of a plant creature. Add the forms listed in plant form to your wild shape list; if you don&#x2019;t have wild shape, you can instead cast plant form once per day, heightened to the highest spell level you can cast. Whenever you&#x2019;re polymorphed into another form using wild shape, you gain resistance 5 to poison.',
     ],
     source: 'Core Rulebook pg. 138',
     prerequisites: 'leaf order or Wild Shape',
@@ -4090,7 +4090,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 340,
     text: [
-      'You can take on the form of some of the world&#x2019;s most fearsome creatures. Add the forms listed in <i>dragon form</i> to your <i>wild shape</i> list. Whenever you&#x2019;re polymorphed into another form using <i>wild shape</i>, you gain resistance 5 to your choice of acid, cold, electricity, fire, or poison.',
+      'You can take on the form of some of the world&#x2019;s most fearsome creatures. Add the forms listed in dragon form to your wild shape list. Whenever you&#x2019;re polymorphed into another form using wild shape, you gain resistance 5 to your choice of acid, cold, electricity, fire, or poison.',
     ],
     source: 'Core Rulebook pg. 138',
     prerequisites: 'Soaring Shape',
@@ -4125,7 +4125,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 343,
     text: [
-      'Whenever you summon an ally, you can empower it with the elemental power of air, earth, fire, or water. You gain the <i>primal summons</i> order spell.',
+      'Whenever you summon an ally, you can empower it with the elemental power of air, earth, fire, or water. You gain the primal summons order spell.',
     ],
     source: 'Core Rulebook pg. 138',
     prerequisites: 'Call of the Wild',
@@ -4162,7 +4162,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 346,
     text: [
-      'You transform into a plant version of yourself. You gain the plant trait and lose any trait that&#x2019;s inappropriate for your new form (typically humanoid for a PC, but also possibly animal or fungus). You can change from a form that looks mostly like your old self into a tree or any other non-creature plant as a single action, which has the concentrate trait. This has the same effect as <i>tree shape</i>, except you can turn into any kind of non-creature plant and your AC is 30.',
+      'You transform into a plant version of yourself. You gain the plant trait and lose any trait that&#x2019;s inappropriate for your new form (typically humanoid for a PC, but also possibly animal or fungus). You can change from a form that looks mostly like your old self into a tree or any other non-creature plant as a single action, which has the concentrate trait. This has the same effect as tree shape, except you can turn into any kind of non-creature plant and your AC is 30.',
       ' If you rest for 10 minutes while transformed into a non-creature plant during daylight hours under direct sunlight, you recover half your maximum Hit Points. If you take your daily rest in this way, the rest restores you to maximum Hit Points and removes all non-permanent drained, enfeebled, clumsy, and stupefied conditions, as well as all poisons and diseases of 19th level or lower.',
     ],
     source: 'Core Rulebook pg. 139',
@@ -4175,7 +4175,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 348,
     text: [
-      'You can fill an area with devastating briars that impale and impede your foes. You gain the <i>impaling briars</i> order spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can fill an area with devastating briars that impale and impede your foes. You gain the impaling briars order spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 139',
     prerequisites: 'leaf order',
@@ -4187,7 +4187,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 349,
     text: [
-      'You can transform into a powerful magical creature. Add the purple worm and sea serpent forms listed in <i>monstrosity form</i> to your <i>wild shape</i> list. If you have Soaring Shape, add the phoenix form listed in <i>aerial form</i> to your wild shape list.',
+      'You can transform into a powerful magical creature. Add the purple worm and sea serpent forms listed in monstrosity form to your wild shape list. If you have Soaring Shape, add the phoenix form listed in aerial form to your wild shape list.',
     ],
     source: 'Core Rulebook pg. 139',
     prerequisites: 'Wild Shape',
@@ -4199,7 +4199,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 350,
     text: [
-      'You can invoke nature&#x2019;s fury upon your foes. You gain the <i>storm lord</i> order spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can invoke nature&#x2019;s fury upon your foes. You gain the storm lord order spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 139',
     prerequisites: 'Wind Caller',
@@ -4211,7 +4211,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 351,
     text: [
-      'Thanks to magic and muscle memory, you can stay in your alternate forms indefinitely; you may have even forgotten your original form. When you use Form Control, instead of lasting 1 hour, <i>wild shape</i> is permanent until you Dismiss it.',
+      'Thanks to magic and muscle memory, you can stay in your alternate forms indefinitely; you may have even forgotten your original form. When you use Form Control, instead of lasting 1 hour, wild shape is permanent until you Dismiss it.',
     ],
     source: 'Core Rulebook pg. 139',
     prerequisites: 'Form Control, Strength 18',
@@ -4259,8 +4259,8 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 355,
     text: [
-      'You transcend the limitations of form. While under the effects of <i>wild shape</i>, you can change into any other form on your <i>wild shape</i> list; if the durations of the forms would vary, use the shorter of the two durations.',
-      ' Once per day, you can transform into a kaiju, with the effects of <i>nature incarnate</i>; if you have Plant Shape, you can instead transform into a green man.',
+      'You transcend the limitations of form. While under the effects of wild shape, you can change into any other form on your wild shape list; if the durations of the forms would vary, use the shorter of the two durations.',
+      ' Once per day, you can transform into a kaiju, with the effects of nature incarnate; if you have Plant Shape, you can instead transform into a green man.',
     ],
     source: 'Core Rulebook pg. 139',
     prerequisites: 'Dragon Shape, Wild Shape',
@@ -5145,7 +5145,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 432,
     text: [
-      'You can use ki to move with extraordinary speed and make yourself harder to hit. You gain the <i>ki rush</i> ki spell and a focus pool of 1 Focus Point. The rules for ki spells are summarized in the sidebar on page 157, and the full rules for focus spells appear on page 300.',
+      'You can use ki to move with extraordinary speed and make yourself harder to hit. You gain the ki rush ki spell and a focus pool of 1 Focus Point. The rules for ki spells are summarized in the sidebar on page 157, and the full rules for focus spells appear on page 300.',
     ],
     source: 'Core Rulebook pg. 158',
   },
@@ -5156,7 +5156,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 433,
     text: [
-      'Your study of the flow of mystical energy allows you to harness it into your physical strikes. You gain the <i>ki strike</i> ki spell and a focus pool of 1 Focus Point. The rules for ki spells are summarized in the sidebar on page 157, and the full rules for focus spells appear on page 300.',
+      'Your study of the flow of mystical energy allows you to harness it into your physical strikes. You gain the ki strike ki spell and a focus pool of 1 Focus Point. The rules for ki spells are summarized in the sidebar on page 157, and the full rules for focus spells appear on page 300.',
     ],
     source: 'Core Rulebook pg. 158',
   },
@@ -5251,7 +5251,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 441,
     text: [
-      'You call upon the power of the elements, infusing your ki with elemental energy and allowing your attacks to deal energy damage. When you cast <i>ki strike</i>, in addition to the damage types normally available, you can deliver the extra damage in the form of a gust of storm-tossed wind (dealing electricity damage and gaining the air trait), a chunk of stone (dealing bludgeoning damage and gaining the earth trait), a flickering flame (dealing fire damage), or a crashing wave of frigid water (dealing cold damage and gaining the water trait).',
+      'You call upon the power of the elements, infusing your ki with elemental energy and allowing your attacks to deal energy damage. When you cast ki strike, in addition to the damage types normally available, you can deliver the extra damage in the form of a gust of storm-tossed wind (dealing electricity damage and gaining the air trait), a chunk of stone (dealing bludgeoning damage and gaining the earth trait), a flickering flame (dealing fire damage), or a crashing wave of frigid water (dealing cold damage and gaining the water trait).',
     ],
     source: 'Core Rulebook pg. 160',
     prerequisites: 'Ki Strike',
@@ -5336,7 +5336,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 448,
     text: [
-      'You can restore your health by tapping into your ki. You gain the <i>wholeness of body</i> ki spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can restore your health by tapping into your ki. You gain the wholeness of body ki spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 160',
     prerequisites: 'ki spells',
@@ -5348,7 +5348,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 449,
     text: [
-      'You can teleport yourself a short distance. You gain the <i>abundant step</i> ki spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can teleport yourself a short distance. You gain the abundant step ki spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 160',
     prerequisites: 'incredible movement, ki spells',
@@ -5388,7 +5388,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 452,
     text: [
-      'You can unleash an impactful cone of force by channeling your ki. You gain the <i>ki blast</i> ki spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can unleash an impactful cone of force by channeling your ki. You gain the ki blast ki spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 161',
     prerequisites: 'ki spells',
@@ -5532,7 +5532,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 463,
     text: [
-      'You learn a mystical stance that lets you attack from a distance. You gain the <i>wild winds stance</i> ki spell. Increase the number of Focus Points in your focus pool by 1. While entering the stance is a ki spell, the wind crash Strikes the stance grants are not, so you can use them as often as you like while in the stance.',
+      'You learn a mystical stance that lets you attack from a distance. You gain the wild winds stance ki spell. Increase the number of Focus Points in your focus pool by 1. While entering the stance is a ki spell, the wind crash Strikes the stance grants are not, so you can use them as often as you like while in the stance.',
     ],
     source: 'Core Rulebook pg. 163',
     prerequisites: 'ki spells',
@@ -5570,7 +5570,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 466,
     text: [
-      'You gather the wind beneath you, allowing you to soar as you jump. You gain the <i>wind jump</i> ki spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You gather the wind beneath you, allowing you to soar as you jump. You gain the wind jump ki spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 163',
     prerequisites: 'ki spells',
@@ -5752,7 +5752,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 481,
     text: [
-      'Your strikes can kill foes. You gain the <i>quivering palm</i> ki spell. Increase the number of Focus Points in your focus pool by 1.',
+      'Your strikes can kill foes. You gain the quivering palm ki spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 165',
     prerequisites: 'ki spells',
@@ -5786,7 +5786,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 484,
     text: [
-      'You transmute your body into an ethereal form. You gain the <i>empty body</i> ki spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You transmute your body into an ethereal form. You gain the empty body ki spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 165',
     prerequisites: 'ki spells',
@@ -6644,7 +6644,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 556,
     text: [
-      'You&#x2019;ve dabbled in a variety of tricks, gaining minor magical abilities from a particular tradition. Choose arcane, divine, occult, or primal magic, and gain two cantrips from the common cantrips available to that tradition. Your key spellcasting ability is Charisma, and you&apos;re trained in spell attack rolls and DCs for the tradition of your chosen cantrips.',
+      'You&#x2019;ve dabbled in a variety of tricks, gaining minor magical abilities from a particular tradition. Choose arcane, divine, occult, or primal magic, and gain two cantrips from the common cantrips available to that tradition. Your key spellcasting ability is Charisma, and you\'re trained in spell attack rolls and DCs for the tradition of your chosen cantrips.',
     ],
     source: 'Core Rulebook pg. 184',
   },
@@ -6717,7 +6717,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 563,
     text: [
-      'You apply a poison to the required weapon; if you&apos;re not holding a poison and have a free hand, you can Interact to draw a poison as part of this action. If your next attack with that weapon before the end of your next turn hits and deals damage, it applies the effects of the poison, provided that poison can be delivered by contact or injury. If you critically fail the attack roll, the poison is wasted as normal.',
+      'You apply a poison to the required weapon; if you\'re not holding a poison and have a free hand, you can Interact to draw a poison as part of this action. If your next attack with that weapon before the end of your next turn hits and deals damage, it applies the effects of the poison, provided that poison can be delivered by contact or injury. If you critically fail the attack roll, the poison is wasted as normal.',
     ],
     source: 'Core Rulebook pg. 185',
     requirements: 'You are wielding a piercing or slashing weapon.',
@@ -7066,7 +7066,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 591,
     text: [
-      'Your deceptions confound even the most powerful mortal divinations. Detection, revelation, and scrying effects pass right over you, your possessions, and your auras, detecting nothing unless the detecting effect has a counteract level of 20 or higher. For example, <i>detect magic</i> would still detect other magic in the area but not any magic on you, <i>true seeing</i> wouldn&#x2019;t reveal you, <i>locate</i> or <i>scrying</i> wouldn&#x2019;t find you, and so on.',
+      'Your deceptions confound even the most powerful mortal divinations. Detection, revelation, and scrying effects pass right over you, your possessions, and your auras, detecting nothing unless the detecting effect has a counteract level of 20 or higher. For example, detect magic would still detect other magic in the area but not any magic on you, true seeing wouldn&#x2019;t reveal you, locate or scrying wouldn&#x2019;t find you, and so on.',
     ],
     source: 'Core Rulebook pg. 188',
     prerequisites: 'legendary in Deception',
@@ -7117,7 +7117,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 595,
     text: [
-      'You use clever tactics to mislead your foes as you sneak away. You Sneak while leaving a decoy behind. The decoy acts as the spell <i>mislead</i>, though you aren&#x2019;t invisible, just undetected. You can continue to concentrate to move your decoy, as with the spell, whether or not you remain hidden throughout the duration. Once you use Perfect Distraction, you need to spend 10 minutes to set up another decoy before you can use it again.',
+      'You use clever tactics to mislead your foes as you sneak away. You Sneak while leaving a decoy behind. The decoy acts as the spell mislead, though you aren&#x2019;t invisible, just undetected. You can continue to concentrate to move your decoy, as with the spell, whether or not you remain hidden throughout the duration. Once you use Perfect Distraction, you need to spend 10 minutes to set up another decoy before you can use it again.',
     ],
     source: 'Core Rulebook pg. 189',
     prerequisites: 'legendary in Deception',
@@ -7168,7 +7168,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 599,
     text: [
-      'When you put your mind to slipping out of sight, you disappear completely. You become invisible for 1 minute, even if you use a hostile action. Not even <i>glitterdust</i>, <i>see invisibility</i>, or similar effects can reveal you, though creatures can still use the Seek action to locate you as normal.',
+      'When you put your mind to slipping out of sight, you disappear completely. You become invisible for 1 minute, even if you use a hostile action. Not even glitterdust, see invisibility, or similar effects can reveal you, though creatures can still use the Seek action to locate you as normal.',
     ],
     source: 'Core Rulebook pg. 189',
     frequency: 'once per hour',
@@ -7261,7 +7261,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 610,
     text: [
-      'You siphon the residual energy from the last spell you cast into one weapon you&apos;re wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast. <li><b>Abjuration</b> force damage </li><li><b>Conjuration or Transmutation</b> the same type as the weapon </li><li><b>Divination, Enchantment, or Illusion</b> mental damage </li><li><b>Evocation</b> a type the spell dealt, or force damage if the spell didn&apos;t deal damage </li><li><b>Necromancy</b> negative damage</li>',
+      'You siphon the residual energy from the last spell you cast into one weapon you\'re wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast. <li><b>Abjuration</b> force damage </li><li><b>Conjuration or Transmutation</b> the same type as the weapon </li><li><b>Divination, Enchantment, or Illusion</b> mental damage </li><li><b>Evocation</b> a type the spell dealt, or force damage if the spell didn\'t deal damage </li><li><b>Necromancy</b> negative damage</li>',
     ],
     source: 'Advanced Player\'s Guide pg. 79',
     frequency: 'once per turn',
@@ -7316,7 +7316,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 613,
     text: [
-      'You can call upon the creatures of the wild for aid. You gain an additional spell slot of your highest level, which you can use only to cast <i>summon animal</i> or <i>summon plants and fungi</i>. You can cast either of these spells using that spell slot, even if it they aren&#x2019;t in your spell repertoire.',
+      'You can call upon the creatures of the wild for aid. You gain an additional spell slot of your highest level, which you can use only to cast summon animal or summon plants and fungi. You can cast either of these spells using that spell slot, even if it they aren&#x2019;t in your spell repertoire.',
     ],
     source: 'Core Rulebook pg. 199',
     prerequisites: 'bloodline that grants primal spells',
@@ -7386,7 +7386,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 622,
     text: [
-      'You have a literal sixth sense for ambient magic in your vicinity. You can sense the presence of magic auras as though you were always using a 1st-level <i>detect magic</i> spell. This detects magic in your field of vision only. When you Seek, you gain the benefits of a 3rd-level <i>detect magic</i> spell on things you see (in addition to the normal benefits of Seeking). You can turn this sense off and on with a free action at the start or the end of your turn.',
+      'You have a literal sixth sense for ambient magic in your vicinity. You can sense the presence of magic auras as though you were always using a 1st-level detect magic spell. This detects magic in your field of vision only. When you Seek, you gain the benefits of a 3rd-level detect magic spell on things you see (in addition to the normal benefits of Seeking). You can turn this sense off and on with a free action at the start or the end of your turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 80',
     special:
@@ -7399,7 +7399,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 623,
     text: [
-      'You weave dispelling energy into a spell, sending both effects at a foe. If your next action is to cast a single-target spell against a creature, and you either hit the foe with the spell attack roll or the foe fails its saving throw, you can cast <i>dispel magic</i> on the foe as a free action, expending a spell slot as normal and targeting one spell effect affecting the foe.',
+      'You weave dispelling energy into a spell, sending both effects at a foe. If your next action is to cast a single-target spell against a creature, and you either hit the foe with the spell attack roll or the foe fails its saving throw, you can cast dispel magic on the foe as a free action, expending a spell slot as normal and targeting one spell effect affecting the foe.',
     ],
     source: 'Core Rulebook pg. 201',
     prerequisites: '',
@@ -7529,7 +7529,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 636,
     text: [
-      'You can magically hurl your weapon at your foe. You gain the <i>hand of the apprentice</i> universalist spell. Universalist spells are a type of focus spell, much like school spells. You start with a focus pool of 1 Focus Point. See Arcane Schools on page 207 for more information about focus spells.',
+      'You can magically hurl your weapon at your foe. You gain the hand of the apprentice universalist spell. Universalist spells are a type of focus spell, much like school spells. You start with a focus pool of 1 Focus Point. See Arcane Schools on page 207 for more information about focus spells.',
     ],
     source: 'Core Rulebook pg. 209',
     prerequisites: 'universalist wizard',
@@ -7589,7 +7589,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 647,
     text: [
-      'You gain access to a powerful new school spell depending on your arcane school. If you&#x2019;re an abjurer, you gain <i>energy absorption</i>; if you&#x2019;re a conjurer, you gain <i>dimensional steps</i>; if you&#x2019;re a diviner, you gain <i>vigilant eye</i>; if you&#x2019;re an enchanter, you gain <i>dread aura</i>; if you&#x2019;re an evoker, you gain <i>elemental tempest</i>; if you&#x2019;re an illusionist, you gain <i>invisibility cloak</i>; if you&#x2019;re a necromancer, you gain <i>life siphon</i>; and if you&#x2019;re a transmuter, you gain <i>shifting form</i>. Increase the number of Focus Points in your focus pool by 1.',
+      'You gain access to a powerful new school spell depending on your arcane school. If you&#x2019;re an abjurer, you gain energy absorption; if you&#x2019;re a conjurer, you gain dimensional steps; if you&#x2019;re a diviner, you gain vigilant eye; if you&#x2019;re an enchanter, you gain dread aura; if you&#x2019;re an evoker, you gain elemental tempest; if you&#x2019;re an illusionist, you gain invisibility cloak; if you&#x2019;re a necromancer, you gain life siphon; and if you&#x2019;re a transmuter, you gain shifting form. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Core Rulebook pg. 211',
     prerequisites: 'arcane school',
@@ -7639,7 +7639,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 653,
     text: [
-      'You creatively apply your prepared spells to Counterspell a much wider variety of your opponents&#x2019; magic. Instead of being able to counter a foe&#x2019;s spell with Counterspell only if you have that same spell prepared, you can use Counterspell as long as you have the spell the foe is casting in your spellbook. When you use Counterspell in this way, the prepared spell you expend must share a trait other than its tradition with the triggering spell. At the GM&#x2019;s discretion, you can instead use a spell that has an opposing trait or that otherwise logically would counter the triggering spell (such as using a cold or water spell to counter <i>fireball</i> or using <i>remove fear</i> to counter a fear spell). Regardless of what spell you expend, you take a &#x2013;2 penalty to your counteract check, though the GM can waive this penalty if the expended spell is especially appropriate.',
+      'You creatively apply your prepared spells to Counterspell a much wider variety of your opponents&#x2019; magic. Instead of being able to counter a foe&#x2019;s spell with Counterspell only if you have that same spell prepared, you can use Counterspell as long as you have the spell the foe is casting in your spellbook. When you use Counterspell in this way, the prepared spell you expend must share a trait other than its tradition with the triggering spell. At the GM&#x2019;s discretion, you can instead use a spell that has an opposing trait or that otherwise logically would counter the triggering spell (such as using a cold or water spell to counter fireball or using remove fear to counter a fear spell). Regardless of what spell you expend, you take a &#x2013;2 penalty to your counteract check, though the GM can waive this penalty if the expended spell is especially appropriate.',
     ],
     source: 'Core Rulebook pg. 212',
     prerequisites: 'Counterspell, Quick Recognition',
@@ -7675,7 +7675,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 659,
     text: [
-      'You&#x2019;ve learned to alter choices you make when casting spells on yourself. After casting a spell on only yourself that offers several choices of effect (such as <i>resist energy</i>, <i>spell immunity</i>, or a polymorph spell that offers several potential forms), you can alter the choice you made when Casting the Spell (for instance, choosing a different type of damage for <i>resist energy</i>). However, your tinkering weakens the spell&#x2019;s integrity, reducing its remaining duration by half.',
+      'You&#x2019;ve learned to alter choices you make when casting spells on yourself. After casting a spell on only yourself that offers several choices of effect (such as resist energy, spell immunity, or a polymorph spell that offers several potential forms), you can alter the choice you made when Casting the Spell (for instance, choosing a different type of damage for resist energy). However, your tinkering weakens the spell&#x2019;s integrity, reducing its remaining duration by half.',
       ' You can&#x2019;t use this feat if the benefits of the spell have already been used up or if the effects of the first choice would persist in any way after switching (for instance, if one of the choices was to create a consumable item you already used, or to heal you), or if the feat would create an effect more powerful than that offered by the base spell. The GM is the final arbiter of what Spell Tinker can be applied to.',
     ],
     source: 'Core Rulebook pg. 213',
@@ -7760,7 +7760,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 667,
     text: [
-      'You gain the Quick Alchemy action. <h3 class="title">Quick Alchemy <img alt="Single Action" style="height:15px;" src="Images\\Actions\\OneAction.png"></h3><span alt="Alchemist Trait" class="trait" title="This indicates abilities from the alchemist class.">Alchemist</span><span alt="Manipulate Trait" class="trait" title="You must physically manipulate an item or make gestures to use an action with this trait. Creatures without a suitable appendage can&#x2019;t perform actions with this trait. Manipulate actions often trigger reactions.">Manipulate</span><br><b>Source</b> <i>Core Rulebook pg. 72</i> <sup>1.1</sup><br><b>Cost</b> 1 batch of infused reagents<br><b>Requirements</b> You have alchemist&#x2019;s tools, the formula for the alchemical item you&#x2019;re creating, and a free hand.',
+      'You gain the Quick Alchemy action.  class="title">Quick Alchemy <img alt="Single Action" style="height:15px;" src="Images\\Actions\\OneAction.png"><span alt="Alchemist Trait" class="trait" title="This indicates abilities from the alchemist class.">Alchemist</span><span alt="Manipulate Trait" class="trait" title="You must physically manipulate an item or make gestures to use an action with this trait. Creatures without a suitable appendage can&#x2019;t perform actions with this trait. Manipulate actions often trigger reactions.">Manipulate</span><br><b>Source</b> Core Rulebook pg. 72 <sup>1.1</sup><br><b>Cost</b> 1 batch of infused reagents<br><b>Requirements</b> You have alchemist&#x2019;s tools, the formula for the alchemical item you&#x2019;re creating, and a free hand.',
     ],
     source: 'Core Rulebook pg. 220',
     archetype: 'Alchemist',
@@ -7935,7 +7935,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 681,
     text: [
-      'You gain the <i>counter performance</i> composition spell. If you don&#x2019;t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by engaging your muse.',
+      'You gain the counter performance composition spell. If you don&#x2019;t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by engaging your muse.',
     ],
     source: 'Core Rulebook pg. 222',
     archetype: 'Bard',
@@ -7947,7 +7947,7 @@ export const feats: FeatCollection = {
     traits: ['Archetype'],
     actions: null,
     id: 682,
-    text: ['You gain the <i>inspire courage</i> composition cantrip.'],
+    text: ['You gain the inspire courage composition cantrip.'],
     source: 'Core Rulebook pg. 222',
     archetype: 'Bard',
     prerequisites: 'Bard Dedication',
@@ -8035,7 +8035,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 689,
     text: [
-      'You gain the appropriate devotion spell for your cause (<i>lay on hands</i> for the paladin, redeemer, and liberator). If you don&#x2019;t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by praying or serving your deity.',
+      'You gain the appropriate devotion spell for your cause (lay on hands for the paladin, redeemer, and liberator). If you don&#x2019;t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by praying or serving your deity.',
     ],
     source: 'Core Rulebook pg. 223',
     archetype: 'Champion',
@@ -8329,10 +8329,10 @@ export const feats: FeatCollection = {
     name: 'Opportunist',
     level: '4',
     traits: ['Archetype'],
-    actions: null,
+    actions: 'reaction',
     id: 712,
     text: [
-      'You gain the Attack of Opportunity reaction. <h3 class="title">Attack of Opportunity <img alt="Reaction" style="height:15px;" src="Images\\Actions\\Reaction.png"></h3><b>Source</b> <i>Core Rulebook pg. 142</i> <sup>1.1</sup><br><b>Trigger</b> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it&#x2019;s using.',
+      'You gain the Attack of Opportunity reaction.  class="title">Attack of Opportunity <img alt="Reaction" style="height:15px;" src="Images\\Actions\\Reaction.png"><b>Source</b> Core Rulebook pg. 142 <sup>1.1</sup><br><b>Trigger</b> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it&#x2019;s using.',
     ],
     source: 'Core Rulebook pg. 226',
     archetype: 'Fighter',
@@ -8443,7 +8443,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 720,
     text: [
-      'You gain the Flurry of Blows action. <h3 class="title">Flurry of Blows <img alt="Single Action" style="height:15px;" src="Images\\Actions\\OneAction.png"></h3><span alt="Flourish Trait" class="trait" title="Flourish actions are actions that require too much exertion to perform a large number in a row. You can use only 1 action with the flourish trait per turn.">Flourish</span><span alt="Monk Trait" class="trait" title="Abilities with this trait are from the monk class. A weapon with this trait is primarily used by monks.">Monk</span><br><b>Source</b> <i>Core Rulebook pg. 156</i> <sup>1.1</sup>',
+      'You gain the Flurry of Blows action.  class="title">Flurry of Blows <img alt="Single Action" style="height:15px;" src="Images\\Actions\\OneAction.png"><span alt="Flourish Trait" class="trait" title="Flourish actions are actions that require too much exertion to perform a large number in a row. You can use only 1 action with the flourish trait per turn.">Flourish</span><span alt="Monk Trait" class="trait" title="Abilities with this trait are from the monk class. A weapon with this trait is primarily used by monks.">Monk</span><br><b>Source</b> Core Rulebook pg. 156 <sup>1.1</sup>',
     ],
     source: 'Core Rulebook pg. 227',
     archetype: 'Monk',
@@ -8882,7 +8882,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 754,
     text: [
-      'Your study of magic allows you to instinctively sense its presence. You can cast 1st-level <i>detect magic</i> at will as an arcane innate spell. If you&#x2019;re a master in Arcana, the spell is heightened to 3rd level; if you&#x2019;re legendary, it is heightened to 4th level.',
+      'Your study of magic allows you to instinctively sense its presence. You can cast 1st-level detect magic at will as an arcane innate spell. If you&#x2019;re a master in Arcana, the spell is heightened to 3rd level; if you&#x2019;re legendary, it is heightened to 4th level.',
     ],
     source: 'Core Rulebook pg. 258',
     prerequisites: 'trained in Arcana',
@@ -9116,7 +9116,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 773,
     text: [
-      'You can find ways to craft just about anything, despite restrictions. As long as you have the appropriate Crafting skill feat (such as Magical Crafting for magic items) and meet the item&#x2019;s level and proficiency requirement, you ignore just about any other requirement, such as being of a specific ancestry or providing spells. The only exceptions are requirements that add to the item&#x2019;s cost, including castings of spells that themselves have a cost, and requirements of special items such as the <i>philosopher&#x2019;s stone</i> that have exclusive means of access and Crafting. The GM decides whether you can ignore a requirement.',
+      'You can find ways to craft just about anything, despite restrictions. As long as you have the appropriate Crafting skill feat (such as Magical Crafting for magic items) and meet the item&#x2019;s level and proficiency requirement, you ignore just about any other requirement, such as being of a specific ancestry or providing spells. The only exceptions are requirements that add to the item&#x2019;s cost, including castings of spells that themselves have a cost, and requirements of special items such as the philosopher&#x2019;s stone that have exclusive means of access and Crafting. The GM decides whether you can ignore a requirement.',
     ],
     source: 'Core Rulebook pg. 260',
     prerequisites: 'legendary in Crafting',
@@ -9979,7 +9979,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 844,
     text: [
-      'Your training focused on Crafting one particular kind of item. Select one of the specialties listed below; you gain a +1 circumstance bonus to Crafting checks to Craft items of that type. If you are a master in Crafting, this bonus increases to +2. If it&#x2019;s unclear whether the specialty applies, the GM decides. Some specialties might apply only partially. For example, if you were making a morningstar and had specialty in woodworking, the GM might give you half your bonus because the item requires both blacksmithing and woodworking.<h2>Specialty Crafting</h2><table class="inner"><tbody><tr><td><b>Specialty</b></td><td><b>Applicable Items</b></td></tr> <tr><td>Alchemy*</td><td>Alchemical items such as elixirs</td></tr> <tr><td>Artistry</td><td>Fine art, including jewelry</td></tr> <tr><td>Blacksmithing</td><td>Durable metal goods, including metal armor</td></tr> <tr><td>Bookmaking</td><td>Books and paper</td></tr> <tr><td>Glassmaking</td><td>Glass, including glassware and windows</td></tr> <tr><td>Leatherworking</td><td>Leather goods, including leather armor</td></tr> <tr><td>Pottery</td><td>Ceramic goods</td></tr> <tr><td>Shipbuilding</td><td>Ships and boats</td></tr> <tr><td>Stonemasonry</td><td>Stone goods and structures</td></tr> <tr><td>Tailoring</td><td>Clothing</td></tr> <tr><td>Weaving</td><td>Textiles, baskets, and rugs</td></tr> <tr><td>Woodworking</td><td>Wooden goods and structures</td></tr></tbody></table><br> * You must have the Alchemical Crafting skill feat to Craft alchemical items.',
+      'Your training focused on Crafting one particular kind of item. Select one of the specialties listed below; you gain a +1 circumstance bonus to Crafting checks to Craft items of that type. If you are a master in Crafting, this bonus increases to +2. If it&#x2019;s unclear whether the specialty applies, the GM decides. Some specialties might apply only partially. For example, if you were making a morningstar and had specialty in woodworking, the GM might give you half your bonus because the item requires both blacksmithing and woodworking.Specialty Crafting<table class="inner"><tbody><tr><td><b>Specialty</b></td><td><b>Applicable Items</b></td></tr> <tr><td>Alchemy*</td><td>Alchemical items such as elixirs</td></tr> <tr><td>Artistry</td><td>Fine art, including jewelry</td></tr> <tr><td>Blacksmithing</td><td>Durable metal goods, including metal armor</td></tr> <tr><td>Bookmaking</td><td>Books and paper</td></tr> <tr><td>Glassmaking</td><td>Glass, including glassware and windows</td></tr> <tr><td>Leatherworking</td><td>Leather goods, including leather armor</td></tr> <tr><td>Pottery</td><td>Ceramic goods</td></tr> <tr><td>Shipbuilding</td><td>Ships and boats</td></tr> <tr><td>Stonemasonry</td><td>Stone goods and structures</td></tr> <tr><td>Tailoring</td><td>Clothing</td></tr> <tr><td>Weaving</td><td>Textiles, baskets, and rugs</td></tr> <tr><td>Woodworking</td><td>Wooden goods and structures</td></tr></tbody></table><br> * You must have the Alchemical Crafting skill feat to Craft alchemical items.',
     ],
     source: 'Core Rulebook pg. 266',
     prerequisites: 'trained in Crafting',
@@ -10208,7 +10208,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 862,
     text: [
-      'You have exceptional talent with one type of performance. You gain a +1 circumstance bonus when making a certain type of performance. If you are a master in Performance, this bonus increases to +2. Select one of the following specialties and apply the bonus when attempting Performance checks of that type. If it&#x2019;s unclear whether the specialty applies, the GM decides.<h2>Virtuosic Performer</h2><table class="inner"><tbody><tr><td><b>Specialty</b></td><td><b>Examples</b></td></tr> <tr><td>Acting</td><td>Drama, pantomime, puppetry</td></tr> <tr><td>Comedy</td><td>Buffoonery, joke telling, limericks</td></tr> <tr><td>Dance</td><td>Ballet, huara, jig, macru</td></tr> <tr><td>Keyboards</td><td>Harpsichord, organ, piano</td></tr> <tr><td>Oratory</td><td>Epic, ode, poetry, storytelling</td></tr> <tr><td>Percussion</td><td>Chimes, drum, gong, xylophone</td></tr> <tr><td>Singing</td><td>Ballad, chant, melody, rhyming</td></tr> <tr><td>Strings</td><td>Fiddle, harp, lute, viol</td></tr> <tr><td>Winds</td><td>Bagpipe, flute, recorder, trumpet</td></tr></tbody></table>',
+      'You have exceptional talent with one type of performance. You gain a +1 circumstance bonus when making a certain type of performance. If you are a master in Performance, this bonus increases to +2. Select one of the following specialties and apply the bonus when attempting Performance checks of that type. If it&#x2019;s unclear whether the specialty applies, the GM decides.Virtuosic Performer<table class="inner"><tbody><tr><td><b>Specialty</b></td><td><b>Examples</b></td></tr> <tr><td>Acting</td><td>Drama, pantomime, puppetry</td></tr> <tr><td>Comedy</td><td>Buffoonery, joke telling, limericks</td></tr> <tr><td>Dance</td><td>Ballet, huara, jig, macru</td></tr> <tr><td>Keyboards</td><td>Harpsichord, organ, piano</td></tr> <tr><td>Oratory</td><td>Epic, ode, poetry, storytelling</td></tr> <tr><td>Percussion</td><td>Chimes, drum, gong, xylophone</td></tr> <tr><td>Singing</td><td>Ballad, chant, melody, rhyming</td></tr> <tr><td>Strings</td><td>Fiddle, harp, lute, viol</td></tr> <tr><td>Winds</td><td>Bagpipe, flute, recorder, trumpet</td></tr></tbody></table>',
     ],
     source: 'Core Rulebook pg. 268',
     prerequisites: 'trained in Performance',
@@ -10270,7 +10270,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 867,
     text: [
-      'Your hunted prey cannot escape your relentless pursuit. Stride up to your Speed in tandem with the triggering creature, remaining adjacent to the foe throughout its movement until it stops moving or you run out of movement. You can ignore difficult terrain during this movement unless the difficult terrain is caused by a magical effect.<h3 class="title">Noala&apos;s Training</h3><b>Source</b> <i>The Fall of Plaguestone pg. 56</i><br>By aiding an NPC from The Fall of Plaguestone, the PCs can learn some special woodland survival techniques.',
+      'Your hunted prey cannot escape your relentless pursuit. Stride up to your Speed in tandem with the triggering creature, remaining adjacent to the foe throughout its movement until it stops moving or you run out of movement. You can ignore difficult terrain during this movement unless the difficult terrain is caused by a magical effect. class="title">Noala\'s Training<b>Source</b> The Fall of Plaguestone pg. 56<br>By aiding an NPC from The Fall of Plaguestone, the PCs can learn some special woodland survival techniques.',
     ],
     source: 'The Fall of Plaguestone pg. 57',
     trigger:
@@ -10311,7 +10311,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 870,
     text: [
-      'You open an incandescent third eye upon your forehead. The eye can remain open for 1 minute, and you can close it before then with a single action with the concentrate trait. It can remain open for 2 minutes if you&#x2019;re a master in Arcana, or 5 minutes if you&#x2019;re legendary. While the eye is open, you gain the following benefits: you gain the effects of the <i>detect magic</i> arcane innate spell from your Arcane Sense at the start of each of your turns without needing to cast the spell; you gain darkvision; you gain a +2 status bonus to Perception checks to Seek undetected and hidden creatures and to your Perception DC against Hide and Sneak. After your third eye closes, you are dazzled for an amount of time equal to how long you had it open.',
+      'You open an incandescent third eye upon your forehead. The eye can remain open for 1 minute, and you can close it before then with a single action with the concentrate trait. It can remain open for 2 minutes if you&#x2019;re a master in Arcana, or 5 minutes if you&#x2019;re legendary. While the eye is open, you gain the following benefits: you gain the effects of the detect magic arcane innate spell from your Arcane Sense at the start of each of your turns without needing to cast the spell; you gain darkvision; you gain a +2 status bonus to Perception checks to Seek undetected and hidden creatures and to your Perception DC against Hide and Sneak. After your third eye closes, you are dazzled for an amount of time equal to how long you had it open.',
     ],
     source: 'World Guide pg. 81',
     frequency: 'once per day;',
@@ -10325,7 +10325,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 871,
     text: [
-      'Your Pathfinder training has broadened your horizons and made you more flexible at various skills, since you never know when you might need an obscure skill to complete your mission. You become trained in one skill of your choice, or expert in a skill of your choice in which you were trained. You also become trained in Pathfinder Lore, or an expert if you were already trained. When using a skill untrained, your proficiency bonus is equal to your level instead of 0. You gain access to <i>wayfinders</i>.',
+      'Your Pathfinder training has broadened your horizons and made you more flexible at various skills, since you never know when you might need an obscure skill to complete your mission. You become trained in one skill of your choice, or expert in a skill of your choice in which you were trained. You also become trained in Pathfinder Lore, or an expert if you were already trained. When using a skill untrained, your proficiency bonus is equal to your level instead of 0. You gain access to wayfinders.',
     ],
     source: 'World Guide pg. 23',
     archetype: 'Pathfinder Agent',
@@ -10380,7 +10380,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 875,
     text: [
-      'You can use the unusual resonance of your <i>wayfinder</i> to grant it additional effects. Choose one cantrip from the arcane, divine, occult, or primal list. You can activate your <i>wayfinder</i> to cast that cantrip at will. Additionally, you can Activate your <i>wayfinder</i> with a <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\\Actions\\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\\Actions\\OneAction_I.png"> (envision) activation to transform it into a nondescript pin or brooch to hide your affiliation with the Pathfinder Society. This transformation lasts for 1 hour.',
+      'You can use the unusual resonance of your wayfinder to grant it additional effects. Choose one cantrip from the arcane, divine, occult, or primal list. You can activate your wayfinder to cast that cantrip at will. Additionally, you can Activate your wayfinder with a <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\\Actions\\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\\Actions\\OneAction_I.png"> (envision) activation to transform it into a nondescript pin or brooch to hide your affiliation with the Pathfinder Society. This transformation lasts for 1 hour.',
     ],
     source: 'World Guide pg. 23',
     archetype: 'Pathfinder Agent',
@@ -10565,7 +10565,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 888,
     text: [
-      'You&#x2019;ve begun to inscribe a magical stone called a <i>ka stone</i> that you will some day tie to your soul. You gain knowledge of Ancient Osirion and a connection to your nascent <i>ka stone</i>. If you fail a recovery check while dying, your dying condition does not increase; if you critically fail, your dying condition increases by only 1. You become trained in Ancient Osirion Lore, or expert if you were already trained.',
+      'You&#x2019;ve begun to inscribe a magical stone called a ka stone that you will some day tie to your soul. You gain knowledge of Ancient Osirion and a connection to your nascent ka stone. If you fail a recovery check while dying, your dying condition does not increase; if you critically fail, your dying condition increases by only 1. You become trained in Ancient Osirion Lore, or expert if you were already trained.',
     ],
     source: 'World Guide pg. 59',
     archetype: 'Living Monolith',
@@ -10581,7 +10581,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 889,
     text: [
-      'You inscribe your true name on your <i>ka stone</i>, as well as oaths to gods and pharaohs, and embed it in your forehead in a special ritual with a sphinx or with a living monolith who already has this feat. The <i>ka stone</i> is an invested magic item that you automatically invest each day. It can&#x2019;t be removed without your permission, nor can it be dispelled, and you can never lose investiture in the ka stone. Its Bulk is negligible.',
+      'You inscribe your true name on your ka stone, as well as oaths to gods and pharaohs, and embed it in your forehead in a special ritual with a sphinx or with a living monolith who already has this feat. The ka stone is an invested magic item that you automatically invest each day. It can&#x2019;t be removed without your permission, nor can it be dispelled, and you can never lose investiture in the ka stone. Its Bulk is negligible.',
       ' The ka stone grants you a +1 item bonus to saves against death effects and negative effects, which increases to +2 at 8th level, +3 at 14th level, and +4 at 20th level.',
     ],
     source: 'World Guide pg. 59',
@@ -10632,7 +10632,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 892,
     text: [
-      'You become attuned to the stone around you. When in contact with a stone surface, you gain tremorsense (imprecise) 5 feet along that surface, and you can activate your <i>ka stone</i> to cast <i>meld into stone</i>.',
+      'You become attuned to the stone around you. When in contact with a stone surface, you gain tremorsense (imprecise) 5 feet along that surface, and you can activate your ka stone to cast meld into stone.',
     ],
     source: 'World Guide pg. 59',
     archetype: 'Living Monolith',
@@ -10645,7 +10645,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 893,
     text: [
-      'You can use the oaths bound in your <i>ka stone</i> to compel the truth from the living and the dead. You can activate your <i>ka stone</i> to target a single living creature, causing that creature to experience the effects of being in a <i>zone of truth</i>. You can also activate it with a 10-minute activation (envision) to cast <i>talking corpse</i>.',
+      'You can use the oaths bound in your ka stone to compel the truth from the living and the dead. You can activate your ka stone to target a single living creature, causing that creature to experience the effects of being in a zone of truth. You can also activate it with a 10-minute activation (envision) to cast talking corpse.',
     ],
     source: 'World Guide pg. 59',
     archetype: 'Living Monolith',
@@ -10658,7 +10658,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 894,
     text: [
-      'You gain a unique communion with the earth and stones. You learn the Terran language and you can Activate your <i>ka stone</i> with a 10-minute activation (envision) to cast <i>stone tell</i>.',
+      'You gain a unique communion with the earth and stones. You learn the Terran language and you can Activate your ka stone with a 10-minute activation (envision) to cast stone tell.',
     ],
     source: 'World Guide pg. 59',
     archetype: 'Living Monolith',
@@ -10688,7 +10688,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 896,
     text: [
-      'You have learned limited divine magic from your Red Mantis training. You gain the Cast a Spell activity. You&#x2019;re a prepared spellcaster, able to prepare two cantrips and one 1st-level spell each day. You prepare these spells from a Red Mantis assassin spellbook, similar to a wizard&#x2019;s, containing three cantrips and two 1st-level spells. All the spells in your Red Mantis assassin spellbook, from this and later feats, must be either transmutation or illusion spells from the arcane spell list or a spell from the following list: <i>clairaudience</i>, <i>clairvoyance</i>, <i>darkness</i>, <i>dimension door</i>, <i>modify memory</i>, <i>obscuring mist</i>, <i>paralyze</i>, <i>see invisibility</i>, <i>true strike</i>. Regardless of their usual magical tradition, your Red Mantis assassin spells are divine spells, as are any Red Mantis focus spells you gain.',
+      'You have learned limited divine magic from your Red Mantis training. You gain the Cast a Spell activity. You&#x2019;re a prepared spellcaster, able to prepare two cantrips and one 1st-level spell each day. You prepare these spells from a Red Mantis assassin spellbook, similar to a wizard&#x2019;s, containing three cantrips and two 1st-level spells. All the spells in your Red Mantis assassin spellbook, from this and later feats, must be either transmutation or illusion spells from the arcane spell list or a spell from the following list: clairaudience, clairvoyance, darkness, dimension door, modify memory, obscuring mist, paralyze, see invisibility, true strike. Regardless of their usual magical tradition, your Red Mantis assassin spells are divine spells, as are any Red Mantis focus spells you gain.',
       ' You can prepare two cantrips and one 1st-level spell each day from those found in your Red Mantis assassin spellbook. You&#x2019;re trained in spell attack rolls and spell DCs for casting divine spells. Your key spellcasting ability for these spells is Charisma.',
     ],
     source: 'World Guide pg. 71',
@@ -10732,7 +10732,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 899,
     text: [
-      'You gain the <i>mantis form</i> focus spell. If you don&#x2019;t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by praying to Achaekek or researching your assigned kill.',
+      'You gain the mantis form focus spell. If you don&#x2019;t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by praying to Achaekek or researching your assigned kill.',
     ],
     source: 'World Guide pg. 71',
     archetype: 'Red Mantis Assassin',
@@ -10745,7 +10745,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 900,
     text: [
-      'You have learned the martial arts techniques of your House of Perfection. You become trained in your choice of Acrobatics or Athletics and Warfare Lore; if you were already trained, you become an expert instead. You gain the Ki Strike monk class feat, which grants you the <i>ki strike</i> ki spell and a focus pool of 1 Focus Point that you can recover using the Refocus activity as a monk does. Your ki spells from Student of Perfection are occult spells.',
+      'You have learned the martial arts techniques of your House of Perfection. You become trained in your choice of Acrobatics or Athletics and Warfare Lore; if you were already trained, you become an expert instead. You gain the Ki Strike monk class feat, which grants you the ki strike ki spell and a focus pool of 1 Focus Point that you can recover using the Refocus activity as a monk does. Your ki spells from Student of Perfection are occult spells.',
     ],
     source: 'World Guide pg. 83',
     archetype: 'Student of Perfection',
@@ -10762,7 +10762,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 901,
     text: [
-      'You gain the <i>perfect strike</i> ki spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You gain the perfect strike ki spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'World Guide pg. 83',
     archetype: 'Student of Perfection',
@@ -10775,7 +10775,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 902,
     text: [
-      'You gain the appropriate ki spell for your School of Perfection: <i>unblinking flame revelation</i> for Unblinking Flame, <i>unbreaking wave advance</i> for Unbreaking Waves, <i>unfolding wind rush</i> for Unfolding Wind, or <i>untwisting iron buffer</i> for Untwisting Iron. Increase the number of Focus Points in your focus pool by 1.',
+      'You gain the appropriate ki spell for your School of Perfection: unblinking flame revelation for Unblinking Flame, unbreaking wave advance for Unbreaking Waves, unfolding wind rush for Unfolding Wind, or untwisting iron buffer for Untwisting Iron. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'World Guide pg. 83',
     archetype: 'Student of Perfection',
@@ -10806,7 +10806,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 904,
     text: [
-      'You can alter your form to gain an aspect of the animal your mask represents. You gain the <i>magic warrior aspect</i> focus spell.',
+      'You can alter your form to gain an aspect of the animal your mask represents. You gain the magic warrior aspect focus spell.',
     ],
     source: 'World Guide pg. 95',
     archetype: 'Magic Warrior',
@@ -10819,7 +10819,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 905,
     text: [
-      'You can transform fully into the animal your mask represents. You gain the <i>magic warrior transformation</i> focus spell.',
+      'You can transform fully into the animal your mask represents. You gain the magic warrior transformation focus spell.',
     ],
     source: 'World Guide pg. 95',
     archetype: 'Magic Warrior',
@@ -10832,7 +10832,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 906,
     text: [
-      'Your mask protects you further from divination. Once per day, you can cast <i>nondetection</i> on yourself, heightened to the highest level of spell you can cast; the spell ends immediately if your mask is removed for even a moment.',
+      'Your mask protects you further from divination. Once per day, you can cast nondetection on yourself, heightened to the highest level of spell you can cast; the spell ends immediately if your mask is removed for even a moment.',
     ],
     source: 'World Guide pg. 95',
     archetype: 'Magic Warrior',
@@ -11107,7 +11107,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 926,
     text: [
-      'You learn the <i>silver&#x2019;s refrain</i> composition cantrip, which aids you when fighting devils.',
+      'You learn the silver&#x2019;s refrain composition cantrip, which aids you when fighting devils.',
     ],
     source: 'Pathfinder #147: Tomorrow Must Burn pg. 73',
   },
@@ -11237,7 +11237,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 938,
     text: [
-      'You have tattoos on your body corresponding to one of the ancient Thassilonian schools of magic. Choose one of the following schools of magic: abjuration (<i>shield</i>), conjuration (<i>tanglefoot</i>), enchantment (<i>daze</i>), evocation (<i>electric arc</i>), illusion (<i>ghost sound</i>), necromancy (<i>chill touch</i>), or transmutation (<i>sigil</i>). You can cast the associated cantrip (listed in parentheses) as an innate arcane spell at will.\n',
+      'You have tattoos on your body corresponding to one of the ancient Thassilonian schools of magic. Choose one of the following schools of magic: abjuration (shield), conjuration (tanglefoot), enchantment (daze), evocation (electric arc), illusion (ghost sound), necromancy (chill touch), or transmutation (sigil). You can cast the associated cantrip (listed in parentheses) as an innate arcane spell at will.\n',
     ],
     source: 'Character Guide pg. 11',
     access: 'Varisian ethnicity or New Thassilon nationality',
@@ -11277,7 +11277,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 941,
     text: [
-      'Many Tian-Dan claim to have dragon blood in their veins, and in your case, this is true&#x2014;you can spit energy, and you might have an especially visible sign of your draconic heritage. Choose one of the following cantrips: <i>acid splash</i>, <i>electric arc</i>, <i>produce flame</i>, or <i>ray of frost</i>. You can cast this spell as an innate arcane spell at will, and when you cast it, the spell&#x2019;s energy emerges from your mouth.',
+      'Many Tian-Dan claim to have dragon blood in their veins, and in your case, this is true&#x2014;you can spit energy, and you might have an especially visible sign of your draconic heritage. Choose one of the following cantrips: acid splash, electric arc, produce flame, or ray of frost. You can cast this spell as an innate arcane spell at will, and when you cast it, the spell&#x2019;s energy emerges from your mouth.',
     ],
     source: 'Character Guide pg. 12',
     prerequisites: 'Tian-Dan ethnicity',
@@ -11343,7 +11343,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 947,
     text: [
-      'You know the truth behind old stories that tell of sending a fetish of bone and sinew to seek vengeance. These old magics allow you to conjure constructs with ease. Add the <i>summon construct</i> spell to your spell list. The constructs you summon have a distinct ivory scrimshaw appearance, and if you include a drop of blood, lock of hair, or other portion of a creature&#x2019;s body as part of the spell&#x2019;s material component, the summoned construct gains a +4 status bonus to Perception checks to sense or locate that creature.',
+      'You know the truth behind old stories that tell of sending a fetish of bone and sinew to seek vengeance. These old magics allow you to conjure constructs with ease. Add the summon construct spell to your spell list. The constructs you summon have a distinct ivory scrimshaw appearance, and if you include a drop of blood, lock of hair, or other portion of a creature&#x2019;s body as part of the spell&#x2019;s material component, the summoned construct gains a +4 status bonus to Perception checks to sense or locate that creature.',
     ],
     source: 'Character Guide pg. 13',
     prerequisites: 'You have a spellcasting class feature with the',
@@ -11417,7 +11417,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 953,
     text: [
-      'The blood of the Dragon Kings runs strong in your veins. Your draconic heritage is clearly visible, with hair that is almost entirely crimson, azure, or the like, and that shines like a dragon&#x2019;s scales. You can cast the <i>dragon breath</i> sorcerer bloodline spell as an innate arcane spell once per day, but you can use only the dragon breath that is associated with your heritage and that matches the energy type of your Dragon Spit feat. At 12th level and every 3 levels thereafter, the spell is heightened by an additional spell level.',
+      'The blood of the Dragon Kings runs strong in your veins. Your draconic heritage is clearly visible, with hair that is almost entirely crimson, azure, or the like, and that shines like a dragon&#x2019;s scales. You can cast the dragon breath sorcerer bloodline spell as an innate arcane spell once per day, but you can use only the dragon breath that is associated with your heritage and that matches the energy type of your Dragon Spit feat. At 12th level and every 3 levels thereafter, the spell is heightened by an additional spell level.',
     ],
     source: 'Character Guide pg. 14',
     prerequisites: 'Dragon Spit',
@@ -11441,7 +11441,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 955,
     text: [
-      'Your ancestors hailed from the flying cities of the Shory, and a few simple tricks have come down through the ages to you. You can cast 4th-level <i>fly</i> on yourself as an innate arcane spell once per day.',
+      'Your ancestors hailed from the flying cities of the Shory, and a few simple tricks have come down through the ages to you. You can cast 4th-level fly on yourself as an innate arcane spell once per day.',
     ],
     source: 'Character Guide pg. 14',
     prerequisites: 'Garundi, Mauxi, or Tian-Yae ethnicity',
@@ -11465,7 +11465,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 957,
     text: [
-      'You can trace your direct descent from one of the Queens of Irrisen and thus from Baba Yaga herself. Your resistance to cold increases to 5 + half your level, and you can cast 5th-level <i>wall of ice</i> as an innate arcane spell once per day.',
+      'You can trace your direct descent from one of the Queens of Irrisen and thus from Baba Yaga herself. Your resistance to cold increases to 5 + half your level, and you can cast 5th-level wall of ice as an innate arcane spell once per day.',
     ],
     source: 'Character Guide pg. 14',
     prerequisites: 'Jadwiga ethnicity, wintertouched human heritage',
@@ -11477,7 +11477,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 958,
     text: [
-      'Thousands of years ago, your ancestors made a pact with Zon-Kuthon. He has not forgotten, even if you might wish he had. You can take 1 damage to mix blood and shadows to cast 5th-level <i>creation</i> as an innate divine spell. You can use this ability as often as you wish, but you can have only one such object in existence at a time. If the object encounters bright light, the spell ends and the object dissolves into shadows.',
+      'Thousands of years ago, your ancestors made a pact with Zon-Kuthon. He has not forgotten, even if you might wish he had. You can take 1 damage to mix blood and shadows to cast 5th-level creation as an innate divine spell. You can use this ability as often as you wish, but you can have only one such object in existence at a time. If the object encounters bright light, the spell ends and the object dissolves into shadows.',
     ],
     source: 'Character Guide pg. 14',
     prerequisites: 'Nidalese ethnicity',
@@ -11635,7 +11635,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 971,
     text: [
-      'You can sharpen weapons, polish armor, and apply special techniques to temporarily gain better effects from your armaments. By spending 1 hour working on a weapon or armor, you can grant it the effects of a <i>+1 potency</i> rune until your next daily preparations, gaining a +1 item bonus to attack rolls for a weapon or increasing armor&#x2019;s item bonus to AC by 1. This has no effect if the weapon or armor already had a <i>potency</i> rune.',
+      'You can sharpen weapons, polish armor, and apply special techniques to temporarily gain better effects from your armaments. By spending 1 hour working on a weapon or armor, you can grant it the effects of a +1 potency rune until your next daily preparations, gaining a +1 item bonus to attack rolls for a weapon or increasing armor&#x2019;s item bonus to AC by 1. This has no effect if the weapon or armor already had a potency rune.',
     ],
     source: 'Character Guide pg. 21',
     prerequisites: 'master in Crafting',
@@ -11659,7 +11659,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 973,
     text: [
-      'The songs of ancient heroes echo through your mind and quicken your pulse, especially in dire straits. You gain <i>heroism</i> as a 3rd-level innate occult spell that you can cast once per day. If you Cast the Spell when you have half or fewer Hit Points, you also gain temporary Hit Points equal to twice your level.',
+      'The songs of ancient heroes echo through your mind and quicken your pulse, especially in dire straits. You gain heroism as a 3rd-level innate occult spell that you can cast once per day. If you Cast the Spell when you have half or fewer Hit Points, you also gain temporary Hit Points equal to twice your level.',
     ],
     source: 'Character Guide pg. 21',
   },
@@ -11683,7 +11683,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 975,
     text: [
-      'You are so attuned to the land that you can call forth a bolt of energy from your surroundings. When you gain this feat, select acid, cold, electricity, or fire. You can call to the land to cast the <i>acid splash</i> cantrip as an innate primal spell at will, except the spell has only verbal components and deals the type of damage you chose instead of acid damage; the spell gains the trait appropriate to its damage instead of the acid trait. A cantrip is heightened to a spell level equal to half your level rounded up.',
+      'You are so attuned to the land that you can call forth a bolt of energy from your surroundings. When you gain this feat, select acid, cold, electricity, or fire. You can call to the land to cast the acid splash cantrip as an innate primal spell at will, except the spell has only verbal components and deals the type of damage you chose instead of acid damage; the spell gains the trait appropriate to its damage instead of the acid trait. A cantrip is heightened to a spell level equal to half your level rounded up.',
     ],
     source: 'Character Guide pg. 26',
   },
@@ -11705,7 +11705,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 977,
     text: [
-      'You have an uncanny knack of communicating with other elves without speaking, though this habit that is often uncomfortable to observers. You can cast <i>mindlink</i> as an innate occult spell once per day, but you can target only other elves or half-elves.',
+      'You have an uncanny knack of communicating with other elves without speaking, though this habit that is often uncomfortable to observers. You can cast mindlink as an innate occult spell once per day, but you can target only other elves or half-elves.',
     ],
     source: 'Character Guide pg. 26',
     prerequisites: 'Mualijae, Ilverani, or Vourinoi ethnicity',
@@ -11777,7 +11777,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 983,
     text: [
-      'The whispers of the jungle grant you more diverse access to simple primal magic. You can cast <i>dancing lights</i>, <i>disrupt undead</i>, and <i>tanglefoot</i> as innate primal spells at will. If you chose one of those spells with Wildborn Magic, you can select a new spell for Wildborn Magic.',
+      'The whispers of the jungle grant you more diverse access to simple primal magic. You can cast dancing lights, disrupt undead, and tanglefoot as innate primal spells at will. If you chose one of those spells with Wildborn Magic, you can select a new spell for Wildborn Magic.',
     ],
     source: 'Character Guide pg. 27',
     prerequisites: 'Wildborn Magic',
@@ -11786,10 +11786,10 @@ export const feats: FeatCollection = {
     name: 'Brightness Seeker',
     level: '9',
     traits: ['Elf'],
-    actions: null,
+    actions: 'reaction',
     id: 984,
     text: [
-      'Once per day, you can spend 10 minutes studying your surroundings in search of omens related to a particular course of action to cast <i>augury</i> as an innate divine spell. Unless the result of the <i>augury</i> was &#x201C;nothing,&#x201D; you gain the following reaction for the next 30 minutes:<h3 class="title">Call Upon the Brightness <img alt="Reaction" style="height:15px;" src="Images\\Actions\\Reaction.png"></h3><b>Source</b> <i>Character Guide pg. 27</i><br><b>Trigger</b> You attempt an attack roll, skill check, or saving throw while performing the course of action from your <i>augury</i>, but you haven&#x2019;t rolled yet',
+      'Once per day, you can spend 10 minutes studying your surroundings in search of omens related to a particular course of action to cast augury as an innate divine spell. Unless the result of the augury was &#x201C;nothing,&#x201D; you gain the following reaction for the next 30 minutes: class="title">Call Upon the Brightness <img alt="Reaction" style="height:15px;" src="Images\\Actions\\Reaction.png"><b>Source</b> Character Guide pg. 27<br><b>Trigger</b> You attempt an attack roll, skill check, or saving throw while performing the course of action from your augury, but you haven&#x2019;t rolled yet',
     ],
     source: 'Character Guide pg. 27',
     trigger:
@@ -11802,7 +11802,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 985,
     text: [
-      'You have an even stranger knack for knowing what other people are thinking. You can cast <i>mind reading</i> as an innate occult spell once per day.',
+      'You have an even stranger knack for knowing what other people are thinking. You can cast mind reading as an innate occult spell once per day.',
     ],
     source: 'Character Guide pg. 27',
     prerequisites: 'Share Thoughts',
@@ -11953,7 +11953,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 997,
     text: [
-      'By drawing upon the First World&#x2019;s magic, you can siphon a portion of that malleable world to create a convincing illusion. Once per day, you can cast <i>illusory disguise</i>, <i>item facade</i>, or <i>ventriloquism</i>. At 7th level, the spell is heightened to 2nd level, and every 2 levels thereafter, the spell is heightened an additional spell level.',
+      'By drawing upon the First World&#x2019;s magic, you can siphon a portion of that malleable world to create a convincing illusion. Once per day, you can cast illusory disguise, item facade, or ventriloquism. At 7th level, the spell is heightened to 2nd level, and every 2 levels thereafter, the spell is heightened an additional spell level.',
     ],
     source: 'Character Guide pg. 33',
     prerequisites: 'Illusion Sense',
@@ -12233,7 +12233,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1020,
     text: [
-      'Your ability to blend into the background allows you to fade away entirely or appear innocuous even to magical effects. You gain <i>invisibility</i> and <i>misdirection</i> as 2nd-level innate occult spells. You can target only yourself with <i>invisibility</i>, and you must be the primary target of <i>misdirection</i>. You can cast each spell once per day.',
+      'Your ability to blend into the background allows you to fade away entirely or appear innocuous even to magical effects. You gain invisibility and misdirection as 2nd-level innate occult spells. You can target only yourself with invisibility, and you must be the primary target of misdirection. You can cast each spell once per day.',
     ],
     source: 'Character Guide pg. 45',
     prerequisites: 'Easily Dismissed',
@@ -12520,7 +12520,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1045,
     text: [
-      'You can temporarily revert to a less conspicuous form without diminishing your senses. You take the form of an ordinary specimen of the type of plant or fungus that most closely resembles you, reverting to your body&#x2019;s appearance just before your spirit joined with it. This otherwise has the effects of <i>tree shape</i>, except that your size remains Small.',
+      'You can temporarily revert to a less conspicuous form without diminishing your senses. You take the form of an ordinary specimen of the type of plant or fungus that most closely resembles you, reverting to your body&#x2019;s appearance just before your spirit joined with it. This otherwise has the effects of tree shape, except that your size remains Small.',
     ],
     source: 'Character Guide pg. 55',
   },
@@ -12542,7 +12542,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1047,
     text: [
-      'You wield primal magic. You can cast <i>barkskin</i> and <i>entangle</i> as 2nd-level primal innate spells once per day each.',
+      'You wield primal magic. You can cast barkskin and entangle as 2nd-level primal innate spells once per day each.',
     ],
     source: 'Character Guide pg. 55',
   },
@@ -12740,7 +12740,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1064,
     text: [
-      'You have a specific disguise that you keep at the ready, worn underneath your outer garment. You can change into this disguise to Impersonate as a 3-action activity. If you have master proficiency in Deception, it is instead a 2-action activity, and if you have legendary proficiency, it is a single action. You can create a new backup disguise by spending the normal amount of time it takes you to Impersonate, but you can have only one backup disguise at a time. Having a backup disguise doesn&#x2019;t allow you to remove your armor or any other complex piece of clothing any more quickly, but once you have those off, the disguise is readily available. Because you have the backup disguise at the ready, it&#x2019;s possible that a thorough search might reveal some elements of the disguise (see Conceal an Object in the Stealth skill).<h3 class="title">Firebrand Options</h3><b>Source</b> <i>Character Guide pg. 71</i><br>The Firebrands use a variety of unorthodox equipment and techniques to achieve their goals, whether those goals include drawing attention, or subterfuge and subtlety. The following Firebrand options are uncommon, and members of the Firebrands gain access to them once they reach the rank of second mark. The Entourage feat is rare even for members of the Firebrands, as it requires a certain degree of fame and in-world activity to acquire, and potentially requires the player or GM to keep track of additional background NPCs. Typically, only third mark and fourth mark Firebrands have the notoriety and social influence required to maintain an entourage. While Firebrands seek to build an entourage more than most adventurers, it&#x2019;s not unreasonable for any famous character to gain access to it if the players are interested in playing with the Entourage feat.',
+      'You have a specific disguise that you keep at the ready, worn underneath your outer garment. You can change into this disguise to Impersonate as a 3-action activity. If you have master proficiency in Deception, it is instead a 2-action activity, and if you have legendary proficiency, it is a single action. You can create a new backup disguise by spending the normal amount of time it takes you to Impersonate, but you can have only one backup disguise at a time. Having a backup disguise doesn&#x2019;t allow you to remove your armor or any other complex piece of clothing any more quickly, but once you have those off, the disguise is readily available. Because you have the backup disguise at the ready, it&#x2019;s possible that a thorough search might reveal some elements of the disguise (see Conceal an Object in the Stealth skill). class="title">Firebrand Options<b>Source</b> Character Guide pg. 71<br>The Firebrands use a variety of unorthodox equipment and techniques to achieve their goals, whether those goals include drawing attention, or subterfuge and subtlety. The following Firebrand options are uncommon, and members of the Firebrands gain access to them once they reach the rank of second mark. The Entourage feat is rare even for members of the Firebrands, as it requires a certain degree of fame and in-world activity to acquire, and potentially requires the player or GM to keep track of additional background NPCs. Typically, only third mark and fourth mark Firebrands have the notoriety and social influence required to maintain an entourage. While Firebrands seek to build an entourage more than most adventurers, it&#x2019;s not unreasonable for any famous character to gain access to it if the players are interested in playing with the Entourage feat.',
     ],
     source: 'Character Guide pg. 71',
     prerequisites: 'expert in Deception',
@@ -12774,7 +12774,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1066,
     text: [
-      'You have a small group of admirers who tend to follow you around while you&#x2019;re in civilized settlements. Your admirers are helpful to you, allowing you to make simple Requests of them such as purchasing basic equipment with your funds or finding a room at an inn. These admirers do not travel with you to places that are obviously dangerous, including most adventure locations, but they&#x2019;ll wait for you at the nearest settlement. Your admirers never use actions in encounter mode other than to retreat, and they abandon you if you intentionally bring them harm or at the GM&#x2019;s discretion. When you Gather Information, you can use your admirers to assist you, granting a +1 circumstance bonus to your Diplomacy check and reducing the time it takes even further (typically to 30 minutes, rather than 1 hour with the Hobnobber feat alone). If you have the Sow Rumor feat, you can have your admirers assist you, with the same benefits as Gather Information.<h3 class="title">Firebrand Options</h3><b>Source</b> <i>Character Guide pg. 71</i><br>The Firebrands use a variety of unorthodox equipment and techniques to achieve their goals, whether those goals include drawing attention, or subterfuge and subtlety. The following Firebrand options are uncommon, and members of the Firebrands gain access to them once they reach the rank of second mark. The Entourage feat is rare even for members of the Firebrands, as it requires a certain degree of fame and in-world activity to acquire, and potentially requires the player or GM to keep track of additional background NPCs. Typically, only third mark and fourth mark Firebrands have the notoriety and social influence required to maintain an entourage. While Firebrands seek to build an entourage more than most adventurers, it&#x2019;s not unreasonable for any famous character to gain access to it if the players are interested in playing with the Entourage feat.',
+      'You have a small group of admirers who tend to follow you around while you&#x2019;re in civilized settlements. Your admirers are helpful to you, allowing you to make simple Requests of them such as purchasing basic equipment with your funds or finding a room at an inn. These admirers do not travel with you to places that are obviously dangerous, including most adventure locations, but they&#x2019;ll wait for you at the nearest settlement. Your admirers never use actions in encounter mode other than to retreat, and they abandon you if you intentionally bring them harm or at the GM&#x2019;s discretion. When you Gather Information, you can use your admirers to assist you, granting a +1 circumstance bonus to your Diplomacy check and reducing the time it takes even further (typically to 30 minutes, rather than 1 hour with the Hobnobber feat alone). If you have the Sow Rumor feat, you can have your admirers assist you, with the same benefits as Gather Information. class="title">Firebrand Options<b>Source</b> Character Guide pg. 71<br>The Firebrands use a variety of unorthodox equipment and techniques to achieve their goals, whether those goals include drawing attention, or subterfuge and subtlety. The following Firebrand options are uncommon, and members of the Firebrands gain access to them once they reach the rank of second mark. The Entourage feat is rare even for members of the Firebrands, as it requires a certain degree of fame and in-world activity to acquire, and potentially requires the player or GM to keep track of additional background NPCs. Typically, only third mark and fourth mark Firebrands have the notoriety and social influence required to maintain an entourage. While Firebrands seek to build an entourage more than most adventurers, it&#x2019;s not unreasonable for any famous character to gain access to it if the players are interested in playing with the Entourage feat.',
     ],
     source: 'Character Guide pg. 72',
     prerequisites: 'master in Diplomacy, Hobnobber',
@@ -12961,7 +12961,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1079,
     text: [
-      'You sense chaos as an unsettling feeling of nervous energy. When in the presence of an aura of chaos that is powerful or overwhelming, you eventually detect the aura, though you might not do so instantly and you can&#x2019;t pinpoint the location. This is a vague sense, similar to humans&#x2019; sense of smell. A chaotic creature using a disguise or otherwise trying to hide its presence attempts a Deception check against your Perception DC to hide its aura from you. If the creature succeeds at its Deception check, it is temporarily immune to your Sense Chaos for 1 day.<h3 class="title">Alignment Aura</h3>The strength of an alignment aura depends on the level of the creature, item, or spell. The auras of undead, clerics and other divine spellcasters with a patron deity, and creatures from the Outer Sphere are one step stronger than normal (faint instead of none, for example).<h2>Alignment Aura</h2><table class="inner"> <tbody><tr><td><b>Creature or Item Level</b></td><td><b>Spell or Effect Level</b></td><td><b>Aura Strength</b></td></tr> <tr><td>0-5</td><td>&#x2014;</td><td>None</td></tr> <tr><td>6-10</td><td>0-3</td><td>Faint</td></tr> <tr><td>11-15</td><td>4-7</td><td>Moderate</td></tr> <tr><td>16-20</td><td>8-9</td><td>Powerful</td></tr> <tr><td>21+</td><td>10</td><td>Overwhelming</td></tr></tbody></table>',
+      'You sense chaos as an unsettling feeling of nervous energy. When in the presence of an aura of chaos that is powerful or overwhelming, you eventually detect the aura, though you might not do so instantly and you can&#x2019;t pinpoint the location. This is a vague sense, similar to humans&#x2019; sense of smell. A chaotic creature using a disguise or otherwise trying to hide its presence attempts a Deception check against your Perception DC to hide its aura from you. If the creature succeeds at its Deception check, it is temporarily immune to your Sense Chaos for 1 day. class="title">Alignment AuraThe strength of an alignment aura depends on the level of the creature, item, or spell. The auras of undead, clerics and other divine spellcasters with a patron deity, and creatures from the Outer Sphere are one step stronger than normal (faint instead of none, for example).Alignment Aura<table class="inner"> <tbody><tr><td><b>Creature or Item Level</b></td><td><b>Spell or Effect Level</b></td><td><b>Aura Strength</b></td></tr> <tr><td>0-5</td><td>&#x2014;</td><td>None</td></tr> <tr><td>6-10</td><td>0-3</td><td>Faint</td></tr> <tr><td>11-15</td><td>4-7</td><td>Moderate</td></tr> <tr><td>16-20</td><td>8-9</td><td>Powerful</td></tr> <tr><td>21+</td><td>10</td><td>Overwhelming</td></tr></tbody></table>',
     ],
     source: 'Character Guide pg. 84',
     archetype: 'Hellknight',
@@ -13031,7 +13031,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1084,
     text: [
-      'You can channel your mask&#x2019;s power to pierce through lies and see the truth in any situation. Increase the number of Focus Points in your focus pool by 1. While wearing your mask, you can cast the <i>glimpse the truth</i> cleric domain spell as a divine focus spell.',
+      'You can channel your mask&#x2019;s power to pierce through lies and see the truth in any situation. Increase the number of Focus Points in your focus pool by 1. While wearing your mask, you can cast the glimpse the truth cleric domain spell as a divine focus spell.',
     ],
     source: 'Character Guide pg. 85',
     archetype: 'Hellknight Signifer',
@@ -13071,7 +13071,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1087,
     text: [
-      'You brace your shield with both hands, enhancing its potential for both offense and defense. When in this stance, you wield the shield with both hands. When wielding a shield this way, increase the weapon damage die of the shield&#x2019;s boss or spikes by one step, and increase the shield&#x2019;s Hardness by 2 when using the Shield Block reaction.<h3 class="title">Knights of Lastwall Class Feats</h3><b>Source</b> <i>Character Guide pg. 90</i><br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
+      'You brace your shield with both hands, enhancing its potential for both offense and defense. When in this stance, you wield the shield with both hands. When wielding a shield this way, increase the weapon damage die of the shield&#x2019;s boss or spikes by one step, and increase the shield&#x2019;s Hardness by 2 when using the Shield Block reaction. class="title">Knights of Lastwall Class Feats<b>Source</b> Character Guide pg. 90<br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
     ],
     source: 'Character Guide pg. 90',
     requirements: 'You are wielding a shield.',
@@ -13084,7 +13084,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1088,
     text: [
-      'Your follow-up blow leaves you an opening to set your shield. Make a Strike with the wielded shield. If the Strike hits and deals damage, you also Raise your Shield.<h3 class="title">Knights of Lastwall Class Feats</h3><b>Source</b> <i>Character Guide pg. 90</i><br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
+      'Your follow-up blow leaves you an opening to set your shield. Make a Strike with the wielded shield. If the Strike hits and deals damage, you also Raise your Shield. class="title">Knights of Lastwall Class Feats<b>Source</b> Character Guide pg. 90<br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
     ],
     source: 'Character Guide pg. 90',
     prerequisites: 'Everstand Stance',
@@ -13098,7 +13098,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1089,
     text: [
-      'You&#x2019;ve learned to call upon light to reveal what is hidden. You gain the <i>light of revelation</i> devotion spell. Increase the number of Focus Points in your focus pool by 1.<h3 class="title">Knights of Lastwall Class Feats</h3><b>Source</b> <i>Character Guide pg. 90</i><br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
+      'You&#x2019;ve learned to call upon light to reveal what is hidden. You gain the light of revelation devotion spell. Increase the number of Focus Points in your focus pool by 1. class="title">Knights of Lastwall Class Feats<b>Source</b> Character Guide pg. 90<br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
     ],
     source: 'Character Guide pg. 90',
     related_feats: ':',
@@ -13110,7 +13110,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1090,
     text: [
-      'You can unleash burning sunlight from your sword or spear. You gain the <i>sun blade</i> devotion spell. Increase the number of Focus Points in your focus pool by 1.<h3 class="title">Knights of Lastwall Class Feats</h3><b>Source</b> <i>Character Guide pg. 90</i><br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
+      'You can unleash burning sunlight from your sword or spear. You gain the sun blade devotion spell. Increase the number of Focus Points in your focus pool by 1. class="title">Knights of Lastwall Class Feats<b>Source</b> Character Guide pg. 90<br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
     ],
     source: 'Character Guide pg. 90',
     related_feats: ':',
@@ -13122,7 +13122,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1091,
     text: [
-      'You refuse to let foes past your guard. As long as you are in this stance, when you critically hit with an Attack of Opportunity triggered by a move action, you disrupt that move action.<h3 class="title">Knights of Lastwall Class Feats</h3><b>Source</b> <i>Character Guide pg. 90</i><br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
+      'You refuse to let foes past your guard. As long as you are in this stance, when you critically hit with an Attack of Opportunity triggered by a move action, you disrupt that move action. class="title">Knights of Lastwall Class Feats<b>Source</b> Character Guide pg. 90<br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
     ],
     source: 'Character Guide pg. 90',
     prerequisites: 'Attack of Opportunity',
@@ -13180,7 +13180,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1095,
     text: [
-      'Inspired by the tale of Arnisant, you transform your shield into a magic ward. Until the beginning of your next turn, you gain the following reaction:<h3 class="title">Absorb into the Aegis <img alt="Reaction" style="height:15px;" src="Images\\Actions\\Reaction.png"></h3><b>Source</b> <i>Character Guide pg. 94</i><br><b>Trigger</b> An enemy casts a spell that targets you or an ally within 15 feet of you',
+      'Inspired by the tale of Arnisant, you transform your shield into a magic ward. Until the beginning of your next turn, you gain the following reaction: class="title">Absorb into the Aegis <img alt="Reaction" style="height:15px;" src="Images\\Actions\\Reaction.png"><b>Source</b> Character Guide pg. 94<br><b>Trigger</b> An enemy casts a spell that targets you or an ally within 15 feet of you',
     ],
     source: 'Character Guide pg. 94',
     archetype: 'Knight Vigilant',
@@ -13226,7 +13226,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1098,
     text: [
-      'You can invoke the Crimson Oath to unleash blasts of ruby energy from your weapon. You gain the <i>invoke the Crimson Oath</i> focus spell. If you don&#x2019;t already have one, you gain a focus pool of 1 Focus Point, which you can regain using the Refocus activity to recite the Crimson Oath and meditate on its teachings; if you already have a focus pool, increase the number of Focus Points in your focus pool by 1. Your knight reclaimant focus spells are divine spells; when you gain this feat, you become trained in divine spell attacks and spell DCs.',
+      'You can invoke the Crimson Oath to unleash blasts of ruby energy from your weapon. You gain the invoke the Crimson Oath focus spell. If you don&#x2019;t already have one, you gain a focus pool of 1 Focus Point, which you can regain using the Refocus activity to recite the Crimson Oath and meditate on its teachings; if you already have a focus pool, increase the number of Focus Points in your focus pool by 1. Your knight reclaimant focus spells are divine spells; when you gain this feat, you become trained in divine spell attacks and spell DCs.',
     ],
     source: 'Character Guide pg. 95',
     archetype: 'Knight Reclaimant',
@@ -13410,7 +13410,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1111,
     text: [
-      'You use Emerald Bough techniques to create a small extradimensional space called a hideaway that lasts as long as you are conscious. The hideaway functions as a <i>type I bag of holding</i>, but has no Bulk and takes no hands; it holds one object with a maximum Bulk equal to your highest mental ability score modifier; as you open the hideaway with pure thought, activating it to retrieve an item is a free action with the envision component instead of a single action with the Interact component. The hideaway&#x2019;s access point appears as an obviously magical gap within 1 foot of your body. Only you can access the hideaway; you can you use an Interact action each round to physically hold it open for another person. A successful <i>dispel magic</i> spell or similar effect against your spell DC and the hideaway&#x2019;s counteract level of 2 expels the object; the object is also expelled if you become unconscious. After a successful <i>dispel magic </i>spell or when you become conscious again, the hideaway immediately reforms with no additional action from you. You can also dismiss the hideaway (if it is empty) or re-form it using a single action with the envision component.',
+      'You use Emerald Bough techniques to create a small extradimensional space called a hideaway that lasts as long as you are conscious. The hideaway functions as a type I bag of holding, but has no Bulk and takes no hands; it holds one object with a maximum Bulk equal to your highest mental ability score modifier; as you open the hideaway with pure thought, activating it to retrieve an item is a free action with the envision component instead of a single action with the Interact component. The hideaway&#x2019;s access point appears as an obviously magical gap within 1 foot of your body. Only you can access the hideaway; you can you use an Interact action each round to physically hold it open for another person. A successful dispel magic spell or similar effect against your spell DC and the hideaway&#x2019;s counteract level of 2 expels the object; the object is also expelled if you become unconscious. After a successful dispel magic spell or when you become conscious again, the hideaway immediately reforms with no additional action from you. You can also dismiss the hideaway (if it is empty) or re-form it using a single action with the envision component.',
     ],
     source: 'Character Guide pg. 103',
     archetype: 'Magaambyan Attendant',
@@ -13493,7 +13493,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1117,
     text: [
-      'You can cast <i>creation</i> as an innate spell at will, choosing whether it is arcane or primal each time. The created object lasts until you spend 1 hour not within its immediate vicinity or until it is destroyed. Such objects are called persistent creations. If you cast <i>creation</i> again, any persistent creation you previously created with the spell immediately disintegrates.',
+      'You can cast creation as an innate spell at will, choosing whether it is arcane or primal each time. The created object lasts until you spend 1 hour not within its immediate vicinity or until it is destroyed. Such objects are called persistent creations. If you cast creation again, any persistent creation you previously created with the spell immediately disintegrates.',
     ],
     source: 'Character Guide pg. 104',
     archetype: 'Halcyon Speaker',
@@ -13532,7 +13532,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1120,
     text: [
-      'Your magic is drawn to your persistent creations. While you are within 30 feet of and have line of effect to your persistent creation, you can use it as the origin point for your line or cone spells. For instance, a <i>lightning bolt</i> could originate from the persistent creation rather than from you.',
+      'Your magic is drawn to your persistent creations. While you are within 30 feet of and have line of effect to your persistent creation, you can use it as the origin point for your line or cone spells. For instance, a lightning bolt could originate from the persistent creation rather than from you.',
     ],
     source: 'Character Guide pg. 104',
     archetype: 'Halcyon Speaker',
@@ -13688,7 +13688,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1131,
     text: [
-      'You see what others don&#x2019;t, and you&#x2019;ve developed magical tricks to find hidden truth. You can cast <i>comprehend language</i>, <i>restore senses</i>, and <i>see invisibility</i> as innate spells, each once per day. If you could already cast spells, these spells are of the same tradition. Otherwise, they are arcane spells, you use Intelligence as your spellcasting ability, and you become trained in spell attack rolls and spell DCs for arcane spells.',
+      'You see what others don&#x2019;t, and you&#x2019;ve developed magical tricks to find hidden truth. You can cast comprehend language, restore senses, and see invisibility as innate spells, each once per day. If you could already cast spells, these spells are of the same tradition. Otherwise, they are arcane spells, you use Intelligence as your spellcasting ability, and you become trained in spell attack rolls and spell DCs for arcane spells.',
     ],
     source: 'Character Guide pg. 113',
     archetype: 'Scrollmaster',
@@ -13897,7 +13897,7 @@ export const feats: FeatCollection = {
     id: 1147,
     text: [
       'Your study of crystals and the energies held within a gem&#x2019;s facets grants you special arcane crystal ward spells, which are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool when you make your next daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to research and memorize the properties of gems.',
-      ' Focus spells are automatically heightened to half your level rounded up. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. You gain the <i>electrified crystal ward</i> focus spell, and you are trained in arcane spell attack rolls and spell DCs. Your spellcasting ability is Intelligence.',
+      ' Focus spells are automatically heightened to half your level rounded up. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. You gain the electrified crystal ward focus spell, and you are trained in arcane spell attack rolls and spell DCs. Your spellcasting ability is Intelligence.',
     ],
     source: 'Pathfinder #148: Fires of the Haunted City pg. 74',
     archetype: 'Crystal Keeper',
@@ -13910,7 +13910,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1148,
     text: [
-      'As long as you meditate before a gemstone worth at least 10 gp as part of your daily preparations, you are capable of seeing magic as flowing runes that reveal information about magic objects, and you can scribe a personal rune that represents you. You gain the <i>read aura</i> and <i>sigil</i> cantrips. You cast these cantrips as arcane innate spells at will. A cantrip is heightened to a spell level equal to half your level rounded up.',
+      'As long as you meditate before a gemstone worth at least 10 gp as part of your daily preparations, you are capable of seeing magic as flowing runes that reveal information about magic objects, and you can scribe a personal rune that represents you. You gain the read aura and sigil cantrips. You cast these cantrips as arcane innate spells at will. A cantrip is heightened to a spell level equal to half your level rounded up.',
     ],
     source: 'Pathfinder #148: Fires of the Haunted City pg. 74',
     archetype: 'Crystal Keeper',
@@ -13923,7 +13923,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1149,
     text: [
-      'You learn the secrets of armor runes by viewing them through gems and can alter them at your discretion. Once per day when you make your daily preparations, you can focus on a rune&#x2019;s magical energies through a crystal&#x2019;s facets to alter a single property rune on one suit of armor in your possession to suppress its normal effects and make it function as a different property rune. You can temporarily alter the rune to function as one of the following runes: <i>energy-resistant</i>, <i>fortification</i>, <i>glamered</i>, <i>invisibility</i>, <i>shadow</i>, or <i>slick</i>. The property rune remains altered until you make your next daily preparations. The armor must meet the prerequisites for the temporary rune, and any other runes that required the suppressed rune are also suppressed while the rune is transformed. The rune is obviously altered, and thus the armor can&#x2019;t be sold as though it had the temporary rune.',
+      'You learn the secrets of armor runes by viewing them through gems and can alter them at your discretion. Once per day when you make your daily preparations, you can focus on a rune&#x2019;s magical energies through a crystal&#x2019;s facets to alter a single property rune on one suit of armor in your possession to suppress its normal effects and make it function as a different property rune. You can temporarily alter the rune to function as one of the following runes: energy-resistant, fortification, glamered, invisibility, shadow, or slick. The property rune remains altered until you make your next daily preparations. The armor must meet the prerequisites for the temporary rune, and any other runes that required the suppressed rune are also suppressed while the rune is transformed. The rune is obviously altered, and thus the armor can&#x2019;t be sold as though it had the temporary rune.',
     ],
     source: 'Pathfinder #148: Fires of the Haunted City pg. 75',
     archetype: 'Crystal Keeper',
@@ -13936,7 +13936,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1150,
     text: [
-      'You learn how to alter the magic of weapon runes by using a crystal as a focusing component. Once per day during your daily preparations, you can focus on a rune&#x2019;s magical energies through a crystal&#x2019;s facets to alter a single property rune on one weapon in your possession to suppress its normal effects and make it function as a different property rune. You can temporarily alter the rune to function as one of the following runes: <i>corrosive</i>, <i>flaming</i>, <i>frost</i>, <i>ghost touch</i>, <i>grievous</i>, <i>returning</i>, <i>shock</i>, <i>thundering</i>, or <i>wounding</i>. The property rune remains altered until you make your next daily preparations. The weapon must meet the prerequisites for the temporary rune, and any other runes that required the suppressed rune are also suppressed while the rune is transformed. The rune is obviously altered, and thus the weapon can&#x2019;t be sold as though it had the temporary rune.',
+      'You learn how to alter the magic of weapon runes by using a crystal as a focusing component. Once per day during your daily preparations, you can focus on a rune&#x2019;s magical energies through a crystal&#x2019;s facets to alter a single property rune on one weapon in your possession to suppress its normal effects and make it function as a different property rune. You can temporarily alter the rune to function as one of the following runes: corrosive, flaming, frost, ghost touch, grievous, returning, shock, thundering, or wounding. The property rune remains altered until you make your next daily preparations. The weapon must meet the prerequisites for the temporary rune, and any other runes that required the suppressed rune are also suppressed while the rune is transformed. The rune is obviously altered, and thus the weapon can&#x2019;t be sold as though it had the temporary rune.',
     ],
     source: 'Pathfinder #148: Fires of the Haunted City pg. 75',
     archetype: 'Crystal Keeper',
@@ -14057,7 +14057,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1160,
     text: [
-      'You can call upon the essence of every individual animal of a particular species to temporarily transform your animal into an exemplar of its kind. You learn the <i>apex companion</i> order spell. Increase the number of Focus Points in your focus pool by 1.<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      'You can call upon the essence of every individual animal of a particular species to temporarily transform your animal into an exemplar of its kind. You learn the apex companion order spell. Increase the number of Focus Points in your focus pool by 1. class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 76',
     prerequisites: 'Animal Companion',
@@ -14070,7 +14070,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1161,
     text: [
-      'You are a paragon of all that is good, your overwhelming aura causing evildoers to cower. All evil creatures within 15 feet of you take a &#x2013;1 status penalty to checks and DCs that target you or your allies. This penalty is &#x2013;2 against creatures you have taken an oath against (such as dragons if you have the Dragonslayer Oath feat). You can choose to suppress or resume this aura as an action, which has the concentrate trait.<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      'You are a paragon of all that is good, your overwhelming aura causing evildoers to cower. All evil creatures within 15 feet of you take a &#x2013;1 status penalty to checks and DCs that target you or your allies. This penalty is &#x2013;2 against creatures you have taken an oath against (such as dragons if you have the Dragonslayer Oath feat). You can choose to suppress or resume this aura as an action, which has the concentrate trait. class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 76',
     prerequisites: 'tenets of good',
@@ -14083,7 +14083,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1162,
     text: [
-      'You have learned to manipulate the innate power of your bloodline and adapt it to your needs. When making your daily preparations, you can swap out a single spell of 9th level or lower for another spell of the same level. You can&#x2019;t swap out spells granted specifically by your bloodline.<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      'You have learned to manipulate the innate power of your bloodline and adapt it to your needs. When making your daily preparations, you can swap out a single spell of 9th level or lower for another spell of the same level. You can&#x2019;t swap out spells granted specifically by your bloodline. class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 76',
     related_feats: ':',
@@ -14095,7 +14095,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1163,
     text: [
-      'Your daily preparations are particularly efficient and plentiful. When using your infused reagents to create alchemical items during your daily preparations, you make a batch of three of a given item instead of a batch of two, or a batch of four if your field normally lets you create three of that item.<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      'Your daily preparations are particularly efficient and plentiful. When using your infused reagents to create alchemical items during your daily preparations, you make a batch of three of a given item instead of a batch of two, or a batch of four if your field normally lets you create three of that item. class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 76',
     related_feats: ':',
@@ -14108,7 +14108,7 @@ export const feats: FeatCollection = {
     id: 1164,
     text: [
       'Your sacred etchings imbue objects with power. It takes you only 1 minute to emblazon a symbol using Emblazon Armament, and you can have up to four symbols emblazoned at a time. Each item can still have only one symbol emblazoned upon it, and if you exceed the limit of four, the oldest symbol disappears. These symbols can benefit even those who don&#x2019;t follow the deity, provided they aren&#x2019;t directly opposed (as determined by the GM).',
-      ' You can select a different benefit for each emblazoned symbol, chosen from any you have from Emblazon Armament or other feats such as Emblazon Energy or Emblazon Antimagic.<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      ' You can select a different benefit for each emblazoned symbol, chosen from any you have from Emblazon Armament or other feats such as Emblazon Energy or Emblazon Antimagic. class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 76',
     prerequisites: 'Emblazon Armament',
@@ -14121,7 +14121,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1165,
     text: [
-      'You can make your debilitation last an exceptionally long time. The triggering debilitation lasts for 1 minute instead of until the end of your next turn.<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      'You can make your debilitation last an exceptionally long time. The triggering debilitation lasts for 1 minute instead of until the end of your next turn. class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 76',
     frequency: 'once per minute',
@@ -14136,7 +14136,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1166,
     text: [
-      'You perfect your body, refining the flex of every muscle and the bend of every joint to maximum efficiency. Your unarmed Strikes gain the deadly d12 trait, and you have fast healing 20, causing you to regain 20 HP at the start of each of your turns provided you have at least 1 HP.<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      'You perfect your body, refining the flex of every muscle and the bend of every joint to maximum efficiency. Your unarmed Strikes gain the deadly d12 trait, and you have fast healing 20, causing you to regain 20 HP at the start of each of your turns provided you have at least 1 HP. class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 76',
     related_feats: ':',
@@ -14149,7 +14149,7 @@ export const feats: FeatCollection = {
     id: 1167,
     text: [
       'You are unstoppable, able to shrug off mortal wounds with ease. You gain resistance equal to 3 + your Constitution modifier to all damage, and your resistance from raging resistance increases to 8 + your Constitution modifier.',
-      ' In addition, if you are reduced to 0 Hit Points, you can end your rage as a reaction to stay at 1 Hit Point. If you do, you become wounded 2 (or increase your wounded condition by 2 if you are already wounded).<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      ' In addition, if you are reduced to 0 Hit Points, you can end your rage as a reaction to stay at 1 Hit Point. If you do, you become wounded 2 (or increase your wounded condition by 2 if you are already wounded). class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 76',
     related_feats: ':',
@@ -14161,7 +14161,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1168,
     text: [
-      'The moving power of your songs can stir the spirits of the dead to rise once more and fight alongside you. You learn the <i>song of the fallen</i> composition spell. Increase the number of Focus Points in your focus pool by 1.<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      'The moving power of your songs can stir the spirits of the dead to rise once more and fight alongside you. You learn the song of the fallen composition spell. Increase the number of Focus Points in your focus pool by 1. class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 76',
     prerequisites: 'focus pool',
@@ -14174,7 +14174,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1169,
     text: [
-      'You have mastered a handful of spells to such a degree that you can cast them even if you haven&#x2019;t prepared them. Select any four spells of 9th level or lower that you have access to. Each spell you select must be of a different level. These spells are automatically prepared when you make your daily preparations and have their own spell slots. You can select a different array of spells by spending 1 week of downtime retraining your mastered spells.<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      'You have mastered a handful of spells to such a degree that you can cast them even if you haven&#x2019;t prepared them. Select any four spells of 9th level or lower that you have access to. Each spell you select must be of a different level. These spells are automatically prepared when you make your daily preparations and have their own spell slots. You can select a different array of spells by spending 1 week of downtime retraining your mastered spells. class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 76',
     related_feats: ':',
@@ -14186,7 +14186,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1170,
     text: [
-      'Your senses are peerless. You gain a +2 circumstance bonus to Perception checks, and you gain low-light vision. If you already have low-light vision, gain darkvision instead. Furthermore, when you target an enemy, you automatically succeed at the flat check if that enemy is concealed, hidden, or undetected.<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      'Your senses are peerless. You gain a +2 circumstance bonus to Perception checks, and you gain low-light vision. If you already have low-light vision, gain darkvision instead. Furthermore, when you target an enemy, you automatically succeed at the flat check if that enemy is concealed, hidden, or undetected. class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 77',
     related_feats: ':',
@@ -14198,7 +14198,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1171,
     text: [
-      'Your experience keeps you on your toes, allowing you to adapt to even the most dangerous challenges. When you gain a fighter feat using combat flexibility, you gain three fighter feats instead of one. The first feat must still be 8th level or lower, the second feat can be up to 14th level, and the third feat can be up to 18th level. You can use the first feat to meet the prerequisites of the second or third feats and the second feat to meet the prerequisites of the third feat. You must meet all feats&#x2019; prerequisites. In addition, you can adapt to the battlefield&#x2019;s challenges by spending 1 hour to train. If you do, you can reselect the feats chosen with combat flexibility as if you had made your daily preparations.<h3 class="title">Paragons of Promise</h3><b>Source</b> <i>Pathfinder #150: Broken Promises pg. 75</i><br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
+      'Your experience keeps you on your toes, allowing you to adapt to even the most dangerous challenges. When you gain a fighter feat using combat flexibility, you gain three fighter feats instead of one. The first feat must still be 8th level or lower, the second feat can be up to 14th level, and the third feat can be up to 18th level. You can use the first feat to meet the prerequisites of the second or third feats and the second feat to meet the prerequisites of the third feat. You must meet all feats&#x2019; prerequisites. In addition, you can adapt to the battlefield&#x2019;s challenges by spending 1 hour to train. If you do, you can reselect the feats chosen with combat flexibility as if you had made your daily preparations. class="title">Paragons of Promise<b>Source</b> Pathfinder #150: Broken Promises pg. 75<br>The citizens of Promise represent some of the most capable experts, greatest minds, and powerful warriors on Golarion&#x2014;ideal teachers and trainers for PCs who want to maximize their own potential. If the PCs secure Visitor&#x2019;s Pins or an alliance with Mengkare, their access to Promise&#x2019;s trainers and records unlock all of the following uncommon class feats.',
     ],
     source: 'Pathfinder #150: Broken Promises pg. 77',
     related_feats: ':',
@@ -14376,7 +14376,7 @@ export const feats: FeatCollection = {
     id: 1184,
     text: [
       'The power of your faith suffuses your ki. When you select this feat, choose chaos, evil, good, or law. Your choice must match one of your deity&#x2019;s alignment components.',
-      ' When you cast the <i>ki strike</i> focus spell and damage a creature whose alignment is opposite your chosen alignment, you can choose for the <i>ki strike</i> damage to be of the chosen type. Additionally, you can substitute the damage from <i>ki blast</i> (or other ki spells that deal force damage, at the GM&#x2019;s discretion) with damage of your chosen alignment.',
+      ' When you cast the ki strike focus spell and damage a creature whose alignment is opposite your chosen alignment, you can choose for the ki strike damage to be of the chosen type. Additionally, you can substitute the damage from ki blast (or other ki spells that deal force damage, at the GM&#x2019;s discretion) with damage of your chosen alignment.',
     ],
     source: 'Gods & Magic pg. 105',
     prerequisites: 'Ki Strike, you follow a deity',
@@ -14615,7 +14615,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1202,
     text: [
-      'You constantly have the effects of <i>speak with animals</i> as a 2nd-level innate primal spell. You gain a +2 circumstance bonus to Diplomacy checks to Make a Request of animals while this spell is active.',
+      'You constantly have the effects of speak with animals as a 2nd-level innate primal spell. You gain a +2 circumstance bonus to Diplomacy checks to Make a Request of animals while this spell is active.',
     ],
     source: 'Pathfinder #152: Legacy of the Lost God pg. 76',
     archetype: 'Animal Trainer\n',
@@ -14628,7 +14628,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1203,
     text: [
-      'Your animal companion grows up, becoming a mature animal companion. Increase its proficiency rank in Performance to expert instead of one of the three skill increases for mature. It gains the Mesmerizing Performance advanced maneuver, rather than the normal advanced maneuver for its type. <h3 class="title">Mesmerizing Performance\n <img alt="Single Action" style="height:15px;" src="Images\\Actions\\OneAction.png"></h3><span alt="Uncommon Trait" class="traituncommon" title="Something of uncommon rarity requires special training or comes from a particular culture or part of the world. Some character choices give access to uncommon options, and the GM can choose to allow access for anyone. Less is known about uncommon creatures than common creatures. They typically can&#x2019;t be summoned. The DC of Recall Knowledge checks related to these creature is increased by 2.">Uncommon</span><span alt="Concentrate Trait" class="trait" title="An action with this trait requires a degree of mental concentration and discipline.">Concentrate</span><span alt="Emotion Trait" class="trait" title="This effect alters a creature&#x2019;s emotions. Effects with this trait always have the mental trait as well. Creatures with special training or that have mechanical or artificial intelligence are immune to emotion effects.">Emotion</span><br><b>Source</b> <i>Pathfinder #152: Legacy of the Lost God pg. 76</i><br><b>Requirements</b> The companion&#x2019;s last action was a successful Performance check to Perform.\n',
+      'Your animal companion grows up, becoming a mature animal companion. Increase its proficiency rank in Performance to expert instead of one of the three skill increases for mature. It gains the Mesmerizing Performance advanced maneuver, rather than the normal advanced maneuver for its type.  class="title">Mesmerizing Performance\n <img alt="Single Action" style="height:15px;" src="Images\\Actions\\OneAction.png"><span alt="Uncommon Trait" class="traituncommon" title="Something of uncommon rarity requires special training or comes from a particular culture or part of the world. Some character choices give access to uncommon options, and the GM can choose to allow access for anyone. Less is known about uncommon creatures than common creatures. They typically can&#x2019;t be summoned. The DC of Recall Knowledge checks related to these creature is increased by 2.">Uncommon</span><span alt="Concentrate Trait" class="trait" title="An action with this trait requires a degree of mental concentration and discipline.">Concentrate</span><span alt="Emotion Trait" class="trait" title="This effect alters a creature&#x2019;s emotions. Effects with this trait always have the mental trait as well. Creatures with special training or that have mechanical or artificial intelligence are immune to emotion effects.">Emotion</span><br><b>Source</b> Pathfinder #152: Legacy of the Lost God pg. 76<br><b>Requirements</b> The companion&#x2019;s last action was a successful Performance check to Perform.\n',
     ],
     source: 'Pathfinder #152: Legacy of the Lost God pg. 76',
     archetype: 'Animal Trainer\n',
@@ -14672,7 +14672,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1209,
     text: [
-      'The animal companion you gain from the Animal Trainer Dedication feat gains one specialization of your choice. Increase its proficiency rank in Performance to legendary instead of one of the specialization&apos;s skill increases.\n',
+      'The animal companion you gain from the Animal Trainer Dedication feat gains one specialization of your choice. Increase its proficiency rank in Performance to legendary instead of one of the specialization\'s skill increases.\n',
     ],
     source: 'Pathfinder #152: Legacy of the Lost God pg. 76',
     archetype: 'Animal Trainer\n',
@@ -14863,7 +14863,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1226,
     text: [
-      'Building things is like solving a puzzle, and you know how to use anything at your disposal to get the job done. You gain <i>creation</i> as a 5th-level innate primal spell. You must have an equivalent Bulk of material to create an item, such as wood or scrap metal to make a wheelbarrow. You can cast this spell once each day.',
+      'Building things is like solving a puzzle, and you know how to use anything at your disposal to get the job done. You gain creation as a 5th-level innate primal spell. You must have an equivalent Bulk of material to create an item, such as wood or scrap metal to make a wheelbarrow. You can cast this spell once each day.',
     ],
     source: 'Pathfinder #153: Life\'s Long Shadow pg. 73',
     prerequisites: 'Handy with Your Paws',
@@ -14932,7 +14932,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1231,
     text: [
-      'Your lungs are infused with the resilience of iron. Treat the result of your save against an inhaled poison as one degree of success better than you rolled. Additionally, you gain the following ability.<h3 class="title">Exhale Poison <img alt="Two Actions" style="height:15px;" src="Images\\Actions\\TwoActions.png"></h3><span alt="Arcane Trait" class="trait" title="This magic comes from the arcane tradition, which is built on logic and rationality. Anything with this trait is magical.">Arcane</span><span alt="Necromancy Trait" class="trait" title="Effects and magic items with this trait are associated with the necromancy school of magic, typically involving forces of life and death.">Necromancy</span><span alt="Poison Trait" class="trait" title="An effect with this trait delivers a poison or deals poison damage. An item with this trait is poisonous and might cause an affliction.">Poison</span><br><b>Source</b> <i>Pathfinder #153: Life&apos;s Long Shadow pg. 74</i><br><b>Frequency</b> once per hour<br><b>Requirements</b> You were within the area of an inhaled poison within the last minute',
+      'Your lungs are infused with the resilience of iron. Treat the result of your save against an inhaled poison as one degree of success better than you rolled. Additionally, you gain the following ability. class="title">Exhale Poison <img alt="Two Actions" style="height:15px;" src="Images\\Actions\\TwoActions.png"><span alt="Arcane Trait" class="trait" title="This magic comes from the arcane tradition, which is built on logic and rationality. Anything with this trait is magical.">Arcane</span><span alt="Necromancy Trait" class="trait" title="Effects and magic items with this trait are associated with the necromancy school of magic, typically involving forces of life and death.">Necromancy</span><span alt="Poison Trait" class="trait" title="An effect with this trait delivers a poison or deals poison damage. An item with this trait is poisonous and might cause an affliction.">Poison</span><br><b>Source</b> Pathfinder #153: Life\'s Long Shadow pg. 74<br><b>Frequency</b> once per hour<br><b>Requirements</b> You were within the area of an inhaled poison within the last minute',
     ],
     source: 'Pathfinder #153: Life\'s Long Shadow pg. 74',
     archetype: 'Golem Grafter',
@@ -15017,7 +15017,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1239,
     text: [
-      'You have been exposed to powerful fey magic. You become trained in primal DCs and spell attack rolls. You gain the fey trait and one of the following features which grant an innate primal spell that can be used once per day. <li><b>Anteater</b> You can launch your tongue forward as a deadly attack, gaining <i>grim tendrils</i>.</li><li><b>Dryad</b> Your body is covered in elegant vines, granting you <i>summon plants and fungi</i>.</li><li><b>Gremlin</b> You have long, bat-like ears and gain <i>bane</i>.</li><li><b>Monarch</b> You have vestigial, insectile features and gain <i>spider sting</i>.</li> This feat gains the trait appropriate for your ancestry (human for human, goblin for goblin, etc.)',
+      'You have been exposed to powerful fey magic. You become trained in primal DCs and spell attack rolls. You gain the fey trait and one of the following features which grant an innate primal spell that can be used once per day. <li><b>Anteater</b> You can launch your tongue forward as a deadly attack, gaining grim tendrils.</li><li><b>Dryad</b> Your body is covered in elegant vines, granting you summon plants and fungi.</li><li><b>Gremlin</b> You have long, bat-like ears and gain bane.</li><li><b>Monarch</b> You have vestigial, insectile features and gain spider sting.</li> This feat gains the trait appropriate for your ancestry (human for human, goblin for goblin, etc.)',
     ],
     source:
       'Pathfinder Society Scenario #1-17: The Perennial Crown Part 2, The Thorned Monarch pg. 30',
@@ -15048,7 +15048,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1240,
     text: [
-      'You have learned from the brute destructive power of xulgaths and their kind. You make a melee Strike that ignores any resistances the target has. If you target a solid unattended object or surface with your Strike, you might automatically destroy it without an attack roll. If you target any object or surface with Hardness 20 or less that isn&apos;t a magic item or the effect of a spell, you destroy it. If the target object or surface is a magic item or the effect of a spell, you attempt to counteract it using your attack bonus with the Strike for the counteract check. On a successful counteract check, you destroy the object or surface unless it has Hardness greater than 20, is an artifact, or is similarly difficult to destroy. You destroy up to a 5-foot cube of an object or surface larger than Medium.',
+      'You have learned from the brute destructive power of xulgaths and their kind. You make a melee Strike that ignores any resistances the target has. If you target a solid unattended object or surface with your Strike, you might automatically destroy it without an attack roll. If you target any object or surface with Hardness 20 or less that isn\'t a magic item or the effect of a spell, you destroy it. If the target object or surface is a magic item or the effect of a spell, you attempt to counteract it using your attack bonus with the Strike for the counteract check. On a successful counteract check, you destroy the object or surface unless it has Hardness greater than 20, is an artifact, or is similarly difficult to destroy. You destroy up to a 5-foot cube of an object or surface larger than Medium.',
     ],
     source: 'Pathfinder #156: The Apocalypse Prophet pg. 72',
   },
@@ -15072,7 +15072,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1242,
     text: [
-      'The erratic teleportation magic you experienced in the Kortos Mounts has taught you a few tricks. You attempt an Athletics check to Shove the fiend that triggered your champion&apos;s reaction; on a success, the target can&apos;t teleport or summon creatures for 1 minute. On a critical success, the target is also stunned 1 and can&apos;t teleport or summon creatures for 1 hour, and if you are on your home plane and the target is a fiend of level 18 or lower from another plane, it is also banished to its home plane. Your multiple attack penalty doesn&apos;t apply to this attack.',
+      'The erratic teleportation magic you experienced in the Kortos Mounts has taught you a few tricks. You attempt an Athletics check to Shove the fiend that triggered your champion\'s reaction; on a success, the target can\'t teleport or summon creatures for 1 minute. On a critical success, the target is also stunned 1 and can\'t teleport or summon creatures for 1 hour, and if you are on your home plane and the target is a fiend of level 18 or lower from another plane, it is also banished to its home plane. Your multiple attack penalty doesn\'t apply to this attack.',
     ],
     source: 'Pathfinder #156: The Apocalypse Prophet pg. 72',
     prerequisites: 'Fiendsbane Oath',
@@ -15085,7 +15085,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1243,
     text: [
-      'You can manipulate the same energies that the <i>aeon orbs</i> use to sustain life. You cast <i>heal</i> on the triggering target. Instead of its normal effects, the <i>heal</i> spell reduces the triggering damage by an amount equal to the Hit Points a 1-action <i>heal</i> spell of that level would have recovered. As usual, if this reduces the damage to 0, it might also remove additional effects of the triggering attack, such as injury poisons.',
+      'You can manipulate the same energies that the aeon orbs use to sustain life. You cast heal on the triggering target. Instead of its normal effects, the heal spell reduces the triggering damage by an amount equal to the Hit Points a 1-action heal spell of that level would have recovered. As usual, if this reduces the damage to 0, it might also remove additional effects of the triggering attack, such as injury poisons.',
     ],
     source: 'Pathfinder #156: The Apocalypse Prophet pg. 72',
     prerequisites: 'healing font',
@@ -15099,7 +15099,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1244,
     text: [
-      'Just as the Vale of Aroden retains light and life despite inhospitable surroundings, you can sustain yourself regardless of your environment. You don&apos;t need to eat, drink, or breathe. In addition, you can cast the <i>wholeness of body</i> ki spell almost effortlessly. You can cast it as a free action that triggers at the start of your turn.',
+      'Just as the Vale of Aroden retains light and life despite inhospitable surroundings, you can sustain yourself regardless of your environment. You don\'t need to eat, drink, or breathe. In addition, you can cast the wholeness of body ki spell almost effortlessly. You can cast it as a free action that triggers at the start of your turn.',
     ],
     source: 'Pathfinder #156: The Apocalypse Prophet pg. 72',
     prerequisites: 'Wholeness of Body',
@@ -15111,7 +15111,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1245,
     text: [
-      'By adopting <i>resonant reflections</i>, you have learned to copy the abilities of other creatures as well. When you use Hunt Prey on a foe within 100 feet, you gain resistance 10 to all damage types that target has resistance or immunity to for as long as the foe remains within 100 feet.',
+      'By adopting resonant reflections, you have learned to copy the abilities of other creatures as well. When you use Hunt Prey on a foe within 100 feet, you gain resistance 10 to all damage types that target has resistance or immunity to for as long as the foe remains within 100 feet.',
     ],
     source: 'Pathfinder #156: The Apocalypse Prophet pg. 72',
   },
@@ -15122,7 +15122,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1246,
     text: [
-      'You have learned to manipulate reflections of magic, similar to the <i>resonant reflections</i>. You reclaim the magic of an ongoing spell, using it reprepare a spell with a duration. You Dismiss a Spell of 4th level or lower that you cast today from a spell slot with at least half its duration remaining, even if that spell can&apos;t normally be Dismissed. You can then spend 10 minutes to reprepare the spell in that spell slot, as Reprepare Spell.',
+      'You have learned to manipulate reflections of magic, similar to the resonant reflections. You reclaim the magic of an ongoing spell, using it reprepare a spell with a duration. You Dismiss a Spell of 4th level or lower that you cast today from a spell slot with at least half its duration remaining, even if that spell can\'t normally be Dismissed. You can then spend 10 minutes to reprepare the spell in that spell slot, as Reprepare Spell.',
     ],
     source: 'Pathfinder #156: The Apocalypse Prophet pg. 72',
     prerequisites: 'Reprepare Spell',
@@ -15162,8 +15162,8 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1249,
     text: [
-      'Being in the presence of the <i>aeon orbs</i> as they deteriorated has taught you how to siphon energy, and you do so with the required magic item. The DC to steal the properties of a magic item is equal to the DC for the item&apos;s level or the normal DC to Steal the item, whichever is higher. The targeted item then becomes temporarily immune for 24 hours. If the object was on a creature, that creature is also temporarily immune (which prevents you from attempting to Steal the Essence of another object on it).',
-      ' If you successfully steal the properties of an item, it loses its magical properties for 24 hours and you can move those properties to a non-magical object of the same general kind (such as moving a hat&apos;s properties to another piece of headgear or moving a weapon&apos;s properties to another weapon) for the same length of time. If the moved properties are counteracted, they return immediately to the original item. You automatically fail to Steal the Essence of an artifact, cursed item, or similar item.',
+      'Being in the presence of the aeon orbs as they deteriorated has taught you how to siphon energy, and you do so with the required magic item. The DC to steal the properties of a magic item is equal to the DC for the item\'s level or the normal DC to Steal the item, whichever is higher. The targeted item then becomes temporarily immune for 24 hours. If the object was on a creature, that creature is also temporarily immune (which prevents you from attempting to Steal the Essence of another object on it).',
+      ' If you successfully steal the properties of an item, it loses its magical properties for 24 hours and you can move those properties to a non-magical object of the same general kind (such as moving a hat\'s properties to another piece of headgear or moving a weapon\'s properties to another weapon) for the same length of time. If the moved properties are counteracted, they return immediately to the original item. You automatically fail to Steal the Essence of an artifact, cursed item, or similar item.',
     ],
     source: 'Pathfinder #156: The Apocalypse Prophet pg. 73',
     prerequisites: 'legendary in',
@@ -15176,7 +15176,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1250,
     text: [
-      'You have learned how to invest magic more deeply by witnessing Aroden&apos;s works. The triggering blood magic effect lasts for 1 minute instead of 1 round.',
+      'You have learned how to invest magic more deeply by witnessing Aroden\'s works. The triggering blood magic effect lasts for 1 minute instead of 1 round.',
     ],
     source: 'Pathfinder #156: The Apocalypse Prophet pg. 73',
     frequency: 'once per minute',
@@ -15214,7 +15214,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1255,
     text: [
-      'You favor weapons that you can use with quick, darting slashes like a cat&apos;s claws. You are trained with the hatchet, kama, kukri, scimitar, and sickle. In addition, you gain access to kama, kukris, and all uncommon catfolk weapons. For you, martial catfolk weapons are simple weapons and advanced catfolk weapons are martial weapons.',
+      'You favor weapons that you can use with quick, darting slashes like a cat\'s claws. You are trained with the hatchet, kama, kukri, scimitar, and sickle. In addition, you gain access to kama, kukris, and all uncommon catfolk weapons. For you, martial catfolk weapons are simple weapons and advanced catfolk weapons are martial weapons.',
     ],
     source: 'Advanced Player\'s Guide pg. 10',
   },
@@ -15237,7 +15237,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1257,
     text: [
-      'You know how to efficiently use weapons that rake across your enemies. Whenever you critically hit using a catfolk weapon or one of the weapons listed in Catfolk Weapon Familiarity, you apply the weapon&apos;s critical specialization effect.',
+      'You know how to efficiently use weapons that rake across your enemies. Whenever you critically hit using a catfolk weapon or one of the weapons listed in Catfolk Weapon Familiarity, you apply the weapon\'s critical specialization effect.',
     ],
     source: 'Advanced Player\'s Guide pg. 10',
     prerequisites: 'Catfolk Weapon Familiarity',
@@ -15260,7 +15260,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1259,
     text: [
-      'You are luckier even than most catfolk. You can trigger Cat&apos;s Luck when you fail or critically fail a Fortitude or Will saving throw in addition to Reflex saving throws. You still can use Cat&apos;s Luck only once per day.',
+      'You are luckier even than most catfolk. You can trigger Cat\'s Luck when you fail or critically fail a Fortitude or Will saving throw in addition to Reflex saving throws. You still can use Cat\'s Luck only once per day.',
     ],
     source: 'Advanced Player\'s Guide pg. 10',
     prerequisites: 'Cat\'s Luck',
@@ -15283,7 +15283,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1261,
     text: [
-      'Your powerful legs allow you to make sudden and dramatic leaps. You can Leap as a 2-action activity to double the distance you can Leap vertically, or Leap as a 3-action activity to triple the distance you can Leap vertically. You don&apos;t automatically fail Long Jumps for jumping in a different direction than your Stride.',
+      'Your powerful legs allow you to make sudden and dramatic leaps. You can Leap as a 2-action activity to double the distance you can Leap vertically, or Leap as a 3-action activity to triple the distance you can Leap vertically. You don\'t automatically fail Long Jumps for jumping in a different direction than your Stride.',
     ],
     source: 'Advanced Player\'s Guide pg. 10',
     prerequisites: 'expert in Athletics',
@@ -15307,7 +15307,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1263,
     text: [
-      'When you use Cat&apos;s Luck to reroll a Reflex saving throw, any creatures you choose within 10 feet who also just failed a Reflex saving throw against the same effect (such as a single spell) can also reroll their saving throws and use the better result.',
+      'When you use Cat\'s Luck to reroll a Reflex saving throw, any creatures you choose within 10 feet who also just failed a Reflex saving throw against the same effect (such as a single spell) can also reroll their saving throws and use the better result.',
     ],
     source: 'Advanced Player\'s Guide pg. 11',
     prerequisites: 'Cat\'s Luck',
@@ -15354,7 +15354,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1267,
     text: [
-      'You give a daring yowl in the face of adversity, calling your companion back from the brink of unconsciousness. Your ally isn&apos;t knocked out and remains at 1 Hit Point. Your ally&apos;s wounded condition still increases by 1 as though they had been dying and recovered.',
+      'You give a daring yowl in the face of adversity, calling your companion back from the brink of unconsciousness. Your ally isn\'t knocked out and remains at 1 Hit Point. Your ally\'s wounded condition still increases by 1 as though they had been dying and recovered.',
     ],
     source: 'Advanced Player\'s Guide pg. 11',
     frequency: 'once per day',
@@ -15380,7 +15380,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1269,
     text: [
-      'You have gone well past nine lives to survive danger with surprising regularity. You can use Cat&apos;s Luck once per hour, rather than once per day.',
+      'You have gone well past nine lives to survive danger with surprising regularity. You can use Cat\'s Luck once per hour, rather than once per day.',
     ],
     source: 'Advanced Player\'s Guide pg. 11',
     prerequisites: 'Cat\'s Luck',
@@ -15417,8 +15417,8 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1272,
     text: [
-      'You channel your draconic exemplar&apos;s power into a gout of energy that manifests as a 30-foot line or a 15-foot cone, dealing 1d4 damage. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC. You can&apos;t use this ability again for 1d4 rounds.',
-      ' At 3rd level and every 2 levels thereafter, the damage increases by 1d4. The shape of the breath, the damage type, and the saving throw match those of your draconic exemplar (see Table 1&#x2013;1). This ability has the trait associated with the type of damage it deals.<h2>Table 1-1: Draconic Exemplars</h2><table class="inner"><tbody><tr><td><b>Dragon</b></td><td><b>Breath Weapon Shape</b></td><td><b>Damage Type</b></td><td><b>Saving Throw</b></td></tr> <tr><td>Black</td><td>Line</td><td>Acid</td><td>Reflex</td></tr> <tr><td>Blue</td><td>Line</td><td>Electricity</td><td>Reflex</td></tr> <tr><td>Green</td><td>Cone</td><td>Poison</td><td>Fortitude</td></tr> <tr><td>Red</td><td>Cone</td><td>Fire</td><td>Reflex</td></tr> <tr><td>White</td><td>Cone</td><td>Cold</td><td>Reflex</td></tr> <tr><td>Brass</td><td>Line</td><td>Fire</td><td>Reflex</td></tr> <tr><td>Bronze</td><td>Line</td><td>Electricity</td><td>Reflex</td></tr> <tr><td>Copper</td><td>Line</td><td>Acid</td><td>Reflex</td></tr> <tr><td>Gold</td><td>Cone</td><td>Fire</td><td>Reflex</td></tr><tr><td>Silver</td><td>Cone</td><td>Cold</td><td>Reflex</td></tr></tbody></table>',
+      'You channel your draconic exemplar\'s power into a gout of energy that manifests as a 30-foot line or a 15-foot cone, dealing 1d4 damage. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC. You can\'t use this ability again for 1d4 rounds.',
+      ' At 3rd level and every 2 levels thereafter, the damage increases by 1d4. The shape of the breath, the damage type, and the saving throw match those of your draconic exemplar (see Table 1&#x2013;1). This ability has the trait associated with the type of damage it deals.Table 1-1: Draconic Exemplars<table class="inner"><tbody><tr><td><b>Dragon</b></td><td><b>Breath Weapon Shape</b></td><td><b>Damage Type</b></td><td><b>Saving Throw</b></td></tr> <tr><td>Black</td><td>Line</td><td>Acid</td><td>Reflex</td></tr> <tr><td>Blue</td><td>Line</td><td>Electricity</td><td>Reflex</td></tr> <tr><td>Green</td><td>Cone</td><td>Poison</td><td>Fortitude</td></tr> <tr><td>Red</td><td>Cone</td><td>Fire</td><td>Reflex</td></tr> <tr><td>White</td><td>Cone</td><td>Cold</td><td>Reflex</td></tr> <tr><td>Brass</td><td>Line</td><td>Fire</td><td>Reflex</td></tr> <tr><td>Bronze</td><td>Line</td><td>Electricity</td><td>Reflex</td></tr> <tr><td>Copper</td><td>Line</td><td>Acid</td><td>Reflex</td></tr> <tr><td>Gold</td><td>Cone</td><td>Fire</td><td>Reflex</td></tr><tr><td>Silver</td><td>Cone</td><td>Cold</td><td>Reflex</td></tr></tbody></table>',
     ],
     source: 'Advanced Player\'s Guide pg. 14',
   },
@@ -15440,7 +15440,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1274,
     text: [
-      'You instinctively know how to flee danger. You Stride up to your Speed, with a +5-foot status bonus to your Speed, and you gain a +2 circumstance bonus to AC against reactions triggered by this movement. You must end this movement in a space that&apos;s not adjacent to any enemy.',
+      'You instinctively know how to flee danger. You Stride up to your Speed, with a +5-foot status bonus to your Speed, and you gain a +2 circumstance bonus to AC against reactions triggered by this movement. You must end this movement in a space that\'s not adjacent to any enemy.',
     ],
     source: 'Advanced Player\'s Guide pg. 14',
     requirements: 'You are adjacent to at least one enemy.',
@@ -15464,7 +15464,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1276,
     text: [
-      'In stressful circumstances, you find strength in your allies&apos; example. Roll the save using an adjacent ally&apos;s modifier for that type of saving throw instead of your own.',
+      'In stressful circumstances, you find strength in your allies\' example. Roll the save using an adjacent ally\'s modifier for that type of saving throw instead of your own.',
     ],
     source: 'Advanced Player\'s Guide pg. 14',
     frequency: 'once per day',
@@ -15478,7 +15478,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1277,
     text: [
-      'With obsequious words and begging gestures, you convince your foe you&apos;re less of a threat. You attempt to Feint against a creature. Unlike a normal Feint, the creature can be within 30 feet instead of in your melee reach, and you make your check against its Will DC instead of its Perception DC.',
+      'With obsequious words and begging gestures, you convince your foe you\'re less of a threat. You attempt to Feint against a creature. Unlike a normal Feint, the creature can be within 30 feet instead of in your melee reach, and you make your check against its Will DC instead of its Perception DC.',
     ],
     source: 'Advanced Player\'s Guide pg. 14',
     prerequisites: 'trained in Deception',
@@ -15490,8 +15490,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1278,
     text: [
-      'Your expertise makes your snares more powerful, and you can place them quickly and efficiently. Each day during your daily preparations, you can prepare three snares from your formula book for quick deployment; if the snare normally takes 1 minute to Craft, you can Craft it with 3 Interact actions. Snares prepared in this way don&apos;t cost you any resources to Craft. The number of snares you can prepare this way increases to four if you are a master in Crafting, and to five if you are legendary.',
-      ' When you Craft and deploy a snare that deals damage, any creature that critically fails its saving throw against the snare&apos;s initial effect and takes damage becomes flat-footed until the end of its next turn.',
+      'Your expertise makes your snares more powerful, and you can place them quickly and efficiently. Each day during your daily preparations, you can prepare three snares from your formula book for quick deployment; if the snare normally takes 1 minute to Craft, you can Craft it with 3 Interact actions. Snares prepared in this way don\'t cost you any resources to Craft. The number of snares you can prepare this way increases to four if you are a master in Crafting, and to five if you are legendary.',
+      ' When you Craft and deploy a snare that deals damage, any creature that critically fails its saving throw against the snare\'s initial effect and takes damage becomes flat-footed until the end of its next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 15',
     prerequisites: 'expert in Crafting, Snare Crafting',
@@ -15503,7 +15503,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1279,
     text: [
-      'Underestimating you is a grave mistake, but it&apos;s one others keep making. You&apos;ve learned to take advantage of slips in your foes&apos; defenses. When you Strike a flat-footed creature using a melee weapon or unarmed attack that has the agile and finesse traits, it gains the backstabber trait.',
+      'Underestimating you is a grave mistake, but it\'s one others keep making. You\'ve learned to take advantage of slips in your foes\' defenses. When you Strike a flat-footed creature using a melee weapon or unarmed attack that has the agile and finesse traits, it gains the backstabber trait.',
     ],
     source: 'Advanced Player\'s Guide pg. 15',
   },
@@ -15514,7 +15514,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1280,
     text: [
-      'Your inborn arcane power manifests as your exemplar&apos;s most time-honored spells. Choose one 1st-level spell and one 2nd-level spell from those listed for a dragon spellcaster of your draconic exemplar&apos;s type (such as <i>alarm</i>, <i>blur</i>, <i>invisibility</i>, and <i>true strike</i> for a black dragon exemplar). Links to all types of dragons can be found here. You can cast each of these spells once per day as arcane innate spells. You gain the trained proficiency rank in arcane spell attack rolls and spell DCs, and your key spellcasting ability is Charisma.',
+      'Your inborn arcane power manifests as your exemplar\'s most time-honored spells. Choose one 1st-level spell and one 2nd-level spell from those listed for a dragon spellcaster of your draconic exemplar\'s type (such as alarm, blur, invisibility, and true strike for a black dragon exemplar). Links to all types of dragons can be found here. You can cast each of these spells once per day as arcane innate spells. You gain the trained proficiency rank in arcane spell attack rolls and spell DCs, and your key spellcasting ability is Charisma.',
     ],
     source: 'Advanced Player\'s Guide pg. 15',
   },
@@ -15525,7 +15525,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1281,
     text: [
-      'You can put more effort into your Kobold Breath to channel greater draconic power, though it takes more out of you. When you use Kobold Breath, you can increase the damage dice to d8s and increase the area to 60 feet for a line breath weapon or 30 feet for a cone. If you do, you can&apos;t use Kobold Breath again for 1 hour.',
+      'You can put more effort into your Kobold Breath to channel greater draconic power, though it takes more out of you. When you use Kobold Breath, you can increase the damage dice to d8s and increase the area to 60 feet for a line breath weapon or 30 feet for a cone. If you do, you can\'t use Kobold Breath again for 1 hour.',
     ],
     source: 'Advanced Player\'s Guide pg. 15',
     prerequisites: 'Kobold Breath',
@@ -15537,7 +15537,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1282,
     text: [
-      'Your magic rivals that of lesser dragons. Choose one 3rd-level spell and one 4th-level spell from those listed for a dragon spellcaster of your draconic exemplar&apos;s type (such as <i>paralyze</i> and <i>stinking cloud</i> for a black dragon exemplar). Links to all types of dragons can be found here. You can cast each of these spells once per day as arcane innate spells.',
+      'Your magic rivals that of lesser dragons. Choose one 3rd-level spell and one 4th-level spell from those listed for a dragon spellcaster of your draconic exemplar\'s type (such as paralyze and stinking cloud for a black dragon exemplar). Links to all types of dragons can be found here. You can cast each of these spells once per day as arcane innate spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 15',
     prerequisites: 'Dracomancer',
@@ -15571,7 +15571,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1285,
     text: [
-      'The hold elders taught you your people&apos;s histories, told tales of great athletic feats, and shared with you the hardships your ancestors endured so that you can pass this wisdom down to future generations. You become trained in Athletics and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Orc Lore.',
+      'The hold elders taught you your people\'s histories, told tales of great athletic feats, and shared with you the hardships your ancestors endured so that you can pass this wisdom down to future generations. You become trained in Athletics and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Orc Lore.',
     ],
     source: 'Advanced Player\'s Guide pg. 18',
   },
@@ -15606,7 +15606,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1288,
     text: [
-      'Your lethal unarmed attacks leave bloody gouges or cause severe internal bleeding. When you critically hit with a Strike using an unarmed attack that isn&apos;t nonlethal, the target takes 1d4 persistent bleed damage. This can be because you&apos;re taking the penalty to use a fist for a lethal attack or because you have an unarmed attack without the nonlethal trait due to Iron Fists, Tusks, or a similar ability.',
+      'Your lethal unarmed attacks leave bloody gouges or cause severe internal bleeding. When you critically hit with a Strike using an unarmed attack that isn\'t nonlethal, the target takes 1d4 persistent bleed damage. This can be because you\'re taking the penalty to use a fist for a lethal attack or because you have an unarmed attack without the nonlethal trait due to Iron Fists, Tusks, or a similar ability.',
     ],
     source: 'Advanced Player\'s Guide pg. 18',
   },
@@ -15617,7 +15617,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1289,
     text: [
-      'You bear scars or tattoos enhanced by the mark of your community&apos;s prowess. When you select this feat, choose one of the options on the following page. When you critically hit using a weapon of the listed group, you apply the weapon&apos;s critical specialization effect. You gain a large brand or tattoo in the shape of the chosen emblem or a similar image (for example, the axe could be a bear or other symbol of ferocious strength, while the shield might be a turtle or another symbol associated with a strong defense) and gain the listed benefit. <li><b>Axe</b> axe or pick</li><li><b>Shield</b> hammer or shield</li><li><b>Torch</b> bomb or knife</li> ',
+      'You bear scars or tattoos enhanced by the mark of your community\'s prowess. When you select this feat, choose one of the options on the following page. When you critically hit using a weapon of the listed group, you apply the weapon\'s critical specialization effect. You gain a large brand or tattoo in the shape of the chosen emblem or a similar image (for example, the axe could be a bear or other symbol of ferocious strength, while the shield might be a turtle or another symbol associated with a strong defense) and gain the listed benefit. <li><b>Axe</b> axe or pick</li><li><b>Shield</b> hammer or shield</li><li><b>Torch</b> bomb or knife</li> ',
     ],
     source: 'Advanced Player\'s Guide pg. 18',
     list: [
@@ -15653,7 +15653,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1291,
     text: [
-      'You resist death&apos;s clutches with supernatural vigor. When you use Orc Ferocity, you gain temporary Hit Points equal to your level.',
+      'You resist death\'s clutches with supernatural vigor. When you use Orc Ferocity, you gain temporary Hit Points equal to your level.',
     ],
     source: 'Advanced Player\'s Guide pg. 19',
     prerequisites: 'Orc Ferocity',
@@ -15665,7 +15665,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1292,
     text: [
-      'Since ancient times, the mightiest orc beast tamers would draw out the true fighting spirit of their companion beasts by feeding the creatures a draft incorporating the orc&apos;s own blood. Animal companions or bonded animals you have gain the Orc Ferocity feat, and they gain a reaction they can use only for Orc Ferocity. If you have the Undying Ferocity ancestry feat, all animal companions or bonded animals you have also gain the benefits of that feat when using the Orc Ferocity reaction.',
+      'Since ancient times, the mightiest orc beast tamers would draw out the true fighting spirit of their companion beasts by feeding the creatures a draft incorporating the orc\'s own blood. Animal companions or bonded animals you have gain the Orc Ferocity feat, and they gain a reaction they can use only for Orc Ferocity. If you have the Undying Ferocity ancestry feat, all animal companions or bonded animals you have also gain the benefits of that feat when using the Orc Ferocity reaction.',
     ],
     source: 'Advanced Player\'s Guide pg. 19',
     prerequisites: 'Beast Trainer or animal companion, Orc Ferocity',
@@ -15677,7 +15677,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1293,
     text: [
-      'You don&apos;t just resist magic; you devour it. Whenever you succeed at a saving throw against a spell or magical effect, you gain temporary Hit Points equal to double the spell&apos;s level, or equal to the level if the magical effect isn&apos;t a spell. These temporary Hit Points last until the end of your next turn.',
+      'You don\'t just resist magic; you devour it. Whenever you succeed at a saving throw against a spell or magical effect, you gain temporary Hit Points equal to double the spell\'s level, or equal to the level if the magical effect isn\'t a spell. These temporary Hit Points last until the end of your next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 19',
     prerequisites: 'Pervasive Superstition',
@@ -15689,7 +15689,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1294,
     text: [
-      'You lash out viciously even as you fend off death. Make a single melee Strike. If this Strike brings a foe to 0 Hit Points, this activation of Orc Ferocity doesn&apos;t count against its frequency.',
+      'You lash out viciously even as you fend off death. Make a single melee Strike. If this Strike brings a foe to 0 Hit Points, this activation of Orc Ferocity doesn\'t count against its frequency.',
     ],
     source: 'Advanced Player\'s Guide pg. 19',
     prerequisites: 'Orc Ferocity',
@@ -15713,7 +15713,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1296,
     text: [
-      'Years of packing for travel have taught you how to cram vast quantities into small spaces. You can fit an additional 50% of the listed Bulk capacity into mundane storage containers or vehicles. For example, you can fit 6 Bulk in a backpack, or 12 Bulk in a chest. This doesn&apos;t alter the items&apos; Bulk, nor does it change how much you can store in a magical or extradimensional storage space, such as a <i>bag of holding</i>.',
+      'Years of packing for travel have taught you how to cram vast quantities into small spaces. You can fit an additional 50% of the listed Bulk capacity into mundane storage containers or vehicles. For example, you can fit 6 Bulk in a backpack, or 12 Bulk in a chest. This doesn\'t alter the items\' Bulk, nor does it change how much you can store in a magical or extradimensional storage space, such as a bag of holding.',
     ],
     source: 'Advanced Player\'s Guide pg. 22',
   },
@@ -15735,7 +15735,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1298,
     text: [
-      'Years of experience among ratfolk communities have made you nimble, and you&apos;ve learned to run and hide when enemies threaten. You gain the trained proficiency rank in Acrobatics and Stealth. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Ratfolk Lore.',
+      'Years of experience among ratfolk communities have made you nimble, and you\'ve learned to run and hide when enemies threaten. You gain the trained proficiency rank in Acrobatics and Stealth. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Ratfolk Lore.',
     ],
     source: 'Advanced Player\'s Guide pg. 22',
   },
@@ -15757,7 +15757,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1300,
     text: [
-      'You&apos;re good with your hands and can quickly improvise a fix for broken or damaged equipment. You&apos;re trained in Crafting. If you would automatically become trained in Crafting (from your background or class, for example), you instead become trained in a skill of your choice. You can Repair an item without using a repair kit without taking the &#x2013;2 circumstance penalty, improvising tools from whatever you have at hand.',
+      'You\'re good with your hands and can quickly improvise a fix for broken or damaged equipment. You\'re trained in Crafting. If you would automatically become trained in Crafting (from your background or class, for example), you instead become trained in a skill of your choice. You can Repair an item without using a repair kit without taking the &#x2013;2 circumstance penalty, improvising tools from whatever you have at hand.',
     ],
     source: 'Advanced Player\'s Guide pg. 22',
   },
@@ -15768,7 +15768,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1301,
     text: [
-      'You&apos;ve let your incisors grow long enough to serve as formidable weapons. You gain a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the brawling group and have the finesse and unarmed traits. Unlike most creatures, you can file down your teeth and regrow them later on, enabling you to select this feat at any level, and to retrain into and out of this feat.',
+      'You\'ve let your incisors grow long enough to serve as formidable weapons. You gain a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the brawling group and have the finesse and unarmed traits. Unlike most creatures, you can file down your teeth and regrow them later on, enabling you to select this feat at any level, and to retrain into and out of this feat.',
     ],
     source: 'Advanced Player\'s Guide pg. 22',
   },
@@ -15779,7 +15779,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1302,
     text: [
-      'You&apos;re particularly good at solving mazes and navigating twists and turns. You gain the trained proficiency rank in Survival. If you would automatically become trained in Survival (from your background or class, for example), you become trained in another skill of your choice. When you Sense Direction or attempt a roll against a <i>maze</i> spell, you get a result one degree of success better than you rolled. You don&apos;t take a penalty to Sense Direction when you lack a compass.',
+      'You\'re particularly good at solving mazes and navigating twists and turns. You gain the trained proficiency rank in Survival. If you would automatically become trained in Survival (from your background or class, for example), you become trained in another skill of your choice. When you Sense Direction or attempt a roll against a maze spell, you get a result one degree of success better than you rolled. You don\'t take a penalty to Sense Direction when you lack a compass.',
     ],
     source: 'Advanced Player\'s Guide pg. 22',
   },
@@ -15790,7 +15790,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1303,
     text: [
-      'You&apos;ve spent more than your share of time in an alchemy lab. You might have been an alchemist yourself, an assistant, or perhaps even a test subject. Either way, you have been exposed to a wide variety of alchemical poisons and elixirs, leaving you with increased tolerance of their effects. You have a +1 circumstance bonus to saves against poison and harmful effects from elixirs. If you roll a success on your saving throw against an elixir or poison, you get a critical success instead.',
+      'You\'ve spent more than your share of time in an alchemy lab. You might have been an alchemist yourself, an assistant, or perhaps even a test subject. Either way, you have been exposed to a wide variety of alchemical poisons and elixirs, leaving you with increased tolerance of their effects. You have a +1 circumstance bonus to saves against poison and harmful effects from elixirs. If you roll a success on your saving throw against an elixir or poison, you get a critical success instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 23',
   },
@@ -15814,7 +15814,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1305,
     text: [
-      'There always seems to be a little rat around to carry messages for you. You can cast <i>animal messenger</i> once per day as a primal innate spell. When you do, the animal that responds is always a rat. If there are no rats within range, the spell is lost.',
+      'There always seems to be a little rat around to carry messages for you. You can cast animal messenger once per day as a primal innate spell. When you do, the animal that responds is always a rat. If there are no rats within range, the spell is lost.',
     ],
     source: 'Advanced Player\'s Guide pg. 23',
   },
@@ -15848,7 +15848,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1308,
     text: [
-      'You can transform into an innocuous-looking rat to scout an area or slip through tight spaces. You gain the effects of a 1st-level <i>pest form</i> spell, except that you must assume the battle form of a Tiny rat.',
+      'You can transform into an innocuous-looking rat to scout an area or slip through tight spaces. You gain the effects of a 1st-level pest form spell, except that you must assume the battle form of a Tiny rat.',
     ],
     source: 'Advanced Player\'s Guide pg. 23',
   },
@@ -15859,7 +15859,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1309,
     text: [
-      'You&apos;ve learned to put your sturdy claws to work digging through the earth. You gain a burrow Speed of 15 feet.',
+      'You\'ve learned to put your sturdy claws to work digging through the earth. You gain a burrow Speed of 15 feet.',
     ],
     source: 'Advanced Player\'s Guide pg. 23',
   },
@@ -15870,7 +15870,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1310,
     text: [
-      'You&apos;re always on the lookout for supplies and valuables. Each time you use the Seek action to search for objects (including secret doors and hazards), you can search for objects in your choice of a 10-foot emanation around you or an adjacent 15-foot-by-15-foot area, rather than a single adjacent 10-foot-by-10-foot area. ',
+      'You\'re always on the lookout for supplies and valuables. Each time you use the Seek action to search for objects (including secret doors and hazards), you can search for objects in your choice of a 10-foot emanation around you or an adjacent 15-foot-by-15-foot area, rather than a single adjacent 10-foot-by-10-foot area. ',
     ],
     source: 'Advanced Player\'s Guide pg. 26',
   },
@@ -15893,7 +15893,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1312,
     text: [
-      'Wind and lightning have always been close friends to you. You can cast the <i>electric arc</i> cantrip as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.',
+      'Wind and lightning have always been close friends to you. You can cast the electric arc cantrip as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.',
     ],
     source: 'Advanced Player\'s Guide pg. 26',
   },
@@ -15915,7 +15915,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1314,
     text: [
-      'You&apos;ve trained with a blade and other tengu weapons ever since you hatched. You gain access to khakkaras. Additionally, choose two weapons from the sword group. You can choose from among all common martial swords, plus the katana, temple sword, and wakizashi. For the purpose of determining your proficiency, that weapon is a simple weapon, and if the weapon isn&apos;t common, you gain access to it. If you are trained in all martial weapons, you add common advanced swords to the swords you can choose from.',
+      'You\'ve trained with a blade and other tengu weapons ever since you hatched. You gain access to khakkaras. Additionally, choose two weapons from the sword group. You can choose from among all common martial swords, plus the katana, temple sword, and wakizashi. For the purpose of determining your proficiency, that weapon is a simple weapon, and if the weapon isn\'t common, you gain access to it. If you are trained in all martial weapons, you add common advanced swords to the swords you can choose from.',
       ' You also gain access to all uncommon tengu weapons. For the purpose of determining your proficiency, martial tengu weapons are simple weapons, and advanced tengu weapons are martial weapons.',
     ],
     source: 'Advanced Player\'s Guide pg. 26',
@@ -15927,7 +15927,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1315,
     text: [
-      'As someone tries to twist fate, you consume the interference. The triggering effect is disrupted. If it&apos;s a misfortune effect, Eat Fortune gains the fortune trait; if it&apos;s a fortune effect, Eat Fortune gains the misfortune trait. This fortune or misfortune applies to the same roll the triggering effect would have, so you couldn&apos;t negate a fortune effect with Eat Fortune and then apply a misfortune effect to the same roll.',
+      'As someone tries to twist fate, you consume the interference. The triggering effect is disrupted. If it\'s a misfortune effect, Eat Fortune gains the fortune trait; if it\'s a fortune effect, Eat Fortune gains the misfortune trait. This fortune or misfortune applies to the same roll the triggering effect would have, so you couldn\'t negate a fortune effect with Eat Fortune and then apply a misfortune effect to the same roll.',
     ],
     source: 'Advanced Player\'s Guide pg. 26',
     frequency: 'once per day',
@@ -15940,7 +15940,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1316,
     text: [
-      'You can transform into a specific, curious-looking human form. This human form is the same age and body type as your tengu form and has roughly analogous physical traits, such as height, though your nose remains as long as your beak and your complexion has red undertones, no matter the skin color of your human form. Using Long-Nosed Form counts as creating a disguise for the Impersonate use of Deception. Due to your imperfect transformation, your transformation doesn&apos;t automatically defeat Perception DCs to determine whether you are human, though you may be able to explain away or hide your tengu traits. You lose your beak unarmed Strike in your human form, as well as any other unarmed Strikes you gained from a tengu heritage or ancestry feat. You can remain in your human form indefinitely, and you can shift back to your tengu form by using this action again.',
+      'You can transform into a specific, curious-looking human form. This human form is the same age and body type as your tengu form and has roughly analogous physical traits, such as height, though your nose remains as long as your beak and your complexion has red undertones, no matter the skin color of your human form. Using Long-Nosed Form counts as creating a disguise for the Impersonate use of Deception. Due to your imperfect transformation, your transformation doesn\'t automatically defeat Perception DCs to determine whether you are human, though you may be able to explain away or hide your tengu traits. You lose your beak unarmed Strike in your human form, as well as any other unarmed Strikes you gained from a tengu heritage or ancestry feat. You can remain in your human form indefinitely, and you can shift back to your tengu form by using this action again.',
     ],
     source: 'Advanced Player\'s Guide pg. 26',
   },
@@ -15962,7 +15962,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1318,
     text: [
-      'You&apos;ve learned techniques for using blades and other tengu weapons. Whenever you critically hit using one of the weapons from your Tengu Weapon Familiarity, you apply the weapon&apos;s critical specialization effect.',
+      'You\'ve learned techniques for using blades and other tengu weapons. Whenever you critically hit using one of the weapons from your Tengu Weapon Familiarity, you apply the weapon\'s critical specialization effect.',
     ],
     source: 'Advanced Player\'s Guide pg. 27',
     prerequisites: 'Tengu Weapon Familiarity',
@@ -15974,7 +15974,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1319,
     text: [
-      'You were always taught that you needed to be able to use whatever weapon came your way. You can change any of the swords designated in your Tengu Weapon Familiarity to different swords that meet the same specifications. You have to practice with a sword during your daily preparations to designate it, and the designation only lasts until your next daily preparations. This changes only your proficiency; it doesn&apos;t change your access.',
+      'You were always taught that you needed to be able to use whatever weapon came your way. You can change any of the swords designated in your Tengu Weapon Familiarity to different swords that meet the same specifications. You have to practice with a sword during your daily preparations to designate it, and the designation only lasts until your next daily preparations. This changes only your proficiency; it doesn\'t change your access.',
     ],
     source: 'Advanced Player\'s Guide pg. 27',
     prerequisites: 'Tengu Weapon Familiarity',
@@ -16011,7 +16011,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1322,
     text: [
-      'You take on the imposing form of a large, winged oni. Once per day, as part of using Long-Nosed Form, you also gain the benefits of 4th-level <i>enlarge</i> and <i>fly</i>. This lasts for 5 minutes or until you shift out of your Long-Nosed Form, whichever happens first.',
+      'You take on the imposing form of a large, winged oni. Once per day, as part of using Long-Nosed Form, you also gain the benefits of 4th-level enlarge and fly. This lasts for 5 minutes or until you shift out of your Long-Nosed Form, whichever happens first.',
     ],
     source: 'Advanced Player\'s Guide pg. 27',
     prerequisites: 'Long-Nosed Form',
@@ -16023,7 +16023,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1323,
     text: [
-      'Your mother was a sea hag, granting you one sea-green or blue eye. You find comfort both in the sea and on the shore. Whenever you roll a success on an Athletics check to Swim, you get a critical success instead. If you end your turn in water without having succeeded at a Swim action that round, you don&apos;t sink (but you might still be moved by the current).',
+      'Your mother was a sea hag, granting you one sea-green or blue eye. You find comfort both in the sea and on the shore. Whenever you roll a success on an Athletics check to Swim, you get a critical success instead. If you end your turn in water without having succeeded at a Swim action that round, you don\'t sink (but you might still be moved by the current).',
     ],
     source: 'Advanced Player\'s Guide pg. 31',
   },
@@ -16034,7 +16034,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1324,
     text: [
-      'You are among the most common of changelings&#x2014;those born to green hags&#x2014;and a vibrant green eye signifies that parentage. Your mother&apos;s manipulative nature and versatile voice gives you an edge when deceiving others. You gain the Charming Liar skill feat. If you roll Deception for initiative, foes in that combat encounter that haven&apos;t acted yet are flat-footed against you.',
+      'You are among the most common of changelings&#x2014;those born to green hags&#x2014;and a vibrant green eye signifies that parentage. Your mother\'s manipulative nature and versatile voice gives you an edge when deceiving others. You gain the Charming Liar skill feat. If you roll Deception for initiative, foes in that combat encounter that haven\'t acted yet are flat-footed against you.',
     ],
     source: 'Advanced Player\'s Guide pg. 31',
   },
@@ -16056,7 +16056,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1326,
     text: [
-      'You are the child of a night hag, making one of your eyes violet or even black. Your mother&apos;s powers over sleep and dreams have given you a degree of resistance to those effects, granting you a +2 circumstance bonus to all saving throws against sleep effects and effects that cause or alter dreams.',
+      'You are the child of a night hag, making one of your eyes violet or even black. Your mother\'s powers over sleep and dreams have given you a degree of resistance to those effects, granting you a +2 circumstance bonus to all saving throws against sleep effects and effects that cause or alter dreams.',
       ' In addition, sleep is more restorative for you. You regain HP equal to your Constitution modifier times double your level instead of just times your level, and you reduce any drained and doomed conditions you have by 2 instead of by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 31',
@@ -16081,7 +16081,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1328,
     text: [
-      'You&apos;ve nurtured the supernatural abilities gifted by your hag mother, particularly your sight. You gain darkvision.',
+      'You\'ve nurtured the supernatural abilities gifted by your hag mother, particularly your sight. You gain darkvision.',
     ],
     source: 'Advanced Player\'s Guide pg. 31',
   },
@@ -16103,7 +16103,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1330,
     text: [
-      'You have heard the Call, and in constantly resisting that persistent demand, you&apos;ve developed a mental bulwark against effects that would target your mind. You gain a +1 circumstance bonus to Will saving throws against mental effects. If you roll a success on your saving throw against a mental effect that would make you controlled, you get a critical success instead.',
+      'You have heard the Call, and in constantly resisting that persistent demand, you\'ve developed a mental bulwark against effects that would target your mind. You gain a +1 circumstance bonus to Will saving throws against mental effects. If you roll a success on your saving throw against a mental effect that would make you controlled, you get a critical success instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 31',
   },
@@ -16114,7 +16114,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1331,
     text: [
-      'You blend in with unnatural subtlety. When you are concealed or hidden, increase the DC of the flat check to target you to 6 if you&apos;re concealed or 12 if you&apos;re hidden.',
+      'You blend in with unnatural subtlety. When you are concealed or hidden, increase the DC of the flat check to target you to 6 if you\'re concealed or 12 if you\'re hidden.',
     ],
     source: 'Advanced Player\'s Guide pg. 31',
   },
@@ -16125,7 +16125,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1332,
     text: [
-      'Your claws carry your mother&apos;s hag magic. When you critically hit with a claw Strike, the target takes an additional 1d4 persistent mental damage.',
+      'Your claws carry your mother\'s hag magic. When you critically hit with a claw Strike, the target takes an additional 1d4 persistent mental damage.',
     ],
     source: 'Advanced Player\'s Guide pg. 31',
     prerequisites: 'claw unarmed attack',
@@ -16149,8 +16149,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1334,
     text: [
-      'Through your heritage, you can replicate some of a hag&apos;s magic. Choose one common spell of 4th level or lower from those available to a coven, including the spells contributed to a coven by a hag of your mother&apos;s type. You can cast this spell once per day as a 4th-level occult innate spell.',
-      ' Spells available to all covens are <i>augury</i>, <i>charm</i>, <i>clairaudience</i>, <i>clairvoyance</i>, <i>dream message</i>, and <i>illusory disguise</i>. The eligible spells granted by the most prominent types of hag are: <b>Sea Hag</b> <i>acid arrow</i>, <i>water walk</i>; <b>Green Hag</b> <i>entangle</i>, <i>outcast&apos;s curse</i>, <i>wall of thorns</i>; <b>Annis Hag</b> <i>earthbind</i>; <b>Night Hag</b> <i>nightmare</i>',
+      'Through your heritage, you can replicate some of a hag\'s magic. Choose one common spell of 4th level or lower from those available to a coven, including the spells contributed to a coven by a hag of your mother\'s type. You can cast this spell once per day as a 4th-level occult innate spell.',
+      ' Spells available to all covens are augury, charm, clairaudience, clairvoyance, dream message, and illusory disguise. The eligible spells granted by the most prominent types of hag are: <b>Sea Hag</b> acid arrow, water walk; <b>Green Hag</b> entangle, outcast\'s curse, wall of thorns; <b>Annis Hag</b> earthbind; <b>Night Hag</b> nightmare',
     ],
     source: 'Advanced Player\'s Guide pg. 31',
     sea_hag: '',
@@ -16190,7 +16190,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1337,
     text: [
-      'You descend from one of the truly ancient vampires, a nosferatu cursed to eternal life but not eternal youth. People call you straveika, or ancient-born. The vestiges of your forebear&apos;s powers of domination have left you with an understanding of how a creature&apos;s intentions change its behaviors. You gain a +1 circumstance bonus to Perception checks to Sense Motive and Perception DCs against attempts to Lie to you.',
+      'You descend from one of the truly ancient vampires, a nosferatu cursed to eternal life but not eternal youth. People call you straveika, or ancient-born. The vestiges of your forebear\'s powers of domination have left you with an understanding of how a creature\'s intentions change its behaviors. You gain a +1 circumstance bonus to Perception checks to Sense Motive and Perception DCs against attempts to Lie to you.',
     ],
     source: 'Advanced Player\'s Guide pg. 33',
   },
@@ -16212,7 +16212,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1339,
     text: [
-      'You were raised by your vampiric parent, or you&apos;ve invested substantial time and energy researching the secrets of your undead progenitors. You gain the trained proficiency rank in Religion and Society. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Vampire Lore.',
+      'You were raised by your vampiric parent, or you\'ve invested substantial time and energy researching the secrets of your undead progenitors. You gain the trained proficiency rank in Religion and Society. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Vampire Lore.',
     ],
     source: 'Advanced Player\'s Guide pg. 33',
   },
@@ -16234,7 +16234,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1341,
     text: [
-      'The powers of domination employed by your progenitors have manifested in you as well. Once per day, you can cast <i>charm</i> as a 1st-level divine innate spell.',
+      'The powers of domination employed by your progenitors have manifested in you as well. Once per day, you can cast charm as a 1st-level divine innate spell.',
     ],
     source: 'Advanced Player\'s Guide pg. 33',
   },
@@ -16267,7 +16267,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1344,
     text: [
-      'You emulate your vampiric parent&apos;s techniques for drawing blood from a victim. Your fangs Strikes deal an additional 1d4 persistent bleed damage on a critical hit.',
+      'You emulate your vampiric parent\'s techniques for drawing blood from a victim. Your fangs Strikes deal an additional 1d4 persistent bleed damage on a critical hit.',
     ],
     source: 'Advanced Player\'s Guide pg. 33',
     prerequisites: 'fangs unarmed attack',
@@ -16279,7 +16279,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1345,
     text: [
-      'You can tap into the magic that runs through your blood. You gain <i>animal form</i> (wolf only, using the statistics for a canine) and <i>obscuring mist</i> as 2nd-level divine innate spells. You can cast each of these spells once per day.',
+      'You can tap into the magic that runs through your blood. You gain animal form (wolf only, using the statistics for a canine) and obscuring mist as 2nd-level divine innate spells. You can cast each of these spells once per day.',
     ],
     source: 'Advanced Player\'s Guide pg. 33',
   },
@@ -16290,7 +16290,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1346,
     text: [
-      'You can transform into a harmless bat. You gain the effects of a 4th-level <i>pest form</i>, except you always transform into a bat.',
+      'You can transform into a harmless bat. You gain the effects of a 4th-level pest form, except you always transform into a bat.',
     ],
     source: 'Advanced Player\'s Guide pg. 33',
     frequency: 'once per hour',
@@ -16302,7 +16302,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1347,
     text: [
-      'You call forth the blood of your foes to grant you vigor. Once per day, you can cast <i>vampiric exsanguination</i> as a 7th-level divine innate spell.',
+      'You call forth the blood of your foes to grant you vigor. Once per day, you can cast vampiric exsanguination as a 7th-level divine innate spell.',
     ],
     source: 'Advanced Player\'s Guide pg. 33',
   },
@@ -16336,7 +16336,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1350,
     text: [
-      'You were raised with an aasimar or celestial relative, or you&apos;ve devoted yourself to researching the secrets of the celestial realms. You gain the trained proficiency rank in Diplomacy and Religion. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in a Lore skill related to the celestial realm from which you trace your lineage (usually Elysium Lore, Heaven Lore, or Nirvana Lore).',
+      'You were raised with an aasimar or celestial relative, or you\'ve devoted yourself to researching the secrets of the celestial realms. You gain the trained proficiency rank in Diplomacy and Religion. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in a Lore skill related to the celestial realm from which you trace your lineage (usually Elysium Lore, Heaven Lore, or Nirvana Lore).',
     ],
     source: 'Advanced Player\'s Guide pg. 35',
   },
@@ -16347,7 +16347,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1351,
     text: [
-      'You are surrounded by a halo of light and goodness at all times. Your halo sheds light with the effects of a divine <i>light</i> cantrip. A cantrip is heightened to a spell level equal to half your level rounded up. You can suppress or reestablish the halo with a single action, which has the concentrate trait.',
+      'You are surrounded by a halo of light and goodness at all times. Your halo sheds light with the effects of a divine light cantrip. A cantrip is heightened to a spell level equal to half your level rounded up. You can suppress or reestablish the halo with a single action, which has the concentrate trait.',
     ],
     source: 'Advanced Player\'s Guide pg. 35',
   },
@@ -16403,7 +16403,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1356,
     text: [
-      'You can call forth a benediction upon your allies, whether you pray to a deity of the celestial realms or just find the power within yourself. You can cast <i>bless</i> once per day as a 1st-level divine innate spell.',
+      'You can call forth a benediction upon your allies, whether you pray to a deity of the celestial realms or just find the power within yourself. You can cast bless once per day as a 1st-level divine innate spell.',
     ],
     source: 'Advanced Player\'s Guide pg. 36',
   },
@@ -16414,7 +16414,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1357,
     text: [
-      'You can tap into the magic of angels that runs through your blood. You can cast <i>humanoid form</i> and <i>remove fear</i> each once per day as 2nd-level divine innate spells.',
+      'You can tap into the magic of angels that runs through your blood. You can cast humanoid form and remove fear each once per day as 2nd-level divine innate spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 36',
     prerequisites: 'Angelkin',
@@ -16426,7 +16426,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1358,
     text: [
-      'You can tap into the heavenly magic that is your birthright. You can cast <i>continual flame</i> and <i>shield other</i> each once per day as 2nd-level divine innate spells.',
+      'You can tap into the heavenly magic that is your birthright. You can cast continual flame and shield other each once per day as 2nd-level divine innate spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 36',
     prerequisites: 'Lawbringer',
@@ -16438,7 +16438,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1359,
     text: [
-      'Your lineage traces back to the realm of Elysium, and you can harness its magic using this connection. You can cast <i>glitterdust</i> and <i>remove paralysis</i> each once per day as 2nd-level divine innate spells.',
+      'Your lineage traces back to the realm of Elysium, and you can harness its magic using this connection. You can cast glitterdust and remove paralysis each once per day as 2nd-level divine innate spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 36',
     prerequisites: 'Musetouched',
@@ -16450,7 +16450,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1360,
     text: [
-      'With effort, you can call forth magical wings from your back, similar in appearance to those of your celestial forebears. These wings remain for 10 minutes. You gain a fly Speed equal to your Speed while you&apos;ve manifested your wings.',
+      'With effort, you can call forth magical wings from your back, similar in appearance to those of your celestial forebears. These wings remain for 10 minutes. You gain a fly Speed equal to your Speed while you\'ve manifested your wings.',
     ],
     source: 'Advanced Player\'s Guide pg. 36',
     frequency: 'once per day',
@@ -16462,7 +16462,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1361,
     text: [
-      'You&apos;ve studied your celestial heritage with the intent of better defending yourself, and you&apos;ve found that your techniques are equally powerful against celestials, fiends, and other divine entities. You gain a +1 circumstance bonus to all saving throws against divine effects.',
+      'You\'ve studied your celestial heritage with the intent of better defending yourself, and you\'ve found that your techniques are equally powerful against celestials, fiends, and other divine entities. You gain a +1 circumstance bonus to all saving throws against divine effects.',
     ],
     source: 'Advanced Player\'s Guide pg. 36',
   },
@@ -16473,7 +16473,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1362,
     text: [
-      'Your celestial powers allow you to remove lesser afflictions with ease. Each day, you can cast two 4th-level divine innate spells. You can choose from the following spells each time you cast: <i>remove curse</i>, <i>remove disease</i>, and <i>neutralize poison</i>.',
+      'Your celestial powers allow you to remove lesser afflictions with ease. Each day, you can cast two 4th-level divine innate spells. You can choose from the following spells each time you cast: remove curse, remove disease, and neutralize poison.',
     ],
     source: 'Advanced Player\'s Guide pg. 36',
   },
@@ -16495,7 +16495,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1364,
     text: [
-      'You have a connection to the celestial realms, allowing you to summon a celestial ally. Once per day, you can cast <i>summon celestial</i> as a 5th-level divine innate spell, but the celestial summoned must be from the same category as your own lineage, such as a creature with the angel trait if you are angelkin.',
+      'You have a connection to the celestial realms, allowing you to summon a celestial ally. Once per day, you can cast summon celestial as a 5th-level divine innate spell, but the celestial summoned must be from the same category as your own lineage, such as a creature with the angel trait if you are angelkin.',
     ],
     source: 'Advanced Player\'s Guide pg. 36',
     prerequisites: 'any aasimar lineage feat',
@@ -16507,7 +16507,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1365,
     text: [
-      'You can call forth a holy word from the celestial realms to punish your foes. Once per day, you can cast <i>divine decree</i> as a 7th-level divine innate spell. You must choose good for the spell&apos;s alignment, and you can Cast the Spell regardless of whether you worship a deity or what their alignment is.',
+      'You can call forth a holy word from the celestial realms to punish your foes. Once per day, you can cast divine decree as a 7th-level divine innate spell. You must choose good for the spell\'s alignment, and you can Cast the Spell regardless of whether you worship a deity or what their alignment is.',
     ],
     source: 'Advanced Player\'s Guide pg. 36',
   },
@@ -16541,7 +16541,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1368,
     text: [
-      'Your connection to the Boneyard ensures that your blows strike true against spectral beings. Your weapon and unarmed attack Strikes against incorporeal creatures become magical. If they are already magical, they instead gain the effects of a <i>ghost touch</i> property rune.',
+      'Your connection to the Boneyard ensures that your blows strike true against spectral beings. Your weapon and unarmed attack Strikes against incorporeal creatures become magical. If they are already magical, they instead gain the effects of a ghost touch property rune.',
     ],
     source: 'Advanced Player\'s Guide pg. 38',
   },
@@ -16566,7 +16566,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1370,
     text: [
-      'You have a limited ability to sense life force, like your psychopomp forebears. You gain lifesense as an imprecise sense with a range of 10 feet. This allows you to sense the life force within living creatures and its counterforce that animates the undead, though you can&apos;t distinguish between the two.',
+      'You have a limited ability to sense life force, like your psychopomp forebears. You gain lifesense as an imprecise sense with a range of 10 feet. This allows you to sense the life force within living creatures and its counterforce that animates the undead, though you can\'t distinguish between the two.',
     ],
     source: 'Advanced Player\'s Guide pg. 38',
   },
@@ -16577,7 +16577,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1371,
     text: [
-      'You are attuned to the minute sounds and sensations of restless spirits. Even if you aren&apos;t Searching, you can attempt a check to find haunts that normally require you to be Searching. You still need to meet any other requirements to find the haunt.',
+      'You are attuned to the minute sounds and sensations of restless spirits. Even if you aren\'t Searching, you can attempt a check to find haunts that normally require you to be Searching. You still need to meet any other requirements to find the haunt.',
     ],
     source: 'Advanced Player\'s Guide pg. 38',
   },
@@ -16588,7 +16588,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1372,
     text: [
-      'Your soul is warded against the power of undeath and plague, as well as that of the evil former psychopomps known as sahkils. You gain a +1 circumstance bonus to saving throws against death effects, disease, and all effects from undead or sahkils. This bonus increases to +2 against an undead or sahkil&apos;s death effect or disease.',
+      'Your soul is warded against the power of undeath and plague, as well as that of the evil former psychopomps known as sahkils. You gain a +1 circumstance bonus to saving throws against death effects, disease, and all effects from undead or sahkils. This bonus increases to +2 against an undead or sahkil\'s death effect or disease.',
     ],
     source: 'Advanced Player\'s Guide pg. 38',
   },
@@ -16599,7 +16599,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1373,
     text: [
-      'Your connection to psychopomps gives you the power to glimpse the near future and protect corpses from the ravages of undeath. You can cast <i>augury</i> and <i>gentle repose</i> each once per day as 2nd-level divine innate spells.',
+      'Your connection to psychopomps gives you the power to glimpse the near future and protect corpses from the ravages of undeath. You can cast augury and gentle repose each once per day as 2nd-level divine innate spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 38',
   },
@@ -16621,7 +16621,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1375,
     text: [
-      'Your duskwalker heritage allows you to extend protection against negative energy to yourself or an ally in need. You gain resistance 5 to negative energy, and once per day, you can cast <i>death ward</i> as a divine innate spell.',
+      'Your duskwalker heritage allows you to extend protection against negative energy to yourself or an ally in need. You gain resistance 5 to negative energy, and once per day, you can cast death ward as a divine innate spell.',
     ],
     source: 'Advanced Player\'s Guide pg. 38',
   },
@@ -16632,7 +16632,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1376,
     text: [
-      'You have a powerful connection to the Boneyard and its courts, granting you the ability to travel to and from the Boneyard. You gain <i>plane shift</i> as a divine innate spell. You can cast it twice per week. This can be used only to travel to the Boneyard or from the Boneyard to the Material Plane. Due to your unique connection to the Boneyard, your body serves as the focus, and you don&apos;t require a tuning fork.',
+      'You have a powerful connection to the Boneyard and its courts, granting you the ability to travel to and from the Boneyard. You gain plane shift as a divine innate spell. You can cast it twice per week. This can be used only to travel to the Boneyard or from the Boneyard to the Material Plane. Due to your unique connection to the Boneyard, your body serves as the focus, and you don\'t require a tuning fork.',
     ],
     source: 'Advanced Player\'s Guide pg. 38',
   },
@@ -16657,7 +16657,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1378,
     text: [
-      'You were raised by a tiefling or a fiendish relative, or you&apos;ve devoted yourself to researching the secrets of the fiendish realms. You gain the trained proficiency rank in Intimidation and Religion. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in a Lore skill related to the fiendish plane from which you trace your lineage (usually Abaddon Lore, Abyss Lore, or Hell Lore).',
+      'You were raised by a tiefling or a fiendish relative, or you\'ve devoted yourself to researching the secrets of the fiendish realms. You gain the trained proficiency rank in Intimidation and Religion. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in a Lore skill related to the fiendish plane from which you trace your lineage (usually Abaddon Lore, Abyss Lore, or Hell Lore).',
     ],
     source: 'Advanced Player\'s Guide pg. 39',
   },
@@ -16697,7 +16697,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1381,
     text: [
-      'Your lineage descends from devils, the conniving schemers of Hell&apos;s malevolent hierarchy. You&apos;re as skilled at noticing lies and twisted wordings as you are at constructing them. You are trained in Deception and Legal Lore. If you were already trained in Deception (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the Lie to Me skill feat.',
+      'Your lineage descends from devils, the conniving schemers of Hell\'s malevolent hierarchy. You\'re as skilled at noticing lies and twisted wordings as you are at constructing them. You are trained in Deception and Legal Lore. If you were already trained in Deception (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the Lie to Me skill feat.',
     ],
     source: 'Advanced Player\'s Guide pg. 40',
   },
@@ -16745,7 +16745,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1385,
     text: [
-      'Whether your heart is pure or corrupt, you can call forth a malediction upon your foes. You can cast <i>bane</i> once per day as a 1st-level divine innate spell.',
+      'Whether your heart is pure or corrupt, you can call forth a malediction upon your foes. You can cast bane once per day as a 1st-level divine innate spell.',
     ],
     source: 'Advanced Player\'s Guide pg. 40',
   },
@@ -16756,7 +16756,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1386,
     text: [
-      'You&apos;ve always had a tail, but with practice, you&apos;ve learned to use it for more than signaling your mood. You can perform simple Interact actions with your tail such as opening an unlocked door. Your tail can&apos;t perform actions that require fingers or significant manual dexterity, including any action that would require a check to accomplish, and you can&apos;t use it to hold items.',
+      'You\'ve always had a tail, but with practice, you\'ve learned to use it for more than signaling your mood. You can perform simple Interact actions with your tail such as opening an unlocked door. Your tail can\'t perform actions that require fingers or significant manual dexterity, including any action that would require a check to accomplish, and you can\'t use it to hold items.',
     ],
     source: 'Advanced Player\'s Guide pg. 40',
   },
@@ -16767,7 +16767,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1387,
     text: [
-      'The magic of Abaddon runs through your blood, and you can wield that power. You can cast <i>death knell</i> and <i>false life</i> each once per day as 2nd-level divine innate spells.',
+      'The magic of Abaddon runs through your blood, and you can wield that power. You can cast death knell and false life each once per day as 2nd-level divine innate spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 40',
     prerequisites: 'Grimspawn',
@@ -16779,7 +16779,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1388,
     text: [
-      'You can channel the power of the Abyss through your heritage, producing terrible tangible effects. You can cast <i>paranoia</i> and <i>shatter</i> each once per day as 2nd-level divine innate spells.',
+      'You can channel the power of the Abyss through your heritage, producing terrible tangible effects. You can cast paranoia and shatter each once per day as 2nd-level divine innate spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 40',
     prerequisites: 'Pitborn',
@@ -16791,7 +16791,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1389,
     text: [
-      'Drawing on the infernal power of your sinister forbears, you mislead your foes with magical deception. You can cast <i>invisibility</i> and <i>misdirection</i> each once per day as 2nd-level divine innate spells.',
+      'Drawing on the infernal power of your sinister forbears, you mislead your foes with magical deception. You can cast invisibility and misdirection each once per day as 2nd-level divine innate spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 41',
     prerequisites: 'Hellspawn',
@@ -16803,7 +16803,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1390,
     text: [
-      'You can strain to call forth bat-like or otherwise fiendish wings from your back, similar in appearance to those of your fiendish ancestors. Once manifested, these wings remain for 10 minutes. You gain a fly Speed equal to your land Speed while you&apos;ve manifested your wings.',
+      'You can strain to call forth bat-like or otherwise fiendish wings from your back, similar in appearance to those of your fiendish ancestors. Once manifested, these wings remain for 10 minutes. You gain a fly Speed equal to your land Speed while you\'ve manifested your wings.',
     ],
     source: 'Advanced Player\'s Guide pg. 41',
     frequency: 'once per day',
@@ -16815,7 +16815,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1391,
     text: [
-      'You&apos;ve battled the fiendish power within your nature and come out on top; whatever you decide to do with your life, for good or evil, will be your choice and your choice alone. This struggle has granted you powerful resistance against the divine. You gain a +1 circumstance bonus to all saving throws against divine effects.',
+      'You\'ve battled the fiendish power within your nature and come out on top; whatever you decide to do with your life, for good or evil, will be your choice and your choice alone. This struggle has granted you powerful resistance against the divine. You gain a +1 circumstance bonus to all saving throws against divine effects.',
     ],
     source: 'Advanced Player\'s Guide pg. 41',
   },
@@ -16826,7 +16826,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1392,
     text: [
-      'Like many fiends, you have the supernatural ability to teleport yourself to safety. Once per day, you can cast <i>dimension door</i> as a 5th-level divine innate spell.',
+      'Like many fiends, you have the supernatural ability to teleport yourself to safety. Once per day, you can cast dimension door as a 5th-level divine innate spell.',
     ],
     source: 'Advanced Player\'s Guide pg. 41',
   },
@@ -16848,7 +16848,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1394,
     text: [
-      'You have a deep connection to the fiendish realms, allowing you to summon a fiend matching your own lineage. Once per day, you can cast <i>summon fiend</i> as a 5th-level divine innate spell. The fiend you summon must match your own lineage.',
+      'You have a deep connection to the fiendish realms, allowing you to summon a fiend matching your own lineage. Once per day, you can cast summon fiend as a 5th-level divine innate spell. The fiend you summon must match your own lineage.',
     ],
     source: 'Advanced Player\'s Guide pg. 41',
     prerequisites: 'any tiefling lineage feat',
@@ -16860,7 +16860,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1395,
     text: [
-      'You can call forth a blasphemous word from the fiendish realms to punish your foes. Once per day, you can cast <i>divine decree</i> as a 7th-level divine innate spell. You must choose evil for the spell, and you can Cast the Spell regardless of whether you have a deity or what their alignment is.',
+      'You can call forth a blasphemous word from the fiendish realms to punish your foes. Once per day, you can cast divine decree as a 7th-level divine innate spell. You must choose evil for the spell, and you can Cast the Spell regardless of whether you have a deity or what their alignment is.',
     ],
     source: 'Advanced Player\'s Guide pg. 41',
   },
@@ -16894,7 +16894,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1398,
     text: [
-      'You know good artisanship when you see it and can wax poetic about crafting techniques and forms. You become trained in Crafting and gain a +1 circumstance bonus on all Crafting checks made to Recall Knowledge. If you would automatically become trained in Crafting (from your background or class, for example), you instead become trained in a skill of your choice. In addition, you gain the Crafter&apos;s Appraisal skill feat, enabling you to identify magic items using the Crafting skill.',
+      'You know good artisanship when you see it and can wax poetic about crafting techniques and forms. You become trained in Crafting and gain a +1 circumstance bonus on all Crafting checks made to Recall Knowledge. If you would automatically become trained in Crafting (from your background or class, for example), you instead become trained in a skill of your choice. In addition, you gain the Crafter\'s Appraisal skill feat, enabling you to identify magic items using the Crafting skill.',
     ],
     source: 'Advanced Player\'s Guide pg. 42',
   },
@@ -16905,7 +16905,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1399,
     text: [
-      'Using ancient dwarven methods developed to fight enemies wielding magical darkness, you&apos;ve honed your darkvision and sworn not to use such magic yourself. You gain greater darkvision, enabling you to see through magical darkness even if it normally hampers darkvision (such as the darkness created by a 4th-level <i>darkness</i> spell). You can&apos;t cast spells with the darkness trait, use item activations with the darkness trait, or use any other ability with the darkness trait.',
+      'Using ancient dwarven methods developed to fight enemies wielding magical darkness, you\'ve honed your darkvision and sworn not to use such magic yourself. You gain greater darkvision, enabling you to see through magical darkness even if it normally hampers darkvision (such as the darkness created by a 4th-level darkness spell). You can\'t cast spells with the darkness trait, use item activations with the darkness trait, or use any other ability with the darkness trait.',
     ],
     source: 'Advanced Player\'s Guide pg. 42',
     prerequisites: 'darkvision',
@@ -16917,7 +16917,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1400,
     text: [
-      'You can use your knowledge of engineering and metalwork to temporarily strengthen thick objects and structures. By spending 1 hour working on an item, you can give it a +1 circumstance bonus to its Hardness for 24 hours. If you&apos;re a master in Crafting, the bonus is +2, and if you&apos;re legendary, the bonus is +3. You can reinforce a portion of a structure, though 1 hour usually reinforces only a door, a few windows, or another section that fits within a 10-foot cube.',
+      'You can use your knowledge of engineering and metalwork to temporarily strengthen thick objects and structures. By spending 1 hour working on an item, you can give it a +1 circumstance bonus to its Hardness for 24 hours. If you\'re a master in Crafting, the bonus is +2, and if you\'re legendary, the bonus is +3. You can reinforce a portion of a structure, though 1 hour usually reinforces only a door, a few windows, or another section that fits within a 10-foot cube.',
     ],
     source: 'Advanced Player\'s Guide pg. 42',
     prerequisites: 'expert in Crafting',
@@ -16929,7 +16929,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1401,
     text: [
-      'The stone around you is your ally, and you have learned to use it to shore up your weaknesses. As long as you remain on the ground and are adjacent to a vertical stone wall that rises to your height or taller, you aren&apos;t flat-footed against attacks as a result of being flanked. This works even if you are at the outside corner of the wall.',
+      'The stone around you is your ally, and you have learned to use it to shore up your weaknesses. As long as you remain on the ground and are adjacent to a vertical stone wall that rises to your height or taller, you aren\'t flat-footed against attacks as a result of being flanked. This works even if you are at the outside corner of the wall.',
     ],
     source: 'Advanced Player\'s Guide pg. 42',
   },
@@ -16986,7 +16986,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1406,
     text: [
-      'Earthen barriers no longer impede your progress. You gain <i>passwall</i> as a 7th-level divine innate spell that you can cast once per day. Unlike the spell, however, this ability can be used only to open passages through barriers of earth or stone.',
+      'Earthen barriers no longer impede your progress. You gain passwall as a 7th-level divine innate spell that you can cast once per day. Unlike the spell, however, this ability can be used only to open passages through barriers of earth or stone.',
     ],
     source: 'Advanced Player\'s Guide pg. 42',
     prerequisites: 'Stonewalker',
@@ -16998,7 +16998,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1407,
     text: [
-      'Over your extensive lifespan, you&apos;ve studied many languages. During your daily preparations, you can recede into old memories to become fluent in one common language or one other language you have access to. You know this language until you prepare again. Since this knowledge is temporary, you can&apos;t use it as a prerequisite for a permanent character option.',
+      'Over your extensive lifespan, you\'ve studied many languages. During your daily preparations, you can recede into old memories to become fluent in one common language or one other language you have access to. You know this language until you prepare again. Since this knowledge is temporary, you can\'t use it as a prerequisite for a permanent character option.',
     ],
     source: 'Advanced Player\'s Guide pg. 43',
     prerequisites: 'at least 100 years old',
@@ -17010,7 +17010,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1408,
     text: [
-      'As much as you might care for them, you&apos;ve come to terms with the ephemeral nature of non-elves, and it makes their threats feel less troublesome. If a non-elf rolls a failure on a check to Coerce you using Intimidation, it gets a critical failure instead (and thus can&apos;t try to Coerce you again for 1 week). When a non-elf attempts to Demoralize you, you become temporarily immune for 1 day, instead of 10 minutes.',
+      'As much as you might care for them, you\'ve come to terms with the ephemeral nature of non-elves, and it makes their threats feel less troublesome. If a non-elf rolls a failure on a check to Coerce you using Intimidation, it gets a critical failure instead (and thus can\'t try to Coerce you again for 1 week). When a non-elf attempts to Demoralize you, you become temporarily immune for 1 day, instead of 10 minutes.',
     ],
     source: 'Advanced Player\'s Guide pg. 43',
   },
@@ -17021,7 +17021,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1409,
     text: [
-      'You&apos;ve spent countless hours studying the history of elves on your world and beyond and are a studied expert in your people&apos;s ways. If you critically fail a check to Recall Knowledge about elves, elven society, or elven history, you get a failure instead.',
+      'You\'ve spent countless hours studying the history of elves on your world and beyond and are a studied expert in your people\'s ways. If you critically fail a check to Recall Knowledge about elves, elven society, or elven history, you get a failure instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 43',
   },
@@ -17032,7 +17032,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1410,
     text: [
-      'Long-lived elves have seen civilizations rise and fall, often at the hands of outside forces. As a result, they have developed a wariness of others who might seek to influence or control them. You&apos;ve been trained to resist such manipulation, gaining a +2 circumstance bonus to saving throws against effects that would make you controlled, such as <i>dominate</i>, and to Perception checks to Sense Motive when trying to determine if a creature is under the influence of such an effect. When you roll a success on a saving throw against such an effect, you get a critical success instead.',
+      'Long-lived elves have seen civilizations rise and fall, often at the hands of outside forces. As a result, they have developed a wariness of others who might seek to influence or control them. You\'ve been trained to resist such manipulation, gaining a +2 circumstance bonus to saving throws against effects that would make you controlled, such as dominate, and to Perception checks to Sense Motive when trying to determine if a creature is under the influence of such an effect. When you roll a success on a saving throw against such an effect, you get a critical success instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 43',
   },
@@ -17043,7 +17043,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1411,
     text: [
-      'You&apos;ve crossed blades with a wide variety of foes wielding a wide variety of weapons, and you&apos;ve learned the basics of fighting with nearly any of them. When wielding a weapon you aren&apos;t proficient with, treat your level as your proficiency bonus.',
+      'You\'ve crossed blades with a wide variety of foes wielding a wide variety of weapons, and you\'ve learned the basics of fighting with nearly any of them. When wielding a weapon you aren\'t proficient with, treat your level as your proficiency bonus.',
       ' At 11th level, you become trained in all weapons.',
     ],
     source: 'Advanced Player\'s Guide pg. 43',
@@ -17068,7 +17068,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1413,
     text: [
-      'You&apos;ve spent much of your life among the treetops and have become an expert at quickly and safely climbing them. You gain a climb Speed of 10 feet.',
+      'You\'ve spent much of your life among the treetops and have become an expert at quickly and safely climbing them. You gain a climb Speed of 10 feet.',
     ],
     source: 'Advanced Player\'s Guide pg. 43',
   },
@@ -17079,7 +17079,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1414,
     text: [
-      'Though you know that you will eventually outlive your companions, seeing them at death&apos;s door brings clarity to your attacks. Make a Strike. Roll twice on the attack roll and use the higher result.',
+      'Though you know that you will eventually outlive your companions, seeing them at death\'s door brings clarity to your attacks. Make a Strike. Roll twice on the attack roll and use the higher result.',
     ],
     source: 'Advanced Player\'s Guide pg. 43',
     frequency: 'once every 10 minutes',
@@ -17092,7 +17092,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1415,
     text: [
-      'Your people used powerful magic to travel between distant worlds, and the remnants of that magic make such transportation easier for you. When you are the target of a teleportation spell that transports more than one person, it can affect an additional person beyond the normal limit, chosen by the caster. Additionally, when you&apos;re the target of a <i>teleport</i> spell, you and the other targets arrive no farther than 1 mile off target, regardless of distance traveled.',
+      'Your people used powerful magic to travel between distant worlds, and the remnants of that magic make such transportation easier for you. When you are the target of a teleportation spell that transports more than one person, it can affect an additional person beyond the normal limit, chosen by the caster. Additionally, when you\'re the target of a teleport spell, you and the other targets arrive no farther than 1 mile off target, regardless of distance traveled.',
     ],
     source: 'Advanced Player\'s Guide pg. 43',
   },
@@ -17103,7 +17103,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1416,
     text: [
-      'The way you cringe or use those puppydog eyes you&apos;ve been practicing elicits an empathetic response in the attacker. Attempt a Diplomacy check against your attacker&apos;s Will DC.',
+      'The way you cringe or use those puppydog eyes you\'ve been practicing elicits an empathetic response in the attacker. Attempt a Diplomacy check against your attacker\'s Will DC.',
     ],
     source: 'Advanced Player\'s Guide pg. 44',
     prerequisites: 'trained in Diplomacy',
@@ -17123,7 +17123,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1417,
     text: [
-      'You&apos;ve spent considerable time practicing the manipulation of light, weaponizing your blade&apos;s reflection or bolstering the luminosity of magical displays to unconventional heights. Extend the duration of the blinded or dazzled condition you give the target by 1 round.',
+      'You\'ve spent considerable time practicing the manipulation of light, weaponizing your blade\'s reflection or bolstering the luminosity of magical displays to unconventional heights. Extend the duration of the blinded or dazzled condition you give the target by 1 round.',
     ],
     source: 'Advanced Player\'s Guide pg. 44',
     frequency: 'once per hour',
@@ -17136,7 +17136,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1418,
     text: [
-      'Where others etch their armor to serve as a conduit for their imaginations, your vivid mind and bold personality allow you to project a more fitting persona over your lackluster armor. You change the shape and appearance of your armor to appear as ordinary or fine clothes of your imagining. The armor&apos;s statistics don&apos;t change. This effect lasts as long as you remain conscious and are wearing the armor. A creature can disbelieve the illusion by Seeking or touching your armor. The DC equals your Will DC.',
+      'Where others etch their armor to serve as a conduit for their imaginations, your vivid mind and bold personality allow you to project a more fitting persona over your lackluster armor. You change the shape and appearance of your armor to appear as ordinary or fine clothes of your imagining. The armor\'s statistics don\'t change. This effect lasts as long as you remain conscious and are wearing the armor. A creature can disbelieve the illusion by Seeking or touching your armor. The DC equals your Will DC.',
     ],
     source: 'Advanced Player\'s Guide pg. 44',
   },
@@ -17147,7 +17147,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1419,
     text: [
-      'You&apos;ve learned a few magical techniques for getting yourself both into and out of trouble unnoticed. You gain <i>misdirection</i> and <i>silence</i> as 2nd-level arcane or occult innate spells. The tradition of these spells must match the tradition you use for your gnome ancestry options. You can cast each spell once per day and can target only yourself.',
+      'You\'ve learned a few magical techniques for getting yourself both into and out of trouble unnoticed. You gain misdirection and silence as 2nd-level arcane or occult innate spells. The tradition of these spells must match the tradition you use for your gnome ancestry options. You can cast each spell once per day and can target only yourself.',
     ],
     source: 'Advanced Player\'s Guide pg. 44',
     prerequisites:
@@ -17160,8 +17160,8 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1420,
     text: [
-      'You phase through a space that a living creature occupies in a flash, spontaneously appearing on the opposite side of it in a vibrant display of colorful light. You move from your current location to another location that&apos;s still adjacent to the same living creature, but on the opposite side or corner of the creature&apos;s space. To determine whether a position is valid, use the same rules as for flanking: a line through the center of the two spaces must pass through opposite sides or corners of the creature&apos;s space.',
-      ' You pass through the creature&apos;s life force, appearing in the selected location; this doesn&apos;t trigger reactions based on movement. You must be able to see your destination, and you can&apos;t move farther than your Speed would allow.',
+      'You phase through a space that a living creature occupies in a flash, spontaneously appearing on the opposite side of it in a vibrant display of colorful light. You move from your current location to another location that\'s still adjacent to the same living creature, but on the opposite side or corner of the creature\'s space. To determine whether a position is valid, use the same rules as for flanking: a line through the center of the two spaces must pass through opposite sides or corners of the creature\'s space.',
+      ' You pass through the creature\'s life force, appearing in the selected location; this doesn\'t trigger reactions based on movement. You must be able to see your destination, and you can\'t move farther than your Speed would allow.',
     ],
     source: 'Advanced Player\'s Guide pg. 44',
     requirements: 'You must be adjacent to a living creature.',
@@ -17173,7 +17173,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1421,
     text: [
-      'The magic within you manifests as a natural reaction to threats. You gain the effects of <i>mirror image</i> but with two images instead of three. The tradition of this action matches the tradition of your gnome ancestry options.',
+      'The magic within you manifests as a natural reaction to threats. You gain the effects of mirror image but with two images instead of three. The tradition of this action matches the tradition of your gnome ancestry options.',
     ],
     source: 'Advanced Player\'s Guide pg. 44',
     frequency: 'once per day',
@@ -17188,7 +17188,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1422,
     text: [
-      'The connection between you and the First World resonates within your body stronger than it does for most gnomes, allowing you to cross the threshold between the Material Plane and the First World. You gain <i>plane shift</i> as a primal innate spell. You can cast it twice per week. This can be used only to travel back and forth between the First World and the Material Plane. Due to your body&apos;s natural resonance, you can act as the spell focus, and you don&apos;t require a tuning fork.',
+      'The connection between you and the First World resonates within your body stronger than it does for most gnomes, allowing you to cross the threshold between the Material Plane and the First World. You gain plane shift as a primal innate spell. You can cast it twice per week. This can be used only to travel back and forth between the First World and the Material Plane. Due to your body\'s natural resonance, you can act as the spell focus, and you don\'t require a tuning fork.',
     ],
     source: 'Advanced Player\'s Guide pg. 44',
     frequency: 'twice per week',
@@ -17200,7 +17200,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1423,
     text: [
-      'Your rubbery physique makes it easier for you to wedge yourself into tight spaces and more difficult for your enemies to dislodge you. You become trained in Acrobatics. If you would automatically become trained in Acrobatics (from your background or class, for example), you instead become trained in a skill of your choice. If you roll a success to Squeeze, you get a critical success instead. While you&apos;re Squeezing, you gain a +4 circumstance bonus to your Fortitude or Reflex DCs against attempts to Shove you or otherwise move you from your space.',
+      'Your rubbery physique makes it easier for you to wedge yourself into tight spaces and more difficult for your enemies to dislodge you. You become trained in Acrobatics. If you would automatically become trained in Acrobatics (from your background or class, for example), you instead become trained in a skill of your choice. If you roll a success to Squeeze, you get a critical success instead. While you\'re Squeezing, you gain a +4 circumstance bonus to your Fortitude or Reflex DCs against attempts to Shove you or otherwise move you from your space.',
     ],
     source: 'Advanced Player\'s Guide pg. 45',
     prerequisites: 'unbreakable goblin heritage',
@@ -17223,7 +17223,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1425,
     text: [
-      'You deliver a punishing blow to an enemy&apos;s knee, shin, or other vulnerable anatomy within your reach. Make a Strike with one of your melee weapons or melee unarmed attacks. This attack doesn&apos;t deal damage. On a hit, the target takes a &#x2013;10-foot status penalty to its Speed or a &#x2013;15-foot status penalty on a critical hit. This penalty applies only if the target has a land Speed and depends on legs or other targetable appendages to use its land Speed. As with all penalties to Speed, this can&apos;t reduce a creature&apos;s Speed below 5 feet.',
+      'You deliver a punishing blow to an enemy\'s knee, shin, or other vulnerable anatomy within your reach. Make a Strike with one of your melee weapons or melee unarmed attacks. This attack doesn\'t deal damage. On a hit, the target takes a &#x2013;10-foot status penalty to its Speed or a &#x2013;15-foot status penalty on a critical hit. This penalty applies only if the target has a land Speed and depends on legs or other targetable appendages to use its land Speed. As with all penalties to Speed, this can\'t reduce a creature\'s Speed below 5 feet.',
     ],
     source: 'Advanced Player\'s Guide pg. 45',
   },
@@ -17246,7 +17246,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1427,
     text: [
-      'You have a knack for breaking and dismantling things. Putting them back together is the boring part, so you largely don&apos;t bother with that. You become trained in Thievery. If you would automatically become trained in Thievery (from your background or class, for example), you instead become trained in a skill of your choice. In addition, whenever you hit with a Strike against a trap or an unattended object, you ignore the first 5 points of the object&apos;s Hardness.',
+      'You have a knack for breaking and dismantling things. Putting them back together is the boring part, so you largely don\'t bother with that. You become trained in Thievery. If you would automatically become trained in Thievery (from your background or class, for example), you instead become trained in a skill of your choice. In addition, whenever you hit with a Strike against a trap or an unattended object, you ignore the first 5 points of the object\'s Hardness.',
     ],
     source: 'Advanced Player\'s Guide pg. 45',
   },
@@ -17257,7 +17257,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1428,
     text: [
-      'You hang onto a foe to harry them into submission. If your target moves while you&apos;re hanging onto it, you can choose to move with the target. The target is released if you choose not to move with it, at the start of your next turn, or if the target Escapes. Attempts to Escape from a Cling follow the rules for Escape, but use your Acrobatics DC and end the Cling instead of the conditions normally ended by the Escape action.',
+      'You hang onto a foe to harry them into submission. If your target moves while you\'re hanging onto it, you can choose to move with the target. The target is released if you choose not to move with it, at the start of your next turn, or if the target Escapes. Attempts to Escape from a Cling follow the rules for Escape, but use your Acrobatics DC and end the Cling instead of the conditions normally ended by the Escape action.',
     ],
     source: 'Advanced Player\'s Guide pg. 45',
     requirements: 'Your last action was a successful Strike.',
@@ -17271,8 +17271,8 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1429,
     text: [
-      'Despite a lifetime filled with questionable decisions, you&apos;ve managed to survive, as though you have uncanny luck that lets you avoid the consequences of your own actions. For the remainder of your turn, if you roll a failure or critical failure on a saving throw against a harmful effect, you get a success instead. Further, enemies and hazards that would damage you this turn roll the minimum possible damage.',
-      ' These benefits apply only to harmful effects incurred entirely during your turn in which you activate Reckless Abandon, such as running through a <i>prismatic wall</i>. Persistent damage and conditions that were applied prior to your turn proceed normally, and as soon as your turn ends you are subject to the full consequences of any dangers still threatening you.',
+      'Despite a lifetime filled with questionable decisions, you\'ve managed to survive, as though you have uncanny luck that lets you avoid the consequences of your own actions. For the remainder of your turn, if you roll a failure or critical failure on a saving throw against a harmful effect, you get a success instead. Further, enemies and hazards that would damage you this turn roll the minimum possible damage.',
+      ' These benefits apply only to harmful effects incurred entirely during your turn in which you activate Reckless Abandon, such as running through a prismatic wall. Persistent damage and conditions that were applied prior to your turn proceed normally, and as soon as your turn ends you are subject to the full consequences of any dangers still threatening you.',
     ],
     source: 'Advanced Player\'s Guide pg. 45',
     frequency: 'once per day',
@@ -17295,7 +17295,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1431,
     text: [
-      'You grew up riding your clan&apos;s shaggy ponies and riding dogs. You become trained in Nature. If you would automatically become trained in Nature (from your background or class, for example), you instead become trained in a skill of your choice. You also get a +1 circumstance bonus to Command an Animal if the target is a traditional halfling mount, such as a pony or riding dog.',
+      'You grew up riding your clan\'s shaggy ponies and riding dogs. You become trained in Nature. If you would automatically become trained in Nature (from your background or class, for example), you instead become trained in a skill of your choice. You also get a +1 circumstance bonus to Command an Animal if the target is a traditional halfling mount, such as a pony or riding dog.',
     ],
     source: 'Advanced Player\'s Guide pg. 46',
   },
@@ -17318,7 +17318,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1433,
     text: [
-      'You dart under the legs of your enemies in combat. You can end a successful Tumble Through action in a Large or larger enemy&apos;s space. Also, when using the Step Lively feat, you can Step into the triggering enemy&apos;s space. The enemy must have limbs or otherwise leave you enough room for this maneuver, as determined by the GM. For instance, you could share space with a giant or dragon, but not an ooze.',
+      'You dart under the legs of your enemies in combat. You can end a successful Tumble Through action in a Large or larger enemy\'s space. Also, when using the Step Lively feat, you can Step into the triggering enemy\'s space. The enemy must have limbs or otherwise leave you enough room for this maneuver, as determined by the GM. For instance, you could share space with a giant or dragon, but not an ooze.',
     ],
     source: 'Advanced Player\'s Guide pg. 46',
     prerequisites: 'Step Lively',
@@ -17330,7 +17330,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1434,
     text: [
-      'You won&apos;t allow others to restrain you. You can cast <i>freedom of movement</i> on yourself as a primal innate spell once per day.',
+      'You won\'t allow others to restrain you. You can cast freedom of movement on yourself as a primal innate spell once per day.',
     ],
     source: 'Advanced Player\'s Guide pg. 46',
   },
@@ -17341,7 +17341,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1435,
     text: [
-      'While sharing a creature&apos;s space using Dance Underfoot, your weapons and unarmed attacks gain the trip trait, but only against the creature whose space you share. You can be in the same space as a Large or larger prone creature, even if it&apos;s not your ally.',
+      'While sharing a creature\'s space using Dance Underfoot, your weapons and unarmed attacks gain the trip trait, but only against the creature whose space you share. You can be in the same space as a Large or larger prone creature, even if it\'s not your ally.',
     ],
     source: 'Advanced Player\'s Guide pg. 46',
     prerequisites: 'Dance Underfoot',
@@ -17353,7 +17353,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1436,
     text: [
-      'With a powerful talent for misdirection, you slip from your adversaries&apos; notice so thoroughly you appear to be somewhere else. You become invisible for 1 minute or until you take a hostile action, whichever comes first. Choose a location within 10 feet of you. Until your invisibility ends, you appear to be hidden in that location to anyone trying to find you. If the searcher gets clear evidence that you&apos;re not there, they no longer think you&apos;re hidden there, but they don&apos;t discover your actual location.',
+      'With a powerful talent for misdirection, you slip from your adversaries\' notice so thoroughly you appear to be somewhere else. You become invisible for 1 minute or until you take a hostile action, whichever comes first. Choose a location within 10 feet of you. Until your invisibility ends, you appear to be hidden in that location to anyone trying to find you. If the searcher gets clear evidence that you\'re not there, they no longer think you\'re hidden there, but they don\'t discover your actual location.',
     ],
     source: 'Advanced Player\'s Guide pg. 46',
     frequency: 'once per hour',
@@ -17378,7 +17378,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1438,
     text: [
-      'Your upbringing emphasized teamwork and helping your allies comes naturally to you. After you Aid an ally at a skill check that doesn&apos;t have the attack trait, you can also Aid any other ally who attempts the same skill check for the same purpose that round. You do so as a free action rather than a reaction. ',
+      'Your upbringing emphasized teamwork and helping your allies comes naturally to you. After you Aid an ally at a skill check that doesn\'t have the attack trait, you can also Aid any other ally who attempts the same skill check for the same purpose that round. You do so as a free action rather than a reaction. ',
       'The preparation you did to help must still apply to the other allies, and you can Aid each ally only once. For example, if you helped lift up an ally to Aid them on an Athletics check to scale a wall, you could keep the same posture to give a boost to other allies attempting to scale the wall in the same round.',
     ],
     source: 'Advanced Player\'s Guide pg. 47',
@@ -17390,7 +17390,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1439,
     text: [
-      'There&apos;s no journey too far or burden too heavy when your friends are at your side. Increase your maximum and encumbered Bulk limits by 1. In addition, you gain a +10-foot circumstance bonus to your Speed during overland travel.',
+      'There\'s no journey too far or burden too heavy when your friends are at your side. Increase your maximum and encumbered Bulk limits by 1. In addition, you gain a +10-foot circumstance bonus to your Speed during overland travel.',
     ],
     source: 'Advanced Player\'s Guide pg. 47',
   },
@@ -17401,7 +17401,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1440,
     text: [
-      'Over the course of adventuring, your adaptability has let you pick up numerous useful abilities. You gain a general feat of 7th level or lower. You must meet the feat&apos;s prerequisites.',
+      'Over the course of adventuring, your adaptability has let you pick up numerous useful abilities. You gain a general feat of 7th level or lower. You must meet the feat\'s prerequisites.',
     ],
     source: 'Advanced Player\'s Guide pg. 47',
     special:
@@ -17414,7 +17414,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1441,
     text: [
-      'You recover from near-death experiences with astounding resilience. Don&apos;t increase the value of your wounded condition due to losing the dying condition.',
+      'You recover from near-death experiences with astounding resilience. Don\'t increase the value of your wounded condition due to losing the dying condition.',
     ],
     source: 'Advanced Player\'s Guide pg. 47',
     frequency: 'once per day',
@@ -17427,7 +17427,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1442,
     text: [
-      'Humans are renowned for their ability to persist through the most grueling of trials. When you would become fatigued, attempt a DC 17 flat check. On a success, you aren&apos;t fatigued. If the fatigued condition has an underlying cause that you don&apos;t address, such as lack of rest, you must attempt the check again at an interval determined by the GM until you fail the flat check or address the underlying cause.',
+      'Humans are renowned for their ability to persist through the most grueling of trials. When you would become fatigued, attempt a DC 17 flat check. On a success, you aren\'t fatigued. If the fatigued condition has an underlying cause that you don\'t address, such as lack of rest, you must attempt the check again at an interval determined by the GM until you fail the flat check or address the underlying cause.',
     ],
     source: 'Advanced Player\'s Guide pg. 47',
   },
@@ -17438,7 +17438,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1443,
     text: [
-      'The blood of heroes courses through your veins, and you inspire your allies to dig deep and find a new level of resolve. You grant up to 10 willing creatures within 30 feet the effects of a 6th-level <i>zealous conviction</i>, though the effect automatically ends on a target if you give that target a command they would normally find repugnant. This action has the auditory trait or visual trait, depending on how you inspire your allies.',
+      'The blood of heroes courses through your veins, and you inspire your allies to dig deep and find a new level of resolve. You grant up to 10 willing creatures within 30 feet the effects of a 6th-level zealous conviction, though the effect automatically ends on a target if you give that target a command they would normally find repugnant. This action has the auditory trait or visual trait, depending on how you inspire your allies.',
     ],
     source: 'Advanced Player\'s Guide pg. 47',
     frequency: 'once per day',
@@ -17462,7 +17462,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1445,
     text: [
-      'One of your parents has a human life span and another an elven life span, with your own somewhere between. As a result, you have an unusual perspective on time, which you&apos;ve learned to manifest to aid yourself in moments of stress. You gain <i>haste</i> as a 3rd-level arcane innate spell, though you can target only yourself. You can Cast this Spell once per day.',
+      'One of your parents has a human life span and another an elven life span, with your own somewhere between. As a result, you have an unusual perspective on time, which you\'ve learned to manifest to aid yourself in moments of stress. You gain haste as a 3rd-level arcane innate spell, though you can target only yourself. You can Cast this Spell once per day.',
     ],
     source: 'Advanced Player\'s Guide pg. 47',
   },
@@ -17473,7 +17473,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1446,
     text: [
-      'You&apos;ve collected a cross-section of information on various disciplines you can refer to when preparing for various tasks. During your daily preparations, you can cram on a certain subject to become temporarily trained in one skill of your choice. This proficiency lasts until you prepare again. As this proficiency is temporary, you can&apos;t use it as a prerequisite for a skill increase or a permanent character option like a feat.',
+      'You\'ve collected a cross-section of information on various disciplines you can refer to when preparing for various tasks. During your daily preparations, you can cram on a certain subject to become temporarily trained in one skill of your choice. This proficiency lasts until you prepare again. As this proficiency is temporary, you can\'t use it as a prerequisite for a skill increase or a permanent character option like a feat.',
     ],
     source: 'Advanced Player\'s Guide pg. 60',
   },
@@ -17495,7 +17495,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1448,
     text: [
-      'You&apos;ve mastered combat practices that let you get up close and bring down perpetrators alive. You can use your Intelligence modifier on attack rolls when you Devise a Stratagem if you&apos;re using a weapon of the club group in one hand (like a club, staff, or sap), in addition to the usual weapons, and those Strikes qualify for your strategic strike. Additionally, you can make any of your Strikes nonlethal without taking the normal &#x2013;2 penalty.',
+      'You\'ve mastered combat practices that let you get up close and bring down perpetrators alive. You can use your Intelligence modifier on attack rolls when you Devise a Stratagem if you\'re using a weapon of the club group in one hand (like a club, staff, or sap), in addition to the usual weapons, and those Strikes qualify for your strategic strike. Additionally, you can make any of your Strikes nonlethal without taking the normal &#x2013;2 penalty.',
     ],
     source: 'Advanced Player\'s Guide pg. 60',
   },
@@ -17506,8 +17506,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1449,
     text: [
-      'When you enter a new location, such as a room or corridor, you immediately notice one thing out of the ordinary. The GM determines what it is, or whether there&apos;s nothing reasonable to pick up, skipping obvious clues that can be easily noticed without a check or specifically looking for them. You learn only that an area or object is suspicious, but not why it&apos;s suspicious. For example, if you entered a study with a large bloodstain on the ground, the bloodstain is so obviously suspicious it&apos;s evident to you already, so the GM might note that there&apos;s something suspicious about the desk drawer instead. You would then need to investigate the drawer further to find out what specifically is out of the ordinary. That&apos;s Odd doesn&apos;t reveal whether creatures are suspicious.',
-      ' You don&apos;t typically get any benefit when you leave and come back to a place, though if a major change has happened there and time has passed, the GM might determine that you do.',
+      'When you enter a new location, such as a room or corridor, you immediately notice one thing out of the ordinary. The GM determines what it is, or whether there\'s nothing reasonable to pick up, skipping obvious clues that can be easily noticed without a check or specifically looking for them. You learn only that an area or object is suspicious, but not why it\'s suspicious. For example, if you entered a study with a large bloodstain on the ground, the bloodstain is so obviously suspicious it\'s evident to you already, so the GM might note that there\'s something suspicious about the desk drawer instead. You would then need to investigate the drawer further to find out what specifically is out of the ordinary. That\'s Odd doesn\'t reveal whether creatures are suspicious.',
+      ' You don\'t typically get any benefit when you leave and come back to a place, though if a major change has happened there and time has passed, the GM might determine that you do.',
     ],
     source: 'Advanced Player\'s Guide pg. 60',
   },
@@ -17529,8 +17529,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1452,
     text: [
-      'You know how to calculatedly manipulate joints and body weight. In addition to using Devise a Stratagem to modify a Strike, you can use it to modify a Disarm, Grapple, Shove, or Trip attempt, substituting your Devise a Stratagem roll for the Athletics check. You must apply the substitution to the first eligible attack you make, whether it&apos;s a Strike or one of the Athletics actions.',
-      ' You can also use your Intelligence modifier instead of Strength for the Athletics check when you substitute your Devise a Stratagem roll, unless you&apos;re using a weapon for the maneuver and the weapon doesn&apos;t fit the restrictions for using Intelligence with a stratagem.',
+      'You know how to calculatedly manipulate joints and body weight. In addition to using Devise a Stratagem to modify a Strike, you can use it to modify a Disarm, Grapple, Shove, or Trip attempt, substituting your Devise a Stratagem roll for the Athletics check. You must apply the substitution to the first eligible attack you make, whether it\'s a Strike or one of the Athletics actions.',
+      ' You can also use your Intelligence modifier instead of Strength for the Athletics check when you substitute your Devise a Stratagem roll, unless you\'re using a weapon for the maneuver and the weapon doesn\'t fit the restrictions for using Intelligence with a stratagem.',
     ],
     source: 'Advanced Player\'s Guide pg. 60',
     prerequisites: 'trained in Athletics',
@@ -17542,7 +17542,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1453,
     text: [
-      'You have a keen sense for avoiding spurious lines of inquiry. When you Pursue a Lead, the GM tells you if the lead you chose is inconsequential. For example, if you found a splatter of gray mud on the wall, thought it was suspicious, and Pursued it as a Lead, the GM would tell you if there was no greater mystery related to it. When the GM tells you a lead is inconsequential, you can decline to Pursue the Lead, keeping any leads you were already pursuing. You still can&apos;t use Pursue a Lead again for 10 minutes, as normal.',
+      'You have a keen sense for avoiding spurious lines of inquiry. When you Pursue a Lead, the GM tells you if the lead you chose is inconsequential. For example, if you found a splatter of gray mud on the wall, thought it was suspicious, and Pursued it as a Lead, the GM would tell you if there was no greater mystery related to it. When the GM tells you a lead is inconsequential, you can decline to Pursue the Lead, keeping any leads you were already pursuing. You still can\'t use Pursue a Lead again for 10 minutes, as normal.',
     ],
     source: 'Advanced Player\'s Guide pg. 61',
   },
@@ -17576,7 +17576,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1456,
     text: [
-      'You&apos;ve devoted extra time in the lab to improve your knowledge of alchemy. You learn the formulas for two alchemical items each time you level up instead of one; these must still be elixirs or tools. The number of versatile vials you can create each day increases by 1 if you&apos;re an expert in Crafting, 2 if you&apos;re a master, or 3 if you&apos;re legendary.',
+      'You\'ve devoted extra time in the lab to improve your knowledge of alchemy. You learn the formulas for two alchemical items each time you level up instead of one; these must still be elixirs or tools. The number of versatile vials you can create each day increases by 1 if you\'re an expert in Crafting, 2 if you\'re a master, or 3 if you\'re legendary.',
     ],
     source: 'Advanced Player\'s Guide pg. 61',
     prerequisites: 'alchemical sciences methodology',
@@ -17588,7 +17588,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1457,
     text: [
-      'When you&apos;re on a case, you stay watchful and resolute to avoid tricks your suspect might pull. You gain your circumstance bonus from Pursue a Lead on saving throws (and their DCs, as normal) against the subject of a lead, and you can use Clue In to assist an ally&apos;s saving throw against that subject.',
+      'When you\'re on a case, you stay watchful and resolute to avoid tricks your suspect might pull. You gain your circumstance bonus from Pursue a Lead on saving throws (and their DCs, as normal) against the subject of a lead, and you can use Clue In to assist an ally\'s saving throw against that subject.',
     ],
     source: 'Advanced Player\'s Guide pg. 61',
   },
@@ -17599,7 +17599,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1458,
     text: [
-      'You&apos;re adept at noticing the tells of a liar&#x2014;sweat, flushing, a quavering voice, a quickening pulse. You gain a +1 circumstance bonus to Perception checks to Sense Motive and to Perception DCs against attempts to Lie to you. When you determine someone is lying to you, you can use their deceit to your advantage to gain a +1 circumstance bonus to the next Deception, Diplomacy, Intimidation, or Performance check you attempt against that creature within the next minute.',
+      'You\'re adept at noticing the tells of a liar&#x2014;sweat, flushing, a quavering voice, a quickening pulse. You gain a +1 circumstance bonus to Perception checks to Sense Motive and to Perception DCs against attempts to Lie to you. When you determine someone is lying to you, you can use their deceit to your advantage to gain a +1 circumstance bonus to the next Deception, Diplomacy, Intimidation, or Performance check you attempt against that creature within the next minute.',
     ],
     source: 'Advanced Player\'s Guide pg. 62',
     prerequisites: 'empiricism or interrogation methodology',
@@ -17611,7 +17611,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1459,
     text: [
-      'You&apos;re always investigating what&apos;s around you, even as you perform other activities. You can move at full Speed while using the Investigate exploration activity, and you can use another exploration activity while Investigating.',
+      'You\'re always investigating what\'s around you, even as you perform other activities. You can move at full Speed while using the Investigate exploration activity, and you can use another exploration activity while Investigating.',
     ],
     source: 'Advanced Player\'s Guide pg. 62',
   },
@@ -17634,7 +17634,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1462,
     text: [
-      'Ephemeral connections between people, places, and concepts are invisible to most, but seeing them is your stock and trade. You spend 10 minutes considering two different leads you&apos;re pursuing. You then attempt a check to investigate how connected the two are. Unless the GM determines otherwise, this is a Crafting check if they&apos;re both items or a Society check for other combinations of leads. If any subjects are creatures, this check usually uses the highest DC among their Deception and Will DCs. If no subjects are creatures, but at least one is an item, the DC is usually a hard DC for the level of the highest-level item. If neither case applies, the DC is usually a hard expert or hard master DC (22 or 32). Once you try to Connect the Dots between two particular leads, you can never try to Connect the Dots between those same leads again unless the GM allows it after you&apos;ve learned a substantial amount of new information. ',
+      'Ephemeral connections between people, places, and concepts are invisible to most, but seeing them is your stock and trade. You spend 10 minutes considering two different leads you\'re pursuing. You then attempt a check to investigate how connected the two are. Unless the GM determines otherwise, this is a Crafting check if they\'re both items or a Society check for other combinations of leads. If any subjects are creatures, this check usually uses the highest DC among their Deception and Will DCs. If no subjects are creatures, but at least one is an item, the DC is usually a hard DC for the level of the highest-level item. If neither case applies, the DC is usually a hard expert or hard master DC (22 or 32). Once you try to Connect the Dots between two particular leads, you can never try to Connect the Dots between those same leads again unless the GM allows it after you\'ve learned a substantial amount of new information. ',
     ],
     source: 'Advanced Player\'s Guide pg. 62',
     requirements: 'You must be pursuing at least two leads.',
@@ -17664,7 +17664,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1464,
     text: [
-      'When you succeed at a Recall Knowledge check, you learn an additional fact about the subject. When you critically succeed at a Recall Knowledge check, you can gain even more additional information or context than normal, at the GM&apos;s discretion.',
+      'When you succeed at a Recall Knowledge check, you learn an additional fact about the subject. When you critically succeed at a Recall Knowledge check, you can gain even more additional information or context than normal, at the GM\'s discretion.',
     ],
     source: 'Advanced Player\'s Guide pg. 63',
   },
@@ -17686,8 +17686,8 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1468,
     text: [
-      'After your attempt to influence someone goes poorly, you add another bit of information or ask a pointed question, possibly salvaging your previous attempt. Reroll the failed check and use the new result. If the target of the failed check is the subject of a lead you&apos;re pursuing, double your bonus from Pursue a Lead on the rerolled check. That creature is temporarily immune to Just One More Thing for 1 day.',
-      ' You can also use this action if you failed, but didn&apos;t critically fail, at a check to Lie, Gather Information, Make an Impression, or Coerce. In this case, rather than spending 1 action, adding Just One More Thing takes you half the amount of time you initially spent on the check, to a minimum of 1 more round.',
+      'After your attempt to influence someone goes poorly, you add another bit of information or ask a pointed question, possibly salvaging your previous attempt. Reroll the failed check and use the new result. If the target of the failed check is the subject of a lead you\'re pursuing, double your bonus from Pursue a Lead on the rerolled check. That creature is temporarily immune to Just One More Thing for 1 day.',
+      ' You can also use this action if you failed, but didn\'t critically fail, at a check to Lie, Gather Information, Make an Impression, or Coerce. In this case, rather than spending 1 action, adding Just One More Thing takes you half the amount of time you initially spent on the check, to a minimum of 1 more round.',
     ],
     source: 'Advanced Player\'s Guide pg. 63',
     requirements: 'Your most recent action was to',
@@ -17699,7 +17699,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1469,
     text: [
-      'You&apos;re constantly studying small aspects of everyone&apos;s movements, even if you don&apos;t have a stratagem in place ahead of time. On any Strike for which you didn&apos;t Devise a Stratagem, you still deal precision damage equal to your number of strategic strike damage dice so long as the weapon or unarmed attack you used is one that would have let you use your Intelligence modifier had you Devised a Stratagem.',
+      'You\'re constantly studying small aspects of everyone\'s movements, even if you don\'t have a stratagem in place ahead of time. On any Strike for which you didn\'t Devise a Stratagem, you still deal precision damage equal to your number of strategic strike damage dice so long as the weapon or unarmed attack you used is one that would have let you use your Intelligence modifier had you Devised a Stratagem.',
     ],
     source: 'Advanced Player\'s Guide pg. 63',
     prerequisites: 'strategic strike',
@@ -17711,7 +17711,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1470,
     text: [
-      'Sometimes something intrudes upon your case unexpectedly, such as an ambush sent to bring your investigation to a close. You&apos;ve learned how to compartmentalize your main lead and pursue a new one for your current predicament. You Pursue a Lead against the triggering foe, setting aside but not ending one of your currently active leads, if you have two leads. At the end of the combat encounter, you stop Pursuing the Lead against the triggering foe and return to the original lead, if you have one.',
+      'Sometimes something intrudes upon your case unexpectedly, such as an ambush sent to bring your investigation to a close. You\'ve learned how to compartmentalize your main lead and pursue a new one for your current predicament. You Pursue a Lead against the triggering foe, setting aside but not ending one of your currently active leads, if you have two leads. At the end of the combat encounter, you stop Pursuing the Lead against the triggering foe and return to the original lead, if you have one.',
     ],
     source: 'Advanced Player\'s Guide pg. 63',
     frequency: 'once per hour',
@@ -17724,7 +17724,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1471,
     text: [
-      'You perceive every possible way your foe&apos;s attack could land and attempt to avoid them all. The triggering attack roll targets your Perception DC instead of your AC. Though this allows you to avoid taking penalties to your AC, it doesn&apos;t remove any conditions or other effects causing such penalties. For example, an enemy with sneak attack would still deal extra damage to you for being flat-footed, even though you wouldn&apos;t take the &#x2013;2 circumstance penalty when defending against the attack.',
+      'You perceive every possible way your foe\'s attack could land and attempt to avoid them all. The triggering attack roll targets your Perception DC instead of your AC. Though this allows you to avoid taking penalties to your AC, it doesn\'t remove any conditions or other effects causing such penalties. For example, an enemy with sneak attack would still deal extra damage to you for being flat-footed, even though you wouldn\'t take the &#x2013;2 circumstance penalty when defending against the attack.',
     ],
     source: 'Advanced Player\'s Guide pg. 64',
     trigger:
@@ -17737,7 +17737,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1472,
     text: [
-      'Your mind works through clues at an unbelievable speed. You instantly use up to five Recall Knowledge actions. If you have any special abilities or free actions that would normally be triggered when you Recall Knowledge, you can&apos;t use them for these actions.',
+      'Your mind works through clues at an unbelievable speed. You instantly use up to five Recall Knowledge actions. If you have any special abilities or free actions that would normally be triggered when you Recall Knowledge, you can\'t use them for these actions.',
     ],
     source: 'Advanced Player\'s Guide pg. 64',
   },
@@ -17748,7 +17748,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1473,
     text: [
-      'You spend 10 minutes in contemplation to uncannily predict how events will play out. Choose a particular goal or activity you plan to engage in within 1 week, or an event you expect might happen within 1 week. You analyze whether it&apos;s likely to come to pass, learning whether it&apos;s highly likely, somewhat likely, somewhat unlikely, or highly unlikely. You also gain a piece of advice suggesting a course of action you or your allies could take that might make the chosen event more or less likely, whichever you prefer. The GM determines the likeliness of the event and the piece of advice you learn.',
+      'You spend 10 minutes in contemplation to uncannily predict how events will play out. Choose a particular goal or activity you plan to engage in within 1 week, or an event you expect might happen within 1 week. You analyze whether it\'s likely to come to pass, learning whether it\'s highly likely, somewhat likely, somewhat unlikely, or highly unlikely. You also gain a piece of advice suggesting a course of action you or your allies could take that might make the chosen event more or less likely, whichever you prefer. The GM determines the likeliness of the event and the piece of advice you learn.',
     ],
     source: 'Advanced Player\'s Guide pg. 64',
   },
@@ -17759,7 +17759,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1475,
     text: [
-      'Your plans account for your foes&apos; resistances, enabling you to strike a telling blow. When you hit with a Strike on which you substituted your attack roll due to Devising a Stratagem, you ignore an amount of resistance equal to your Intelligence modifier for each resistance that applies against your attack.',
+      'Your plans account for your foes\' resistances, enabling you to strike a telling blow. When you hit with a Strike on which you substituted your attack roll due to Devising a Stratagem, you ignore an amount of resistance equal to your Intelligence modifier for each resistance that applies against your attack.',
     ],
     source: 'Advanced Player\'s Guide pg. 65',
   },
@@ -17770,7 +17770,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1476,
     text: [
-      'When you find a glaring weakness, you can set your allies up to annihilate your foe. When you use Shared Stratagem, you can designate up to 10 allies instead of just one. The foe is flat-footed against the first attack from each designated ally before your next turn, and each ally&apos;s first attack deals an extra 2d6 precision damage to the target if it hits.',
+      'When you find a glaring weakness, you can set your allies up to annihilate your foe. When you use Shared Stratagem, you can designate up to 10 allies instead of just one. The foe is flat-footed against the first attack from each designated ally before your next turn, and each ally\'s first attack deals an extra 2d6 precision damage to the target if it hits.',
     ],
     source: 'Advanced Player\'s Guide pg. 65',
     prerequisites: 'Shared Stratagem',
@@ -17782,7 +17782,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1477,
     text: [
-      'It seems impossible, but you&apos;ve analyzed every angle and are able to just keep pulling out exactly the item you need, even in far-flung locations. You can use Prescient Planner even if you have already used it after purchasing goods, and you can use it as a single action instead of a 2-action activity, during which you Interact to draw the item. In addition, five times per day, you can use Prescient Planner to pull out a common consumable item up to 6 levels lower than your level.',
+      'It seems impossible, but you\'ve analyzed every angle and are able to just keep pulling out exactly the item you need, even in far-flung locations. You can use Prescient Planner even if you have already used it after purchasing goods, and you can use it as a single action instead of a 2-action activity, during which you Interact to draw the item. In addition, five times per day, you can use Prescient Planner to pull out a common consumable item up to 6 levels lower than your level.',
     ],
     source: 'Advanced Player\'s Guide pg. 65',
     prerequisites: 'Predictive Purchase',
@@ -17794,7 +17794,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1478,
     text: [
-      'You spend 1 minute surveying a small location (such as a single room) to get an impression of events that occurred there in the last day. This involves moving about the area and studying footprints, the placement of objects, spilled drinks or blood, and so forth. You get an indistinct mental impression of significant events that happened there. This gives you clues and details of the past, including the overall events and their time frame, but it&apos;s not a perfect record. This also isn&apos;t enough to identify who was involved in these events if you weren&apos;t already aware the person was there. As determined by the GM, you also pick out various seemingly small details that could serve as important clues, like a memorable weapon someone used for a murder or the type of cloak someone wore when passing through.',
+      'You spend 1 minute surveying a small location (such as a single room) to get an impression of events that occurred there in the last day. This involves moving about the area and studying footprints, the placement of objects, spilled drinks or blood, and so forth. You get an indistinct mental impression of significant events that happened there. This gives you clues and details of the past, including the overall events and their time frame, but it\'s not a perfect record. This also isn\'t enough to identify who was involved in these events if you weren\'t already aware the person was there. As determined by the GM, you also pick out various seemingly small details that could serve as important clues, like a memorable weapon someone used for a murder or the type of cloak someone wore when passing through.',
     ],
     source: 'Advanced Player\'s Guide pg. 65',
   },
@@ -17805,7 +17805,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1479,
     text: [
-      'You spend 1 minute briefing up to four allies about one lead you&apos;re pursuing. Those allies gain the same circumstance bonus you do from Pursue a Lead to checks to investigate that lead. This bonus lasts until you cease pursing that lead or for 1 day, whichever comes first. This doesn&apos;t confer any other benefits of pursuing a lead, such as adding the circumstance bonus to your saves with Detective&apos;s Readiness.',
+      'You spend 1 minute briefing up to four allies about one lead you\'re pursuing. Those allies gain the same circumstance bonus you do from Pursue a Lead to checks to investigate that lead. This bonus lasts until you cease pursing that lead or for 1 day, whichever comes first. This doesn\'t confer any other benefits of pursuing a lead, such as adding the circumstance bonus to your saves with Detective\'s Readiness.',
     ],
     source: 'Advanced Player\'s Guide pg. 65',
     prerequisites: 'Clue Them All In',
@@ -17817,7 +17817,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1481,
     text: [
-      'You are so suspicious of everyone you meet that you keep mental notes on how to defeat them all&#x2014;even your own allies. After interacting with a creature for at least 1 minute, you automatically Pursue a Lead with that creature as the subject. You can have any number of such leads at any given time, and when you Pursue a Lead again, you don&apos;t give up any of these automatic subjects.',
+      'You are so suspicious of everyone you meet that you keep mental notes on how to defeat them all&#x2014;even your own allies. After interacting with a creature for at least 1 minute, you automatically Pursue a Lead with that creature as the subject. You can have any number of such leads at any given time, and when you Pursue a Lead again, you don\'t give up any of these automatic subjects.',
     ],
     source: 'Advanced Player\'s Guide pg. 65',
   },
@@ -17828,7 +17828,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1482,
     text: [
-      'You fundamentally understand everything to the point where your research can&apos;t possibly be wrong. You are permanently quickened and can use the extra action to Recall Knowledge. Your checks to Recall Knowledge are no longer secret. When you Recall Knowledge, you use the outcome for one degree of success better than the result of your check, and if an effect (such as Dubious Knowledge) would give you inaccurate information from your Recall Knowledge check, you know which information is inaccurate. When one of your allies Recalls Knowledge and gains false information, you also know that information is inaccurate if they share it with you.',
+      'You fundamentally understand everything to the point where your research can\'t possibly be wrong. You are permanently quickened and can use the extra action to Recall Knowledge. Your checks to Recall Knowledge are no longer secret. When you Recall Knowledge, you use the outcome for one degree of success better than the result of your check, and if an effect (such as Dubious Knowledge) would give you inaccurate information from your Recall Knowledge check, you know which information is inaccurate. When one of your allies Recalls Knowledge and gains false information, you also know that information is inaccurate if they share it with you.',
     ],
     source: 'Advanced Player\'s Guide pg. 65',
     prerequisites: 'Thorough Research',
@@ -17872,7 +17872,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1488,
     text: [
-      'Every oracle&apos;s mystery touches on a divine domain of the deities that fuel it; you can access that power. Choose one of the domains associated with your mystery for which you don&apos;t already have an initial domain spell. You gain an initial domain spell from that domain, which you cast as a revelation spell. It gains the cursebound trait. Increase the number of Focus Points in your focus pool by 1.',
+      'Every oracle\'s mystery touches on a divine domain of the deities that fuel it; you can access that power. Choose one of the domains associated with your mystery for which you don\'t already have an initial domain spell. You gain an initial domain spell from that domain, which you cast as a revelation spell. It gains the cursebound trait. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 79',
   },
@@ -17883,7 +17883,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1490,
     text: [
-      'Your ability to tap into divine magic surpasses the spells traditionally available to you (the divine spell list). Choose one deity who grants one of your mystery&apos;s granted domains. Add up to three cleric spells of your choice granted by that deity to your spell list. You can select from these spells when you add or swap spells in your spell repertoire.',
+      'Your ability to tap into divine magic surpasses the spells traditionally available to you (the divine spell list). Choose one deity who grants one of your mystery\'s granted domains. Add up to three cleric spells of your choice granted by that deity to your spell list. You can select from these spells when you add or swap spells in your spell repertoire.',
     ],
     source: 'Advanced Player\'s Guide pg. 79',
     special:
@@ -17896,7 +17896,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1491,
     text: [
-      'You can call upon divine insights to single out your foes&apos; weak points. You learn the <i>vision of weakness</i> revelation spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can call upon divine insights to single out your foes\' weak points. You learn the vision of weakness revelation spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 79',
   },
@@ -17919,8 +17919,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1493,
     text: [
-      'You have a vague connection to the Ethereal Plane that enables you to notice spirits. While you&apos;re exploring but not Searching, the GM rolls a secret check for you to find haunts that usually require Searching, as well as spirits, creatures on the Ethereal Plane, and beings made entirely of spiritual essence such as celestials, fiends, and monitors.',
-      ' You can also potentially notice ethereal creatures and spirits inside solid objects, provided they are within 30 feet of you. This applies while Searching, while Seeking, and on the automatic secret check you gain while exploring even if you aren&apos;t Searching. You can still notice spirits only on a successful check, and you can&apos;t see them if they&apos;re more than 5 feet inside an object.',
+      'You have a vague connection to the Ethereal Plane that enables you to notice spirits. While you\'re exploring but not Searching, the GM rolls a secret check for you to find haunts that usually require Searching, as well as spirits, creatures on the Ethereal Plane, and beings made entirely of spiritual essence such as celestials, fiends, and monitors.',
+      ' You can also potentially notice ethereal creatures and spirits inside solid objects, provided they are within 30 feet of you. This applies while Searching, while Seeking, and on the automatic secret check you gain while exploring even if you aren\'t Searching. You can still notice spirits only on a successful check, and you can\'t see them if they\'re more than 5 feet inside an object.',
       ' When you notice a creature with your Spiritual Sense, you also learn its location, making it hidden to you if it had been undetected.',
     ],
     source: 'Advanced Player\'s Guide pg. 79',
@@ -17932,7 +17932,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1495,
     text: [
-      'You can give others a glimpse of the impossible conflicts and unchecked power that courses through your body. You learn the <i>debilitating dichotomy</i> revelation spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can give others a glimpse of the impossible conflicts and unchecked power that courses through your body. You learn the debilitating dichotomy revelation spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 80',
   },
@@ -17943,7 +17943,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1496,
     text: [
-      'You spend 10 minutes and open yourself to the divine mysteries of the world, peering into the most sinister portents of the future. You gain the effects of <i>augury</i>, except you learn only about the dangers ahead; any results of &#x201C;weal&#x201D; are instead &#x201C;nothing,&#x201D; and results of &#x201C;weal and woe&#x201D; are instead &#x201C;woe.&#x201D; If you are legendary in Religion, you take only 1 minute to Read Disaster.',
+      'You spend 10 minutes and open yourself to the divine mysteries of the world, peering into the most sinister portents of the future. You gain the effects of augury, except you learn only about the dangers ahead; any results of &#x201C;weal&#x201D; are instead &#x201C;nothing,&#x201D; and results of &#x201C;weal and woe&#x201D; are instead &#x201C;woe.&#x201D; If you are legendary in Religion, you take only 1 minute to Read Disaster.',
     ],
     source: 'Advanced Player\'s Guide pg. 80',
   },
@@ -17967,7 +17967,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1499,
     text: [
-      'With a complex gesture, you focus the divine power of your spell to overcome enemies&apos; resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target&apos;s resistance equal to your level against all the following types of damage: chaotic, evil, good, lawful, negative, and positive. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the positive energy within a <i>field of life</i>. This doesn&apos;t cause the spell to ignore immunities, only resistances.',
+      'With a complex gesture, you focus the divine power of your spell to overcome enemies\' resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target\'s resistance equal to your level against all the following types of damage: chaotic, evil, good, lawful, negative, and positive. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the positive energy within a field of life. This doesn\'t cause the spell to ignore immunities, only resistances.',
     ],
     source: 'Advanced Player\'s Guide pg. 80',
   },
@@ -18002,7 +18002,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1503,
     text: [
-      'You&apos;ve learned to forestall the effects of your curse somewhat. If the next action you use is to cast a revelation spell, the severity of your curse doesn&apos;t increase.',
+      'You\'ve learned to forestall the effects of your curse somewhat. If the next action you use is to cast a revelation spell, the severity of your curse doesn\'t increase.',
     ],
     source: 'Advanced Player\'s Guide pg. 80',
     frequency: 'once per day',
@@ -18014,7 +18014,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1504,
     text: [
-      'Your mystery holds unknowable depths of magic not always associated with the divine. You can have one spell in your spell repertoire not on the divine spell list, in addition to spells you&apos;ve added to your spell list from feats like Divine Access. You cast that spell as a divine spell. You can swap which spell you add and from which tradition as you could any other oracle spell, but you can&apos;t use this feat to have more than one spell from another tradition in your spell repertoire at the same time.',
+      'Your mystery holds unknowable depths of magic not always associated with the divine. You can have one spell in your spell repertoire not on the divine spell list, in addition to spells you\'ve added to your spell list from feats like Divine Access. You cast that spell as a divine spell. You can swap which spell you add and from which tradition as you could any other oracle spell, but you can\'t use this feat to have more than one spell from another tradition in your spell repertoire at the same time.',
     ],
     source: 'Advanced Player\'s Guide pg. 81',
   },
@@ -18027,7 +18027,7 @@ export const feats: FeatCollection = {
     text: [
       'You have broadened your understanding of the divine and can tap into the wonders of a different mystery. Select one revelation spell from a mystery other than your own. You can choose only an initial revelation spell or an advanced revelation spell.',
       ' When you cast this revelation spell, you gain the effects of the minor curse from that mystery in addition to the normal curse effects you gain from casting a revelation spell. This additional minor curse effect remains until your next daily preparations. Any ability that lets you cast a revelation spell without increasing the severity of your curse also prevents you from gaining this additional curse effect.',
-      ' You can&apos;t cast your chosen revelation spell if any of the following conditions are true: its mystery&apos;s curse effects directly conflict with or negate the effects of your own mystery&apos;s curse, the curse would have no effect on you (for example, removing an ability from your original mystery that you lack), or either of these criteria would be met once you finish Casting the Spell.',
+      ' You can\'t cast your chosen revelation spell if any of the following conditions are true: its mystery\'s curse effects directly conflict with or negate the effects of your own mystery\'s curse, the curse would have no effect on you (for example, removing an ability from your original mystery that you lack), or either of these criteria would be met once you finish Casting the Spell.',
     ],
     source: 'Advanced Player\'s Guide pg. 81',
     prerequisites: 'Advanced Revelation',
@@ -18067,7 +18067,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1508,
     text: [
-      'The power of your mystery surges through you like a font of divine energy, even when your own magic dwindles. Twice per day, you can cast a spell after you&apos;ve run out of spell slots of the appropriate spell level; the two spells you cast with this feat must be of different spell levels.',
+      'The power of your mystery surges through you like a font of divine energy, even when your own magic dwindles. Twice per day, you can cast a spell after you\'ve run out of spell slots of the appropriate spell level; the two spells you cast with this feat must be of different spell levels.',
     ],
     source: 'Advanced Player\'s Guide pg. 81',
   },
@@ -18101,7 +18101,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1511,
     text: [
-      'The truest depths of your divine mystery are fathomless and contradictory, granting you changing powers that even you can barely begin to fathom. Each day during your daily preparations, choose one basic or advanced domain spell from any domain from the <i>Core Rulebook</i> or another domain to which you have access, or any initial or advanced revelation spell from another mystery. You gain that spell as a revelation spell until your next daily preparations, and it has the cursebound trait.',
+      'The truest depths of your divine mystery are fathomless and contradictory, granting you changing powers that even you can barely begin to fathom. Each day during your daily preparations, choose one basic or advanced domain spell from any domain from the Core Rulebook or another domain to which you have access, or any initial or advanced revelation spell from another mystery. You gain that spell as a revelation spell until your next daily preparations, and it has the cursebound trait.',
     ],
     source: 'Advanced Player\'s Guide pg. 81',
     prerequisites: 'Greater Revelation',
@@ -18113,7 +18113,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1512,
     text: [
-      'You&apos;ve learned a flexible way to position your buckler to provide more protection. When you Raise a Shield to gain a circumstance bonus to AC from a buckler, increase the bonus from +1 to +2.',
+      'You\'ve learned a flexible way to position your buckler to provide more protection. When you Raise a Shield to gain a circumstance bonus to AC from a buckler, increase the bonus from +1 to +2.',
     ],
     source: 'Advanced Player\'s Guide pg. 88',
   },
@@ -18124,7 +18124,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1513,
     text: [
-      'It&apos;s harder for your foes to regain their grip when you knock their weapon partially out of their hands. When you succeed at an Athletics check to Disarm, the circumstance bonus and penalty from Disarm last until the end of your next turn, instead of until the beginning of the target&apos;s next turn. The target can use an Interact action to adjust their grip and remove this effect. If your swashbuckler&apos;s style is gymnast and you succeed at your Athletics check to Disarm a foe, you gain panache.',
+      'It\'s harder for your foes to regain their grip when you knock their weapon partially out of their hands. When you succeed at an Athletics check to Disarm, the circumstance bonus and penalty from Disarm last until the end of your next turn, instead of until the beginning of the target\'s next turn. The target can use an Interact action to adjust their grip and remove this effect. If your swashbuckler\'s style is gymnast and you succeed at your Athletics check to Disarm a foe, you gain panache.',
     ],
     source: 'Advanced Player\'s Guide pg. 88',
   },
@@ -18148,7 +18148,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1515,
     text: [
-      'You&apos;ve learned to apply your flashy techniques to thrown weapons as easily as melee attacks. When you have panache, you apply your precise strike damage on ranged Strikes you make with a thrown weapon within that weapon&apos;s first range increment. The thrown weapon must be an agile or finesse weapon. This also allows you to make a thrown weapon ranged Strike for Confident Finisher and any other finisher that includes a Strike that can benefit from your precise strike.',
+      'You\'ve learned to apply your flashy techniques to thrown weapons as easily as melee attacks. When you have panache, you apply your precise strike damage on ranged Strikes you make with a thrown weapon within that weapon\'s first range increment. The thrown weapon must be an agile or finesse weapon. This also allows you to make a thrown weapon ranged Strike for Confident Finisher and any other finisher that includes a Strike that can benefit from your precise strike.',
     ],
     source: 'Advanced Player\'s Guide pg. 88',
     prerequisites: 'precise strike',
@@ -18160,7 +18160,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1516,
     text: [
-      'When you use Fascinating Performance in a combat encounter, you need only a success, rather than a critical success, to fascinate your target. This works only if you&apos;re attempting to fascinate one target. For example, if you were an expert in Performance, you could choose to target multiple creatures normally or target one creature and fascinate it on a success.',
+      'When you use Fascinating Performance in a combat encounter, you need only a success, rather than a critical success, to fascinate your target. This works only if you\'re attempting to fascinate one target. For example, if you were an expert in Performance, you could choose to target multiple creatures normally or target one creature and fascinate it on a success.',
     ],
     source: 'Advanced Player\'s Guide pg. 88',
     prerequisites: 'Fascinating Performance',
@@ -18195,7 +18195,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1519,
     text: [
-      'With precisely the right words of encouragement, you bolster an ally&apos;s efforts. Designate an ally within 30 feet; this action counts as sufficient preparation to Aid that ally. When you use the Aid reaction to help that ally, you can roll Diplomacy in place of the usual check. If your swashbuckler&apos;s style is wit and your Diplomacy check to Aid meets or exceeds the very hard DC for your level, you gain panache.',
+      'With precisely the right words of encouragement, you bolster an ally\'s efforts. Designate an ally within 30 feet; this action counts as sufficient preparation to Aid that ally. When you use the Aid reaction to help that ally, you can roll Diplomacy in place of the usual check. If your swashbuckler\'s style is wit and your Diplomacy check to Aid meets or exceeds the very hard DC for your level, you gain panache.',
     ],
     source: 'Advanced Player\'s Guide pg. 88',
     prerequisites: 'trained in Diplomacy',
@@ -18207,7 +18207,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1521,
     text: [
-      'You allow your foes to make the first move in a show of incredible confidence. You don&apos;t roll initiative; instead you voluntarily go last. You gain panache. If more than one character uses this ability or another ability to go last, use the normal rules for resolving a tie: NPCs and monsters act before PCs, and within those groups, the creatures can choose whichever order they want.',
+      'You allow your foes to make the first move in a show of incredible confidence. You don\'t roll initiative; instead you voluntarily go last. You gain panache. If more than one character uses this ability or another ability to go last, use the normal rules for resolving a tie: NPCs and monsters act before PCs, and within those groups, the creatures can choose whichever order they want.',
     ],
     source: 'Advanced Player\'s Guide pg. 88',
     trigger: 'You\'re about to roll initiative.',
@@ -18219,7 +18219,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1522,
     text: [
-      'Your taunts and threats earn your foes ire. When you successfully Demoralize a creature, its frightened condition can&apos;t decrease to less than 1 at the end of its turn until it either uses a hostile action against you or can no longer observe or sense you for at least 1 round.',
+      'Your taunts and threats earn your foes ire. When you successfully Demoralize a creature, its frightened condition can\'t decrease to less than 1 at the end of its turn until it either uses a hostile action against you or can no longer observe or sense you for at least 1 round.',
     ],
     source: 'Advanced Player\'s Guide pg. 88',
   },
@@ -18302,7 +18302,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1530,
     text: [
-      'You sweep your foe into your dance. Attempt a Performance check against an adjacent enemy&apos;s Will DC. If your swashbuckler&apos;s style is battledancer and you succeed, you gain panache.',
+      'You sweep your foe into your dance. Attempt a Performance check against an adjacent enemy\'s Will DC. If your swashbuckler\'s style is battledancer and you succeed, you gain panache.',
     ],
     source: 'Advanced Player\'s Guide pg. 90',
     prerequisites: 'trained in Performance',
@@ -18333,7 +18333,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1533,
     text: [
-      'Your easily maneuver against your foes. Your Grapple, Shove, and Trip actions have a lower multiple attack penalty: &#x2013;4 instead of &#x2013;5 if they&apos;re the second attack on your turn, or &#x2013;8 instead of &#x2013;10 if they&apos;re the third or subsequent attack on your turn.',
+      'Your easily maneuver against your foes. Your Grapple, Shove, and Trip actions have a lower multiple attack penalty: &#x2013;4 instead of &#x2013;5 if they\'re the second attack on your turn, or &#x2013;8 instead of &#x2013;10 if they\'re the third or subsequent attack on your turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 90',
     prerequisites: 'expert in Athletics',
@@ -18345,7 +18345,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1535,
     text: [
-      'You combine a series of attacks with a powerful finishing blow. Your finishers&apos; Strikes have a lower multiple attack penalty: &#x2013;4 (or &#x2013;3 with an agile weapon) if it&apos;s the second attack on your turn, or &#x2013;8 (or &#x2013;6 with an agile weapon) if it&apos;s the third or subsequent attack on your turn, instead of &#x2013;5 and &#x2013;10, respectively.',
+      'You combine a series of attacks with a powerful finishing blow. Your finishers\' Strikes have a lower multiple attack penalty: &#x2013;4 (or &#x2013;3 with an agile weapon) if it\'s the second attack on your turn, or &#x2013;8 (or &#x2013;6 with an agile weapon) if it\'s the third or subsequent attack on your turn, instead of &#x2013;5 and &#x2013;10, respectively.',
     ],
     source: 'Advanced Player\'s Guide pg. 91',
   },
@@ -18435,7 +18435,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1543,
     text: [
-      'You spin your buckler defensively toward every attack. While you are in this stance, you constantly have your buckler raised as if you&apos;d used Raise a Shield, as long as you meet that action&apos;s requirements.',
+      'You spin your buckler defensively toward every attack. While you are in this stance, you constantly have your buckler raised as if you\'d used Raise a Shield, as long as you meet that action\'s requirements.',
     ],
     source: 'Advanced Player\'s Guide pg. 91',
     requirements: 'You are wielding a',
@@ -18447,7 +18447,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1544,
     text: [
-      'When you compound panache with even more derring-do, it somehow tends to work out. When you already have panache, you can roll twice and use the higher result on checks to which the circumstance bonus for having panache applies (Tumble Through and any skill actions listed in your swashbuckler&apos;s style).',
+      'When you compound panache with even more derring-do, it somehow tends to work out. When you already have panache, you can roll twice and use the higher result on checks to which the circumstance bonus for having panache applies (Tumble Through and any skill actions listed in your swashbuckler\'s style).',
     ],
     source: 'Advanced Player\'s Guide pg. 91',
   },
@@ -18510,7 +18510,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1548,
     text: [
-      'Somehow you always escape the reaper by a hair&apos;s breadth. You avoid being knocked out or killed and remain at 1 Hit Point, but you become doomed 1 (or increase your doomed value by 1 if you were already doomed). You can&apos;t reduce or ignore the doomed condition from Cheating Death. The doomed condition from Cheating Death lasts for 10 minutes, though this doesn&apos;t affect the duration of any other doomed condition you have.',
+      'Somehow you always escape the reaper by a hair\'s breadth. You avoid being knocked out or killed and remain at 1 Hit Point, but you become doomed 1 (or increase your doomed value by 1 if you were already doomed). You can\'t reduce or ignore the doomed condition from Cheating Death. The doomed condition from Cheating Death lasts for 10 minutes, though this doesn\'t affect the duration of any other doomed condition you have.',
     ],
     source: 'Advanced Player\'s Guide pg. 92',
     trigger: 'You take damage that would reduce you to 0 Hit Points.',
@@ -18533,7 +18533,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1550,
     text: [
-      'You stylishly leap and deliver a powerful finisher. Make a Leap, High Jump, or Long Jump and attempt one single-action finisher at any point during your jump; the finisher can&apos;t be one that includes other movement, such as Mobile Finisher. Immediately after the finisher, you fall to the ground if you&apos;re in the air, even if you haven&apos;t reached the maximum distance of your jump. If the distance you fall is no more than the height of your jump, you take no damage and land upright. When attempting a High Jump or Long Jump during a Flamboyant Leap, determine the DC using the Long Jump DCs, and increase the maximum distance to double your Speed, rather than just your Speed.',
+      'You stylishly leap and deliver a powerful finisher. Make a Leap, High Jump, or Long Jump and attempt one single-action finisher at any point during your jump; the finisher can\'t be one that includes other movement, such as Mobile Finisher. Immediately after the finisher, you fall to the ground if you\'re in the air, even if you haven\'t reached the maximum distance of your jump. If the distance you fall is no more than the height of your jump, you take no damage and land upright. When attempting a High Jump or Long Jump during a Flamboyant Leap, determine the DC using the Long Jump DCs, and increase the maximum distance to double your Speed, rather than just your Speed.',
     ],
     source: 'Advanced Player\'s Guide pg. 92',
     prerequisites: 'master in Athletics, Flamboyant Athlete',
@@ -18546,7 +18546,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1551,
     text: [
-      'Your ripostes can deflect attacks back at their source. You can use Opportune Riposte with a trigger of &#x201C;A foe outside of your reach critically fails an attack roll against you&#x201D; in addition to its usual trigger. When you use Opportune Riposte with this new trigger against a ranged attack, your Strike deflects some of the triggering effect back toward its source. Compare the result of your attack roll to the AC of the triggering foe. On a hit, you deal the normal amount of damage for your Strike, but the damage type changes to that of the triggering attack. For instance, if you used Opportune Riposte to deflect a <i>ray of frost</i>, your Strike would deal cold damage instead of its normal damage type.',
+      'Your ripostes can deflect attacks back at their source. You can use Opportune Riposte with a trigger of &#x201C;A foe outside of your reach critically fails an attack roll against you&#x201D; in addition to its usual trigger. When you use Opportune Riposte with this new trigger against a ranged attack, your Strike deflects some of the triggering effect back toward its source. Compare the result of your attack roll to the AC of the triggering foe. On a hit, you deal the normal amount of damage for your Strike, but the damage type changes to that of the triggering attack. For instance, if you used Opportune Riposte to deflect a ray of frost, your Strike would deal cold damage instead of its normal damage type.',
     ],
     source: 'Advanced Player\'s Guide pg. 93',
     prerequisites: 'Opportune Riposte',
@@ -18569,7 +18569,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1553,
     text: [
-      'You&apos;re always ready to use your off-hand weapon to interfere with attacks against you. While you are in this stance, you constantly gain the benefits of the Twin Parry action.',
+      'You\'re always ready to use your off-hand weapon to interfere with attacks against you. While you are in this stance, you constantly gain the benefits of the Twin Parry action.',
     ],
     source: 'Advanced Player\'s Guide pg. 93',
     prerequisites: 'Twin Parry',
@@ -18582,7 +18582,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1554,
     text: [
-      'Your graceful attacks are especially powerful. When you score a critical hit with an agile or finesse melee weapon that has the deadly trait, you double the number of dice from that trait. When you wield an agile or finesse melee weapon that doesn&apos;t have the deadly trait, it gains the deadly d8 trait instead.',
+      'Your graceful attacks are especially powerful. When you score a critical hit with an agile or finesse melee weapon that has the deadly trait, you double the number of dice from that trait. When you wield an agile or finesse melee weapon that doesn\'t have the deadly trait, it gains the deadly d8 trait instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 93',
   },
@@ -18593,7 +18593,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1555,
     text: [
-      'You take advantage of your foe&apos;s openings with uncanny odds. When you make an Opportune Riposte, roll twice on the attack roll and take the better result.',
+      'You take advantage of your foe\'s openings with uncanny odds. When you make an Opportune Riposte, roll twice on the attack roll and take the better result.',
     ],
     source: 'Advanced Player\'s Guide pg. 93',
   },
@@ -18616,7 +18616,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1557,
     text: [
-      'You stab your foe in a vital organ, possibly killing them outright. Make a Strike. On a success, you forego your precise strike damage from the finisher. Instead, your target takes additional precision damage based on a Fortitude save against your class DC. If your Strike was a critical hit, the target&apos;s saving throw outcome is one degree worse.',
+      'You stab your foe in a vital organ, possibly killing them outright. Make a Strike. On a success, you forego your precise strike damage from the finisher. Instead, your target takes additional precision damage based on a Fortitude save against your class DC. If your Strike was a critical hit, the target\'s saving throw outcome is one degree worse.',
     ],
     source: 'Advanced Player\'s Guide pg. 93',
     prerequisites: 'precise strike 6d6',
@@ -18644,7 +18644,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1559,
     text: [
-      'You can react whenever a foe leaves a gap in their defenses. At the start of each enemy&apos;s turn, you gain an extra reaction you can use only during that turn to perform an Opportune Riposte, or an Attack of Opportunity if you have that reaction.',
+      'You can react whenever a foe leaves a gap in their defenses. At the start of each enemy\'s turn, you gain an extra reaction you can use only during that turn to perform an Opportune Riposte, or an Attack of Opportunity if you have that reaction.',
     ],
     source: 'Advanced Player\'s Guide pg. 93',
   },
@@ -18655,7 +18655,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1560,
     text: [
-      'You find opportunities to perform stylish feats in the moments between others&apos; heartbeats and eye blinks. You are permanently quickened. You can use the extra action only to Tumble Through or perform the skill action listed in your swashbuckler&apos;s style as one that allows you to gain panache, or other actions that would allow you to gain panache at the GM&apos;s discretion.',
+      'You find opportunities to perform stylish feats in the moments between others\' heartbeats and eye blinks. You are permanently quickened. You can use the extra action only to Tumble Through or perform the skill action listed in your swashbuckler\'s style as one that allows you to gain panache, or other actions that would allow you to gain panache at the GM\'s discretion.',
     ],
     source: 'Advanced Player\'s Guide pg. 93',
   },
@@ -18666,7 +18666,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1561,
     text: [
-      'You can extend one of your spells with a quick burst of laughter. You learn the <i>cackle</i> hex. Increase the number of Focus Points in your focus pool by 1.',
+      'You can extend one of your spells with a quick burst of laughter. You learn the cackle hex. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 100',
   },
@@ -18677,7 +18677,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1562,
     text: [
-      'You can use the Craft activity to create oils and potions. You immediately gain the formulas for four common 1st-level oils or potions. At 4th level and every 2 levels beyond that, you gain the formula for a common oil or potion of that level or lower (a 4th-level potion if you&apos;re 4th level, a 6th-level potion if you&apos;re 6th level, and so on). If you have a familiar, you can have your familiar learn these formulas rather than storing them in a formula book. Your familiar can learn new formulas in the same way it learns new spells, and these formulas are transferred from a slain familiar to a new familiar in the same way spells are.',
+      'You can use the Craft activity to create oils and potions. You immediately gain the formulas for four common 1st-level oils or potions. At 4th level and every 2 levels beyond that, you gain the formula for a common oil or potion of that level or lower (a 4th-level potion if you\'re 4th level, a 6th-level potion if you\'re 6th level, and so on). If you have a familiar, you can have your familiar learn these formulas rather than storing them in a formula book. Your familiar can learn new formulas in the same way it learns new spells, and these formulas are transferred from a slain familiar to a new familiar in the same way spells are.',
       ' You can brew a great deal of magic within your cauldron. When you Craft a batch of oils or potions, you can make up to six in a batch instead of the usual four per batch.',
     ],
     source: 'Advanced Player\'s Guide pg. 100',
@@ -18689,7 +18689,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1564,
     text: [
-      'You have a particular affinity for leafy plants. Your patron grants you a leshy familiar. If you already had a familiar, this leshy replaces your previous familiar, as if your previous familiar had been slain. In addition, you gain the ability to see through leaves, vines, and other foliage. You don&apos;t take circumstance penalties to ranged spell attacks or Perception checks caused by foliage, and your targeted attacks don&apos;t require a flat check to succeed against a target concealed only by such vegetation.',
+      'You have a particular affinity for leafy plants. Your patron grants you a leshy familiar. If you already had a familiar, this leshy replaces your previous familiar, as if your previous familiar had been slain. In addition, you gain the ability to see through leaves, vines, and other foliage. You don\'t take circumstance penalties to ranged spell attacks or Perception checks caused by foliage, and your targeted attacks don\'t require a flat check to succeed against a target concealed only by such vegetation.',
     ],
     source: 'Advanced Player\'s Guide pg. 101',
   },
@@ -18711,7 +18711,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1569,
     text: [
-      'You&apos;ve learned to speak with your familiar and other creatures like it. You can ask questions of, receive answers from, and use the Diplomacy skill with creatures of the same family of animals as your familiar. For example, if your familiar were a cat, you could gain the effects of speak with animals for any felines (including leopards, lions, and tigers, among others). This ability doesn&apos;t make them more friendly than normal. If your familiar ever changes to a different creature, you can&apos;t use this ability for 1 week while you absorb your new familiar&apos;s language.',
+      'You\'ve learned to speak with your familiar and other creatures like it. You can ask questions of, receive answers from, and use the Diplomacy skill with creatures of the same family of animals as your familiar. For example, if your familiar were a cat, you could gain the effects of speak with animals for any felines (including leopards, lions, and tigers, among others). This ability doesn\'t make them more friendly than normal. If your familiar ever changes to a different creature, you can\'t use this ability for 1 week while you absorb your new familiar\'s language.',
     ],
     source: 'Advanced Player\'s Guide pg. 102',
     prerequisites: 'a familiar',
@@ -18725,7 +18725,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1570,
     text: [
-      'You can instantly grow or shrink your hair, eyebrows, beard, or mustache by up to several feet and manipulate your hair for use as a weapon, though your control isn&apos;t fine enough for more dexterous tasks. You gain a hair unarmed attack that deals 1d4 bludgeoning damage; is in the brawling group; and has the agile, disarm, finesse, trip, and unarmed traits.',
+      'You can instantly grow or shrink your hair, eyebrows, beard, or mustache by up to several feet and manipulate your hair for use as a weapon, though your control isn\'t fine enough for more dexterous tasks. You gain a hair unarmed attack that deals 1d4 bludgeoning damage; is in the brawling group; and has the agile, disarm, finesse, trip, and unarmed traits.',
     ],
     source: 'Advanced Player\'s Guide pg. 102',
   },
@@ -18736,8 +18736,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1571,
     text: [
-      'Your nails are supernaturally long and sharp. You gain a nails unarmed attack that deals 1d6 slashing damage. Your nails are in the brawling group and have the agile and unarmed traits. You can etch your nails with runes with the same cost and restrictions as for etching runes onto <i>handwraps of mighty blows</i>; runes etched onto your nails apply to nails unarmed attacks with both hands but not to other unarmed attacks.',
-      ' You can deliver hexes through your nails. When you successfully cast a non-cantrip hex that requires 2 actions or more to cast and that doesn&apos;t require a spell attack roll, if your target is within your reach, as part of the spellcasting activity you can make a nails Strike against the foe before applying any effects of the hex. If this Strike misses, the hex has no effect.',
+      'Your nails are supernaturally long and sharp. You gain a nails unarmed attack that deals 1d6 slashing damage. Your nails are in the brawling group and have the agile and unarmed traits. You can etch your nails with runes with the same cost and restrictions as for etching runes onto handwraps of mighty blows; runes etched onto your nails apply to nails unarmed attacks with both hands but not to other unarmed attacks.',
+      ' You can deliver hexes through your nails. When you successfully cast a non-cantrip hex that requires 2 actions or more to cast and that doesn\'t require a spell attack roll, if your target is within your reach, as part of the spellcasting activity you can make a nails Strike against the foe before applying any effects of the hex. If this Strike misses, the hex has no effect.',
     ],
     source: 'Advanced Player\'s Guide pg. 102',
   },
@@ -18759,7 +18759,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1573,
     text: [
-      'Your patron grants you the power to summon other creatures to aid you. Choose one <i>summon</i> spell (such as <i>summon animal</i>, <i>summon construct</i>, and so forth) that appears on the spell list of your spellcasting tradition. You can spend 10 minutes in communion with your familiar to replace one spell you&apos;ve prepared in one of your witch spell slots with the spell you chose, heightened to the same level. The spell you replaced must be of at least the <i>summon</i> spell&apos;s minimum spell level.',
+      'Your patron grants you the power to summon other creatures to aid you. Choose one summon spell (such as summon animal, summon construct, and so forth) that appears on the spell list of your spellcasting tradition. You can spend 10 minutes in communion with your familiar to replace one spell you\'ve prepared in one of your witch spell slots with the spell you chose, heightened to the same level. The spell you replaced must be of at least the summon spell\'s minimum spell level.',
     ],
     source: 'Advanced Player\'s Guide pg. 102',
   },
@@ -18781,7 +18781,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1575,
     text: [
-      'You forge a magical link with another creature, granting you awareness of that creature&apos;s condition and creating a conduit for spellcasting. During your daily preparations, you can designate one willing creature as your charge. You are always aware of your charge&apos;s direction from you, its distance from you, and any conditions affecting it. In addition, you can cast spells with a range of touch on your charge from a range of 30 feet. These effects persist until your next daily preparations.',
+      'You forge a magical link with another creature, granting you awareness of that creature\'s condition and creating a conduit for spellcasting. During your daily preparations, you can designate one willing creature as your charge. You are always aware of your charge\'s direction from you, its distance from you, and any conditions affecting it. In addition, you can cast spells with a range of touch on your charge from a range of 30 feet. These effects persist until your next daily preparations.',
     ],
     source: 'Advanced Player\'s Guide pg. 102',
     special:
@@ -18808,7 +18808,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1577,
     text: [
-      'Your vision pierces through non-magical fog, mist, rain, and snow. You don&apos;t take circumstance penalties to ranged attacks or Perception checks caused by non-magical precipitation, and your targeted attacks don&apos;t require a flat check to succeed against a target concealed only by such effects.',
+      'Your vision pierces through non-magical fog, mist, rain, and snow. You don\'t take circumstance penalties to ranged attacks or Perception checks caused by non-magical precipitation, and your targeted attacks don\'t require a flat check to succeed against a target concealed only by such effects.',
     ],
     source: 'Advanced Player\'s Guide pg. 103',
   },
@@ -18819,8 +18819,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1578,
     text: [
-      'You spend 10 minutes and 1 Focus Point brewing a special potion containing the power of one of your hexes that targets a creature. A creature that consumes this potion is targeted by the hex. If the hex has a sustained duration and you have <i>cackle</i>, you can cast <i>cackle</i> into the bottle just before you seal it. If you do, the hex&apos;s duration is extended as if you had cast <i>cackle</i> the round after the hex was cast (typically this extends the duration by 1 round). Your cackling laugh sounds out when the potion is unsealed.',
-      ' Any potion you create this way loses its power the next time you make your daily preparations. While the potion is in your possession, you can render it inert using a single action that has the concentrate trait. You can&apos;t regain the Focus Point you spent to create the potion (or the Focus Point you spent to cast <i>cackle</i>) until the potion is consumed or loses its magic.',
+      'You spend 10 minutes and 1 Focus Point brewing a special potion containing the power of one of your hexes that targets a creature. A creature that consumes this potion is targeted by the hex. If the hex has a sustained duration and you have cackle, you can cast cackle into the bottle just before you seal it. If you do, the hex\'s duration is extended as if you had cast cackle the round after the hex was cast (typically this extends the duration by 1 round). Your cackling laugh sounds out when the potion is unsealed.',
+      ' Any potion you create this way loses its power the next time you make your daily preparations. While the potion is in your possession, you can render it inert using a single action that has the concentrate trait. You can\'t regain the Focus Point you spent to create the potion (or the Focus Point you spent to cast cackle) until the potion is consumed or loses its magic.',
     ],
     source: 'Advanced Player\'s Guide pg. 103',
     prerequisites: 'Cauldron',
@@ -18846,7 +18846,7 @@ export const feats: FeatCollection = {
     id: 1580,
     text: [
       'During your daily preparations, you can create a batch of two temporary oils or potions using a formula you know. These items follow the normal rules to Craft them, except for the time they take, with some additional restrictions. They must both be the same type of oil or potion, and their level must be 6 or more levels lower than your level. Any items you create this way become inert bottles of liquid the next time you make your daily preparations, and any remaining effects of the temporary items end. A temporary oil or potion has no value.',
-      ' If you have master proficiency in your tradition&apos;s spell DCs, you can create a batch of three temporary oils or potions during your daily preparations, and if you have legendary proficiency, you can create a batch of four.',
+      ' If you have master proficiency in your tradition\'s spell DCs, you can create a batch of three temporary oils or potions during your daily preparations, and if you have legendary proficiency, you can create a batch of four.',
     ],
     source: 'Advanced Player\'s Guide pg. 103',
     prerequisites: 'Cauldron',
@@ -18870,7 +18870,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1582,
     text: [
-      'You use your familiar&apos;s senses as easily as your own. You project your senses into your familiar. When you do, you lose all sensory information from your own body, but you can sense through your familiar&apos;s body until you Dismiss the effect. While projecting your senses in this way, you can converse telepathically with your familiar if it understands a language.',
+      'You use your familiar\'s senses as easily as your own. You project your senses into your familiar. When you do, you lose all sensory information from your own body, but you can sense through your familiar\'s body until you Dismiss the effect. While projecting your senses in this way, you can converse telepathically with your familiar if it understands a language.',
     ],
     source: 'Advanced Player\'s Guide pg. 104',
     prerequisites: 'a familiar',
@@ -18884,7 +18884,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1583,
     text: [
-      'Your patron&apos;s teachings have allowed you to achieve a deeper focus. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1.',
+      'Your patron\'s teachings have allowed you to achieve a deeper focus. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 104',
   },
@@ -18895,7 +18895,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1585,
     text: [
-      'You can adapt your patron&apos;s power to transform other creatures into forms more befitting their behavior or your whims. Your familiar learns <i>baleful polymorph</i>, even if baleful polymorph isn&apos;t on your tradition&apos;s spell list. By spending 10 minutes in communion with your familiar, you can replace one spell of 6th level or higher you&apos;ve prepared in one of your witch spell slots with a <i>baleful polymorph</i> spell of the same level.',
+      'You can adapt your patron\'s power to transform other creatures into forms more befitting their behavior or your whims. Your familiar learns baleful polymorph, even if baleful polymorph isn\'t on your tradition\'s spell list. By spending 10 minutes in communion with your familiar, you can replace one spell of 6th level or higher you\'ve prepared in one of your witch spell slots with a baleful polymorph spell of the same level.',
     ],
     source: 'Advanced Player\'s Guide pg. 105',
   },
@@ -18906,7 +18906,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1587,
     text: [
-      'You draw upon the reservoir of your patron&apos;s magic that resides within your familiar. During your turn, you can cast one spell your familiar knows that was granted by your patron&apos;s theme or lessons without spending a spell slot to do so (or even having it prepared). The spell must be at least 1 level lower than the highest-level spell you can cast.',
+      'You draw upon the reservoir of your patron\'s magic that resides within your familiar. During your turn, you can cast one spell your familiar knows that was granted by your patron\'s theme or lessons without spending a spell slot to do so (or even having it prepared). The spell must be at least 1 level lower than the highest-level spell you can cast.',
     ],
     source: 'Advanced Player\'s Guide pg. 105',
     prerequisites: 'once per day',
@@ -18944,7 +18944,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1590,
     text: [
-      'You embody the link to your patron so completely that you can cast your hexes in rapid succession. You are no longer limited to casting only a single hex each turn. In addition, when you cast <i>cackle</i> to sustain a hex, you gain the effects of Sustain a Spell for all your active hexes that have a duration of sustained.',
+      'You embody the link to your patron so completely that you can cast your hexes in rapid succession. You are no longer limited to casting only a single hex each turn. In addition, when you cast cackle to sustain a hex, you gain the effects of Sustain a Spell for all your active hexes that have a duration of sustained.',
     ],
     source: 'Advanced Player\'s Guide pg. 105',
   },
@@ -18955,7 +18955,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1591,
     text: [
-      'You have mastered the greatest secrets of your patron&apos;s magic and learned a fundamental truth about your patron, even if their identity still remains a mystery. You gain an additional 10th-level spell slot.',
+      'You have mastered the greatest secrets of your patron\'s magic and learned a fundamental truth about your patron, even if their identity still remains a mystery. You gain an additional 10th-level spell slot.',
     ],
     source: 'Advanced Player\'s Guide pg. 105',
     prerequisites: 'patron\'s gift',
@@ -18968,8 +18968,8 @@ export const feats: FeatCollection = {
     id: 1592,
     text: [
       'Your home is an animated structure that obeys your commands. By performing a rite that takes 1 day, you create an animated object from a hut, small house, covered wagon, tent, or similar construction of up to Huge size.',
-      ' The hut uses your AC, saving throw modifiers, and Perception modifier and has 150 HP and Hardness 10. It has the construct armor ability, meaning once it&apos;s reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its AC is reduced by 4 until it is repaired.',
-      ' The hut can&apos;t attack or attempt skill checks. You can give the hut a command as a single action, which has the auditory and concentrate traits; after 1 round of reconfiguring itself, the hut then follows that command until you give it a different command. <li><b>Guard</b> The hut watches for trespassers within 120 feet using your Perception modifier and screams if it spots any.</li><li><b>Lock</b> Each entrance to the hut is sealed with a <i>lock</i> spell.</li><li><b>Move</b> The hut gains a Speed of 60 feet, growing giant bird or bone legs, if necessary, and follows an extremely basic movement command you give it, such as &#x201C;follow me&#x201D; or &#x201C;move that direction.&#x201D; While perfectly suitable for overland travel, the hut&apos;s broad movements and 1-round delay on response time are too imprecise to predictably direct in a combat encounter or other situation where seconds and precise locations count.</li><li><b>Hide</b> The hut appears to be a normal, mundane object of its type. This is a 10th-level illusion effect.</li> You can have only one hut at a time. If you animate a new hut, your previous hut immediately reverts to its original, mundane form. If you die, the hut continues following the last order you gave it indefinitely.',
+      ' The hut uses your AC, saving throw modifiers, and Perception modifier and has 150 HP and Hardness 10. It has the construct armor ability, meaning once it\'s reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its AC is reduced by 4 until it is repaired.',
+      ' The hut can\'t attack or attempt skill checks. You can give the hut a command as a single action, which has the auditory and concentrate traits; after 1 round of reconfiguring itself, the hut then follows that command until you give it a different command. <li><b>Guard</b> The hut watches for trespassers within 120 feet using your Perception modifier and screams if it spots any.</li><li><b>Lock</b> Each entrance to the hut is sealed with a lock spell.</li><li><b>Move</b> The hut gains a Speed of 60 feet, growing giant bird or bone legs, if necessary, and follows an extremely basic movement command you give it, such as &#x201C;follow me&#x201D; or &#x201C;move that direction.&#x201D; While perfectly suitable for overland travel, the hut\'s broad movements and 1-round delay on response time are too imprecise to predictably direct in a combat encounter or other situation where seconds and precise locations count.</li><li><b>Hide</b> The hut appears to be a normal, mundane object of its type. This is a 10th-level illusion effect.</li> You can have only one hut at a time. If you animate a new hut, your previous hut immediately reverts to its original, mundane form. If you die, the hut continues following the last order you gave it indefinitely.',
     ],
     source: 'Advanced Player\'s Guide pg. 105',
     list: [
@@ -19001,7 +19001,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1593,
     text: [
-      'You can capably deliver toxins with a blowgun. Your blowgun Strikes can apply injury poisons even if they deal no damage due to a creature&apos;s resistance. If you critically succeed at an attack roll using a blowgun loaded with a dart you&apos;ve poisoned and the target rolls a failure on the poison&apos;s initial save, the target critically fails instead.',
+      'You can capably deliver toxins with a blowgun. Your blowgun Strikes can apply injury poisons even if they deal no damage due to a creature\'s resistance. If you critically succeed at an attack roll using a blowgun loaded with a dart you\'ve poisoned and the target rolls a failure on the poison\'s initial save, the target critically fails instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 106',
   },
@@ -19012,7 +19012,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1595,
     text: [
-      'By adding a special catalyst, you transform a healing elixir into a topical projectile. You grant the elixir the bomb trait. If you throw an elixir of life bomb at a willing target, you hit even on a failure, though not on a critical failure. If your Strike with this elixir bomb hits a living target, the target regains Hit Points as if it had consumed the elixir. On a critical success, the target also gains the elixir&apos;s item bonus to saving throws against diseases and poisons for 1 minute.',
+      'By adding a special catalyst, you transform a healing elixir into a topical projectile. You grant the elixir the bomb trait. If you throw an elixir of life bomb at a willing target, you hit even on a failure, though not on a critical failure. If your Strike with this elixir bomb hits a living target, the target regains Hit Points as if it had consumed the elixir. On a critical success, the target also gains the elixir\'s item bonus to saving throws against diseases and poisons for 1 minute.',
     ],
     source: 'Advanced Player\'s Guide pg. 107',
     frequency: 'once per round',
@@ -19025,7 +19025,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1596,
     text: [
-      'Your victims tend to expire long before your poisons, since the latter have been specifically formulated to last longer. The maximum duration of any poison you create increases by an amount equal to the poison&apos;s stage 1 interval, to a maximum of twice the poison&apos;s maximum duration.',
+      'Your victims tend to expire long before your poisons, since the latter have been specifically formulated to last longer. The maximum duration of any poison you create increases by an amount equal to the poison\'s stage 1 interval, to a maximum of twice the poison\'s maximum duration.',
     ],
     source: 'Advanced Player\'s Guide pg. 107',
   },
@@ -19070,7 +19070,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1600,
     text: [
-      'You can create extraordinary&#x2014;albeit volatile&#x2014;alchemical wonders, though they have an unfortunate tendency to violently explode when you use them. When you use Quick Alchemy, you can create an alchemical item from your formula book whose level is up to 2 higher than your advanced alchemy level. You can spend up to 3 additional batches of infused reagents when creating this item to stabilize it. Upon activating the item, attempt a DC 10 flat check; for every additional batch of infused reagents you spent to create the item, reduce this DC by 2. On a success, the item functions normally. On a failure, the item explodes, dealing force damage to the user equal to twice the item&apos;s level (doubled on a critical failure).',
+      'You can create extraordinary&#x2014;albeit volatile&#x2014;alchemical wonders, though they have an unfortunate tendency to violently explode when you use them. When you use Quick Alchemy, you can create an alchemical item from your formula book whose level is up to 2 higher than your advanced alchemy level. You can spend up to 3 additional batches of infused reagents when creating this item to stabilize it. Upon activating the item, attempt a DC 10 flat check; for every additional batch of infused reagents you spent to create the item, reduce this DC by 2. On a success, the item functions normally. On a failure, the item explodes, dealing force damage to the user equal to twice the item\'s level (doubled on a critical failure).',
     ],
     source: 'Advanced Player\'s Guide pg. 107',
   },
@@ -19129,7 +19129,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1605,
     text: [
-      'You rush forward, moving enemies aside to reach your foe. You Stride, attempting to move through your enemies&apos; spaces and make a melee Strike. Roll an Athletics check and compare the result to the Fortitude DC of each creature whose space you attempt to move through during your Stride, moving through its space on a success but ending your movement before entering its space on a failure. You can use Barreling Charge to Burrow, Climb, Fly, or Swim instead of Stride, as long as you have the corresponding movement type.',
+      'You rush forward, moving enemies aside to reach your foe. You Stride, attempting to move through your enemies\' spaces and make a melee Strike. Roll an Athletics check and compare the result to the Fortitude DC of each creature whose space you attempt to move through during your Stride, moving through its space on a success but ending your movement before entering its space on a failure. You can use Barreling Charge to Burrow, Climb, Fly, or Swim instead of Stride, as long as you have the corresponding movement type.',
     ],
     source: 'Advanced Player\'s Guide pg. 108',
     prerequisites: 'trained in Athletics',
@@ -19153,7 +19153,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1607,
     text: [
-      'Though no one sees them and only you can hear them, the spirits around you constantly chatter, save when you are raging. Sometimes they&apos;re even helpful. You can heed the spirits&apos; guidance to reroll the triggering check, using the second result even if it&apos;s worse.',
+      'Though no one sees them and only you can hear them, the spirits around you constantly chatter, save when you are raging. Sometimes they\'re even helpful. You can heed the spirits\' guidance to reroll the triggering check, using the second result even if it\'s worse.',
     ],
     source: 'Advanced Player\'s Guide pg. 109',
     frequency: 'once per day',
@@ -19180,7 +19180,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1609,
     text: [
-      'Your strength is part of your rage, so as long as your anger remains, you can gather your strength and rage to overcome any sort of enfeeblement. You reduce your enfeebled condition&apos;s value by 1.',
+      'Your strength is part of your rage, so as long as your anger remains, you can gather your strength and rage to overcome any sort of enfeeblement. You reduce your enfeebled condition\'s value by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 109',
   },
@@ -19191,7 +19191,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1610,
     text: [
-      'You use your hatred of magic to lash out at the sight of spellcasting, allowing you to interrupt an enemy&apos;s spell. Make a melee Strike against the triggering creature. If the attack is a critical hit, you disrupt the spell.',
+      'You use your hatred of magic to lash out at the sight of spellcasting, allowing you to interrupt an enemy\'s spell. Make a melee Strike against the triggering creature. If the attack is a critical hit, you disrupt the spell.',
     ],
     source: 'Advanced Player\'s Guide pg. 109',
     prerequisites: 'superstition instinct',
@@ -19204,7 +19204,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1611,
     text: [
-      'Your senses gain even greater clarity. While raging, you gain darkvision if you don&apos;t already have it, and the range of your imprecise scent increases to 60 feet.',
+      'Your senses gain even greater clarity. While raging, you gain darkvision if you don\'t already have it, and the range of your imprecise scent increases to 60 feet.',
     ],
     source: 'Advanced Player\'s Guide pg. 110',
     prerequisites:
@@ -19231,7 +19231,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1613,
     text: [
-      'You attack with enough force to knock the weapon out of your foe&apos;s hands. Make a melee Strike; if you hit, you can attempt an Athletics check to Disarm that foe.',
+      'You attack with enough force to knock the weapon out of your foe\'s hands. Make a melee Strike; if you hit, you can attempt an Athletics check to Disarm that foe.',
     ],
     source: 'Advanced Player\'s Guide pg. 110',
     prerequisites: 'trained in Athletics',
@@ -19256,7 +19256,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1615,
     text: [
-      'You toss your friends around the battlefield. Pick up an adjacent ally of your size or smaller and throw them to an unoccupied space you can see within 30 feet. Their movement doesn&apos;t trigger reactions. Your ally ends this movement on their feet and doesn&apos;t take damage from the fall. If your ally ends this movement within melee reach of at least one enemy, they can make a melee Strike against an enemy within their reach as a reaction.',
+      'You toss your friends around the battlefield. Pick up an adjacent ally of your size or smaller and throw them to an unoccupied space you can see within 30 feet. Their movement doesn\'t trigger reactions. Your ally ends this movement on their feet and doesn\'t take damage from the fall. If your ally ends this movement within melee reach of at least one enemy, they can make a melee Strike against an enemy within their reach as a reaction.',
     ],
     source: 'Advanced Player\'s Guide pg. 110',
     requirements:
@@ -19269,7 +19269,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1616,
     text: [
-      'You trust your instincts and your sense of smell, using all of your senses to pinpoint your opponent&apos;s location. Make a melee Strike against an opponent that isn&apos;t hiding its scent with an effect like <i>negate aroma</i>. This attack ignores any flat check required due to the target being concealed or hidden.',
+      'You trust your instincts and your sense of smell, using all of your senses to pinpoint your opponent\'s location. Make a melee Strike against an opponent that isn\'t hiding its scent with an effect like negate aroma. This attack ignores any flat check required due to the target being concealed or hidden.',
     ],
     source: 'Advanced Player\'s Guide pg. 110',
     prerequisites: 'Acute Scent or precise or imprecise scent',
@@ -19281,7 +19281,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1617,
     text: [
-      'Nothing can keep you from your enemy. Stride twice. During this movement you ignore difficult terrain, greater difficult terrain, and any effects that would impose a penalty to Speed. You can attempt an Athletics check instead of an Acrobatics check to Balance when moving across narrow surfaces or uneven ground, using the same DC. This doesn&apos;t prevent you from being harmed by hazardous terrain. You can increase the number of actions this activity takes to 3 to Stride three times instead.',
+      'Nothing can keep you from your enemy. Stride twice. During this movement you ignore difficult terrain, greater difficult terrain, and any effects that would impose a penalty to Speed. You can attempt an Athletics check instead of an Acrobatics check to Balance when moving across narrow surfaces or uneven ground, using the same DC. This doesn\'t prevent you from being harmed by hazardous terrain. You can increase the number of actions this activity takes to 3 to Stride three times instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 110',
   },
@@ -19304,7 +19304,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1619,
     text: [
-      'You trample your foes as you charge past them. When you use Barreling Charge and successfully move through a creature&apos;s space, that creature takes bludgeoning damage equal to your Strength modifier. If you critically succeed, the creature takes twice this amount of damage and becomes flat-footed until the end of your next turn.',
+      'You trample your foes as you charge past them. When you use Barreling Charge and successfully move through a creature\'s space, that creature takes bludgeoning damage equal to your Strength modifier. If you critically succeed, the creature takes twice this amount of damage and becomes flat-footed until the end of your next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 110',
     prerequisites: 'Barreling Charge',
@@ -19368,7 +19368,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1624,
     text: [
-      'You draw upon your superstitious fury to destroy a spell. Make a Strike with a melee weapon or an unarmed attack against a creature, object, or a spell manifestation (such as the wall created by <i>wall of fire</i> or the guardian from <i>spiritual guardian</i>). If your Strike hits, you can attempt to counteract a single spell or magical effect on the target. Your counteract level for this attempt is equal to half your level rounded up, and you use the result of your attack roll for the counteract check. ',
+      'You draw upon your superstitious fury to destroy a spell. Make a Strike with a melee weapon or an unarmed attack against a creature, object, or a spell manifestation (such as the wall created by wall of fire or the guardian from spiritual guardian). If your Strike hits, you can attempt to counteract a single spell or magical effect on the target. Your counteract level for this attempt is equal to half your level rounded up, and you use the result of your attack roll for the counteract check. ',
       'Whether or not you succeed at your Strike, the target becomes temporarily immune to your Sunder Spell for 24 hours.',
     ],
     source: 'Advanced Player\'s Guide pg. 111',
@@ -19381,7 +19381,7 @@ export const feats: FeatCollection = {
     actions: 'three_actions',
     id: 1625,
     text: [
-      'You make a great sweep about yourself, knocking creatures off their feet and away from you. Choose up to three adjacent foes and choose whether to Shove or Trip all three of them. Whichever of the two options you choose, roll a separate Athletics check against each foe, performing the same action against each foe. Each attempt counts toward your multiple attack penalty, but don&apos;t increase your penalty until you have made all the attempts.',
+      'You make a great sweep about yourself, knocking creatures off their feet and away from you. Choose up to three adjacent foes and choose whether to Shove or Trip all three of them. Whichever of the two options you choose, roll a separate Athletics check against each foe, performing the same action against each foe. Each attempt counts toward your multiple attack penalty, but don\'t increase your penalty until you have made all the attempts.',
     ],
     source: 'Advanced Player\'s Guide pg. 111',
   },
@@ -19404,7 +19404,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1627,
     text: [
-      'You can focus your superstition to break the magic of an item, in addition to destroying freestanding spells and those active on creatures. When you Sunder a Spell, you can instead attempt to counteract either an unattended magic item or one of your target&apos;s magic items. If your counteract attempt succeeds, the item becomes a mundane item of its type for 10 minutes. If you target an artifact, an intelligent item, or a particularly powerful item, your counteract attempt automatically fails.',
+      'You can focus your superstition to break the magic of an item, in addition to destroying freestanding spells and those active on creatures. When you Sunder a Spell, you can instead attempt to counteract either an unattended magic item or one of your target\'s magic items. If your counteract attempt succeeds, the item becomes a mundane item of its type for 10 minutes. If you target an artifact, an intelligent item, or a particularly powerful item, your counteract attempt automatically fails.',
     ],
     source: 'Advanced Player\'s Guide pg. 111',
     prerequisites: 'Sunder Spell',
@@ -19416,7 +19416,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1628,
     text: [
-      'Your enemy&apos;s blow fuels your rage and provokes your immediate retaliation. Make a melee Strike against the triggering enemy.',
+      'Your enemy\'s blow fuels your rage and provokes your immediate retaliation. Make a melee Strike against the triggering enemy.',
     ],
     source: 'Advanced Player\'s Guide pg. 111',
     prerequisites: 'fury instinct',
@@ -19430,7 +19430,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1629,
     text: [
-      'Your projectiles are unhindered by flesh and bone. Make a ranged Strike against each creature in a 30-foot line. These attacks ignore lesser cover, cover, and greater cover granted by creatures. Roll damage only once and apply it to each creature you hit. Each attack counts toward your multiple attack penalty, but don&apos;t increase your penalty until you have made all your attacks.',
+      'Your projectiles are unhindered by flesh and bone. Make a ranged Strike against each creature in a 30-foot line. These attacks ignore lesser cover, cover, and greater cover granted by creatures. Roll damage only once and apply it to each creature you hit. Each attack counts toward your multiple attack penalty, but don\'t increase your penalty until you have made all your attacks.',
     ],
     source: 'Advanced Player\'s Guide pg. 111',
     requirements:
@@ -19443,7 +19443,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1630,
     text: [
-      'Your forceful blows shatter objects with ease. While you are raging, your melee Strikes ignore 5 points of an object&apos;s Hardness. If you have the devastator class feature, you instead ignore 10 points of an object&apos;s Hardness.',
+      'Your forceful blows shatter objects with ease. While you are raging, your melee Strikes ignore 5 points of an object\'s Hardness. If you have the devastator class feature, you instead ignore 10 points of an object\'s Hardness.',
     ],
     source: 'Advanced Player\'s Guide pg. 111',
   },
@@ -19466,7 +19466,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1632,
     text: [
-      'You learn the <i>hymn of healing</i> composition spell, which imbues your music with rich melodies that help your allies recover from harm.',
+      'You learn the hymn of healing composition spell, which imbues your music with rich melodies that help your allies recover from harm.',
     ],
     source: 'Advanced Player\'s Guide pg. 112',
   },
@@ -19489,7 +19489,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1634,
     text: [
-      'You&apos;re resilient to performative influences that aren&apos;t your own. You gain a +1 circumstance bonus to saving throws against effects with the auditory, illusion, linguistic, sonic, or visual traits.',
+      'You\'re resilient to performative influences that aren\'t your own. You gain a +1 circumstance bonus to saving throws against effects with the auditory, illusion, linguistic, sonic, or visual traits.',
     ],
     source: 'Advanced Player\'s Guide pg. 112',
   },
@@ -19500,7 +19500,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1635,
     text: [
-      'You can shape the area of your composition spells. Whenever you cast a composition spell whose area is an emanation, you can change the spell&apos;s area to a cone 10 feet larger, to a maximum of twice the original area. For example, you could modify a composition spell that affects a 30-foot emanation to affect a 40-foot cone, but a 5-foot emanation could only become a 10-foot cone.',
+      'You can shape the area of your composition spells. Whenever you cast a composition spell whose area is an emanation, you can change the spell\'s area to a cone 10 feet larger, to a maximum of twice the original area. For example, you could modify a composition spell that affects a 30-foot emanation to affect a 40-foot cone, but a 5-foot emanation could only become a 10-foot cone.',
     ],
     source: 'Advanced Player\'s Guide pg. 112',
   },
@@ -19511,7 +19511,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1636,
     text: [
-      'Your performances inspire strength in your allies. You learn the <i>song of strength</i> composition cantrip.',
+      'Your performances inspire strength in your allies. You learn the song of strength composition cantrip.',
     ],
     source: 'Advanced Player\'s Guide pg. 112',
     prerequisites: 'warrior muse',
@@ -19523,7 +19523,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1637,
     text: [
-      'You use a performer&apos;s cold reading techniques, aura reading, and other tricks to discover your foe&apos;s strengths and weaknesses. The GM rolls a secret Occultism check for you against the Deception or Stealth DC (whichever is higher) of an enemy of your choice who is engaged in combat and isn&apos;t concealed from you, hidden from you, or undetected by you. The GM might apply a penalty for the distance between you and the enemy. The enemy is then temporarily immune to your Combat Reading for 1 day.',
+      'You use a performer\'s cold reading techniques, aura reading, and other tricks to discover your foe\'s strengths and weaknesses. The GM rolls a secret Occultism check for you against the Deception or Stealth DC (whichever is higher) of an enemy of your choice who is engaged in combat and isn\'t concealed from you, hidden from you, or undetected by you. The GM might apply a penalty for the distance between you and the enemy. The enemy is then temporarily immune to your Combat Reading for 1 day.',
     ],
     source: 'Advanced Player\'s Guide pg. 112',
     critical_success:
@@ -19540,7 +19540,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1638,
     text: [
-      'With a rousing call, you exhort an ally to advance. If your next action is to cast the <i>inspire courage</i> composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to Stride.',
+      'With a rousing call, you exhort an ally to advance. If your next action is to cast the inspire courage composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to Stride.',
     ],
     source: 'Advanced Player\'s Guide pg. 112',
     prerequisites: 'warrior muse',
@@ -19564,7 +19564,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1640,
     text: [
-      'You can procure information with confidence. Whenever you Recall Knowledge using any skill (including Bardic Lore), you can forgo rolling your check to instead receive a result of 10 + your proficiency bonus (don&apos;t apply any other bonuses, penalties, or modifiers). As long as you are an expert in a skill, you meet the prerequisites for the Automatic Knowledge skill feat in that skill, even if you don&apos;t have Assurance in that skill.',
+      'You can procure information with confidence. Whenever you Recall Knowledge using any skill (including Bardic Lore), you can forgo rolling your check to instead receive a result of 10 + your proficiency bonus (don\'t apply any other bonuses, penalties, or modifiers). As long as you are an expert in a skill, you meet the prerequisites for the Automatic Knowledge skill feat in that skill, even if you don\'t have Assurance in that skill.',
     ],
     source: 'Advanced Player\'s Guide pg. 113',
     prerequisites: 'enigma muse',
@@ -19576,7 +19576,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1641,
     text: [
-      'Like the storied heroes who persist in the face of overwhelming odds, you and your allies will hold the line. If your next action is to cast the <i>inspire defense</i> composition cantrip, you can Raise a Shield, and one ally who gains a status bonus from the spell can immediately use a reaction to Raise a Shield.',
+      'Like the storied heroes who persist in the face of overwhelming odds, you and your allies will hold the line. If your next action is to cast the inspire defense composition cantrip, you can Raise a Shield, and one ally who gains a status bonus from the spell can immediately use a reaction to Raise a Shield.',
     ],
     source: 'Advanced Player\'s Guide pg. 113',
     prerequisites: 'warrior muse, Inspire Defense',
@@ -19602,7 +19602,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1643,
     text: [
-      'You learn the <i>song of marching</i> composition cantrip, which enables you and your allies to cross vast distances without strain.',
+      'You learn the song of marching composition cantrip, which enables you and your allies to cross vast distances without strain.',
     ],
     source: 'Advanced Player\'s Guide pg. 113',
   },
@@ -19613,7 +19613,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1644,
     text: [
-      'You use your performances to supplement an ally&apos;s spellcasting, providing magical energy for their spells. Attempt a Performance check, using a very high DC for the ally&apos;s level, and either spend a Focus Point (if the triggering spell is a focus spell) or expend a spell slot at least 1 level higher than the triggering spell. If you succeed at the Performance check, your ally&apos;s spell doesn&apos;t cost the Focus Point or spell slot.',
+      'You use your performances to supplement an ally\'s spellcasting, providing magical energy for their spells. Attempt a Performance check, using a very high DC for the ally\'s level, and either spend a Focus Point (if the triggering spell is a focus spell) or expend a spell slot at least 1 level higher than the triggering spell. If you succeed at the Performance check, your ally\'s spell doesn\'t cost the Focus Point or spell slot.',
     ],
     source: 'Advanced Player\'s Guide pg. 113',
     trigger: 'An ally within 30 feet Casts a Spell.',
@@ -19625,7 +19625,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1645,
     text: [
-      'Your composition takes the form of a call-and-response chant, which lets your allies continue the effect without you. If your next action is to cast a composition cantrip with a duration of 1 round, it becomes a call. While the spell is active, one ally affected by the spell can respond to your call as a single action that has the auditory and concentrate traits to extend the spell&apos;s duration by 1 round. Only one ally can respond to a given call, and responding to the ally&apos;s response has no additional effect.',
+      'Your composition takes the form of a call-and-response chant, which lets your allies continue the effect without you. If your next action is to cast a composition cantrip with a duration of 1 round, it becomes a call. While the spell is active, one ally affected by the spell can respond to your call as a single action that has the auditory and concentrate traits to extend the spell\'s duration by 1 round. Only one ally can respond to a given call, and responding to the ally\'s response has no additional effect.',
     ],
     source: 'Advanced Player\'s Guide pg. 113',
   },
@@ -19650,7 +19650,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1647,
     text: [
-      'Your muse has opened your senses to the world beyond. You gain spiritsense as an imprecise sense with a range of 60 feet. Spiritsense enables you to sense the spirits of creatures, including living creatures, most non-mindless undead, and haunts within the listed range. As with your hearing and other imprecise senses, you still need to Seek to locate an undetected creature. As spiritsense detects spiritual essence, not physical bodies, it can detect spirits projected by spells such as <i>project image</i> or possessing otherwise soulless objects. It can&apos;t detect soulless bodies, constructs, or objects, and like most senses, it doesn&apos;t penetrate through solid objects.',
+      'Your muse has opened your senses to the world beyond. You gain spiritsense as an imprecise sense with a range of 60 feet. Spiritsense enables you to sense the spirits of creatures, including living creatures, most non-mindless undead, and haunts within the listed range. As with your hearing and other imprecise senses, you still need to Seek to locate an undetected creature. As spiritsense detects spiritual essence, not physical bodies, it can detect spirits projected by spells such as project image or possessing otherwise soulless objects. It can\'t detect soulless bodies, constructs, or objects, and like most senses, it doesn\'t penetrate through solid objects.',
     ],
     source: 'Advanced Player\'s Guide pg. 113',
     prerequisites: '(Sorcerer) bloodline that grants',
@@ -19662,9 +19662,9 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1648,
     text: [
-      'By putting composition to paper, you can create a source of stirring words or song that others can read and understand. You spend 10 minutes and 1 Focus Point to transpose a composition spell on a special scroll that you or another creature can later activate. This composition spell must take a single action to cast. If the chosen composition spell requires a Performance check as part of the casting, the GM rolls this check as a secret check when you annotate your score. If you have <i>inspire heroics</i> or <i>lingering composition</i> and the chosen composition spell allows, you can also use one of those spells to modify the annotated composition, with the GM rolling the secret Performance check. If you do, you spend an additional Focus Point, even if the secret check fails.',
+      'By putting composition to paper, you can create a source of stirring words or song that others can read and understand. You spend 10 minutes and 1 Focus Point to transpose a composition spell on a special scroll that you or another creature can later activate. This composition spell must take a single action to cast. If the chosen composition spell requires a Performance check as part of the casting, the GM rolls this check as a secret check when you annotate your score. If you have inspire heroics or lingering composition and the chosen composition spell allows, you can also use one of those spells to modify the annotated composition, with the GM rolling the secret Performance check. If you do, you spend an additional Focus Point, even if the secret check fails.',
       ' Any creature that can read the language you used when annotating your composition can Activate the Item by spending a single action, which has the concentrate trait. This produces the effects of the composition as though the activating creature had Cast the Spell.',
-      ' A composition you create this way loses its power the next time you make your daily preparations. While the composition is in your possession, you can render it inert using a single action that has the concentrate trait. You can&apos;t regain the Focus Points you spent to create the annotated composition until it is activated or loses its magic.',
+      ' A composition you create this way loses its power the next time you make your daily preparations. While the composition is in your possession, you can render it inert using a single action that has the concentrate trait. You can\'t regain the Focus Points you spent to create the annotated composition until it is activated or loses its magic.',
     ],
     source: 'Advanced Player\'s Guide pg. 113',
   },
@@ -19675,7 +19675,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1649,
     text: [
-      'With a mighty shout, you can stir an ally to attack. If your next action is to cast the <i>inspire courage</i> composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to make a melee Strike.',
+      'With a mighty shout, you can stir an ally to attack. If your next action is to cast the inspire courage composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to make a melee Strike.',
     ],
     source: 'Advanced Player\'s Guide pg. 114',
     prerequisites: 'warrior muse',
@@ -19687,7 +19687,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1650,
     text: [
-      'You learn the <i>ode to ouroboros</i> composition spell, which enables you to temporarily spare your allies from death.',
+      'You learn the ode to ouroboros composition spell, which enables you to temporarily spare your allies from death.',
     ],
     source: 'Advanced Player\'s Guide pg. 114',
   },
@@ -19698,7 +19698,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1651,
     text: [
-      'You learn the <i>symphony of the unfettered heart</i> composition spell, which enables you to protect an ally against incapacitating conditions.',
+      'You learn the symphony of the unfettered heart composition spell, which enables you to protect an ally against incapacitating conditions.',
     ],
     source: 'Advanced Player\'s Guide pg. 114',
   },
@@ -19739,7 +19739,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1654,
     text: [
-      'In the triumph of battle, you can share the glory with another ally. When the ally you chose for Courageous Assault critically succeeds at the Strike granted by that action, another ally affected by your <i>inspire courage</i> composition spell can immediately use a reaction to make a melee Strike. Since the second ally wasn&apos;t the ally you chose for Courageous Assault, this effect doesn&apos;t continue to a third ally, even if the second ally also critically succeeds at their Strike.',
+      'In the triumph of battle, you can share the glory with another ally. When the ally you chose for Courageous Assault critically succeeds at the Strike granted by that action, another ally affected by your inspire courage composition spell can immediately use a reaction to make a melee Strike. Since the second ally wasn\'t the ally you chose for Courageous Assault, this effect doesn\'t continue to a third ally, even if the second ally also critically succeeds at their Strike.',
     ],
     source: 'Advanced Player\'s Guide pg. 114',
     prerequisites: 'Courageous Assault',
@@ -19751,8 +19751,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1655,
     text: [
-      'By endlessly repeating a motif, you implant an earworm, a memorable song that repeats over and over again in your allies&apos; heads, preparing them to respond to it later. Choose a composition cantrip and spend 10 minutes repeating a melody, chant, speech, series of motions, or a similar performance that embodies that cantrip. This activity gains the traits appropriate to the type of performance. You implant the earworm within all allies who can see or hear you (as appropriate for the type of performance) for the entire activity.',
-      ' Once you&apos;ve created the earworm, you can attempt a Performance check as a free action to activate it. This check uses a very hard DC of a level equal to that of the highest-level target of the earworm present at the time of activation. On a success, you cast the cantrip on all allies who learned the earworm and can perceive your performance; on a failure, the earworm is corrupted and lost. Because it is based on the earlier repetitions, you can&apos;t use further free actions like <i>lingering composition</i> or <i>inspire heroics</i> to modify the activated earworm. Allies forget the earworm after it is activated, if you spend 10 minutes to implant another earworm, or during your next daily preparations, whichever comes first.',
+      'By endlessly repeating a motif, you implant an earworm, a memorable song that repeats over and over again in your allies\' heads, preparing them to respond to it later. Choose a composition cantrip and spend 10 minutes repeating a melody, chant, speech, series of motions, or a similar performance that embodies that cantrip. This activity gains the traits appropriate to the type of performance. You implant the earworm within all allies who can see or hear you (as appropriate for the type of performance) for the entire activity.',
+      ' Once you\'ve created the earworm, you can attempt a Performance check as a free action to activate it. This check uses a very hard DC of a level equal to that of the highest-level target of the earworm present at the time of activation. On a success, you cast the cantrip on all allies who learned the earworm and can perceive your performance; on a failure, the earworm is corrupted and lost. Because it is based on the earlier repetitions, you can\'t use further free actions like lingering composition or inspire heroics to modify the activated earworm. Allies forget the earworm after it is activated, if you spend 10 minutes to implant another earworm, or during your next daily preparations, whichever comes first.',
     ],
     source: 'Advanced Player\'s Guide pg. 114',
   },
@@ -19777,7 +19777,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1657,
     text: [
-      'You instill magical vigor in your allies when you inspire them to attack. If your next action is to cast the <i>inspire courage</i> composition cantrip, you and all affected allies gain temporary Hit Points equal to 3 + your Charisma modifier that last for 1 minute.',
+      'You instill magical vigor in your allies when you inspire them to attack. If your next action is to cast the inspire courage composition cantrip, you and all affected allies gain temporary Hit Points equal to 3 + your Charisma modifier that last for 1 minute.',
     ],
     source: 'Advanced Player\'s Guide pg. 115',
   },
@@ -19788,7 +19788,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1658,
     text: [
-      'You use your performance to orchestrate an onslaught against your enemies. If your next action is to cast the <i>inspire courage</i> composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to Stride and then make a melee Strike.',
+      'You use your performance to orchestrate an onslaught against your enemies. If your next action is to cast the inspire courage composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to Stride and then make a melee Strike.',
     ],
     source: 'Advanced Player\'s Guide pg. 115',
     prerequisites: 'Courageous Advance, Courageous Assault',
@@ -19800,7 +19800,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1659,
     text: [
-      'You bring your performance to a sudden, dramatic finish, drowning out other sounds. Your composition spell ends immediately, and all allies that had been benefiting from the spell&apos;s effects gain sonic resistance against the triggering damage equal to twice the composition spell&apos;s level.',
+      'You bring your performance to a sudden, dramatic finish, drowning out other sounds. Your composition spell ends immediately, and all allies that had been benefiting from the spell\'s effects gain sonic resistance against the triggering damage equal to twice the composition spell\'s level.',
     ],
     source: 'Advanced Player\'s Guide pg. 115',
     prerequisites: 'maestro muse',
@@ -19814,7 +19814,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1660,
     text: [
-      'Using your occult connections and incredible powers of persuasion, you convince yourself that the triggering damage is a figment of your imagination. The damage changes from its usual damage type to mental damage, and the damaging effect gains the nonlethal trait. You can&apos;t use this reaction if you are immune to mental effects or mental damage.',
+      'Using your occult connections and incredible powers of persuasion, you convince yourself that the triggering damage is a figment of your imagination. The damage changes from its usual damage type to mental damage, and the damaging effect gains the nonlethal trait. You can\'t use this reaction if you are immune to mental effects or mental damage.',
     ],
     source: 'Advanced Player\'s Guide pg. 115',
     trigger:
@@ -19827,7 +19827,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1661,
     text: [
-      'Your <i>inspire courage</i> lets loose a discordant shriek that imbues your allies&apos; attacks with powerful sonic reverberations. While your allies are affected by your inspire courage, their weapon Strikes and unarmed attacks deal an additional 1d6 sonic damage.',
+      'Your inspire courage lets loose a discordant shriek that imbues your allies\' attacks with powerful sonic reverberations. While your allies are affected by your inspire courage, their weapon Strikes and unarmed attacks deal an additional 1d6 sonic damage.',
     ],
     source: 'Advanced Player\'s Guide pg. 115',
     prerequisites: 'inspire courage',
@@ -19839,7 +19839,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1662,
     text: [
-      'You learn the <i>pied piping</i> composition spell, which enables you to control the actions of weak-minded individuals.',
+      'You learn the pied piping composition spell, which enables you to control the actions of weak-minded individuals.',
     ],
     source: 'Advanced Player\'s Guide pg. 115',
   },
@@ -19911,7 +19911,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1668,
     text: [
-      'Because you know your mind is superior, you scoff at anyone who would alter your mental state&#x2014;but this hubris gets the better of you when you&apos;re wrong. You gain a +2 circumstance bonus to saves against mental effects. If you succeed at a save against a mental effect, you critically succeed instead; similarly, if you fail at a save against a mental effect, you critically fail instead.',
+      'Because you know your mind is superior, you scoff at anyone who would alter your mental state&#x2014;but this hubris gets the better of you when you\'re wrong. You gain a +2 circumstance bonus to saves against mental effects. If you succeed at a save against a mental effect, you critically succeed instead; similarly, if you fail at a save against a mental effect, you critically fail instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 118',
     prerequisites: 'tenets of evil',
@@ -19923,9 +19923,9 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1669,
     text: [
-      'You&apos;ve sworn an oath to slay the alien abominations that lurk in the remote corners of Golarion. Add the following tenet to your champion&apos;s code, after the other tenets. &#x201C;You must slay evil aberrations you encounter as long as you have a reasonable chance of success.&#x201D;',
+      'You\'ve sworn an oath to slay the alien abominations that lurk in the remote corners of Golarion. Add the following tenet to your champion\'s code, after the other tenets. &#x201C;You must slay evil aberrations you encounter as long as you have a reasonable chance of success.&#x201D;',
       ' Your Retributive Strike gains a +4 circumstance bonus to damage against an evil aberration, or +6 if you have master proficiency with the weapon you used. The resistance you gain from Glimpse of Redemption against damage from an evil aberration is 7 + your level. If you use Liberating Step triggered by an evil aberration, your ally gains a +4 circumstance bonus to checks granted by your Liberating Step, and the ally can Step twice afterward.',
-      ' You don&apos;t consider evil aberrations to be legitimate authorities, even in nations they rule.',
+      ' You don\'t consider evil aberrations to be legitimate authorities, even in nations they rule.',
     ],
     source: 'Advanced Player\'s Guide pg. 118',
     prerequisites: 'tenets of good',
@@ -19937,8 +19937,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1670,
     text: [
-      'You&apos;ve sworn to rid the world of the self-righteousness of celestial beings. Add the following tenet to your code, after the other tenets. &#x201C;You must banish or slay celestials you encounter as long as you have a reasonable chance of success; in the incredibly unlikely event you find an evil celestial, you don&apos;t have to banish or kill it.&#x201D;',
-      ' When you use your champion&apos;s reaction against a celestial, the extra damage you deal with Strikes increases by 1 (or by 2 at 9th level and by 3 at 16th level).',
+      'You\'ve sworn to rid the world of the self-righteousness of celestial beings. Add the following tenet to your code, after the other tenets. &#x201C;You must banish or slay celestials you encounter as long as you have a reasonable chance of success; in the incredibly unlikely event you find an evil celestial, you don\'t have to banish or kill it.&#x201D;',
+      ' When you use your champion\'s reaction against a celestial, the extra damage you deal with Strikes increases by 1 (or by 2 at 9th level and by 3 at 16th level).',
     ],
     source: 'Advanced Player\'s Guide pg. 118',
     prerequisites: 'tenets of evil',
@@ -19950,7 +19950,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1671,
     text: [
-      'Your healing energies are infused with bounding energy. A creature that recovers Hit Points from your <i>lay on hands</i> gains a +10-foot status bonus to its Speed until the end of its next turn.',
+      'Your healing energies are infused with bounding energy. A creature that recovers Hit Points from your lay on hands gains a +10-foot status bonus to its Speed until the end of its next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 119',
     prerequisites: 'devotion spell (',
@@ -19962,7 +19962,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1672,
     text: [
-      'Your presence as an avatar of evil makes your foes more susceptible to terror and makes it almost impossible for them to shake off fear when you are near. Enemies within 15 feet of you take a &#x2013;1 circumstance penalty to saving throws against fear. In addition, an enemy that ends its turn within 15 feet of you can&apos;t reduce the value of its frightened condition below 1.',
+      'Your presence as an avatar of evil makes your foes more susceptible to terror and makes it almost impossible for them to shake off fear when you are near. Enemies within 15 feet of you take a &#x2013;1 circumstance penalty to saving throws against fear. In addition, an enemy that ends its turn within 15 feet of you can\'t reduce the value of its frightened condition below 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 119',
     prerequisites: 'tenets of evil',
@@ -19974,7 +19974,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1673,
     text: [
-      'The harm you deal with your corrupting touch saps the strength from your enemy&apos;s body. If your next action is to cast <i>touch of corruption</i> on a living creature, the target is also enfeebled 1 for 1 minute if it fails its save (enfeebled 2 if it critically fails).',
+      'The harm you deal with your corrupting touch saps the strength from your enemy\'s body. If your next action is to cast touch of corruption on a living creature, the target is also enfeebled 1 for 1 minute if it fails its save (enfeebled 2 if it critically fails).',
     ],
     source: 'Advanced Player\'s Guide pg. 119',
     prerequisites: 'devotion spell (',
@@ -19986,7 +19986,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1674,
     text: [
-      'Your shield ally is more than just a spirit of protection&#x2014; it&apos;s a conduit for deadly divine magic. When you use your shield ally to Shield Block a melee unarmed attack or a melee weapon Strike from an adjacent creature, the attacker takes 1d6 evil or negative damage (your choice). If the attack or Strike breaks or destroys your shield, double this additional damage.',
+      'Your shield ally is more than just a spirit of protection&#x2014; it\'s a conduit for deadly divine magic. When you use your shield ally to Shield Block a melee unarmed attack or a melee weapon Strike from an adjacent creature, the attacker takes 1d6 evil or negative damage (your choice). If the attack or Strike breaks or destroys your shield, double this additional damage.',
       ' The damage the attacker takes increases to 2d6 at 11th level and 3d6 at 16th level.',
     ],
     source: 'Advanced Player\'s Guide pg. 119',
@@ -19999,7 +19999,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1675,
     text: [
-      'Your divine touch rejuvenates the weak and tired. When you use Mercy, you can instead attempt a counteract check to remove the clumsy or enfeebled conditions, using the source of that condition to determine the counteract level and DC. If the condition was caused by an ongoing effect and you don&apos;t remove that effect, the condition returns at the end of your next turn.',
+      'Your divine touch rejuvenates the weak and tired. When you use Mercy, you can instead attempt a counteract check to remove the clumsy or enfeebled conditions, using the source of that condition to determine the counteract level and DC. If the condition was caused by an ongoing effect and you don\'t remove that effect, the condition returns at the end of your next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 119',
     prerequisites: 'Mercy',
@@ -20012,7 +20012,7 @@ export const feats: FeatCollection = {
     id: 1676,
     text: [
       'Your blade ally shares your lust for the blood of good creatures. Select one enemy you can see. Until the start of your next turn, your Strikes against that foe using the weapon your blade ally inhabits deal an extra 4 evil damage, increasing to 6 if you have master proficiency with this weapon.',
-      ' If the chosen enemy attacks you before the start of your next turn, the duration extends to the end of that enemy&apos;s next turn. If the enemy continues to attack you each turn, the duration continues to extend.',
+      ' If the chosen enemy attacks you before the start of your next turn, the duration extends to the end of that enemy\'s next turn. If the enemy continues to attack you each turn, the duration continues to extend.',
     ],
     source: 'Advanced Player\'s Guide pg. 119',
     prerequisites: 'divine ally (blade), tenets of evil',
@@ -20024,7 +20024,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1677,
     text: [
-      'The extent of the corruption within you does more than simply sap your foes&apos; strength, it devastates their minds and reflexes. When you use Cruelty, choose whether you want to make the creature enfeebled as normal, to make it clumsy 1 on a failed save (clumsy 2 on a critical failure), or to make it stupefied 1 on a failed save (stupefied 2 on a critical failure).',
+      'The extent of the corruption within you does more than simply sap your foes\' strength, it devastates their minds and reflexes. When you use Cruelty, choose whether you want to make the creature enfeebled as normal, to make it clumsy 1 on a failed save (clumsy 2 on a critical failure), or to make it stupefied 1 on a failed save (stupefied 2 on a critical failure).',
     ],
     source: 'Advanced Player\'s Guide pg. 120',
     prerequisites: 'Cruelty',
@@ -20036,7 +20036,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1678,
     text: [
-      'With divine awareness, you twist your body to lessen the impact of an attack. Reduce the damage you take by an amount equal to twice your armor&apos;s level. Your armor becomes broken, reducing its Hit Points to its Broken Threshold. If your armor was already damaged, it is destroyed instead.',
+      'With divine awareness, you twist your body to lessen the impact of an attack. Reduce the damage you take by an amount equal to twice your armor\'s level. Your armor becomes broken, reducing its Hit Points to its Broken Threshold. If your armor was already damaged, it is destroyed instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 120',
     trigger: 'You are hit by a Strike that deals physical damage.',
@@ -20048,7 +20048,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1679,
     text: [
-      'The presence of goodness sickens you with its saccharine self-righteousness. When in the presence of an aura of good that is powerful or overwhelming, you detect the aura, though you might not do so instantly, and you can&apos;t pinpoint the location. This acts as a vague sense, similar to humans&apos; sense of smell. A good creature using a disguise or otherwise trying to hide its presence attempts a Deception check against your Perception DC to hide its aura from you. If the creature succeeds at its Deception check, it is then temporarily immune to your Sense Good for 1 day.',
+      'The presence of goodness sickens you with its saccharine self-righteousness. When in the presence of an aura of good that is powerful or overwhelming, you detect the aura, though you might not do so instantly, and you can\'t pinpoint the location. This acts as a vague sense, similar to humans\' sense of smell. A good creature using a disguise or otherwise trying to hide its presence attempts a Deception check against your Perception DC to hide its aura from you. If the creature succeeds at its Deception check, it is then temporarily immune to your Sense Good for 1 day.',
     ],
     source: 'Advanced Player\'s Guide pg. 120',
     prerequisites: 'tenets of evil',
@@ -20060,7 +20060,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1680,
     text: [
-      'Your mercy grants clarity to those around you just when they need it most. When you use Mercy, you can instead attempt a counteract check to remove the confused or stupefied conditions, using the source of that condition to determine the counteract level and DC. If the condition was caused by an ongoing effect and you don&apos;t remove that effect, the condition returns at the end of your next turn.',
+      'Your mercy grants clarity to those around you just when they need it most. When you use Mercy, you can instead attempt a counteract check to remove the confused or stupefied conditions, using the source of that condition to determine the counteract level and DC. If the condition was caused by an ongoing effect and you don\'t remove that effect, the condition returns at the end of your next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 120',
     prerequisites: 'Mercy',
@@ -20072,7 +20072,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1681,
     text: [
-      'You compel a creature to act toward its own ends rather than consider others. You can cast the <i>litany of self-interest</i> devotion spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You compel a creature to act toward its own ends rather than consider others. You can cast the litany of self-interest devotion spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 120',
     prerequisites: 'devotion spells, tenets of evil',
@@ -20084,7 +20084,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1682,
     text: [
-      'Your healing energies create an aura of protection that defends your allies against more than just blades and arrows. An ally that recovers Hit Points from your <i>lay on hands</i> gains a +1 status bonus to their saving throws until the end of their next turn.',
+      'Your healing energies create an aura of protection that defends your allies against more than just blades and arrows. An ally that recovers Hit Points from your lay on hands gains a +1 status bonus to their saving throws until the end of their next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 120',
     prerequisites: 'devotion spell (',
@@ -20096,7 +20096,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1683,
     text: [
-      'Your healing energies empower attacks. An ally that recovers Hit Points from your <i>lay on hands</i> gains a +1 status bonus to their attack rolls and deals 1 additional good damage on all their Strikes until the end of their next turn.',
+      'Your healing energies empower attacks. An ally that recovers Hit Points from your lay on hands gains a +1 status bonus to their attack rolls and deals 1 additional good damage on all their Strikes until the end of their next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 120',
     prerequisites: 'devotion spell (',
@@ -20108,7 +20108,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1684,
     text: [
-      'You call on your oath to embolden you in combat. When you Enforce your Oath, select one creature you can see that you&apos;ve sworn to defeat as part of your oath. You gain a +1 status bonus to AC and saves against attacks and effects by the chosen creature. You also gain a +1 status bonus to attack rolls against the chosen creature. However, your dedication to Enforcing your Oath draws your focus away from all other foes. While you are Enforcing your Oath, you take a &#x2013;1 status penalty to AC, attack rolls, and saves against all other creatures until you stop Enforcing your Oath. ',
+      'You call on your oath to embolden you in combat. When you Enforce your Oath, select one creature you can see that you\'ve sworn to defeat as part of your oath. You gain a +1 status bonus to AC and saves against attacks and effects by the chosen creature. You also gain a +1 status bonus to attack rolls against the chosen creature. However, your dedication to Enforcing your Oath draws your focus away from all other foes. While you are Enforcing your Oath, you take a &#x2013;1 status penalty to AC, attack rolls, and saves against all other creatures until you stop Enforcing your Oath. ',
       'You stop Enforcing your Oath once the chosen creature is reduced to 0 Hit Points or offers a legitimate surrender to you or your allies. You immediately stop Enforcing your Oath if you are unconscious or if the chosen creature goes unnoticed by you for more than 1 minute. You can also stop Enforcing your Oath at any time during your turn as a free action.',
     ],
     source: 'Advanced Player\'s Guide pg. 120',
@@ -20123,7 +20123,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1685,
     text: [
-      'Make a Strike against the creature that triggered your champion&apos;s reaction. If you hit, the target takes double the extra damage from your reaction and must succeed at a Fortitude save against your class DC or be drained 1. Regardless of the result, the creature is temporarily immune to your Gruesome Strike for 24 hours.',
+      'Make a Strike against the creature that triggered your champion\'s reaction. If you hit, the target takes double the extra damage from your reaction and must succeed at a Fortitude save against your class DC or be drained 1. Regardless of the result, the creature is temporarily immune to your Gruesome Strike for 24 hours.',
     ],
     source: 'Advanced Player\'s Guide pg. 120',
     prerequisites:
@@ -20150,7 +20150,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1687,
     text: [
-      'Your aura protects against the twisting powers of aberrations. You and all allies within 15 feet gain a +1 status bonus to Fortitude and Will saves against effects from aberrations. You also gain a +1 status bonus to Fortitude saves against morph or polymorph effects and Will saves against mental effects; this bonus increases to +2 against aberrations&apos; morph, polymorph, or mental effects.',
+      'Your aura protects against the twisting powers of aberrations. You and all allies within 15 feet gain a +1 status bonus to Fortitude and Will saves against effects from aberrations. You also gain a +1 status bonus to Fortitude saves against morph or polymorph effects and Will saves against mental effects; this bonus increases to +2 against aberrations\' morph, polymorph, or mental effects.',
     ],
     source: 'Advanced Player\'s Guide pg. 121',
     prerequisites: 'Esoteric Oath',
@@ -20174,7 +20174,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1689,
     text: [
-      'You undercut your enemy&apos;s vain moralism, opening their heart to evil. You can cast the <i>litany of depravity</i> focus spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You undercut your enemy\'s vain moralism, opening their heart to evil. You can cast the litany of depravity focus spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 121',
     prerequisites: 'tenets of evil',
@@ -20199,7 +20199,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1691,
     text: [
-      'Your blade ally thirsts for the blood of your foes. Whenever you critically hit an enemy with the weapon inhabited by your blade ally while dealing extra damage from your champion&apos;s reaction, the target takes persistent bleed damage equal to two of the weapon&apos;s damage dice.',
+      'Your blade ally thirsts for the blood of your foes. Whenever you critically hit an enemy with the weapon inhabited by your blade ally while dealing extra damage from your champion\'s reaction, the target takes persistent bleed damage equal to two of the weapon\'s damage dice.',
     ],
     source: 'Advanced Player\'s Guide pg. 121',
     prerequisites: 'divine ally (blade), tenets of evil',
@@ -20211,7 +20211,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1692,
     text: [
-      'Your features reshape into those of a type of fiend who serves your deity; for example, as a demon you might have putrid scales, twisted horns, and red eyes. You gain a fly Speed equal to your Speed. You gain darkvision if you don&apos;t already have it, and you gain the fiend trait and the trait appropriate to the type of servitor you&apos;ve become (such as daemon, demon, or devil).',
+      'Your features reshape into those of a type of fiend who serves your deity; for example, as a demon you might have putrid scales, twisted horns, and red eyes. You gain a fly Speed equal to your Speed. You gain darkvision if you don\'t already have it, and you gain the fiend trait and the trait appropriate to the type of servitor you\'ve become (such as daemon, demon, or devil).',
     ],
     source: 'Advanced Player\'s Guide pg. 121',
     prerequisites: 'tenets of evil',
@@ -20223,7 +20223,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1693,
     text: [
-      'Your healing energies linger after you cast, providing continual benefits. An ally that recovers Hit Points from your <i>lay on hands</i> gains 10 temporary Hit Points at the start of their turn during each of the next 10 rounds. This effect ends if the ally is knocked unconscious.',
+      'Your healing energies linger after you cast, providing continual benefits. An ally that recovers Hit Points from your lay on hands gains 10 temporary Hit Points at the start of their turn during each of the next 10 rounds. This effect ends if the ally is knocked unconscious.',
     ],
     source: 'Advanced Player\'s Guide pg. 121',
     prerequisites: 'devotion spell (',
@@ -20248,7 +20248,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1695,
     text: [
-      'You are a great warrior that can stand strong against the fiercest opponents to your cause. You gain resistance 10 to bludgeoning, piercing, and slashing damage caused by creatures and effects opposed to your tenets (evil creatures for tenets of good, good creatures for tenets of evil, and so on). In addition, creatures and effects that roll a natural 20 on an attack roll against you don&apos;t improve their result by one degree of success.',
+      'You are a great warrior that can stand strong against the fiercest opponents to your cause. You gain resistance 10 to bludgeoning, piercing, and slashing damage caused by creatures and effects opposed to your tenets (evil creatures for tenets of good, good creatures for tenets of evil, and so on). In addition, creatures and effects that roll a natural 20 on an attack roll against you don\'t improve their result by one degree of success.',
     ],
     source: 'Advanced Player\'s Guide pg. 121',
   },
@@ -20272,7 +20272,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1697,
     text: [
-      'You combine unholy might with negative energy to damage angels, archons, and other self-righteous denizens of the Outer Planes. When you cast a <i>harm</i> spell, you can change the damage you deal to celestial creatures to evil damage instead of negative damage.',
+      'You combine unholy might with negative energy to damage angels, archons, and other self-righteous denizens of the Outer Planes. When you cast a harm spell, you can change the damage you deal to celestial creatures to evil damage instead of negative damage.',
     ],
     source: 'Advanced Player\'s Guide pg. 122',
     prerequisites: 'evil alignment',
@@ -20296,7 +20296,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1699,
     text: [
-      'You pour invigorating positive energy into a living ally. If the next action you use is to cast <i>heal</i> to restore Hit Points to a single living creature, the target deals an additional 1d6 positive damage with its melee weapons and unarmed attacks until the end of its next turn. If the heal spell is at least 5th level, this damage increases to 2d6, or 3d6 if the spell is at least 8th level.',
+      'You pour invigorating positive energy into a living ally. If the next action you use is to cast heal to restore Hit Points to a single living creature, the target deals an additional 1d6 positive damage with its melee weapons and unarmed attacks until the end of its next turn. If the heal spell is at least 5th level, this damage increases to 2d6, or 3d6 if the spell is at least 8th level.',
     ],
     source: 'Advanced Player\'s Guide pg. 122',
     prerequisites: 'good alignment, healing font',
@@ -20320,7 +20320,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1701,
     text: [
-      'You go to extreme lengths to support your allies, even when it means bringing harm to yourself. If your next action is to cast harm or heal from your healing or harmful font to restore Hit Points to a single ally, you can channel your own vitality along with the spell. You lose 1d8 Hit Points per level of the spell, which can&apos;t be reduced or mitigated in any way, and your ally regains an equal number of Hit Points.',
+      'You go to extreme lengths to support your allies, even when it means bringing harm to yourself. If your next action is to cast harm or heal from your healing or harmful font to restore Hit Points to a single ally, you can channel your own vitality along with the spell. You lose 1d8 Hit Points per level of the spell, which can\'t be reduced or mitigated in any way, and your ally regains an equal number of Hit Points.',
     ],
     source: 'Advanced Player\'s Guide pg. 122',
     prerequisites: 'divine font',
@@ -20332,7 +20332,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1702,
     text: [
-      'When an ally you can see falls in battle, your fight or flight response triggers a surge in your deity&apos;s might within you. You instantly regain 1 Focus Point.',
+      'When an ally you can see falls in battle, your fight or flight response triggers a surge in your deity\'s might within you. You instantly regain 1 Focus Point.',
     ],
     source: 'Advanced Player\'s Guide pg. 122',
     frequency: 'once per day',
@@ -20369,7 +20369,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1705,
     text: [
-      'Spells you cast can transform briefly into vital essence, traveling harmlessly through living and undead creatures between you and your target, blocked only by solid objects. If the next action you use is to Cast a Spell that requires a spell attack roll, your targets don&apos;t benefit from cover provided by living or undead creatures.',
+      'Spells you cast can transform briefly into vital essence, traveling harmlessly through living and undead creatures between you and your target, blocked only by solid objects. If the next action you use is to Cast a Spell that requires a spell attack roll, your targets don\'t benefit from cover provided by living or undead creatures.',
     ],
     source: 'Advanced Player\'s Guide pg. 122',
   },
@@ -20380,7 +20380,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1706,
     text: [
-      'You can pull forth both positive and negative energy simultaneously to harm your enemies and heal your allies. If your next action is to cast a 1-action or 2-action <i>heal</i> or <i>harm</i> spell, choose one creature in range that would be harmed by the spell, and choose another creature within range that would be healed by the spell. Your <i>heal</i> or <i>harm</i> targets both creatures.',
+      'You can pull forth both positive and negative energy simultaneously to harm your enemies and heal your allies. If your next action is to cast a 1-action or 2-action heal or harm spell, choose one creature in range that would be harmed by the spell, and choose another creature within range that would be healed by the spell. Your heal or harm targets both creatures.',
     ],
     source: 'Advanced Player\'s Guide pg. 123',
     prerequisites: 'Versatile Font',
@@ -20392,7 +20392,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1707,
     text: [
-      'Your deity sends you a vision of faith to steel you against mental attacks. Reroll the triggering saving throw with a +2 circumstance bonus. You must use the second result, even if it&apos;s worse.',
+      'Your deity sends you a vision of faith to steel you against mental attacks. Reroll the triggering saving throw with a +2 circumstance bonus. You must use the second result, even if it\'s worse.',
     ],
     source: 'Advanced Player\'s Guide pg. 123',
     frequency: 'once per hour',
@@ -20405,7 +20405,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1708,
     text: [
-      'If your next action is to use your divine font to cast a 3-action <i>heal</i> or <i>harm</i> spell to damage creatures, you can harness the residual energy to counterbalance opposing forces. You use your heal or harm spell to attempt to counteract one effect in the spell&apos;s area with the chaotic, evil, good, or lawful trait. The chosen trait must oppose one component of your deity&apos;s alignment; if your deity is neutral, you can choose any one trait.',
+      'If your next action is to use your divine font to cast a 3-action heal or harm spell to damage creatures, you can harness the residual energy to counterbalance opposing forces. You use your heal or harm spell to attempt to counteract one effect in the spell\'s area with the chaotic, evil, good, or lawful trait. The chosen trait must oppose one component of your deity\'s alignment; if your deity is neutral, you can choose any one trait.',
     ],
     source: 'Advanced Player\'s Guide pg. 123',
     frequency: 'once per hour',
@@ -20418,7 +20418,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1709,
     text: [
-      'Your deity empowers you to perform minor miracles, allowing you to readily adapt to the fluctuating needs of your duties. Once during your daily preparations, you can use a spell slot to hold sheer divine potential, rather than using it to prepare a spell. You can use this spell slot to cast any spell you know from the divine spell list that&apos;s at least 2 levels lower than the slot you designate. The spell acts in all ways as a spell of 2 levels lower. You don&apos;t have any particular spell prepared in that slot until you cast it.',
+      'Your deity empowers you to perform minor miracles, allowing you to readily adapt to the fluctuating needs of your duties. Once during your daily preparations, you can use a spell slot to hold sheer divine potential, rather than using it to prepare a spell. You can use this spell slot to cast any spell you know from the divine spell list that\'s at least 2 levels lower than the slot you designate. The spell acts in all ways as a spell of 2 levels lower. You don\'t have any particular spell prepared in that slot until you cast it.',
     ],
     source: 'Advanced Player\'s Guide pg. 123',
   },
@@ -20453,7 +20453,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1712,
     text: [
-      'You can call the four elements to you. You can spend 10 minutes in concert with nature to replace one of the spells you&apos;ve prepared in one of your druid spell slots with a <i>summon elemental</i> spell of the same level. ',
+      'You can call the four elements to you. You can spend 10 minutes in concert with nature to replace one of the spells you\'ve prepared in one of your druid spell slots with a summon elemental spell of the same level. ',
     ],
     source: 'Advanced Player\'s Guide pg. 124',
   },
@@ -20464,7 +20464,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1713,
     text: [
-      'The leaf order&apos;s secrets allow your familiar to take advantage of its leshy form. You can select one additional familiar ability each day, which must be one of the following leshy familiar abilities. You can&apos;t select more than one leshy familiar ability at a time.<li><b>Grasping Tendrils</b> Your familiar can extend vines or similar tendrils, increasing its reach to 15 feet.</li><li><b>Purify Air</b> Your familiar recycles air, providing enough oxygen for a Medium creature in areas with stale air, such as a sealed chamber or extradimensional space. If the leshy is within the area of an inhaled poison effect or an effect that relies on smell, creatures within a 15-foot emanation from the leshy gain a +2 circumstance bonus to their saving throws against the effect.</li><li><b>Verdant Burst</b> When your familiar dies, it releases its primal energy to cast the 3-action version of <i>heal</i>, heightened to a level 1 lower than your highest-level spell slot. The heal spell gains a status bonus equal to twice the spell&apos;s level to the Hit Points it restores to plants. You must be able to cast 2nd-level spells using spell slots to select this familiar ability.</li>',
+      'The leaf order\'s secrets allow your familiar to take advantage of its leshy form. You can select one additional familiar ability each day, which must be one of the following leshy familiar abilities. You can\'t select more than one leshy familiar ability at a time.<li><b>Grasping Tendrils</b> Your familiar can extend vines or similar tendrils, increasing its reach to 15 feet.</li><li><b>Purify Air</b> Your familiar recycles air, providing enough oxygen for a Medium creature in areas with stale air, such as a sealed chamber or extradimensional space. If the leshy is within the area of an inhaled poison effect or an effect that relies on smell, creatures within a 15-foot emanation from the leshy gain a +2 circumstance bonus to their saving throws against the effect.</li><li><b>Verdant Burst</b> When your familiar dies, it releases its primal energy to cast the 3-action version of heal, heightened to a level 1 lower than your highest-level spell slot. The heal spell gains a status bonus equal to twice the spell\'s level to the Hit Points it restores to plants. You must be able to cast 2nd-level spells using spell slots to select this familiar ability.</li>',
     ],
     source: 'Advanced Player\'s Guide pg. 124',
     prerequisites: 'leaf order',
@@ -20493,7 +20493,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1714,
     text: [
-      'As you use your magic to manipulate air or water, you divert some of its currents to form a barrier around you. If your next action is to Cast a Spell with the air or water trait, until the start of your next turn, you gain a +1 circumstance bonus to AC or a +2 circumstance bonus against ranged attacks. This effect has the air or water trait, or both, depending on the traits of the spell you cast. You also gain a +1 circumstance bonus to all saves against effects with the air trait, water trait, or both until the start of your next turn, depending on the spell&apos;s traits.',
+      'As you use your magic to manipulate air or water, you divert some of its currents to form a barrier around you. If your next action is to Cast a Spell with the air or water trait, until the start of your next turn, you gain a +1 circumstance bonus to AC or a +2 circumstance bonus against ranged attacks. This effect has the air or water trait, or both, depending on the traits of the spell you cast. You also gain a +1 circumstance bonus to all saves against effects with the air trait, water trait, or both until the start of your next turn, depending on the spell\'s traits.',
     ],
     source: 'Advanced Player\'s Guide pg. 124',
   },
@@ -20504,7 +20504,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1715,
     text: [
-      'Imitating animal threat displays, you make yourself appear larger and more imposing. Roll one Intimidation check to Demoralize and compare the result to the Will DC of each animal, fungus, and plant creature in a 15-foot cone. When you do, Demoralize gains the visual trait, and creatures are affected if they can see you. You don&apos;t take a penalty if the creature doesn&apos;t understand your language.',
+      'Imitating animal threat displays, you make yourself appear larger and more imposing. Roll one Intimidation check to Demoralize and compare the result to the Will DC of each animal, fungus, and plant creature in a 15-foot cone. When you do, Demoralize gains the visual trait, and creatures are affected if they can see you. You don\'t take a penalty if the creature doesn\'t understand your language.',
     ],
     source: 'Advanced Player\'s Guide pg. 124',
     prerequisites: 'trained in Intimidation',
@@ -20528,7 +20528,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1717,
     text: [
-      'You&apos;re surrounded by soothing energy. You and allies within 60 feet of you are protected from severe environmental heat and cold. If you&apos;re legendary in Survival, you and those allies are also protected from extreme environmental heat and cold.',
+      'You\'re surrounded by soothing energy. You and allies within 60 feet of you are protected from severe environmental heat and cold. If you\'re legendary in Survival, you and those allies are also protected from extreme environmental heat and cold.',
     ],
     source: 'Advanced Player\'s Guide pg. 125',
     prerequisites: 'master in Survival',
@@ -20540,7 +20540,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1718,
     text: [
-      'You transform reflexively when in danger. You cast <i>wild shape</i> to transform into one form granted by one of the prerequisite feats you have, depending on the trigger. Your form&apos;s resistances and weaknesses apply against the triggering damage. <li><b>Trigger</b> You fall 10 feet or more; <b>Effect</b> Choose a form from <i>aerial form</i>.</li><li><b>Trigger</b> You take acid, cold, electricity, fire, or poison damage; <b>Effect</b> Choose a form from <i>dragon form</i> that resists the triggering damage.</li><li><b>Trigger</b> You take fire damage; <b>Effect</b> Choose a fire elemental form from <i>elemental form</i>.</li><li><b>Trigger</b> You take poison damage; <b>Effect</b> Choose a form from <i>plant form</i>.</li>',
+      'You transform reflexively when in danger. You cast wild shape to transform into one form granted by one of the prerequisite feats you have, depending on the trigger. Your form\'s resistances and weaknesses apply against the triggering damage. <li><b>Trigger</b> You fall 10 feet or more; <b>Effect</b> Choose a form from aerial form.</li><li><b>Trigger</b> You take acid, cold, electricity, fire, or poison damage; <b>Effect</b> Choose a form from dragon form that resists the triggering damage.</li><li><b>Trigger</b> You take fire damage; <b>Effect</b> Choose a fire elemental form from elemental form.</li><li><b>Trigger</b> You take poison damage; <b>Effect</b> Choose a form from plant form.</li>',
     ],
     source: 'Advanced Player\'s Guide pg. 125',
     prerequisites:
@@ -20572,7 +20572,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1719,
     text: [
-      'You fold your spell into a seed. If your next action is to Cast a Spell using 1 action or 2 actions, the spell instead plants itself in an adjacent square. You must make all decisions regarding the spell at the time you cast it. Within the next 10 minutes, you can direct your sown spell to sprout and produce the spell&apos;s effects as a reaction, which is triggered when a creature enters the sown spell&apos;s space or a square adjacent to it. You can have only one sown spell at a time, and if you don&apos;t trigger the spell within 10 minutes, it dissipates and the spell is lost. A creature can notice the sown spell with a successful Perception check against your spell DC.',
+      'You fold your spell into a seed. If your next action is to Cast a Spell using 1 action or 2 actions, the spell instead plants itself in an adjacent square. You must make all decisions regarding the spell at the time you cast it. Within the next 10 minutes, you can direct your sown spell to sprout and produce the spell\'s effects as a reaction, which is triggered when a creature enters the sown spell\'s space or a square adjacent to it. You can have only one sown spell at a time, and if you don\'t trigger the spell within 10 minutes, it dissipates and the spell is lost. A creature can notice the sown spell with a successful Perception check against your spell DC.',
     ],
     source: 'Advanced Player\'s Guide pg. 125',
   },
@@ -20605,7 +20605,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1722,
     text: [
-      'You aim your weapon to snag a foe&apos;s armor, clothing, or flesh to pull them closer. Make a melee Strike. If you hit a target that is your size or smaller, that creature is flat-footed until the end of your current turn, and you can move it 5 feet toward you. When you move the creature, you can move the same distance in the same direction as it, even if you&apos;re adjacent to the target. This movement doesn&apos;t trigger reactions. ',
+      'You aim your weapon to snag a foe\'s armor, clothing, or flesh to pull them closer. Make a melee Strike. If you hit a target that is your size or smaller, that creature is flat-footed until the end of your current turn, and you can move it 5 feet toward you. When you move the creature, you can move the same distance in the same direction as it, even if you\'re adjacent to the target. This movement doesn\'t trigger reactions. ',
       'This Strike has the following failure effect.',
     ],
     source: 'Advanced Player\'s Guide pg. 126',
@@ -20618,7 +20618,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1723,
     text: [
-      'You bounce your weapon off one foe to strike another. Make a ranged Strike with a thrown weapon. If this Strike hits, the weapon rebounds toward an enemy within 10 feet of the original target. Make an additional Strike against this second target. Both attacks count toward your multiple attack penalty, but the penalty doesn&apos;t increase until after you&apos;ve made both attacks.',
+      'You bounce your weapon off one foe to strike another. Make a ranged Strike with a thrown weapon. If this Strike hits, the weapon rebounds toward an enemy within 10 feet of the original target. Make an additional Strike against this second target. Both attacks count toward your multiple attack penalty, but the penalty doesn\'t increase until after you\'ve made both attacks.',
     ],
     source: 'Advanced Player\'s Guide pg. 126',
     requirements: 'You are wielding a thrown weapon.',
@@ -20659,7 +20659,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1726,
     text: [
-      'You adopt a stance designed to rebound your thrown weapons back toward you. While you are in this stance, any thrown weapons you use as part of a ranged Strike to deal bludgeoning or slashing damage immediately return to your hand, enabling you to use them for additional Strikes. You must be within the weapon&apos;s listed range increment and have a hand free to catch the weapon. If you make a ranged Strike with a thrown weapon outside of its listed range increment, it instead flies back toward you a number of feet equal to its listed range increment and then falls to the ground.',
+      'You adopt a stance designed to rebound your thrown weapons back toward you. While you are in this stance, any thrown weapons you use as part of a ranged Strike to deal bludgeoning or slashing damage immediately return to your hand, enabling you to use them for additional Strikes. You must be within the weapon\'s listed range increment and have a hand free to catch the weapon. If you make a ranged Strike with a thrown weapon outside of its listed range increment, it instead flies back toward you a number of feet equal to its listed range increment and then falls to the ground.',
     ],
     source: 'Advanced Player\'s Guide pg. 126',
   },
@@ -20670,7 +20670,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1727,
     text: [
-      'You use your foes&apos; openings to expose even greater weaknesses. When you hit a creature as part of an Attack of Opportunity, that creature becomes flat-footed until the start of your next turn.',
+      'You use your foes\' openings to expose even greater weaknesses. When you hit a creature as part of an Attack of Opportunity, that creature becomes flat-footed until the start of your next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 126',
     prerequisites: 'Attack of Opportunity',
@@ -20682,7 +20682,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1728,
     text: [
-      'Even your fears serve as fuel for your fighting spirit. When you critically succeed at a Will save against a foe&apos;s ability, you gain a +1 status bonus to saves and a number of temporary Hit Points equal to half your level for 1 minute. These benefits are doubled if you critically succeed against a fear effect.',
+      'Even your fears serve as fuel for your fighting spirit. When you critically succeed at a Will save against a foe\'s ability, you gain a +1 status bonus to saves and a number of temporary Hit Points equal to half your level for 1 minute. These benefits are doubled if you critically succeed against a fear effect.',
     ],
     source: 'Advanced Player\'s Guide pg. 127',
     prerequisites: 'bravery',
@@ -20730,7 +20730,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1732,
     text: [
-      'Your experience keeps you on your toes, making you adaptable to even the most dangerous challenges. When you gain a fighter feat using combat flexibility, you gain three fighter feats instead of two. While the first feat must still be 8th level or lower, the second feat can be up to 14th level, and the third feat can be up to 18th level. You can use the first feat to meet the prerequisites of the second or third feats and the second feat to meet the prerequisites of the third feat. You must meet all feats&apos; prerequisites. In addition, you can adapt to the battlefield&apos;s challenges by spending 1 hour to train. If you do, you can reselect the feats chosen with combat flexibility as if you had made your daily preparations. You can&apos;t trade out limited-use abilities that you&apos;ve already used, such as Determination.',
+      'Your experience keeps you on your toes, making you adaptable to even the most dangerous challenges. When you gain a fighter feat using combat flexibility, you gain three fighter feats instead of two. While the first feat must still be 8th level or lower, the second feat can be up to 14th level, and the third feat can be up to 18th level. You can use the first feat to meet the prerequisites of the second or third feats and the second feat to meet the prerequisites of the third feat. You must meet all feats\' prerequisites. In addition, you can adapt to the battlefield\'s challenges by spending 1 hour to train. If you do, you can reselect the feats chosen with combat flexibility as if you had made your daily preparations. You can\'t trade out limited-use abilities that you\'ve already used, such as Determination.',
     ],
     source: 'Advanced Player\'s Guide pg. 127',
     prerequisites: 'improved flexibility',
@@ -20753,7 +20753,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1734,
     text: [
-      'You enter a specialized stance for a unique martial art centered around the use of a bow. While in this stance, the only Strikes you can make are those using longbows, shortbows, or bows with the monk trait. You can use Flurry of Blows with these bows. You can use your other monk feats or monk abilities that normally require unarmed attacks with these bows when attacking within half the first range increment (normally 50 feet for a longbow and 30 feet for a shortbow), so long as the feat or ability doesn&apos;t require a single, specific Strike.',
+      'You enter a specialized stance for a unique martial art centered around the use of a bow. While in this stance, the only Strikes you can make are those using longbows, shortbows, or bows with the monk trait. You can use Flurry of Blows with these bows. You can use your other monk feats or monk abilities that normally require unarmed attacks with these bows when attacking within half the first range increment (normally 50 feet for a longbow and 30 feet for a shortbow), so long as the feat or ability doesn\'t require a single, specific Strike.',
     ],
     source: 'Advanced Player\'s Guide pg. 128',
     prerequisites: 'You are unarmored and wielding a',
@@ -20843,7 +20843,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1741,
     text: [
-      'You pound your chest before slamming into your foes. Attempt an Intimidation check to Demoralize, then make one gorilla slam Strike against the same target. If your Strike hits, you gain a circumstance bonus to the damage roll equal to triple the value of the target&apos;s frightened condition.',
+      'You pound your chest before slamming into your foes. Attempt an Intimidation check to Demoralize, then make one gorilla slam Strike against the same target. If your Strike hits, you gain a circumstance bonus to the damage roll equal to triple the value of the target\'s frightened condition.',
     ],
     source: 'Advanced Player\'s Guide pg. 129',
     prerequisites: 'expert in Intimidation, Gorilla Stance',
@@ -20859,7 +20859,7 @@ export const feats: FeatCollection = {
     id: 1742,
     text: [
       'You put all your force into a single mighty, carefully controlled blow. Make an unarmed Strike. If you spend two actions and this Strike hits, you deal an extra die of weapon damage. You can instead spend 3 actions to perform an even more powerful attack, dealing a second additional die of weapon damage on a hit.',
-      ' If you&apos;re at least 10th level, the number of additional dice you add from this feat doubles, for a total of 2 additional dice if you spend 2 actions or 4 additional dice if you spend 3 actions. If you&apos;re at least 18th level, the number of additional dice you add from this feat triples, for a total of 3 additional dice if you spend 2 actions or 6 additional dice if you spend 3 actions.',
+      ' If you\'re at least 10th level, the number of additional dice you add from this feat doubles, for a total of 2 additional dice if you spend 2 actions or 4 additional dice if you spend 3 actions. If you\'re at least 18th level, the number of additional dice you add from this feat triples, for a total of 3 additional dice if you spend 2 actions or 6 additional dice if you spend 3 actions.',
     ],
     source: 'Advanced Player\'s Guide pg. 129',
     prerequisites: 'expert strikes',
@@ -20898,7 +20898,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1745,
     text: [
-      'You learn a mystical stance that transforms your ki into sticky smoke that shrouds your limbs, clinging to everything you touch. You gain the <i>clinging shadows stance</i> ki spell. Increase the number of Focus Points in your focus pool by 1. While entering the stance uses a ki spell, the shadow grasp attacks it grants are not, so you can use them as often as you like while in the stance.',
+      'You learn a mystical stance that transforms your ki into sticky smoke that shrouds your limbs, clinging to everything you touch. You gain the clinging shadows stance ki spell. Increase the number of Focus Points in your focus pool by 1. While entering the stance uses a ki spell, the shadow grasp attacks it grants are not, so you can use them as often as you like while in the stance.',
     ],
     source: 'Advanced Player\'s Guide pg. 129',
     prerequisites: 'ki spells',
@@ -20910,7 +20910,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1746,
     text: [
-      'You target your opponent&apos;s clothing, equipment, or loose flesh with piercing projectiles to pin them to the ground or a nearby surface. If both your attacks hit, the target must succeed at a Reflex save against your class DC or become immobilized until it or an adjacent creature succeeds at a DC 10 Athletics check to remove the pinning projectiles. The creature doesn&apos;t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.',
+      'You target your opponent\'s clothing, equipment, or loose flesh with piercing projectiles to pin them to the ground or a nearby surface. If both your attacks hit, the target must succeed at a Reflex save against your class DC or become immobilized until it or an adjacent creature succeeds at a DC 10 Athletics check to remove the pinning projectiles. The creature doesn\'t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.',
     ],
     source: 'Advanced Player\'s Guide pg. 129',
     trigger: 'You use',
@@ -20965,7 +20965,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1750,
     text: [
-      'You dodge a blow at the last possible moment. You Step and gain resistance to all damage equal to your level against the triggering effect. If your Step moves you out of the triggering effect&apos;s area, this resistance is instead equal to your level plus your Dexterity modifier.',
+      'You dodge a blow at the last possible moment. You Step and gain resistance to all damage equal to your level against the triggering effect. If your Step moves you out of the triggering effect\'s area, this resistance is instead equal to your level plus your Dexterity modifier.',
     ],
     source: 'Advanced Player\'s Guide pg. 130',
     prerequisites: 'master in Acrobatics',
@@ -20978,7 +20978,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1751,
     text: [
-      'You achieve a state of perfect calm before unleashing your attack, opening your mind to the minute movements of the world around you to increase your accuracy. Make a ranged weapon Strike against a target within your weapon&apos;s first range increment. This Strike ignores the target&apos;s concealed condition and all cover.',
+      'You achieve a state of perfect calm before unleashing your attack, opening your mind to the minute movements of the world around you to increase your accuracy. Make a ranged weapon Strike against a target within your weapon\'s first range increment. This Strike ignores the target\'s concealed condition and all cover.',
     ],
     source: 'Advanced Player\'s Guide pg. 130',
     prerequisites: 'Monastic Archer Stance',
@@ -20991,7 +20991,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1752,
     text: [
-      'You control your breathing and align it with your ki, exhaling with controlled force in order to overcome your opponent&apos;s resistance. If you use your next action to Cast a Spell that has the monk trait and no duration, the spell and any Strikes you make as a result of casting it ignore an amount of the target&apos;s resistance to physical damage equal to your level.',
+      'You control your breathing and align it with your ki, exhaling with controlled force in order to overcome your opponent\'s resistance. If you use your next action to Cast a Spell that has the monk trait and no duration, the spell and any Strikes you make as a result of casting it ignore an amount of the target\'s resistance to physical damage equal to your level.',
     ],
     source: 'Advanced Player\'s Guide pg. 130',
     prerequisites: 'ki spells',
@@ -21003,7 +21003,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1753,
     text: [
-      'Your ability to control your own ki empowers you to pressure other creatures into resuming their true forms. Attempt an Athletics check to counteract a polymorph effect currently affecting your target. If the target is somehow under the effect of multiple polymorph effects, you can choose which one to attempt to counteract, or the GM chooses randomly if the separate effects aren&apos;t obvious. The target is then temporarily immune for 1 day.',
+      'Your ability to control your own ki empowers you to pressure other creatures into resuming their true forms. Attempt an Athletics check to counteract a polymorph effect currently affecting your target. If the target is somehow under the effect of multiple polymorph effects, you can choose which one to attempt to counteract, or the GM chooses randomly if the separate effects aren\'t obvious. The target is then temporarily immune for 1 day.',
     ],
     source: 'Advanced Player\'s Guide pg. 130',
     requirements: 'You have a foe',
@@ -21015,7 +21015,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1754,
     text: [
-      'You launch a wave of shadowy ki outward from your body, damaging your opponents and potentially binding them in place. You gain the <i>shadow&apos;s web</i> ki spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You launch a wave of shadowy ki outward from your body, damaging your opponents and potentially binding them in place. You gain the shadow\'s web ki spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 130',
     prerequisites: 'ki spells',
@@ -21029,7 +21029,7 @@ export const feats: FeatCollection = {
     id: 1755,
     text: [
       'You enter a mindful stance that creates a deep connection between you and your monk weapons, allowing you to manipulate them with your ki even at a distance. All melee monk weapons you wield with the finesse trait gain the thrown 10 feet trait (unless they already have the thrown trait with a greater range).',
-      ' Once you&apos;ve made a thrown Strike with such a weapon, you can use the precision of your throw to make additional strikes with it, even from a distance. Start from the space of the previous Strike&apos;s target to determine the range increment and whether the new target has cover. At the end of your turn, the thrown weapon flies directly back to you in a straight line. If a solid barrier blocks its path, it falls to the ground after hitting the barrier.',
+      ' Once you\'ve made a thrown Strike with such a weapon, you can use the precision of your throw to make additional strikes with it, even from a distance. Start from the space of the previous Strike\'s target to determine the range increment and whether the new target has cover. At the end of your turn, the thrown weapon flies directly back to you in a straight line. If a solid barrier blocks its path, it falls to the ground after hitting the barrier.',
     ],
     source: 'Advanced Player\'s Guide pg. 130',
     prerequisites: 'Monastic Weaponry',
@@ -21052,7 +21052,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1757,
     text: [
-      'You learn a monstrous ki technique that infuses your blows with the petrifying power of a medusa&apos;s gaze. You gain the <i>medusa&apos;s wrath</i> ki spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You learn a monstrous ki technique that infuses your blows with the petrifying power of a medusa\'s gaze. You gain the medusa\'s wrath ki spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 130',
     prerequisites: 'ki spells',
@@ -21089,7 +21089,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1760,
     text: [
-      'You have mastered a potent technique for using your ki to reinforce your physical form and propel yourself through the air. You gain the <i>ki form</i> ki spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You have mastered a potent technique for using your ki to reinforce your physical form and propel yourself through the air. You gain the ki form ki spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 131',
     prerequisites: 'ki spells',
@@ -21101,7 +21101,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1761,
     text: [
-      'You string three arrows to your bow and fire them all at once. Make three ranged Strikes against a single target with the required weapon, each using your current multiple attack penalty, and you take an additional &#x2013;2 penalty. This counts as two attacks when calculating your multiple attack penalty, and you combine the attacks&apos; damage for the purpose of resistances and weaknesses. Your Stunning Fist benefit applies to Triangle Shot, even though it isn&apos;t a Flurry of Blows. If all three Strikes hit, the target takes 3d6 persistent bleed damage.',
+      'You string three arrows to your bow and fire them all at once. Make three ranged Strikes against a single target with the required weapon, each using your current multiple attack penalty, and you take an additional &#x2013;2 penalty. This counts as two attacks when calculating your multiple attack penalty, and you combine the attacks\' damage for the purpose of resistances and weaknesses. Your Stunning Fist benefit applies to Triangle Shot, even though it isn\'t a Flurry of Blows. If all three Strikes hit, the target takes 3d6 persistent bleed damage.',
     ],
     source: 'Advanced Player\'s Guide pg. 131',
     prerequisites: 'Monastic Archer Stance, Stunning Fist',
@@ -21126,7 +21126,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1763,
     text: [
-      'Your expertise with your weapons and commitment to taking out your targets lends you magical power. You gain the <i>gravity weapon</i> warden spell and a focus pool of 1 Focus Point.\n',
+      'Your expertise with your weapons and commitment to taking out your targets lends you magical power. You gain the gravity weapon warden spell and a focus pool of 1 Focus Point.\n',
     ],
     source: 'Advanced Player\'s Guide pg. 132',
   },
@@ -21137,7 +21137,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1764,
     text: [
-      'You have a deep devotion to your animal companion that enables you to magically heal their wounds. You gain the <i>heal companion</i> warden spell and a focus pool of 1 Focus Point.',
+      'You have a deep devotion to your animal companion that enables you to magically heal their wounds. You gain the heal companion warden spell and a focus pool of 1 Focus Point.',
     ],
     source: 'Advanced Player\'s Guide pg. 132',
     prerequisites: 'an animal companion',
@@ -21149,7 +21149,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1765,
     text: [
-      'You can defend your companion in battle. You gain the <i>magic hide</i> warden spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can defend your companion in battle. You gain the magic hide warden spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 132',
     prerequisites: 'an animal companion, warden spells',
@@ -21161,7 +21161,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1766,
     text: [
-      'You can magically move your snares around. You gain the <i>snare hopping</i> warden spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can magically move your snares around. You gain the snare hopping warden spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 132',
     prerequisites: 'Snare Crafting, warden spells',
@@ -21173,7 +21173,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1767,
     text: [
-      'You are so connected with the animal world that you can grant yourself an animal&apos;s features and abilities. You gain the <i>animal feature</i> warden spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You are so connected with the animal world that you can grant yourself an animal\'s features and abilities. You gain the animal feature warden spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 132',
     prerequisites: 'warden spells',
@@ -21185,7 +21185,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1768,
     text: [
-      'Your recollection of monsters is magically enhanced by luck. You gain the <i>monster hunter&apos;s luck</i> warden spell. Increase the number of Focus Points in your focus pool by 1.',
+      'Your recollection of monsters is magically enhanced by luck. You gain the monster hunter\'s luck warden spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 132',
     prerequisites: 'warden spells',
@@ -21197,7 +21197,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1769,
     text: [
-      'You have a connection to the healing properties of nature and can produce a magical mist to heal damage and stop burning or bleeding. You gain the <i>soothing mist</i> warden spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You have a connection to the healing properties of nature and can produce a magical mist to heal damage and stop burning or bleeding. You gain the soothing mist warden spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 132',
     prerequisites: 'warden spells',
@@ -21221,7 +21221,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1771,
     text: [
-      'You are able to track your quarry through impossible places. You gain the <i>ephemeral tracking</i> warden spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You are able to track your quarry through impossible places. You gain the ephemeral tracking warden spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 132',
     prerequisites: 'expert in Survival, warden spells',
@@ -21233,7 +21233,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1772,
     text: [
-      'You can cause plants to grow and trap your foes with thorns. You gain the <i>ranger&apos;s bramble</i> warden spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can cause plants to grow and trap your foes with thorns. You gain the ranger\'s bramble warden spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 132',
     prerequisites: 'warden spells',
@@ -21245,7 +21245,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1773,
     text: [
-      'You make your companion enormous. You gain the <i>enlarge companion</i> warden spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You make your companion enormous. You gain the enlarge companion warden spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 132',
     prerequisites: 'an animal companion, warden spells',
@@ -21257,7 +21257,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1774,
     text: [
-      'You are so focused on your hunted prey that you can see it clearly even beyond the limits of your senses. You gain the <i>hunter&apos;s vision</i> warden spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You are so focused on your hunted prey that you can see it clearly even beyond the limits of your senses. You gain the hunter\'s vision warden spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 132',
     prerequisites: 'warden spells',
@@ -21269,7 +21269,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1775,
     text: [
-      'You are so connected to the wilderness that you can magically jump from place to place within it. You gain the <i>terrain transposition</i> warden spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You are so connected to the wilderness that you can magically jump from place to place within it. You gain the terrain transposition warden spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 133',
     prerequisites: 'warden spells',
@@ -21319,7 +21319,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1779,
     text: [
-      'You can create endless shorter-lived snares, protecting your lair or using them against foes. Once per minute, you can Craft one of the snares you&apos;ve prepared for quick deployment without expending the prepared snare. Once deployed, such a snare lasts for 10 minutes before losing its effectiveness.',
+      'You can create endless shorter-lived snares, protecting your lair or using them against foes. Once per minute, you can Craft one of the snares you\'ve prepared for quick deployment without expending the prepared snare. Once deployed, such a snare lasts for 10 minutes before losing its effectiveness.',
     ],
     source: 'Advanced Player\'s Guide pg. 133',
     prerequisites: 'Ubiquitous Snares',
@@ -21347,7 +21347,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1781,
     text: [
-      'You can put a single item you&apos;re holding of light or negligible Bulk onto a person without them noticing by succeeding at a Thievery check against their Perception DC. If you have the ruffian racket, you can do this as a free action when you successfully Shove a target.',
+      'You can put a single item you\'re holding of light or negligible Bulk onto a person without them noticing by succeeding at a Thievery check against their Perception DC. If you have the ruffian racket, you can do this as a free action when you successfully Shove a target.',
     ],
     source: 'Advanced Player\'s Guide pg. 134',
     prerequisites: 'Pickpocket',
@@ -21359,7 +21359,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1782,
     text: [
-      'Your battle tactics are aided by your assessment of your foes&apos; capabilities, allowing you to instantly adjust your movements to maximum advantage. You Step or Stride; this movement doesn&apos;t trigger reactions from the triggering creature.',
+      'Your battle tactics are aided by your assessment of your foes\' capabilities, allowing you to instantly adjust your movements to maximum advantage. You Step or Stride; this movement doesn\'t trigger reactions from the triggering creature.',
     ],
     source: 'Advanced Player\'s Guide pg. 134',
     prerequisites: 'mastermind racket',
@@ -21373,7 +21373,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1783,
     text: [
-      'When you Strike with a thrown weapon, the weapon&apos;s range increment increases 10 feet.',
+      'When you Strike with a thrown weapon, the weapon\'s range increment increases 10 feet.',
     ],
     source: 'Advanced Player\'s Guide pg. 134',
   },
@@ -21384,7 +21384,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1784,
     text: [
-      'You capitalize on the distraction provided by an ally. You Sneak up to a foe adjacent to one of your allies. You can roll against the foe you&apos;re Sneaking up on, even if it&apos;s currently observing you, as though you were hidden. You take a &#x2013;2 penalty on your Stealth check. If your Stealth check against the chosen foe succeeds, you can make a melee Strike against that foe at the end of your Sneak.',
+      'You capitalize on the distraction provided by an ally. You Sneak up to a foe adjacent to one of your allies. You can roll against the foe you\'re Sneaking up on, even if it\'s currently observing you, as though you were hidden. You take a &#x2013;2 penalty on your Stealth check. If your Stealth check against the chosen foe succeeds, you can make a melee Strike against that foe at the end of your Sneak.',
     ],
     source: 'Advanced Player\'s Guide pg. 134',
     prerequisites: 'trained in Stealth',
@@ -21418,7 +21418,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1787,
     text: [
-      'By observing an opponent, you can get a sense of their next move and prepare to counter or resist it. Choose one target and attempt a Perception check to Sense Motive against the foe&apos;s Deception DC or a hard DC of the foe&apos;s level, whichever is higher.',
+      'By observing an opponent, you can get a sense of their next move and prepare to counter or resist it. Choose one target and attempt a Perception check to Sense Motive against the foe\'s Deception DC or a hard DC of the foe\'s level, whichever is higher.',
     ],
     source: 'Advanced Player\'s Guide pg. 135',
     critical_success:
@@ -21461,7 +21461,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1790,
     text: [
-      'Your knowledge of a creature&apos;s physiology and understanding of tactics helps you attack with pinpoint accuracy. You carefully study a creature that you&apos;ve identified to scope out particularly weak points in its positioning or physical form. The next time you deal sneak attack damage to the chosen creature with a Strike before the end of your turn, add an additional 2d6 precision damage. At 11th and 17th levels, if your additional damage from sneak attack increases, increase the additional damage from Analyze Weakness to 3d6 at 11th level and 4d6 at 17th level.',
+      'Your knowledge of a creature\'s physiology and understanding of tactics helps you attack with pinpoint accuracy. You carefully study a creature that you\'ve identified to scope out particularly weak points in its positioning or physical form. The next time you deal sneak attack damage to the chosen creature with a Strike before the end of your turn, add an additional 2d6 precision damage. At 11th and 17th levels, if your additional damage from sneak attack increases, increase the additional damage from Analyze Weakness to 3d6 at 11th level and 4d6 at 17th level.',
     ],
     source: 'Advanced Player\'s Guide pg. 135',
     prerequisites: 'sneak attack 2d6',
@@ -21474,7 +21474,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1791,
     text: [
-      'Using your extensive knowledge of ambush tactics, you keep watch for any hidden creatures or dangerous sites, moving at half your travel speed. If you&apos;re Anticipating an Ambush at the start of an encounter, you roll a Perception check for initiative, and all enemies rolling Stealth for initiative take a &#x2013;2 circumstance penalty to their Stealth checks.',
+      'Using your extensive knowledge of ambush tactics, you keep watch for any hidden creatures or dangerous sites, moving at half your travel speed. If you\'re Anticipating an Ambush at the start of an encounter, you roll a Perception check for initiative, and all enemies rolling Stealth for initiative take a &#x2013;2 circumstance penalty to their Stealth checks.',
     ],
     source: 'Advanced Player\'s Guide pg. 135',
     prerequisites: 'expert in Stealth',
@@ -21522,7 +21522,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1795,
     text: [
-      'You carefully take aim before making your attack in order to avoid your foe&apos;s concealment and cover. On your next Strike with a thrown weapon before the end of your turn, you gain a +1 circumstance bonus to your attack roll and ignore your target&apos;s concealed condition, as well as the target&apos;s lesser cover or standard cover; if the target had greater cover, they instead have only standard cover against the Strike.',
+      'You carefully take aim before making your attack in order to avoid your foe\'s concealment and cover. On your next Strike with a thrown weapon before the end of your turn, you gain a +1 circumstance bonus to your attack roll and ignore your target\'s concealed condition, as well as the target\'s lesser cover or standard cover; if the target had greater cover, they instead have only standard cover against the Strike.',
     ],
     source: 'Advanced Player\'s Guide pg. 136',
   },
@@ -21533,7 +21533,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1796,
     text: [
-      'You quickly advise your ally, using your earlier planning to make sure luck can&apos;t throw a wrench in the cogs of your schemes. The ally rolls the triggering check twice and takes the better of the two results. That ally then becomes temporarily immune to your Inspired Stratagem until your next daily preparations.',
+      'You quickly advise your ally, using your earlier planning to make sure luck can\'t throw a wrench in the cogs of your schemes. The ally rolls the triggering check twice and takes the better of the two results. That ally then becomes temporarily immune to your Inspired Stratagem until your next daily preparations.',
     ],
     source: 'Advanced Player\'s Guide pg. 136',
     requirements:
@@ -21571,7 +21571,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1799,
     text: [
-      'You adopt a stance to rebound your thrown weapons toward you. While you are in this stance, any thrown weapons you use as part of a ranged Strike to deal bludgeoning or slashing damage immediately return to your hand, enabling you to use them for additional Strikes. You must be within the weapon&apos;s listed range increment and have a hand free to catch the weapon. If you make a ranged Strike with a thrown weapon outside of its listed range increment, it instead flies back toward you a number of feet equal to its listed range increment and then falls to the ground.',
+      'You adopt a stance to rebound your thrown weapons toward you. While you are in this stance, any thrown weapons you use as part of a ranged Strike to deal bludgeoning or slashing damage immediately return to your hand, enabling you to use them for additional Strikes. You must be within the weapon\'s listed range increment and have a hand free to catch the weapon. If you make a ranged Strike with a thrown weapon outside of its listed range increment, it instead flies back toward you a number of feet equal to its listed range increment and then falls to the ground.',
     ],
     source: 'Advanced Player\'s Guide pg. 136',
   },
@@ -21581,7 +21581,7 @@ export const feats: FeatCollection = {
     traits: ['Rogue'],
     actions: 'free_action',
     id: 1800,
-    text: ['You Stride. This movement doesn&apos;t trigger any reactions.'],
+    text: ['You Stride. This movement doesn\'t trigger any reactions.'],
     source: 'Advanced Player\'s Guide pg. 136',
     prerequisites: 'master in Stealth',
     requirements: 'You rolled',
@@ -21593,7 +21593,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1801,
     text: [
-      'You know how to apply debilitations that are particularly troublesome for spellcasters. Add the following debilitations to the list you can choose from when you use Debilitating Strike. <li><b>Debilitation</b> The target is stupefied 1.</li><li><b>Debilitation</b> The target can&apos;t Step.</li>',
+      'You know how to apply debilitations that are particularly troublesome for spellcasters. Add the following debilitations to the list you can choose from when you use Debilitating Strike. <li><b>Debilitation</b> The target is stupefied 1.</li><li><b>Debilitation</b> The target can\'t Step.</li>',
     ],
     source: 'Advanced Player\'s Guide pg. 136',
     prerequisites: 'eldritch trickster racket, Debilitating Strike',
@@ -21615,7 +21615,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1802,
     text: [
-      'You strategically craft your debilitations to lessen or negate an enemy&apos;s tactical advantages. Add the following debilitations to the list you can choose from when you use Debilitating Strike. <li><b>Debilitation</b> The target can&apos;t flank other creatures, and it can&apos;t provide flanking for its allies.</li><li><b>Debilitation</b> The target doesn&apos;t gain a circumstance bonus to AC from Raising a Shield, lesser cover, or standard cover; it gains only a +2 circumstance bonus to AC from greater cover or Taking Cover.</li>',
+      'You strategically craft your debilitations to lessen or negate an enemy\'s tactical advantages. Add the following debilitations to the list you can choose from when you use Debilitating Strike. <li><b>Debilitation</b> The target can\'t flank other creatures, and it can\'t provide flanking for its allies.</li><li><b>Debilitation</b> The target doesn\'t gain a circumstance bonus to AC from Raising a Shield, lesser cover, or standard cover; it gains only a +2 circumstance bonus to AC from greater cover or Taking Cover.</li>',
     ],
     source: 'Advanced Player\'s Guide pg. 136',
     prerequisites: 'mastermind racket, Debilitating Strike',
@@ -21679,7 +21679,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1806,
     text: [
-      'You have ways of keeping your foes down. Attempt an Athletics check against the triggering foe&apos;s Fortitude DC. On a success, they don&apos;t stand up and remain prone. On a critical success, they can&apos;t Stand until their next turn.',
+      'You have ways of keeping your foes down. Attempt an Athletics check against the triggering foe\'s Fortitude DC. On a success, they don\'t stand up and remain prone. On a critical success, they can\'t Stand until their next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 137',
     prerequisites: 'master in Athletics',
@@ -21692,7 +21692,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1807,
     text: [
-      'Attempt an Acrobatics check against the foe&apos;s Reflex DC. If you succeed, either Stride to a different space adjacent to the foe or move the foe to a different space adjacent to you.',
+      'Attempt an Acrobatics check against the foe\'s Reflex DC. If you succeed, either Stride to a different space adjacent to the foe or move the foe to a different space adjacent to you.',
     ],
     source: 'Advanced Player\'s Guide pg. 137',
     prerequisites: 'legendary in Acrobatics',
@@ -21763,7 +21763,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1813,
     text: [
-      'You embellish your spellcasting with entrancing flourishes and grand pronouncements, making it harder to identify or counter. If the next action you use is to Cast a Spell, creatures with the ability to Cast that Spell don&apos;t automatically know what the spell is. In addition, creatures that witness your spellcasting take a &#x2013;2 circumstance penalty to checks to identify the spell with Recall Knowledge and checks to counteract the spell during its casting (such as with Counterspell).',
+      'You embellish your spellcasting with entrancing flourishes and grand pronouncements, making it harder to identify or counter. If the next action you use is to Cast a Spell, creatures with the ability to Cast that Spell don\'t automatically know what the spell is. In addition, creatures that witness your spellcasting take a &#x2013;2 circumstance penalty to checks to identify the spell with Recall Knowledge and checks to counteract the spell during its casting (such as with Counterspell).',
     ],
     source: 'Advanced Player\'s Guide pg. 139',
   },
@@ -21774,7 +21774,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1814,
     text: [
-      'You fragment a ranged spell into a pair of smaller shots. If your next action is to Cast a Spell without a duration that requires an attack roll against a single target and has no effect beyond dealing damage, you roll a single attack roll and compare the result to the AC of two targets within the spell&apos;s range. The spell deals only half its usual damage to each target. This counts as one attack for your multiple attack penalty.',
+      'You fragment a ranged spell into a pair of smaller shots. If your next action is to Cast a Spell without a duration that requires an attack roll against a single target and has no effect beyond dealing damage, you roll a single attack roll and compare the result to the AC of two targets within the spell\'s range. The spell deals only half its usual damage to each target. This counts as one attack for your multiple attack penalty.',
     ],
     source: 'Advanced Player\'s Guide pg. 139',
   },
@@ -21797,7 +21797,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1816,
     text: [
-      'Your blood resonates with magical energy, mitigating the effects of harmful spells. Expend one of your spell slots of a level equal to or higher than that of the triggering spell. You gain resistance to one of the triggering effect&apos;s damage types equal to twice the expended spell slot&apos;s level. ',
+      'Your blood resonates with magical energy, mitigating the effects of harmful spells. Expend one of your spell slots of a level equal to or higher than that of the triggering spell. You gain resistance to one of the triggering effect\'s damage types equal to twice the expended spell slot\'s level. ',
     ],
     source: 'Advanced Player\'s Guide pg. 139',
     requirements:
@@ -21812,7 +21812,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1817,
     text: [
-      'You open the power in your blood to your ally&apos;s spellcasting, using your magic to boost their range. Your ally can use you as the point of origin for their spell, calculating range and cover from your space instead of their own.',
+      'You open the power in your blood to your ally\'s spellcasting, using your magic to boost their range. Your ally can use you as the point of origin for their spell, calculating range and cover from your space instead of their own.',
     ],
     source: 'Advanced Player\'s Guide pg. 139',
     trigger: 'An ally Casts a Spell and you are within that spell\'s range.',
@@ -21824,7 +21824,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1818,
     text: [
-      'You bring the magical wavelengths of your spell into sync with the ones produced by your own body. If the next action you take is to Cast a Spell with an area, you aren&apos;t affected by the spell even if you are within the area.',
+      'You bring the magical wavelengths of your spell into sync with the ones produced by your own body. If the next action you take is to Cast a Spell with an area, you aren\'t affected by the spell even if you are within the area.',
     ],
     source: 'Advanced Player\'s Guide pg. 139',
   },
@@ -21847,7 +21847,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1821,
     text: [
-      'You fuse two spells together, combining their energy types. If the next action you use is to Cast a Spell that deals acid, cold, electricity, fire, or sonic damage, select a non-cantrip spell in your spell repertoire that deals a different type of energy damage from that list, and expend an additional spell slot of the same level as this secondary spell. The spell you cast deals additional damage equal to the level of the secondary spell slot expended. The spell&apos;s total damage is divided evenly between the energy type of the spell you cast and the energy type of the secondary spell.',
+      'You fuse two spells together, combining their energy types. If the next action you use is to Cast a Spell that deals acid, cold, electricity, fire, or sonic damage, select a non-cantrip spell in your spell repertoire that deals a different type of energy damage from that list, and expend an additional spell slot of the same level as this secondary spell. The spell you cast deals additional damage equal to the level of the secondary spell slot expended. The spell\'s total damage is divided evenly between the energy type of the spell you cast and the energy type of the secondary spell.',
     ],
     source: 'Advanced Player\'s Guide pg. 140',
   },
@@ -21883,7 +21883,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1824,
     text: [
-      'You can bypass the need for incantations and gestures by drawing energy directly from your blood, causing you to visibly glow the color of your blood and crackle with magical energy. When you Cast a Spell, you can replace all verbal, material, or somatic spellcasting components with a blood component. To use a blood component, you lose Hit Points equal to twice the spell&apos;s level as the energy in your blood is depleted, and you can&apos;t decrease the Hit Points lost in any way. As usual for altering components, this has no effect on the number of actions required to Cast the Spell, and your Cast a Spell activity gains the concentrate trait but not the manipulate trait. You can&apos;t use blood components to replace any required part of a spell&apos;s cost.',
+      'You can bypass the need for incantations and gestures by drawing energy directly from your blood, causing you to visibly glow the color of your blood and crackle with magical energy. When you Cast a Spell, you can replace all verbal, material, or somatic spellcasting components with a blood component. To use a blood component, you lose Hit Points equal to twice the spell\'s level as the energy in your blood is depleted, and you can\'t decrease the Hit Points lost in any way. As usual for altering components, this has no effect on the number of actions required to Cast the Spell, and your Cast a Spell activity gains the concentrate trait but not the manipulate trait. You can\'t use blood components to replace any required part of a spell\'s cost.',
     ],
     source: 'Advanced Player\'s Guide pg. 140',
   },
@@ -21894,7 +21894,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1825,
     text: [
-      'You hold a deep understanding of the innate fundamental structures of the physical world, and you can enforce your will upon that structure as far as your own blood is concerned. Once per day, you can use a sorcerer spell slot to cast any common polymorph battle form spell of the spell slot&apos;s level as if it were a signature spell in your repertoire.',
+      'You hold a deep understanding of the innate fundamental structures of the physical world, and you can enforce your will upon that structure as far as your own blood is concerned. Once per day, you can use a sorcerer spell slot to cast any common polymorph battle form spell of the spell slot\'s level as if it were a signature spell in your repertoire.',
       ' If you have Arcane Evolution, you can also choose from any battle form spell in your spellbook. If you have Primal Evolution, you can Cast a Spell listed in that feat using the extra spell slot the feat grants (instead of a sorcerer spell slot).',
     ],
     source: 'Advanced Player\'s Guide pg. 141',
@@ -21907,7 +21907,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1826,
     text: [
-      'Your magical blood is rich with spiritual essence, and this infusion within you allows your spells to be fully effective against incorporeal creatures, spirits, and creatures on the Ethereal Plane. Your spells have the effects of a <i>ghost touch</i> property rune. They can target or affect a creature projecting its consciousness (such as via <i>project image</i>) or possessing another creature, even if its body is elsewhere, though you must know about the possession or projection and choose to do so. Your spells can affect creatures on the Ethereal Plane, though this doesn&apos;t grant you any particular ability to locate them.',
+      'Your magical blood is rich with spiritual essence, and this infusion within you allows your spells to be fully effective against incorporeal creatures, spirits, and creatures on the Ethereal Plane. Your spells have the effects of a ghost touch property rune. They can target or affect a creature projecting its consciousness (such as via project image) or possessing another creature, even if its body is elsewhere, though you must know about the possession or projection and choose to do so. Your spells can affect creatures on the Ethereal Plane, though this doesn\'t grant you any particular ability to locate them.',
     ],
     source: 'Advanced Player\'s Guide pg. 141',
     prerequisites: 'Divine Evolution or Occult Evolution',
@@ -21942,7 +21942,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1829,
     text: [
-      'Your spells become a radiant display of light and color. If your next action is to Cast a Spell that doesn&apos;t have the darkness trait, has no duration, and requires creatures to attempt a Reflex save, the spell explodes in a spray of scintillating lights, in addition to its other effects. Each creature that failed its Reflex save against the spell is dazzled for 1 round, and those who critically failed are instead blinded for 1 round.',
+      'Your spells become a radiant display of light and color. If your next action is to Cast a Spell that doesn\'t have the darkness trait, has no duration, and requires creatures to attempt a Reflex save, the spell explodes in a spray of scintillating lights, in addition to its other effects. Each creature that failed its Reflex save against the spell is dazzled for 1 round, and those who critically failed are instead blinded for 1 round.',
     ],
     source: 'Advanced Player\'s Guide pg. 141',
   },
@@ -21953,7 +21953,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1830,
     text: [
-      'You capture transformative fragments of magic and slam them into the ground, creating a shock wave that alters your surroundings. If your next action is to Cast a non-cantrip transmutation Spell, either each space adjacent to you becomes difficult terrain, or each space adjacent to you is no longer difficult terrain. This doesn&apos;t have any effect on greater difficult terrain and doesn&apos;t remove the damaging effects of hazardous terrain.',
+      'You capture transformative fragments of magic and slam them into the ground, creating a shock wave that alters your surroundings. If your next action is to Cast a non-cantrip transmutation Spell, either each space adjacent to you becomes difficult terrain, or each space adjacent to you is no longer difficult terrain. This doesn\'t have any effect on greater difficult terrain and doesn\'t remove the damaging effects of hazardous terrain.',
     ],
     source: 'Advanced Player\'s Guide pg. 141',
   },
@@ -21964,7 +21964,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1831,
     text: [
-      'You time the components of your spell with exacting precision, setting up a resonance that duplicates the spell&apos;s effects. If your next action is to Cast a Spell of 4th level or lower that has no duration, the spell&apos;s energy reverberates and echoes. You can Cast the Spell a second time before the end of your next turn without expending a spell slot.',
+      'You time the components of your spell with exacting precision, setting up a resonance that duplicates the spell\'s effects. If your next action is to Cast a Spell of 4th level or lower that has no duration, the spell\'s energy reverberates and echoes. You can Cast the Spell a second time before the end of your next turn without expending a spell slot.',
     ],
     source: 'Advanced Player\'s Guide pg. 141',
   },
@@ -21987,7 +21987,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1834,
     text: [
-      'When you cast energy spells, you retain some of that energy as a protective barrier. If your next action is to Cast a Spell that deals energy damage, whether or not it successfully deals damage, you gain resistance to that type of energy equal to the spell&apos;s level (minimum 1) until the end of your next turn. If the spell deals more than one type of energy damage, choose one and gain resistance to that type.',
+      'When you cast energy spells, you retain some of that energy as a protective barrier. If your next action is to Cast a Spell that deals energy damage, whether or not it successfully deals damage, you gain resistance to that type of energy equal to the spell\'s level (minimum 1) until the end of your next turn. If the spell deals more than one type of energy damage, choose one and gain resistance to that type.',
     ],
     source: 'Advanced Player\'s Guide pg. 142',
   },
@@ -21998,7 +21998,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1835,
     text: [
-      'You can alter offensive spells to be less deadly. If your next action is to Cast a Spell that deals damage and doesn&apos;t have the death or negative trait, that spell gains the nonlethal trait.',
+      'You can alter offensive spells to be less deadly. If your next action is to Cast a Spell that deals damage and doesn\'t have the death or negative trait, that spell gains the nonlethal trait.',
     ],
     source: 'Advanced Player\'s Guide pg. 142',
   },
@@ -22009,7 +22009,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1836,
     text: [
-      'You&apos;re mystically connected to your bonded item and can call it to your hand. If your bonded item is 1 Bulk or less, you teleport your bonded item into your hand from up to 1 mile away.',
+      'You\'re mystically connected to your bonded item and can call it to your hand. If your bonded item is 1 Bulk or less, you teleport your bonded item into your hand from up to 1 mile away.',
     ],
     source: 'Advanced Player\'s Guide pg. 142',
     prerequisites: 'arcane bond',
@@ -22021,7 +22021,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1837,
     text: [
-      'You use your deceptive skills to make your illusions seem even more real. Attempt a Deception check against the target&apos;s Perception DC. If you succeed, the target fails to disbelieve the illusion.',
+      'You use your deceptive skills to make your illusions seem even more real. Attempt a Deception check against the target\'s Perception DC. If you succeed, the target fails to disbelieve the illusion.',
     ],
     source: 'Advanced Player\'s Guide pg. 142',
     prerequisites: 'expert in Deception',
@@ -22036,7 +22036,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1838,
     text: [
-      'You can prepare two spells in one slot, giving you the freedom to choose the spell when you cast it. When you prepare your spells for the day, you can choose one spell slot at least 1 level lower than the highest-level spell you can cast and prepare two spells in that slot. When you Cast a Spell from that slot, choose which spell to cast. Once you&apos;ve chosen, the unused spell dissipates as though you hadn&apos;t prepared it at all&#x2014;for example, it isn&apos;t available for use with Drain Bonded Item.',
+      'You can prepare two spells in one slot, giving you the freedom to choose the spell when you cast it. When you prepare your spells for the day, you can choose one spell slot at least 1 level lower than the highest-level spell you can cast and prepare two spells in that slot. When you Cast a Spell from that slot, choose which spell to cast. Once you\'ve chosen, the unused spell dissipates as though you hadn\'t prepared it at all&#x2014;for example, it isn\'t available for use with Drain Bonded Item.',
     ],
     source: 'Advanced Player\'s Guide pg. 142',
   },
@@ -22047,7 +22047,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1839,
     text: [
-      'You have trained your mind and body to tolerate polymorph magic for longer periods of time, so long as you prepare for the change appropriately. When preparing a polymorph spell that lasts 1 minute and grants a battle form, you can prepare the spell in a slot 2 levels higher than normal. This doesn&apos;t grant any of the normal benefits of heightening a spell, but the spell lasts up to 10 minutes. For example, if you prepared <i>animal form</i> in a 4th-level slot with Form Retention, you would cast a 2nd-level <i>animal form</i> that lasts for up to 10 minutes. If the spell can be Dismissed, that doesn&apos;t change.',
+      'You have trained your mind and body to tolerate polymorph magic for longer periods of time, so long as you prepare for the change appropriately. When preparing a polymorph spell that lasts 1 minute and grants a battle form, you can prepare the spell in a slot 2 levels higher than normal. This doesn\'t grant any of the normal benefits of heightening a spell, but the spell lasts up to 10 minutes. For example, if you prepared animal form in a 4th-level slot with Form Retention, you would cast a 2nd-level animal form that lasts for up to 10 minutes. If the spell can be Dismissed, that doesn\'t change.',
     ],
     source: 'Advanced Player\'s Guide pg. 142',
   },
@@ -22058,7 +22058,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1840,
     text: [
-      'You sense magical dangers. When using the Detect Magic exploration activity, you can roll initiative twice and use the better result so long as at least one opponent has a magical effect or magic item and is in range of your <i>detect magic</i>.',
+      'You sense magical dangers. When using the Detect Magic exploration activity, you can roll initiative twice and use the better result so long as at least one opponent has a magical effect or magic item and is in range of your detect magic.',
     ],
     source: 'Advanced Player\'s Guide pg. 143',
   },
@@ -22080,7 +22080,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1842,
     text: [
-      'When your target proves resilient to your magical deceptions, you can try them again on someone else. When you cast an enchantment spell that targets one creature and that creature critically succeeds at its Will save, you can Cast the Spell again before the end of your next turn on a different creature without expending an additional spell slot. The second casting doesn&apos;t grant you any benefits that you would normally gain for Casting a Spell from a spell slot.',
+      'When your target proves resilient to your magical deceptions, you can try them again on someone else. When you cast an enchantment spell that targets one creature and that creature critically succeeds at its Will save, you can Cast the Spell again before the end of your next turn on a different creature without expending an additional spell slot. The second casting doesn\'t grant you any benefits that you would normally gain for Casting a Spell from a spell slot.',
     ],
     source: 'Advanced Player\'s Guide pg. 143',
   },
@@ -22091,7 +22091,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1843,
     text: [
-      'You have mastered a handful of spells to such a degree that you can cast them even if you haven&apos;t prepared them in advance. Select any four spells of 9th level or lower that you have access to; each spell you select must be of a different level. These spells are automatically prepared when you make your daily preparations, and they have their own spell slots. You can select a different array of spells by spending 1 week of downtime retraining your mastered spells.',
+      'You have mastered a handful of spells to such a degree that you can cast them even if you haven\'t prepared them in advance. Select any four spells of 9th level or lower that you have access to; each spell you select must be of a different level. These spells are automatically prepared when you make your daily preparations, and they have their own spell slots. You can select a different array of spells by spending 1 week of downtime retraining your mastered spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 143',
   },
@@ -22111,7 +22111,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1844,
     text: [
-      'You gain the on the case class feature, which grants you both the Pursue a Lead activity and Clue In reaction. You become trained in Society and another skill of your choice. If you were already trained in Society, you instead become trained in an additional skill of your choice. You also become trained in investigator class DC.<h3 class="title">Pursue a Lead </h3><span alt="Concentrate Trait" class="trait" title="An action with this trait requires a degree of mental concentration and discipline.">Concentrate</span><span alt="Exploration Trait" class="trait" title="An activity with this trait takes more than a turn to use, and can usually be used only during exploration mode.">Exploration</span><span alt="Investigator Trait" class="trait" title="This trait indicates abilities from the investigator class.">Investigator</span><br><b>Source</b> <i>Advanced Player&apos;s Guide pg. 56</i><br><b>Frequency</b> once per 10 minutes',
+      'You gain the on the case class feature, which grants you both the Pursue a Lead activity and Clue In reaction. You become trained in Society and another skill of your choice. If you were already trained in Society, you instead become trained in an additional skill of your choice. You also become trained in investigator class DC. class="title">Pursue a Lead <span alt="Concentrate Trait" class="trait" title="An action with this trait requires a degree of mental concentration and discipline.">Concentrate</span><span alt="Exploration Trait" class="trait" title="An activity with this trait takes more than a turn to use, and can usually be used only during exploration mode.">Exploration</span><span alt="Investigator Trait" class="trait" title="This trait indicates abilities from the investigator class.">Investigator</span><br><b>Source</b> Advanced Player\'s Guide pg. 56<br><b>Frequency</b> once per 10 minutes',
     ],
     source: 'Advanced Player\'s Guide pg. 151',
     archetype: 'Investigator',
@@ -22140,7 +22140,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1846,
     text: [
-      'You play out battles in your head, allowing you to strike when the time is right. You gain the Devise a Stratagem action; however, when you substitute its result for your attack roll, you can&apos;t use your Intelligence modifier in place of your Strength or Dexterity modifier. You also can&apos;t use your Intelligence modifier on other rolls from abilities that expand Devise a Stratagem, such as the Athletic Strategist feat.<h3 class="title">Devise a Stratagem <img alt="Single Action" style="height:15px;" src="Images\\Actions\\OneAction.png"></h3><span alt="Concentrate Trait" class="trait" title="An action with this trait requires a degree of mental concentration and discipline.">Concentrate</span><span alt="Fortune Trait" class="trait" title="A fortune effect beneficially alters how you roll your dice. You can never have more than one fortune effect alter a single roll. If multiple fortune effects would apply, you have to pick which to use. If a fortune effect and a misfortune effect would apply to the same roll, the two cancel each other out, and you roll normally.">Fortune</span><span alt="Investigator Trait" class="trait" title="This trait indicates abilities from the investigator class.">Investigator</span><br><b>Source</b> <i>Advanced Player&apos;s Guide pg. 56</i><br><b>Frequency</b> once per round',
+      'You play out battles in your head, allowing you to strike when the time is right. You gain the Devise a Stratagem action; however, when you substitute its result for your attack roll, you can\'t use your Intelligence modifier in place of your Strength or Dexterity modifier. You also can\'t use your Intelligence modifier on other rolls from abilities that expand Devise a Stratagem, such as the Athletic Strategist feat. class="title">Devise a Stratagem <img alt="Single Action" style="height:15px;" src="Images\\Actions\\OneAction.png"><span alt="Concentrate Trait" class="trait" title="An action with this trait requires a degree of mental concentration and discipline.">Concentrate</span><span alt="Fortune Trait" class="trait" title="A fortune effect beneficially alters how you roll your dice. You can never have more than one fortune effect alter a single roll. If multiple fortune effects would apply, you have to pick which to use. If a fortune effect and a misfortune effect would apply to the same roll, the two cancel each other out, and you roll normally.">Fortune</span><span alt="Investigator Trait" class="trait" title="This trait indicates abilities from the investigator class.">Investigator</span><br><b>Source</b> Advanced Player\'s Guide pg. 56<br><b>Frequency</b> once per round',
     ],
     source: 'Advanced Player\'s Guide pg. 151',
     archetype: 'Investigator',
@@ -22208,7 +22208,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1851,
     text: [
-      'Choose a mystery. You become trained in Religion and the mystery&apos;s skill; if you were already trained, you become trained in a skill of your choice. You gain the mild, constant effects of the mystery&apos;s curse described in its first paragraph, but not other effects the mystery usually grants. You cast spells like an oracle and gain the Cast a Spell activity. You gain a spell repertoire with two cantrips, either common divine cantrips or other divine cantrips you learn or discover. You&apos;re trained in divine spell attack rolls and divine spell DCs. Your key spellcasting ability for oracle archetype spells is Charisma, and they are divine oracle spells.',
+      'Choose a mystery. You become trained in Religion and the mystery\'s skill; if you were already trained, you become trained in a skill of your choice. You gain the mild, constant effects of the mystery\'s curse described in its first paragraph, but not other effects the mystery usually grants. You cast spells like an oracle and gain the Cast a Spell activity. You gain a spell repertoire with two cantrips, either common divine cantrips or other divine cantrips you learn or discover. You\'re trained in divine spell attack rolls and divine spell DCs. Your key spellcasting ability for oracle archetype spells is Charisma, and they are divine oracle spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 152',
     archetype: 'Oracle',
@@ -22247,8 +22247,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1854,
     text: [
-      'You gain your mystery&apos;s initial revelation spell. Casting this spell progresses your curse. Use the minor curse from your mystery, but when you progress it again, instead of your mystery&apos;s moderate curse effect, you become flat-footed in addition to the effects of the minor curse.',
-      ' If you don&apos;t have one, you gain a focus pool of 1 Focus Point. You can Refocus by reconciling the conflicting nature of your mystery, which also reduces your curse to minor.',
+      'You gain your mystery\'s initial revelation spell. Casting this spell progresses your curse. Use the minor curse from your mystery, but when you progress it again, instead of your mystery\'s moderate curse effect, you become flat-footed in addition to the effects of the minor curse.',
+      ' If you don\'t have one, you gain a focus pool of 1 Focus Point. You can Refocus by reconciling the conflicting nature of your mystery, which also reduces your curse to minor.',
     ],
     source: 'Advanced Player\'s Guide pg. 152',
     archetype: 'Oracle',
@@ -22311,7 +22311,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1859,
     text: [
-      'Choose a swashbuckler style. You gain the panache class feature, and you can gain panache in all the ways a swashbuckler of your style can. You become trained in Acrobatics or the skill associated with your style. If you were already trained in both skills, you instead become trained in a skill of your choice. You also become trained in swashbuckler class DC. You don&apos;t gain any other effects of your chosen style.',
+      'Choose a swashbuckler style. You gain the panache class feature, and you can gain panache in all the ways a swashbuckler of your style can. You become trained in Acrobatics or the skill associated with your style. If you were already trained in both skills, you instead become trained in a skill of your choice. You also become trained in swashbuckler class DC. You don\'t gain any other effects of your chosen style.',
     ],
     source: 'Advanced Player\'s Guide pg. 153',
     archetype: 'Swashbuckler',
@@ -22337,7 +22337,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1861,
     text: [
-      'You&apos;ve learned how to land daring blows when you have panache. You gain the precise strike class feature (page 85) but you deal 1 addition damage on a hit and 1d6 damage on a finisher. This damage doesn&apos;t increase as you gain levels. In addition, you gain the Basic Finisher action.',
+      'You\'ve learned how to land daring blows when you have panache. You gain the precise strike class feature (page 85) but you deal 1 addition damage on a hit and 1d6 damage on a finisher. This damage doesn\'t increase as you gain levels. In addition, you gain the Basic Finisher action.',
     ],
     source: 'Advanced Player\'s Guide pg. 153',
     archetype: 'Swashbuckler',
@@ -22369,10 +22369,10 @@ export const feats: FeatCollection = {
     name: 'Swashbuckler\'s Riposte',
     level: '6',
     traits: ['Archetype', 'Swashbuckler'],
-    actions: null,
+    actions: 'reaction',
     id: 1863,
     text: [
-      'You&apos;ve learned to riposte against ill-conceived attacks. You gain the Opportune Riposte reaction.<h3 class="title">Opportune Riposte <img alt="Reaction" style="height:15px;" src="Images\\Actions\\Reaction.png"></h3><span alt="Swashbuckler Trait" class="trait" title="This trait indicates abilities from the swashbuckler class.">Swashbuckler</span><br><b>Source</b> <i>Advanced Player&apos;s Guide pg. 86</i><br><b>Trigger</b> A foe within your reach critically fails a Strike against you.',
+      'You\'ve learned to riposte against ill-conceived attacks. You gain the Opportune Riposte reaction. class="title">Opportune Riposte <img alt="Reaction" style="height:15px;" src="Images\\Actions\\Reaction.png"><span alt="Swashbuckler Trait" class="trait" title="This trait indicates abilities from the swashbuckler class.">Swashbuckler</span><br><b>Source</b> Advanced Player\'s Guide pg. 86<br><b>Trigger</b> A foe within your reach critically fails a Strike against you.',
     ],
     source: 'Advanced Player\'s Guide pg. 153',
     archetype: 'Swashbuckler',
@@ -22386,7 +22386,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1864,
     text: [
-      'You move faster, with or without panache. Increase the status bonus to your Speeds when you have panache to a +10-foot status bonus; you also gain a +5-foot status bonus to your Speeds when you don&apos;t have panache.',
+      'You move faster, with or without panache. Increase the status bonus to your Speeds when you have panache to a +10-foot status bonus; you also gain a +5-foot status bonus to your Speeds when you don\'t have panache.',
     ],
     source: 'Advanced Player\'s Guide pg. 153',
     archetype: 'Swashbuckler',
@@ -22410,7 +22410,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1866,
     text: [
-      'You cast spells like a witch. Choose a patron; you gain a familiar with two common cantrips of your choice from your chosen patron&apos;s tradition, but aside from the tradition, you don&apos;t gain any other effects the patron would usually grant. Your familiar has one less familiar ability than normal. You gain the Cast a Spell activity. You can prepare one cantrip each day from your familiar. You&apos;re trained in spell attack rolls and spell DCs from your patron&apos;s tradition. Your key spellcasting ability for witch archetype spells is Intelligence, and they are witch spells of your patron&apos;s tradition. You become trained in the skill associated with the patron&apos;s tradition; if you were already trained in it, you instead become trained in a skill of your choice.',
+      'You cast spells like a witch. Choose a patron; you gain a familiar with two common cantrips of your choice from your chosen patron\'s tradition, but aside from the tradition, you don\'t gain any other effects the patron would usually grant. Your familiar has one less familiar ability than normal. You gain the Cast a Spell activity. You can prepare one cantrip each day from your familiar. You\'re trained in spell attack rolls and spell DCs from your patron\'s tradition. Your key spellcasting ability for witch archetype spells is Intelligence, and they are witch spells of your patron\'s tradition. You become trained in the skill associated with the patron\'s tradition; if you were already trained in it, you instead become trained in a skill of your choice.',
     ],
     source: 'Advanced Player\'s Guide pg. 154',
     archetype: 'Witch',
@@ -22503,7 +22503,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1873,
     text: [
-      'You become an expert in Acrobatics. At 7th level, you become a master in Acrobatics, and at 15th level, you become legendary in Acrobatics. Whenever you critically succeed at an Acrobatics check to Tumble Through an enemy&apos;s space, you don&apos;t treat the enemy&apos;s space as difficult terrain.',
+      'You become an expert in Acrobatics. At 7th level, you become a master in Acrobatics, and at 15th level, you become legendary in Acrobatics. Whenever you critically succeed at an Acrobatics check to Tumble Through an enemy\'s space, you don\'t treat the enemy\'s space as difficult terrain.',
     ],
     source: 'Advanced Player\'s Guide pg. 155',
     archetype: 'Acrobat',
@@ -22518,7 +22518,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1874,
     text: [
-      'You can squeeze out of tight situations surprisingly quickly, gaining an advantage against foes that try to pin you down. You gain the Quick Squeeze skill feat, and if you&apos;re a master in Acrobatics, you can Squeeze at full Speed. Whenever you successfully Escape using Acrobatics, the creature you Escaped from is flat-footed against the next attack you make against it before the end of your next turn.',
+      'You can squeeze out of tight situations surprisingly quickly, gaining an advantage against foes that try to pin you down. You gain the Quick Squeeze skill feat, and if you\'re a master in Acrobatics, you can Squeeze at full Speed. Whenever you successfully Escape using Acrobatics, the creature you Escaped from is flat-footed against the next attack you make against it before the end of your next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 155',
     archetype: 'Acrobat',
@@ -22531,7 +22531,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1875,
     text: [
-      'You use your acrobatic prowess to evade an attack, using momentum to keep yourself moving, if you choose. You gain a +1 circumstance bonus to AC against the triggering attack. If the attack misses you, you can Step after the Strike. If you&apos;re a master in Acrobatics, you can move 10 feet on this Step instead of 5 feet.',
+      'You use your acrobatic prowess to evade an attack, using momentum to keep yourself moving, if you choose. You gain a +1 circumstance bonus to AC against the triggering attack. If the attack misses you, you can Step after the Strike. If you\'re a master in Acrobatics, you can move 10 feet on this Step instead of 5 feet.',
     ],
     source: 'Advanced Player\'s Guide pg. 155',
     archetype: 'Acrobat',
@@ -22579,7 +22579,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1878,
     text: [
-      'You use a burst of stamina to perform a breathtaking feat of Acrobatics as you speed through a foe&apos;s space, leaving your foe lying flat on their back. You attempt to Trip the enemy whose space you moved through. You can use Acrobatics instead of Athletics for this check.',
+      'You use a burst of stamina to perform a breathtaking feat of Acrobatics as you speed through a foe\'s space, leaving your foe lying flat on their back. You attempt to Trip the enemy whose space you moved through. You can use Acrobatics instead of Athletics for this check.',
     ],
     source: 'Advanced Player\'s Guide pg. 155',
     archetype: 'Acrobat',
@@ -22609,7 +22609,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1880,
     text: [
-      'While study is key to your success, a bit of magic is a helpful tool in discovering the secrets of the past. You gain <i>detect magic</i>, <i>guidance</i>, and <i>read aura</i> as occult innate cantrips.',
+      'While study is key to your success, a bit of magic is a helpful tool in discovering the secrets of the past. You gain detect magic, guidance, and read aura as occult innate cantrips.',
     ],
     source: 'Advanced Player\'s Guide pg. 156',
     archetype: 'Archeologist',
@@ -22665,7 +22665,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1884,
     text: [
-      'You broaden your magical studies, allowing you to find the right path, detect objects, and conceal those objects from unscrupulous rivals. You can cast <i>augury</i>, <i>locate</i>, and <i>nondetection</i> as occult innate spells, each once per day. You can cast this <i>nondetection</i> spell only on an object, and it is automatically heightened to the same spell level as your cantrips from Magical Scholastics.',
+      'You broaden your magical studies, allowing you to find the right path, detect objects, and conceal those objects from unscrupulous rivals. You can cast augury, locate, and nondetection as occult innate spells, each once per day. You can cast this nondetection spell only on an object, and it is automatically heightened to the same spell level as your cantrips from Magical Scholastics.',
     ],
     source: 'Advanced Player\'s Guide pg. 156',
     archetype: 'Archeologist',
@@ -22718,7 +22718,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1888,
     text: [
-      'You are a dynamo with the crossbow. You gain a +2 circumstance bonus to damage with crossbows. If the crossbow is a simple weapon, also increase the damage die size for your attacks made with that crossbow by one step. As normal, this damage die increase can&apos;t be combined with other abilities that alter the weapon damage die (such as the ranger feat Crossbow Ace).',
+      'You are a dynamo with the crossbow. You gain a +2 circumstance bonus to damage with crossbows. If the crossbow is a simple weapon, also increase the damage die size for your attacks made with that crossbow by one step. As normal, this damage die increase can\'t be combined with other abilities that alter the weapon damage die (such as the ranger feat Crossbow Ace).',
     ],
     source: 'Advanced Player\'s Guide pg. 157',
     archetype: 'Archer',
@@ -22731,7 +22731,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1889,
     text: [
-      'You slow down, focus, and take a careful shot. Make a ranged Strike with a weapon in the bow weapon group. You gain a +2 circumstance bonus to the attack roll and ignore the target&apos;s concealed condition. If the target is hidden, reduce the flat check from being hidden from 11 to 5.',
+      'You slow down, focus, and take a careful shot. Make a ranged Strike with a weapon in the bow weapon group. You gain a +2 circumstance bonus to the attack roll and ignore the target\'s concealed condition. If the target is hidden, reduce the flat check from being hidden from 11 to 5.',
     ],
     source: 'Advanced Player\'s Guide pg. 157',
     archetype: 'Archer',
@@ -22744,7 +22744,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1890,
     text: [
-      'You&apos;ve trained to assassinate your foes, and you do so with tenacity and precision. You gain the Mark for Death activity.',
+      'You\'ve trained to assassinate your foes, and you do so with tenacity and precision. You gain the Mark for Death activity.',
     ],
     source: 'Advanced Player\'s Guide pg. 158',
     archetype: 'Assassin',
@@ -22779,7 +22779,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1892,
     text: [
-      'You act before foes can react. On the first round of combat, if you roll Deception or Stealth for initiative, creatures that haven&apos;t acted are flat-footed to you.',
+      'You act before foes can react. On the first round of combat, if you roll Deception or Stealth for initiative, creatures that haven\'t acted are flat-footed to you.',
     ],
     source: 'Advanced Player\'s Guide pg. 158',
     archetype: 'Assassin',
@@ -22792,7 +22792,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1893,
     text: [
-      'All your Strikes against a creature you have Marked for Death have the death trait, causing the mark to be instantly killed when reduced to 0 Hit Points. When killed in this way, attempts to communicate with it, return it to life, turn it into an undead, or otherwise disturb its afterlife fail unless the effect&apos;s counteract level is higher than half your level when you killed the creature (rounded up), or originates from an artifact or a deity.',
+      'All your Strikes against a creature you have Marked for Death have the death trait, causing the mark to be instantly killed when reduced to 0 Hit Points. When killed in this way, attempts to communicate with it, return it to life, turn it into an undead, or otherwise disturb its afterlife fail unless the effect\'s counteract level is higher than half your level when you killed the creature (rounded up), or originates from an artifact or a deity.',
     ],
     source: 'Advanced Player\'s Guide pg. 158',
     archetype: 'Assassin',
@@ -22834,7 +22834,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1896,
     text: [
-      'You attempt to Disarm the creature whose attack you blocked of the weapon they attacked you with. You can do so even if you don&apos;t have a hand free.',
+      'You attempt to Disarm the creature whose attack you blocked of the weapon they attacked you with. You can do so even if you don\'t have a hand free.',
     ],
     source: 'Advanced Player\'s Guide pg. 159',
     archetype: 'Bastion',
@@ -22848,7 +22848,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1897,
     text: [
-      'You are so used to wielding a shield that you can do so even while using the hand that&apos;s holding it for other purposes. The hand you use to wield a shield counts as a free hand for the purposes of the Interact action. You can also hold another object in this hand (but you still can&apos;t use it to wield a weapon). This benefit doesn&apos;t apply to tower shields, which are still too cumbersome.',
+      'You are so used to wielding a shield that you can do so even while using the hand that\'s holding it for other purposes. The hand you use to wield a shield counts as a free hand for the purposes of the Interact action. You can also hold another object in this hand (but you still can\'t use it to wield a weapon). This benefit doesn\'t apply to tower shields, which are still too cumbersome.',
     ],
     source: 'Advanced Player\'s Guide pg. 159',
     archetype: 'Bastion',
@@ -22861,7 +22861,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1898,
     text: [
-      'You can protect yourself more effectively, at the expense of your shield. When you Shield Block, you can reduce the damage to yourself by double the shield&apos;s Hardness, but if you do, the shield takes double the normal amount of damage it would have taken (before applying its Hardness). You can&apos;t use Destructive Block if your shield can&apos;t be broken or destroyed, such as if you&apos;re using an <i>indestructible shield</i>.',
+      'You can protect yourself more effectively, at the expense of your shield. When you Shield Block, you can reduce the damage to yourself by double the shield\'s Hardness, but if you do, the shield takes double the normal amount of damage it would have taken (before applying its Hardness). You can\'t use Destructive Block if your shield can\'t be broken or destroyed, such as if you\'re using an indestructible shield.',
     ],
     source: 'Advanced Player\'s Guide pg. 159',
     archetype: 'Bastion',
@@ -22888,7 +22888,7 @@ export const feats: FeatCollection = {
     id: 1900,
     text: [
       'You gain the service of a young animal companion that travels with you and obeys your commands. The rules for animal companions appear here. Contrary to the usual rules for animal companions, this feat can grant you a second animal companion. If you ever have more than one animal companion, you gain the Call Companion action. See the Beastmaster Animal Companions sidebar for details on this action.',
-      ' Certain beastmaster feats give you primal focus spells. The rules for focus spells appear here. When you gain your first beastmaster focus spell, you become trained in primal spell attack rolls and spell DCs, and your spellcasting ability for these spells is Charisma. Feats that grant beastmaster focus spells tell you to increase the number of Focus Points in your pool, but if you don&apos;t already have a focus pool, you instead get a focus pool with 1 Focus Point. You can Refocus by grooming, feeding, playing with, or otherwise tending to an animal companion.',
+      ' Certain beastmaster feats give you primal focus spells. The rules for focus spells appear here. When you gain your first beastmaster focus spell, you become trained in primal spell attack rolls and spell DCs, and your spellcasting ability for these spells is Charisma. Feats that grant beastmaster focus spells tell you to increase the number of Focus Points in your pool, but if you don\'t already have a focus pool, you instead get a focus pool with 1 Focus Point. You can Refocus by grooming, feeding, playing with, or otherwise tending to an animal companion.',
     ],
     source: 'Advanced Player\'s Guide pg. 160',
     archetype: 'Beastmaster',
@@ -22918,7 +22918,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1902,
     text: [
-      'You can heal your animal companion&apos;s wounds. You can cast <i>heal animal</i> as a beastmaster focus spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You can heal your animal companion\'s wounds. You can cast heal animal as a beastmaster focus spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 160',
     archetype: 'Beastmaster',
@@ -22931,7 +22931,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1903,
     text: [
-      'All of your animal companions grow up, becoming mature animal companions and gaining additional capabilities. During an encounter, even if you don&apos;t use the Command an Animal action, your animal companion can still use 1 action on your turn to either Stride or Strike.',
+      'All of your animal companions grow up, becoming mature animal companions and gaining additional capabilities. During an encounter, even if you don\'t use the Command an Animal action, your animal companion can still use 1 action on your turn to either Stride or Strike.',
     ],
     source: 'Advanced Player\'s Guide pg. 160',
     archetype: 'Beastmaster',
@@ -22944,7 +22944,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1904,
     text: [
-      'You can enter a trance that allows you to briefly inhabit the body of one of your animal companions and share its senses. You gain the focus spell <i>beastmaster trance</i>. Increase the number of Focus Points in your focus pool by 1.',
+      'You can enter a trance that allows you to briefly inhabit the body of one of your animal companions and share its senses. You gain the focus spell beastmaster trance. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 160',
     archetype: 'Beastmaster',
@@ -22970,7 +22970,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1906,
     text: [
-      'You can communicate telepathically with your animal companions within 100 feet. If you&apos;re legendary in Nature, you can communicate telepathically with your animal companions anywhere on the planet.',
+      'You can communicate telepathically with your animal companions within 100 feet. If you\'re legendary in Nature, you can communicate telepathically with your animal companions anywhere on the planet.',
     ],
     source: 'Advanced Player\'s Guide pg. 160',
     archetype: 'Beastmaster',
@@ -22983,7 +22983,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1907,
     text: [
-      'You quickly call in a primal projection of a non-active companion to provide the companion&apos;s support benefit. The projection arrives in an unoccupied square of your choice within 30 feet of you, grants you its support benefit, and then disappears on your next turn. The projection has the same AC and saving throw modifiers as the real companion, and if it would take any damage before your next turn, it disappears and the support benefit ends immediately.',
+      'You quickly call in a primal projection of a non-active companion to provide the companion\'s support benefit. The projection arrives in an unoccupied square of your choice within 30 feet of you, grants you its support benefit, and then disappears on your next turn. The projection has the same AC and saving throw modifiers as the real companion, and if it would take any damage before your next turn, it disappears and the support benefit ends immediately.',
     ],
     source: 'Advanced Player\'s Guide pg. 161',
     archetype: 'Beastmaster',
@@ -23012,7 +23012,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1909,
     text: [
-      'You can have up to two animal companions active at once. However, when you do, it&apos;s slightly more difficult to Command them. If you don&apos;t Command either of your companions, one of the two (your choice) can still use 1 action on your turn to Stride or Strike, as per Mature Beastmaster Companion, but not both. When you Command an Animal, either choose one of the companions to take 2 actions, as normal, or else both companions can take 1 action to Stride or Strike. Either way, you can&apos;t Command an Animal to make either companion act again until your next turn.',
+      'You can have up to two animal companions active at once. However, when you do, it\'s slightly more difficult to Command them. If you don\'t Command either of your companions, one of the two (your choice) can still use 1 action on your turn to Stride or Strike, as per Mature Beastmaster Companion, but not both. When you Command an Animal, either choose one of the companions to take 2 actions, as normal, or else both companions can take 1 action to Stride or Strike. Either way, you can\'t Command an Animal to make either companion act again until your next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 161',
     archetype: 'Beastmaster',
@@ -23026,7 +23026,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1910,
     text: [
-      'You are touched by a deity and gifted with the ability to alleviate the suffering of others. You gain the <i>lay on hands</i> devotion spell. It costs 1 Focus Point to cast a focus spell. This feat grants a focus pool of 1 Focus Point that you can recover using the Refocus activity. You can Refocus by meditating, whether you reflect on the deity granting the blessing or not, allowing your blessing to refill your focus pool. Your devotion spells from the blessed one archetype are divine spells.',
+      'You are touched by a deity and gifted with the ability to alleviate the suffering of others. You gain the lay on hands devotion spell. It costs 1 Focus Point to cast a focus spell. This feat grants a focus pool of 1 Focus Point that you can recover using the Refocus activity. You can Refocus by meditating, whether you reflect on the deity granting the blessing or not, allowing your blessing to refill your focus pool. Your devotion spells from the blessed one archetype are divine spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 162',
     archetype: 'Blessed One',
@@ -23040,7 +23040,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1911,
     text: [
-      'You gain the <i>protector&apos;s sacrifice</i> domain spell as a devotion spell. Increase the number of Focus Points in your focus pool by 1.',
+      'You gain the protector\'s sacrifice domain spell as a devotion spell. Increase the number of Focus Points in your focus pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 162',
     archetype: 'Blessed One',
@@ -23053,7 +23053,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1912,
     text: [
-      'When you focus your magic on an ally, you can remove harmful conditions. If your next action is to Cast a Spell from a spell slot, and that spell targets only a single ally, you can also attempt to remove a harmful condition from that ally. The condition must be one that could be removed by your Mercy feat, including those granted by later feats such as Greater Mercy. Attempt a counteract check based on the spell&apos;s DC and level. This effect is in addition to the normal effects of your spell.',
+      'When you focus your magic on an ally, you can remove harmful conditions. If your next action is to Cast a Spell from a spell slot, and that spell targets only a single ally, you can also attempt to remove a harmful condition from that ally. The condition must be one that could be removed by your Mercy feat, including those granted by later feats such as Greater Mercy. Attempt a counteract check based on the spell\'s DC and level. This effect is in addition to the normal effects of your spell.',
     ],
     source: 'Advanced Player\'s Guide pg. 162',
     archetype: 'Blessed One',
@@ -23082,8 +23082,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1914,
     text: [
-      'When focused on finding your quarry, you&apos;re relentless. You gain the Hunt Prey action. You can use Hunt Prey to designate only a creature that you&apos;ve seen, heard about, or learned about through some other means, such as a bounty board or wanted poster. In addition to the other benefits of Hunt Prey, you gain a +2 circumstance bonus to checks to Gather Information regarding your prey.',
-      ' If you already have Hunt Prey, you become an expert in Survival and gain the circumstance bonus to Gather Information about your prey; you can still designate a creature you&apos;re tracking during exploration, in addition to the conditions above.',
+      'When focused on finding your quarry, you\'re relentless. You gain the Hunt Prey action. You can use Hunt Prey to designate only a creature that you\'ve seen, heard about, or learned about through some other means, such as a bounty board or wanted poster. In addition to the other benefits of Hunt Prey, you gain a +2 circumstance bonus to checks to Gather Information regarding your prey.',
+      ' If you already have Hunt Prey, you become an expert in Survival and gain the circumstance bonus to Gather Information about your prey; you can still designate a creature you\'re tracking during exploration, in addition to the conditions above.',
     ],
     source: 'Advanced Player\'s Guide pg. 163',
     archetype: 'Bounty Hunter',
@@ -23098,7 +23098,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1915,
     text: [
-      'You&apos;re well-versed in weapons that allow you to bring bounties in alive. You are trained with the following weapons: bola, sap, and whip. You gain access to bolas. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in the weapons listed.',
+      'You\'re well-versed in weapons that allow you to bring bounties in alive. You are trained with the following weapons: bola, sap, and whip. You gain access to bolas. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in the weapons listed.',
       ' In addition, you take no penalty when making a nonlethal attack with a weapon without the nonlethal trait.',
     ],
     source: 'Advanced Player\'s Guide pg. 163',
@@ -23113,7 +23113,7 @@ export const feats: FeatCollection = {
     id: 1916,
     text: [
       'By spending 1 minute giving guidance to help hunt down your prey, you instruct up to five willing creatures to assist you. They gain a +1 circumstance bonus to Seek your prey, to Track your prey, and to Gather Information about your prey. You and the creatures assisting you gain a +1 circumstance bonus to initiative rolls when entering combat with your prey.',
-      ' This benefit lasts until you designate a new prey or your prey dies, whichever comes first. An individual creature assisting you loses this benefit if they&apos;re out of your presence for too long to benefit from your instructions. This is usually 1 hour, but is determined by the GM.',
+      ' This benefit lasts until you designate a new prey or your prey dies, whichever comes first. An individual creature assisting you loses this benefit if they\'re out of your presence for too long to benefit from your instructions. This is usually 1 hour, but is determined by the GM.',
     ],
     source: 'Advanced Player\'s Guide pg. 163',
     archetype: 'Bounty Hunter',
@@ -23127,7 +23127,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1917,
     text: [
-      'Your prey can&apos;t Escape. Stride up to your Speed, following the foe and keeping it in reach throughout its movement until it stops moving or you&apos;ve moved your full Speed. You can use Keep Pace to Burrow, Climb, Fly, or Swim instead of Stride if you have the corresponding movement type.',
+      'Your prey can\'t Escape. Stride up to your Speed, following the foe and keeping it in reach throughout its movement until it stops moving or you\'ve moved your full Speed. You can use Keep Pace to Burrow, Climb, Fly, or Swim instead of Stride if you have the corresponding movement type.',
     ],
     source: 'Advanced Player\'s Guide pg. 163',
     archetype: 'Bounty Hunter',
@@ -23156,7 +23156,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1919,
     text: [
-      'You gain a young animal companion that serves as your mount. You can choose from animal companions with the mount special ability, as well as any additional options from your pledge, as determined by your GM. You must choose an animal companion that&apos;s at least one size larger than you, but if the animal usually starts as Small, you can begin with a Medium version of that animal (changing no statistics other than its size).\n',
+      'You gain a young animal companion that serves as your mount. You can choose from animal companions with the mount special ability, as well as any additional options from your pledge, as determined by your GM. You must choose an animal companion that\'s at least one size larger than you, but if the animal usually starts as Small, you can begin with a Medium version of that animal (changing no statistics other than its size).\n',
     ],
     source: 'Advanced Player\'s Guide pg. 164',
     archetype: 'Cavalier',
@@ -23171,7 +23171,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1920,
     text: [
-      'You fly the banner of your pledge from your mount, raising your allies&apos; spirits. You and all allies within 30 feet gain a +1 circumstance bonus to Will saves and DCs against fear effects. If your banner is destroyed or removed, allies within 30 feet become frightened 1.',
+      'You fly the banner of your pledge from your mount, raising your allies\' spirits. You and all allies within 30 feet gain a +1 circumstance bonus to Will saves and DCs against fear effects. If your banner is destroyed or removed, allies within 30 feet become frightened 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 164',
     archetype: 'Cavalier',
@@ -23200,7 +23200,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1922,
     text: [
-      'You&apos;ve trained your mount to become a powerful force on the battlefield. The mount you gained through the Cavalier Dedication feat becomes a mature animal companion, granting it additional capabilities. During an encounter, even if you don&apos;t use the Command an Animal action, your animal companion can still use 1 action on your turn to Stride or Strike.',
+      'You\'ve trained your mount to become a powerful force on the battlefield. The mount you gained through the Cavalier Dedication feat becomes a mature animal companion, granting it additional capabilities. During an encounter, even if you don\'t use the Command an Animal action, your animal companion can still use 1 action on your turn to Stride or Strike.',
     ],
     source: 'Advanced Player\'s Guide pg. 164',
     archetype: 'Cavalier',
@@ -23213,7 +23213,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1923,
     text: [
-      'You and your mount can spring into action at a moment&apos;s notice. You Mount the creature and Command an Animal to issue it an order of your choice.',
+      'You and your mount can spring into action at a moment\'s notice. You Mount the creature and Command an Animal to issue it an order of your choice.',
     ],
     source: 'Advanced Player\'s Guide pg. 164',
     archetype: 'Cavalier',
@@ -23228,7 +23228,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1924,
     text: [
-      'You interpose yourself between an attacker and your mount, defending your mount from harm. Use your own AC against the triggering attack instead your mount&apos;s AC. If the triggering attack hits, you take the effects of the attack instead of your mount.',
+      'You interpose yourself between an attacker and your mount, defending your mount from harm. Use your own AC against the triggering attack instead your mount\'s AC. If the triggering attack hits, you take the effects of the attack instead of your mount.',
     ],
     source: 'Advanced Player\'s Guide pg. 164',
     archetype: 'Cavalier',
@@ -23243,7 +23243,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1925,
     text: [
-      'You&apos;ve trained with your shield to defend both yourself and your mount. When you Raise a Shield while mounted, both you and your mount gain the shield&apos;s circumstance bonus to AC. If you have the Shield Block reaction, you can use it in response to your mount taking damage, as long as you&apos;re riding your mount. If you do, the shield prevents your mount from taking damage instead of preventing you from taking damage, following the normal rules for Shield Block.',
+      'You\'ve trained with your shield to defend both yourself and your mount. When you Raise a Shield while mounted, both you and your mount gain the shield\'s circumstance bonus to AC. If you have the Shield Block reaction, you can use it in response to your mount taking damage, as long as you\'re riding your mount. If you do, the shield prevents your mount from taking damage instead of preventing you from taking damage, following the normal rules for Shield Block.',
     ],
     source: 'Advanced Player\'s Guide pg. 164',
     archetype: 'Cavalier',
@@ -23269,7 +23269,7 @@ export const feats: FeatCollection = {
     actions: 'three_actions',
     id: 1927,
     text: [
-      'You urge your mount forward, trampling enemies in your path. You command your mount to Stride up to its Speed (or to Burrow, Climb, Fly, or Swim, if it has the corresponding movement type), moving through the spaces of any foes in your path up to one size smaller than your mount. Your mount deals damage equal to the melee Strike using its legs to each creature whose space you move through, subject to a basic Reflex save against your mount&apos;s Athletics DC. On a critical failure, the creature also becomes flat-footed until the end of your next turn. You can damage a given creature only once during this movement.',
+      'You urge your mount forward, trampling enemies in your path. You command your mount to Stride up to its Speed (or to Burrow, Climb, Fly, or Swim, if it has the corresponding movement type), moving through the spaces of any foes in your path up to one size smaller than your mount. Your mount deals damage equal to the melee Strike using its legs to each creature whose space you move through, subject to a basic Reflex save against your mount\'s Athletics DC. On a critical failure, the creature also becomes flat-footed until the end of your next turn. You can damage a given creature only once during this movement.',
     ],
     source: 'Advanced Player\'s Guide pg. 165',
     archetype: 'Cavalier',
@@ -23284,7 +23284,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1928,
     text: [
-      'You attempt to knock an opponent off their mount. Make a melee Strike against a mounted opponent. If your attack hits, attempt an Athletics check against the opponent&apos;s Fortitude DC. If you succeed, the foe is knocked off its mount into a space of its choice adjacent to its mount. If you critically succeed, it lands prone.',
+      'You attempt to knock an opponent off their mount. Make a melee Strike against a mounted opponent. If your attack hits, attempt an Athletics check against the opponent\'s Fortitude DC. If you succeed, the foe is knocked off its mount into a space of its choice adjacent to its mount. If you critically succeed, it lands prone.',
     ],
     source: 'Advanced Player\'s Guide pg. 165',
     archetype: 'Cavalier',
@@ -23298,7 +23298,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1929,
     text: [
-      'You&apos;ve trained your mount to perform in unusual or even extreme circumstances, granting it abilities far beyond others of its kind. Your mount gains one specialization of your choice.',
+      'You\'ve trained your mount to perform in unusual or even extreme circumstances, granting it abilities far beyond others of its kind. Your mount gains one specialization of your choice.',
     ],
     source: 'Advanced Player\'s Guide pg. 165',
     archetype: 'Cavalier',
@@ -23313,7 +23313,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1930,
     text: [
-      'You and your mount move like one being, effortlessly reading each other&apos;s signals. Whenever you are riding your mount, you are quickened; you can use the extra action only to command your mount using the Command an Animal skill action.',
+      'You and your mount move like one being, effortlessly reading each other\'s signals. Whenever you are riding your mount, you are quickened; you can use the extra action only to command your mount using the Command an Animal skill action.',
     ],
     source: 'Advanced Player\'s Guide pg. 165',
     archetype: 'Cavalier',
@@ -23353,7 +23353,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1932,
     text: [
-      'As long as you have an audience, you can continue to perform. Indeed, you must&#x2014;you have an obligation to your fans! You delay the effects of the fatigued condition for 1 minute or until you are no longer observed by the required creatures, whichever comes first. If the fatigued condition has a duration, the duration begins to elapse only after the delay. You can&apos;t further delay or prevent the fatigued condition after this ability ends.',
+      'As long as you have an audience, you can continue to perform. Indeed, you must&#x2014;you have an obligation to your fans! You delay the effects of the fatigued condition for 1 minute or until you are no longer observed by the required creatures, whichever comes first. If the fatigued condition has a duration, the duration begins to elapse only after the delay. You can\'t further delay or prevent the fatigued condition after this ability ends.',
     ],
     source: 'Advanced Player\'s Guide pg. 166',
     archetype: 'Celebrity',
@@ -23368,8 +23368,8 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1933,
     text: [
-      'When you meet someone&apos;s gaze, they are unable to look away. Choose one target creature. That creature must succeed at a Will save or be fascinated until the end of your next turn; the DC for this save is equal to your class DC or spell DC, whichever is higher. If the creature succeeds at its save or its fascination ends due to a hostile action, it becomes temporarily immune to your Mesmerizing Gaze for 1 day.',
-      'When you select this feat, it gains either the arcane or occult trait; once you make this choice, you can&apos;t change it.',
+      'When you meet someone\'s gaze, they are unable to look away. Choose one target creature. That creature must succeed at a Will save or be fascinated until the end of your next turn; the DC for this save is equal to your class DC or spell DC, whichever is higher. If the creature succeeds at its save or its fascination ends due to a hostile action, it becomes temporarily immune to your Mesmerizing Gaze for 1 day.',
+      'When you select this feat, it gains either the arcane or occult trait; once you make this choice, you can\'t change it.',
     ],
     source: 'Advanced Player\'s Guide pg. 166',
     archetype: 'Celebrity',
@@ -23389,7 +23389,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1934,
     text: [
-      'You command the attention of all around you with style, ensuring their gaze falls only upon you until the end of your next turn. When creatures within 30 feet of you attempt saving throws against other visual effects, they use the outcome for one degree of success better than the result they rolled. An enemy within the area attempting to use a visual effect that involves focusing its attention on a particular creature (such as a medusa&apos;s Focus Gaze) must succeed at a Will save against your class DC or spell DC, whichever is higher, in order to target any creature except you. Allies in the area can attempt to Hide even if they don&apos;t have cover, as you are continually providing a distraction.',
+      'You command the attention of all around you with style, ensuring their gaze falls only upon you until the end of your next turn. When creatures within 30 feet of you attempt saving throws against other visual effects, they use the outcome for one degree of success better than the result they rolled. An enemy within the area attempting to use a visual effect that involves focusing its attention on a particular creature (such as a medusa\'s Focus Gaze) must succeed at a Will save against your class DC or spell DC, whichever is higher, in order to target any creature except you. Allies in the area can attempt to Hide even if they don\'t have cover, as you are continually providing a distraction.',
     ],
     source: 'Advanced Player\'s Guide pg. 166',
     archetype: 'Celebrity',
@@ -23418,7 +23418,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1936,
     text: [
-      'You know how to maintain a good impression and manage your image, even while keeping uncouth company. Make a Deception check against the target&apos;s Will DC. Regardless of your result, the target is temporarily immune to your Distracting Flattery for 10 minutes.',
+      'You know how to maintain a good impression and manage your image, even while keeping uncouth company. Make a Deception check against the target\'s Will DC. Regardless of your result, the target is temporarily immune to your Distracting Flattery for 10 minutes.',
     ],
     source: 'Advanced Player\'s Guide pg. 167',
     archetype: 'Dandy',
@@ -23439,7 +23439,7 @@ export const feats: FeatCollection = {
     id: 1937,
     text: [
       'Your time gossiping in fashionable salons keeps you informed on every topic. You are trained in Gossip Lore, a special Lore skill that can be used only to Recall Knowledge, but on any topic. If you fail a check to Recall Knowledge with Gossip Lore, you get the effects of the Dubious Knowledge skill feat.',
-      ' If you have legendary proficiency in Society, you gain expert proficiency in Gossip Lore, but you can&apos;t increase your proficiency rank in Gossip Lore by any other means.',
+      ' If you have legendary proficiency in Society, you gain expert proficiency in Gossip Lore, but you can\'t increase your proficiency rank in Gossip Lore by any other means.',
     ],
     source: 'Advanced Player\'s Guide pg. 167',
     archetype: 'Dandy',
@@ -23465,7 +23465,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1939,
     text: [
-      'You attend all the fashionable society parties, no matter how exclusive they might be. Any time you encounter a social event you would ordinarily be denied access to, such as a coronation, royal gala, or other society function, you can spend 1d4 hours to secure entry without the need for a skill check. You find invitations, invitees looking for fashionable dates, temporary jobs with the caterers, event staff willing to look the other way, or some other mode of access for yourself and your allies. This ability doesn&apos;t apply to secret events or other small private gatherings with no staff, dates, or outsiders involved.',
+      'You attend all the fashionable society parties, no matter how exclusive they might be. Any time you encounter a social event you would ordinarily be denied access to, such as a coronation, royal gala, or other society function, you can spend 1d4 hours to secure entry without the need for a skill check. You find invitations, invitees looking for fashionable dates, temporary jobs with the caterers, event staff willing to look the other way, or some other mode of access for yourself and your allies. This ability doesn\'t apply to secret events or other small private gatherings with no staff, dates, or outsiders involved.',
     ],
     source: 'Advanced Player\'s Guide pg. 167',
     archetype: 'Dandy',
@@ -23512,7 +23512,7 @@ export const feats: FeatCollection = {
     id: 1941,
     text: [
       'Your fingernails grow into razor-sharp claws, and scales speckle your fingers, hands, and wrists. Your claws are agile, finesse unarmed attacks that deal 1d6 slashing damage and are in the brawling weapon group.',
-      ' If you&apos;re a draconic sorcerer, when you cast <i>dragon claws</i>, increase the spell&apos;s slashing damage die from d4 to d6 and increase the resistance to 10 at 1st level, 15 at 5th level, and 20 at 9th level.',
+      ' If you\'re a draconic sorcerer, when you cast dragon claws, increase the spell\'s slashing damage die from d4 to d6 and increase the resistance to 10 at 1st level, 15 at 5th level, and 20 at 9th level.',
     ],
     source: 'Advanced Player\'s Guide pg. 168',
     archetype: 'Dragon Disciple',
@@ -23525,7 +23525,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1942,
     text: [
-      'Your sense of smell is uncanny, much like a dragon&apos;s. You gain imprecise scent with a range of 30 feet. The GM might double the range if you&apos;re downwind from the creature or halve the range if you&apos;re upwind, at their discretion.',
+      'Your sense of smell is uncanny, much like a dragon\'s. You gain imprecise scent with a range of 30 feet. The GM might double the range if you\'re downwind from the creature or halve the range if you\'re upwind, at their discretion.',
     ],
     source: 'Advanced Player\'s Guide pg. 168',
     archetype: 'Dragon Disciple',
@@ -23538,7 +23538,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1943,
     text: [
-      'You&apos;ve discovered how to add the magic of dragons to your tradition. Add the draconic bloodline&apos;s granted spells to your spell list; you must still learn them or add them to your repertoire as normal. These spells are <i>shield</i>, <i>true strike</i>, <i>resist energy</i>, <i>haste</i>, <i>spell immunity</i>, <i>chromatic wall</i>, <i>dragon form</i>, <i>mask of terror</i>, <i>prismatic wall</i>, and <i>overwhelming presence</i>.',
+      'You\'ve discovered how to add the magic of dragons to your tradition. Add the draconic bloodline\'s granted spells to your spell list; you must still learn them or add them to your repertoire as normal. These spells are shield, true strike, resist energy, haste, spell immunity, chromatic wall, dragon form, mask of terror, prismatic wall, and overwhelming presence.',
     ],
     source: 'Advanced Player\'s Guide pg. 168',
     archetype: 'Dragon Disciple',
@@ -23552,7 +23552,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1944,
     text: [
-      'Scales grow across your body, protecting you against physical and magical threats. When you&apos;re unarmored, the scales give you a +2 status bonus to AC with a Dexterity cap of +2. Your resistance from Dragon Disciple Dedication increases to 3 + half your level.',
+      'Scales grow across your body, protecting you against physical and magical threats. When you\'re unarmored, the scales give you a +2 status bonus to AC with a Dexterity cap of +2. Your resistance from Dragon Disciple Dedication increases to 3 + half your level.',
     ],
     source: 'Advanced Player\'s Guide pg. 169',
     archetype: 'Dragon Disciple',
@@ -23565,7 +23565,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1945,
     text: [
-      'You can use a powerful breath weapon, much like the dragon you emulate. You gain the <i>dragon breath</i> sorcerer bloodline spell and a focus pool of 1 Focus Point. If you already have a focus pool, increase your number of Focus Points by 1.',
+      'You can use a powerful breath weapon, much like the dragon you emulate. You gain the dragon breath sorcerer bloodline spell and a focus pool of 1 Focus Point. If you already have a focus pool, increase your number of Focus Points by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 169',
     archetype: 'Dragon Disciple',
@@ -23578,7 +23578,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1946,
     text: [
-      'You can manifest draconic wings to soar through the air at great speed. You gain the <i>dragon wings</i> sorcerer bloodline spell and a focus pool of 1 Focus Point. If you already have a focus pool, increase your number of Focus Points by 1.',
+      'You can manifest draconic wings to soar through the air at great speed. You gain the dragon wings sorcerer bloodline spell and a focus pool of 1 Focus Point. If you already have a focus pool, increase your number of Focus Points by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 169',
     archetype: 'Dragon Disciple',
@@ -23591,7 +23591,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1947,
     text: [
-      'You&apos;ve discovered how to transform yourself into a dragon. Once per day, you can cast 7th-level <i>dragon form</i> as an innate arcane spell, transforming into your chosen type of dragon. The spell automatically heightens to 8th level if you&apos;re 16th level and 9th level if you&apos;re 18th level. Any time you score a critical hit with an unarmed Strike gained from <i>dragon form</i>, you recharge the spell&apos;s breath weapon immediately.',
+      'You\'ve discovered how to transform yourself into a dragon. Once per day, you can cast 7th-level dragon form as an innate arcane spell, transforming into your chosen type of dragon. The spell automatically heightens to 8th level if you\'re 16th level and 9th level if you\'re 18th level. Any time you score a critical hit with an unarmed Strike gained from dragon form, you recharge the spell\'s breath weapon immediately.',
     ],
     source: 'Advanced Player\'s Guide pg. 169',
     archetype: 'Dragon Disciple',
@@ -23604,7 +23604,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1948,
     text: [
-      'You unleash your breath weapon without spending focus. This has the effects of your <i>dragon breath</i> sorcerer bloodline spell, though it deals 9d6 damage instead of its usual damage, and you don&apos;t have to cast it or spend a Focus Point. You can&apos;t use Disciple&apos;s Breath again for 1d4 rounds.',
+      'You unleash your breath weapon without spending focus. This has the effects of your dragon breath sorcerer bloodline spell, though it deals 9d6 damage instead of its usual damage, and you don\'t have to cast it or spend a Focus Point. You can\'t use Disciple\'s Breath again for 1d4 rounds.',
     ],
     source: 'Advanced Player\'s Guide pg. 169',
     archetype: 'Dragon Disciple',
@@ -23617,7 +23617,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1949,
     text: [
-      'You&apos;ve practiced and increased your draconic might, allowing you to take your draconic form more often. You can use Shape of the Dragon once per hour instead of once per day.',
+      'You\'ve practiced and increased your draconic might, allowing you to take your draconic form more often. You can use Shape of the Dragon once per hour instead of once per day.',
     ],
     source: 'Advanced Player\'s Guide pg. 169',
     archetype: 'Dragon Disciple',
@@ -23630,7 +23630,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1950,
     text: [
-      'You&apos;re exceptional in your use of two weapons. You gain the Double Slice fighter feat. This serves as Double Slice for the purpose of meeting prerequisites.',
+      'You\'re exceptional in your use of two weapons. You gain the Double Slice fighter feat. This serves as Double Slice for the purpose of meeting prerequisites.',
     ],
     source: 'Advanced Player\'s Guide pg. 170',
     archetype: 'Dual-Weapon Warrior',
@@ -23657,7 +23657,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1952,
     text: [
-      'You carry your ammunition in a way that allows you to reload while holding two weapons. You Interact to reload a one-handed ranged weapon you&apos;re holding. Unlike most Interact actions, you don&apos;t need a free hand to reload your ranged weapon in this way.',
+      'You carry your ammunition in a way that allows you to reload while holding two weapons. You Interact to reload a one-handed ranged weapon you\'re holding. Unlike most Interact actions, you don\'t need a free hand to reload your ranged weapon in this way.',
     ],
     source: 'Advanced Player\'s Guide pg. 170',
     archetype: 'Dual-Weapon Warrior',
@@ -23672,7 +23672,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1953,
     text: [
-      'When you hit with both attacks with Double Slice, you flense the target, making it bleed and creating a weak spot. The target takes 1d8 persistent bleed damage per weapon damage die of whichever of the weapons you used that has the most weapon damage dice (maximum 4d8 for a <i>major striking</i> weapon). The target becomes flat-footed, and its resistances to any physical damage types are reduced by 5; these two effects last until the beginning of your next turn.',
+      'When you hit with both attacks with Double Slice, you flense the target, making it bleed and creating a weak spot. The target takes 1d8 persistent bleed damage per weapon damage die of whichever of the weapons you used that has the most weapon damage dice (maximum 4d8 for a major striking weapon). The target becomes flat-footed, and its resistances to any physical damage types are reduced by 5; these two effects last until the beginning of your next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 170',
     archetype: 'Dual-Weapon Warrior',
@@ -23701,7 +23701,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1955,
     text: [
-      'When you lash out with both weapons, you leave no room for the target to escape your attack. When you use Double Slice, if you miss with both Strikes, choose one of the two weapons and apply the effects of a hit with that weapon. You can&apos;t choose a weapon if your attack roll with that weapon was a critical failure, meaning you still miss entirely if both attack rolls were critical failures.',
+      'When you lash out with both weapons, you leave no room for the target to escape your attack. When you use Double Slice, if you miss with both Strikes, choose one of the two weapons and apply the effects of a hit with that weapon. You can\'t choose a weapon if your attack roll with that weapon was a critical failure, meaning you still miss entirely if both attack rolls were critical failures.',
     ],
     source: 'Advanced Player\'s Guide pg. 170',
     archetype: 'Dual-Weapon Warrior',
@@ -23729,7 +23729,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1957,
     text: [
-      'Select one foe that you can see and proclaim a challenge. That foe is your dueling opponent until they are defeated, flee, or the encounter ends. Any time you hit that enemy using a single one-handed melee weapon while your other hand or hands are free, you gain a circumstance bonus to the Strike&apos;s damage equal to the number of damage dice your weapon deals.',
+      'Select one foe that you can see and proclaim a challenge. That foe is your dueling opponent until they are defeated, flee, or the encounter ends. Any time you hit that enemy using a single one-handed melee weapon while your other hand or hands are free, you gain a circumstance bonus to the Strike\'s damage equal to the number of damage dice your weapon deals.',
       ' If you attack a creature other than your dueling opponent, you take a circumstance penalty to damage equal to the number of damage dice your weapon deals.',
     ],
     source: 'Advanced Player\'s Guide pg. 171',
@@ -23743,7 +23743,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1958,
     text: [
-      'You protect those near you with a flash of steel. When you&apos;re benefiting from Dueling Parry, allies adjacent to you gain a +1 circumstance bonus to AC. If you have Dueling Riposte, you can use it when an enemy within your reach critically fails a Strike against an ally adjacent to you, not just against yourself.',
+      'You protect those near you with a flash of steel. When you\'re benefiting from Dueling Parry, allies adjacent to you gain a +1 circumstance bonus to AC. If you have Dueling Riposte, you can use it when an enemy within your reach critically fails a Strike against an ally adjacent to you, not just against yourself.',
     ],
     source: 'Advanced Player\'s Guide pg. 171',
     archetype: 'Duelist',
@@ -23756,8 +23756,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1959,
     text: [
-      'You have studied a great many combat techniques, which you can review each day. During your daily preparations, you can swap out any number of your duelist archetype feats for other duelist archetype feats of the appropriate level for which you are qualified. You can&apos;t swap out Duelist Dedication or Student of the Dueling Arts in this way.',
-      ' In addition, you can enter a stance from a duelist archetype feat you don&apos;t have (such as one listed under Additional Feats) by increasing the number of actions it takes to enter the stance by 1 (typically to 2 actions). You must still meet the feat&apos;s prerequisites.',
+      'You have studied a great many combat techniques, which you can review each day. During your daily preparations, you can swap out any number of your duelist archetype feats for other duelist archetype feats of the appropriate level for which you are qualified. You can\'t swap out Duelist Dedication or Student of the Dueling Arts in this way.',
+      ' In addition, you can enter a stance from a duelist archetype feat you don\'t have (such as one listed under Additional Feats) by increasing the number of actions it takes to enter the stance by 1 (typically to 2 actions). You must still meet the feat\'s prerequisites.',
     ],
     source: 'Advanced Player\'s Guide pg. 171',
     archetype: 'Duelist',
@@ -23771,8 +23771,8 @@ export const feats: FeatCollection = {
     id: 1960,
     text: [
       'You blend magic with your archery, leading to powerful results.',
-      ' If you don&apos;t already cast spells from spell slots, you learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with one cantrip of your choice, from a spell list of your choice. You choose this cantrip from the common spells on your chosen spell list or from other spells to which you have access on that list. This cantrip must require a spell attack roll. You&apos;re trained in spell attack rolls and spell DCs for that tradition. Your key spellcasting ability for these spells is Charisma.',
-      ' If you already cast spells from spell slots, you learn one additional cantrip from that tradition. If you&apos;re a prepared caster, you can prepare this spell in addition to your usual cantrips per day; if you&apos;re a spontaneous caster, you add this cantrip to your spell repertoire.',
+      ' If you don\'t already cast spells from spell slots, you learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with one cantrip of your choice, from a spell list of your choice. You choose this cantrip from the common spells on your chosen spell list or from other spells to which you have access on that list. This cantrip must require a spell attack roll. You\'re trained in spell attack rolls and spell DCs for that tradition. Your key spellcasting ability for these spells is Charisma.',
+      ' If you already cast spells from spell slots, you learn one additional cantrip from that tradition. If you\'re a prepared caster, you can prepare this spell in addition to your usual cantrips per day; if you\'re a spontaneous caster, you add this cantrip to your spell repertoire.',
       ' You also gain Eldritch Shot.',
     ],
     source: 'Advanced Player\'s Guide pg. 172',
@@ -23808,7 +23808,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 1962,
     text: [
-      'With a single whisper carried on the wind, you enchant your ammunition to make a foe more vulnerable to your attacks. Make a bow Strike. On a hit, the target takes an additional 2d6 mental damage. On a critical hit, the target also becomes stunned 1. The mental damage increases to 3d6 if your bow has a <i>greater striking</i> rune, or to 4d6 if your bow has a <i>major striking</i> rune.',
+      'With a single whisper carried on the wind, you enchant your ammunition to make a foe more vulnerable to your attacks. Make a bow Strike. On a hit, the target takes an additional 2d6 mental damage. On a critical hit, the target also becomes stunned 1. The mental damage increases to 3d6 if your bow has a greater striking rune, or to 4d6 if your bow has a major striking rune.',
     ],
     source: 'Advanced Player\'s Guide pg. 173',
     archetype: 'Eldrith Archer',
@@ -23821,8 +23821,8 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 1963,
     text: [
-      'You imbue your ammunition with eldritch power. When you select this feat, choose three types of common magical ammunition of 4th level or lower from the <i>Core Rulebook</i> or this book. Your GM might allow you to choose from other types of magical ammunition, such as uncommon ammunition, or ammunition from other books.',
-      ' When using Magic Arrow, you transform a non-magical arrow or bolt into a piece of ammunition of one type you chose. You must shoot the ammunition before the end of your turn or the magic dissipates. If the ammunition has an Activate entry, you still need to spend the required actions to activate the ammunition before shooting it. When you use Magic Arrow, you can choose a type of magical ammunition that is typically not available to the type of ammunition you&apos;re using&#x2014;for example, you can use <i>climbing bolt</i> on an arrow, even though that magical ammunition is normally only found on bolts.',
+      'You imbue your ammunition with eldritch power. When you select this feat, choose three types of common magical ammunition of 4th level or lower from the Core Rulebook or this book. Your GM might allow you to choose from other types of magical ammunition, such as uncommon ammunition, or ammunition from other books.',
+      ' When using Magic Arrow, you transform a non-magical arrow or bolt into a piece of ammunition of one type you chose. You must shoot the ammunition before the end of your turn or the magic dissipates. If the ammunition has an Activate entry, you still need to spend the required actions to activate the ammunition before shooting it. When you use Magic Arrow, you can choose a type of magical ammunition that is typically not available to the type of ammunition you\'re using&#x2014;for example, you can use climbing bolt on an arrow, even though that magical ammunition is normally only found on bolts.',
     ],
     source: 'Advanced Player\'s Guide pg. 173',
     archetype: 'Eldrith Archer',
@@ -23838,7 +23838,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1964,
     text: [
-      'You enchant a piece of ammunition with the magical essence of a precious material, allowing you to leverage certain creatures&apos; weaknesses. Choose cold iron or silver; if you shoot the arrow before the end of your turn, it counts as that material. At 14th level, add adamantine to the list of materials you can choose from.',
+      'You enchant a piece of ammunition with the magical essence of a precious material, allowing you to leverage certain creatures\' weaknesses. Choose cold iron or silver; if you shoot the arrow before the end of your turn, it counts as that material. At 14th level, add adamantine to the list of materials you can choose from.',
     ],
     source: 'Advanced Player\'s Guide pg. 173',
     archetype: 'Eldrith Archer',
@@ -23862,7 +23862,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1966,
     text: [
-      'Your shots zip around corners and fly at impossible angles to reach your target. Make a bow Strike against a foe you can see; the ammunition travels to your target, even around corners. You ignore the target&apos;s concealed condition and all cover.',
+      'Your shots zip around corners and fly at impossible angles to reach your target. Make a bow Strike against a foe you can see; the ammunition travels to your target, even around corners. You ignore the target\'s concealed condition and all cover.',
     ],
     source: 'Advanced Player\'s Guide pg. 173',
     archetype: 'Eldrith Archer',
@@ -23875,7 +23875,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 1967,
     text: [
-      'You can concentrate an immense amount of magic to create a piece of ammunition that phases through everything but your target. Make a bow Strike against a foe who is observed or hidden to you (but not undetected). The ammunition travels to your target in a straight line, passing through any non-magical barriers or walls in its way, though magical barriers stop the arrow. The shot ignores all cover, the concealed condition, the hidden condition, and circumstance bonuses to AC from shields. It has a +4 status bonus to hit creatures wearing any type of armor. The Strike&apos;s damage can&apos;t be reduced with a Shield Block reaction using a non-magical shield.',
+      'You can concentrate an immense amount of magic to create a piece of ammunition that phases through everything but your target. Make a bow Strike against a foe who is observed or hidden to you (but not undetected). The ammunition travels to your target in a straight line, passing through any non-magical barriers or walls in its way, though magical barriers stop the arrow. The shot ignores all cover, the concealed condition, the hidden condition, and circumstance bonuses to AC from shields. It has a +4 status bonus to hit creatures wearing any type of armor. The Strike\'s damage can\'t be reduced with a Shield Block reaction using a non-magical shield.',
     ],
     source: 'Advanced Player\'s Guide pg. 173',
     archetype: 'Eldrith Archer',
@@ -23968,7 +23968,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1974,
     text: [
-      'Your familiar&apos;s supernatural spirit has outgrown its corporeal body. You can conduct a special 10-minute activity to reselect certain familiar abilities, switching one or more of the following abilities for other abilities on this list: amphibious, burrower, climber, darkvision, fast movement, manual dexterity, resistance, and scent. You can reselect only familiar abilities you would normally be able to reselect each day, not required familiar abilities for your familiar. You can&apos;t remove an ability that is required for another ability your familiar has (for instance, you can&apos;t remove manual dexterity if the familiar has lab assistant).',
+      'Your familiar\'s supernatural spirit has outgrown its corporeal body. You can conduct a special 10-minute activity to reselect certain familiar abilities, switching one or more of the following abilities for other abilities on this list: amphibious, burrower, climber, darkvision, fast movement, manual dexterity, resistance, and scent. You can reselect only familiar abilities you would normally be able to reselect each day, not required familiar abilities for your familiar. You can\'t remove an ability that is required for another ability your familiar has (for instance, you can\'t remove manual dexterity if the familiar has lab assistant).',
     ],
     source: 'Advanced Player\'s Guide pg. 174',
     archetype: 'Familiar Master',
@@ -24023,7 +24023,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1979,
     text: [
-      'You pull punches to give a better show. You don&apos;t take the usual &#x2013;2 circumstance penalty when making a nonlethal attack with a weapon or unarmed attack that doesn&apos;t have the nonlethal trait.',
+      'You pull punches to give a better show. You don\'t take the usual &#x2013;2 circumstance penalty when making a nonlethal attack with a weapon or unarmed attack that doesn\'t have the nonlethal trait.',
     ],
     source: 'Advanced Player\'s Guide pg. 175',
     archetype: 'Gladiator',
@@ -24036,7 +24036,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1980,
     text: [
-      'You&apos;re skilled with flashy weapons. You are trained with the bo staff, dueling cape, spiked chain, sword cane, and whip. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in the weapons listed.',
+      'You\'re skilled with flashy weapons. You are trained with the bo staff, dueling cape, spiked chain, sword cane, and whip. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in the weapons listed.',
     ],
     source: 'Advanced Player\'s Guide pg. 175',
     archetype: 'Gladiator',
@@ -24049,7 +24049,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1982,
     text: [
-      'You can create remedies and other herbal products. You gain the basic alchemy benefits, though they apply only for herbal items: alchemical items with the healing trait, plus antidote and antiplague. You gain batches of infused reagents per day equal to your level or half your level if you didn&apos;t make your daily preparations in the wilderness. Your advanced alchemy level for creating these is 1 and doesn&apos;t increase on its own. You become an expert in Nature and can use Nature instead of Crafting to Craft herbal items. You don&apos;t need to be trained in Crafting or have the Alchemical Crafting feat to do so, and you can use healer&apos;s tools instead of alchemist&apos;s tools.',
+      'You can create remedies and other herbal products. You gain the basic alchemy benefits, though they apply only for herbal items: alchemical items with the healing trait, plus antidote and antiplague. You gain batches of infused reagents per day equal to your level or half your level if you didn\'t make your daily preparations in the wilderness. Your advanced alchemy level for creating these is 1 and doesn\'t increase on its own. You become an expert in Nature and can use Nature instead of Crafting to Craft herbal items. You don\'t need to be trained in Crafting or have the Alchemical Crafting feat to do so, and you can use healer\'s tools instead of alchemist\'s tools.',
     ],
     source: 'Advanced Player\'s Guide pg. 176',
     archetype: 'Herbalist',
@@ -24077,7 +24077,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1984,
     text: [
-      'When you create an herbal elixir, you can prepare it as a poultice instead. A poultice gains the oil trait (but remains alchemical, not magical) and loses the elixir and ingested traits. You can apply a poultice by Interacting with one hand. When you apply a poultice, in addition to the item&apos;s normal effects, the recipient can attempt an immediate flat check to recover from a single source of persistent acid, bleed, or fire damage, with the DC reduction from appropriate assistance.',
+      'When you create an herbal elixir, you can prepare it as a poultice instead. A poultice gains the oil trait (but remains alchemical, not magical) and loses the elixir and ingested traits. You can apply a poultice by Interacting with one hand. When you apply a poultice, in addition to the item\'s normal effects, the recipient can attempt an immediate flat check to recover from a single source of persistent acid, bleed, or fire damage, with the DC reduction from appropriate assistance.',
     ],
     source: 'Advanced Player\'s Guide pg. 176',
     archetype: 'Herbalist',
@@ -24090,7 +24090,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1985,
     text: [
-      'During your daily preparations, you find medicinal plants endemic to your location. Until your next preparations, you can spend an additional batch of herbs to add a benefit to an item you create with your herbalism. The benefit of the special herbs affects the creature that the item is applied to; if the benefit is not immediate, it lasts for 1 minute unless otherwise stated. This adjustment counts as an additive, so you can&apos;t include another additive without spoiling the item. <li><b>Aquatic</b> Gain a +1 circumstance bonus to Fortitude saves.</li><li><b>Arctic</b> For 1 hour, treat environmental cold effects as if they were one step less severe.</li><li><b>Desert</b> For 1 hour, treat environmental heat effects as if they were one step less severe.</li><li><b>Forest</b> Gain a +2 circumstance bonus to saves against disease and poison effects.</li><li><b>Mountain</b> Gain a +1 circumstance bonus to Reflex saves.</li><li><b>Plains</b> Gain a +1 circumstance bonus to Will saves.</li><li><b>Swamp</b> Remove one source of persistent bleed damage.</li><li><b>Underground</b> Gain a +1 circumstance bonus to Perception.</li>',
+      'During your daily preparations, you find medicinal plants endemic to your location. Until your next preparations, you can spend an additional batch of herbs to add a benefit to an item you create with your herbalism. The benefit of the special herbs affects the creature that the item is applied to; if the benefit is not immediate, it lasts for 1 minute unless otherwise stated. This adjustment counts as an additive, so you can\'t include another additive without spoiling the item. <li><b>Aquatic</b> Gain a +1 circumstance bonus to Fortitude saves.</li><li><b>Arctic</b> For 1 hour, treat environmental cold effects as if they were one step less severe.</li><li><b>Desert</b> For 1 hour, treat environmental heat effects as if they were one step less severe.</li><li><b>Forest</b> Gain a +2 circumstance bonus to saves against disease and poison effects.</li><li><b>Mountain</b> Gain a +1 circumstance bonus to Reflex saves.</li><li><b>Plains</b> Gain a +1 circumstance bonus to Will saves.</li><li><b>Swamp</b> Remove one source of persistent bleed damage.</li><li><b>Underground</b> Gain a +1 circumstance bonus to Perception.</li>',
     ],
     source: 'Advanced Player\'s Guide pg. 176',
     archetype: 'Herbalist',
@@ -24151,7 +24151,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1987,
     text: [
-      'You&apos;ve mastered travel within a specific type of terrain. You gain the Favored Terrain feat. When in your favored terrain, you gain a +10-foot circumstance bonus to your travel Speed. When other creatures Follow the Expert with you as a guide in your favored terrain, they gain both the ability to ignore non-magical difficult terrain for the purpose of their travel Speed and the bonus to travel Speed.',
+      'You\'ve mastered travel within a specific type of terrain. You gain the Favored Terrain feat. When in your favored terrain, you gain a +10-foot circumstance bonus to your travel Speed. When other creatures Follow the Expert with you as a guide in your favored terrain, they gain both the ability to ignore non-magical difficult terrain for the purpose of their travel Speed and the bonus to travel Speed.',
     ],
     source: 'Advanced Player\'s Guide pg. 177',
     archetype: 'Horizon Walker',
@@ -24193,7 +24193,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1990,
     text: [
-      'You spot anything out of place in the areas you know best. While in your favored terrain, you always gain the benefits of the Scout exploration activity, even if you are performing another exploration activity. If you&apos;re legendary in Survival, you gain these benefits in any terrain.',
+      'You spot anything out of place in the areas you know best. While in your favored terrain, you always gain the benefits of the Scout exploration activity, even if you are performing another exploration activity. If you\'re legendary in Survival, you gain these benefits in any terrain.',
     ],
     source: 'Advanced Player\'s Guide pg. 177',
     archetype: 'Horizon Walker',
@@ -24206,7 +24206,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1991,
     text: [
-      'When an obstacle bars your path, you pull a trick from your sleeve to overcome it. You can cast <i>darkvision</i>, <i>spider climb</i>, and 4th-level <i>water breathing</i> as innate primal spells, each once per day.',
+      'When an obstacle bars your path, you pull a trick from your sleeve to overcome it. You can cast darkvision, spider climb, and 4th-level water breathing as innate primal spells, each once per day.',
     ],
     source: 'Advanced Player\'s Guide pg. 177',
     archetype: 'Horizon Walker',
@@ -24219,7 +24219,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1992,
     text: [
-      'Natural obstacles pose no obstacle to you. You gain the ranger&apos;s wild stride class feature. This allows you to ignore the effects of all non-magical difficult terrain, treat greater difficult terrain as merely difficult terrain, and gives you an additional benefit from Favored Terrain based on the terrain.',
+      'Natural obstacles pose no obstacle to you. You gain the ranger\'s wild stride class feature. This allows you to ignore the effects of all non-magical difficult terrain, treat greater difficult terrain as merely difficult terrain, and gives you an additional benefit from Favored Terrain based on the terrain.',
     ],
     source: 'Advanced Player\'s Guide pg. 177',
     archetype: 'Horizon Walker',
@@ -24260,7 +24260,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1995,
     text: [
-      'You can pronounce and repeat words with near-perfect accuracy even if you don&apos;t understand their meaning, and you can write them down in a phonetic script that allows you or another creature with Phonetic Training to read it later. Even if the words are in a language with sound you can&apos;t pronounce, you can faithfully transcribe them. Memorizing long sequences of words remains just as difficult as it is normally.',
+      'You can pronounce and repeat words with near-perfect accuracy even if you don\'t understand their meaning, and you can write them down in a phonetic script that allows you or another creature with Phonetic Training to read it later. Even if the words are in a language with sound you can\'t pronounce, you can faithfully transcribe them. Memorizing long sequences of words remains just as difficult as it is normally.',
     ],
     source: 'Advanced Player\'s Guide pg. 178',
     archetype: 'Linguist',
@@ -24273,7 +24273,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 1996,
     text: [
-      'You interpret a creature&apos;s words, repeating their message in a different language that you know. If the triggering effect&apos;s targets speak either the original language or the one you translated into, they are affected.',
+      'You interpret a creature\'s words, repeating their message in a different language that you know. If the triggering effect\'s targets speak either the original language or the one you translated into, they are affected.',
     ],
     source: 'Advanced Player\'s Guide pg. 178',
     archetype: 'Linguist',
@@ -24287,7 +24287,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1997,
     text: [
-      'You break down a specific individual&apos;s idiolect, memorizing their speech mannerisms and habits. If you interact with someone for at least 10 minutes, when you later attempt to Impersonate that individual, you gain a +4 circumstance bonus to your Deception checks and DCs. Due to the intense character study required, you can&apos;t remember more than one idiolect at a time.',
+      'You break down a specific individual\'s idiolect, memorizing their speech mannerisms and habits. If you interact with someone for at least 10 minutes, when you later attempt to Impersonate that individual, you gain a +4 circumstance bonus to your Deception checks and DCs. Due to the intense character study required, you can\'t remember more than one idiolect at a time.',
     ],
     source: 'Advanced Player\'s Guide pg. 178',
     archetype: 'Linguist',
@@ -24301,7 +24301,7 @@ export const feats: FeatCollection = {
     id: 1998,
     text: [
       'All communication is filled with slight tells and signals. If you interact with someone for at least 10 minutes, their regional words, pronunciation changes, and nonverbal cues provide you with a minor fact about their social environment, such as their hometown or certain groups they might belong to. If a target of this ability is being deceptive about their social environment, such as a commoner pretending to be a noble, they must attempt a Deception, Society, or appropriate Lore check against your Society DC, providing you a false minor fact consistent with their assumed identity on a success.',
-      ' Once you&apos;ve gleaned one or more true minor facts about a person, you can then incorporate these mannerisms into your speech to present yourself in a way that they find familiar. This grants you a +1 circumstance bonus to your Diplomacy and Deception checks with them.',
+      ' Once you\'ve gleaned one or more true minor facts about a person, you can then incorporate these mannerisms into your speech to present yourself in a way that they find familiar. This grants you a +1 circumstance bonus to your Diplomacy and Deception checks with them.',
     ],
     source: 'Advanced Player\'s Guide pg. 178',
     archetype: 'Linguist',
@@ -24314,7 +24314,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 1999,
     text: [
-      'Even if you don&apos;t speak a creature&apos;s language, you can rely on inflection, root words, and body language to infer rudimentary meaning. If you interact with a creature for at least 10 minutes and that creature can speak a language, the GM rolls a secret Society check with a DC appropriate for the language&apos;s rarity. On a success, you understand the gist of the meaning and can communicate basic concepts back to the creature; on a failure, you are mistaken or communicate incorrect concepts. If you&apos;re legendary in Society, you can communicate instantly without needing to attempt a Society check; even if you didn&apos;t know the medium of communication the creature uses (speech, sign language, and so on), you intuit this information as soon as they try to communicate.',
+      'Even if you don\'t speak a creature\'s language, you can rely on inflection, root words, and body language to infer rudimentary meaning. If you interact with a creature for at least 10 minutes and that creature can speak a language, the GM rolls a secret Society check with a DC appropriate for the language\'s rarity. On a success, you understand the gist of the meaning and can communicate basic concepts back to the creature; on a failure, you are mistaken or communicate incorrect concepts. If you\'re legendary in Society, you can communicate instantly without needing to attempt a Society check; even if you didn\'t know the medium of communication the creature uses (speech, sign language, and so on), you intuit this information as soon as they try to communicate.',
     ],
     source: 'Advanced Player\'s Guide pg. 178',
     archetype: 'Linguist',
@@ -24327,7 +24327,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2000,
     text: [
-      'You&apos;ve compiled a vast repository of information that touches on nearly every subject. You are trained in Loremaster Lore, a special Lore skill that can be used only to Recall Knowledge, but on any topic. If you have legendary proficiency in a skill used to Decipher Writing, you gain expert proficiency in Loremaster Lore, but you can&apos;t increase your proficiency rank in Loremaster Lore by any other means. You can take feats in the loremaster&apos;s additional feats entry even if you don&apos;t meet the enigma muse prerequisite. ',
+      'You\'ve compiled a vast repository of information that touches on nearly every subject. You are trained in Loremaster Lore, a special Lore skill that can be used only to Recall Knowledge, but on any topic. If you have legendary proficiency in a skill used to Decipher Writing, you gain expert proficiency in Loremaster Lore, but you can\'t increase your proficiency rank in Loremaster Lore by any other means. You can take feats in the loremaster\'s additional feats entry even if you don\'t meet the enigma muse prerequisite. ',
       'If you have the Bardic Lore class feat, you gain a +1 circumstance bonus to skill checks with Bardic Lore.',
     ],
     source: 'Advanced Player\'s Guide pg. 179',
@@ -24343,7 +24343,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2001,
     text: [
-      'You&apos;ve learned those tidbits of magic that are most conducive to furthering your acquisition and transmission of knowledge. You gain <i>guidance</i>, <i>message</i>, and <i>sigil</i> as innate occult cantrips.',
+      'You\'ve learned those tidbits of magic that are most conducive to furthering your acquisition and transmission of knowledge. You gain guidance, message, and sigil as innate occult cantrips.',
     ],
     source: 'Advanced Player\'s Guide pg. 179',
     archetype: 'Loremaster',
@@ -24369,7 +24369,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2003,
     text: [
-      'During your daily preparations, you can study a particular subject to gain the trained proficiency rank in one Lore skill of your choice. You must have interacted with that subject in some way on the previous day, whether by reading about it, talking to someone knowledgeable on the topic, or experiencing it yourself. Alternatively, you can reference your notes to instead choose a Lore skill you&apos;ve prepared before with Quick Study. This proficiency lasts until you prepare again. Since this proficiency is temporary, you can&apos;t use it as a prerequisite for a skill increase or a permanent character option like a feat.',
+      'During your daily preparations, you can study a particular subject to gain the trained proficiency rank in one Lore skill of your choice. You must have interacted with that subject in some way on the previous day, whether by reading about it, talking to someone knowledgeable on the topic, or experiencing it yourself. Alternatively, you can reference your notes to instead choose a Lore skill you\'ve prepared before with Quick Study. This proficiency lasts until you prepare again. Since this proficiency is temporary, you can\'t use it as a prerequisite for a skill increase or a permanent character option like a feat.',
     ],
     source: 'Advanced Player\'s Guide pg. 179',
     archetype: 'Loremaster',
@@ -24382,7 +24382,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2004,
     text: [
-      'You&apos;ve continued to expand your compendium of tools to compile knowledge. You can cast <i>comprehend language</i>, <i>mindlink</i>, and <i>secret page</i> as innate occult spells, each once per day. When you cast <i>secret page</i>, it is automatically heightened to the same spell level as your cantrips from Magical Edification.',
+      'You\'ve continued to expand your compendium of tools to compile knowledge. You can cast comprehend language, mindlink, and secret page as innate occult spells, each once per day. When you cast secret page, it is automatically heightened to the same spell level as your cantrips from Magical Edification.',
     ],
     source: 'Advanced Player\'s Guide pg. 179',
     archetype: 'Loremaster',
@@ -24395,8 +24395,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2005,
     text: [
-      'You&apos;ve combined your social skills and combat training to become a talented combat leader. Choose Diplomacy or Intimidation. You become trained in that skill or become an expert if you were already trained in it.',
-      ' In addition, you&apos;re surrounded by a marshal&apos;s aura in a 10-foot emanation. Your aura has the emotion, mental, and visual traits and grants you and allies within the aura a +1 status bonus to saving throws against fear.',
+      'You\'ve combined your social skills and combat training to become a talented combat leader. Choose Diplomacy or Intimidation. You become trained in that skill or become an expert if you were already trained in it.',
+      ' In addition, you\'re surrounded by a marshal\'s aura in a 10-foot emanation. Your aura has the emotion, mental, and visual traits and grants you and allies within the aura a +1 status bonus to saving throws against fear.',
     ],
     source: 'Advanced Player\'s Guide pg. 180',
     archetype: 'Marshal',
@@ -24450,7 +24450,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 2008,
     text: [
-      'You give a quick shout, hoping to shake the fog clouding your ally&apos;s thoughts. Choose one target ally within your marshal&apos;s aura who is affected by a mental effect that allowed a Will save and has a duration of no longer than 1 minute. That ally can immediately attempt a Will save with a +1 circumstance bonus against the effect&apos;s DC, ending the effect on a success. This can&apos;t end the effect for any creatures other than your target ally. Regardless of the result of the save, your ally is temporarily immune to Snap Out of It! for 10 minutes.',
+      'You give a quick shout, hoping to shake the fog clouding your ally\'s thoughts. Choose one target ally within your marshal\'s aura who is affected by a mental effect that allowed a Will save and has a duration of no longer than 1 minute. That ally can immediately attempt a Will save with a +1 circumstance bonus against the effect\'s DC, ending the effect on a success. This can\'t end the effect for any creatures other than your target ally. Regardless of the result of the save, your ally is temporarily immune to Snap Out of It! for 10 minutes.',
     ],
     source: 'Advanced Player\'s Guide pg. 180',
     archetype: 'Marshal',
@@ -24463,7 +24463,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 2009,
     text: [
-      'You encourage an ally to toughen up, giving them a fighting chance. Choose one ally within your marshal&apos;s aura. The ally gains temporary Hit Points equal to your Charisma modifier and a +2 circumstance bonus to Fortitude saves. Both benefits last until the start of your next turn.',
+      'You encourage an ally to toughen up, giving them a fighting chance. Choose one ally within your marshal\'s aura. The ally gains temporary Hit Points equal to your Charisma modifier and a +2 circumstance bonus to Fortitude saves. Both benefits last until the start of your next turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 180',
     archetype: 'Marshal',
@@ -24476,7 +24476,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 2010,
     text: [
-      'You call out a quick cadence, guiding your allies into a more efficient rhythm. Each willing ally within your marshal&apos;s aura is quickened until the end of their next turn, and they can use the extra action only to Stride. At the end of each ally&apos;s turn, if they used the extra action, they then become slowed 1 until the end of their following turn.',
+      'You call out a quick cadence, guiding your allies into a more efficient rhythm. Each willing ally within your marshal\'s aura is quickened until the end of their next turn, and they can use the extra action only to Stride. At the end of each ally\'s turn, if they used the extra action, they then become slowed 1 until the end of their following turn.',
     ],
     source: 'Advanced Player\'s Guide pg. 180',
     archetype: 'Marshal',
@@ -24503,7 +24503,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2012,
     text: [
-      'You excel at watching your allies&apos; backs and helping them watch yours. As long as you and an ally are adjacent to each other, neither of you can become flat-footed due to flanking unless both of you are flanked. If you&apos;re adjacent to more than one ally, all eligible allies can benefit at a given time. The benefit is negated for everyone if at least you and any one eligible ally are flanked, but not if your allies are flanked and you aren&apos;t.',
+      'You excel at watching your allies\' backs and helping them watch yours. As long as you and an ally are adjacent to each other, neither of you can become flat-footed due to flanking unless both of you are flanked. If you\'re adjacent to more than one ally, all eligible allies can benefit at a given time. The benefit is negated for everyone if at least you and any one eligible ally are flanked, but not if your allies are flanked and you aren\'t.',
     ],
     source: 'Advanced Player\'s Guide pg. 181',
     archetype: 'Marshal',
@@ -24516,7 +24516,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 2013,
     text: [
-      'With a resounding cry, you rally your ally to the offensive. Choose one ally within your marshal&apos;s aura who has a reaction available. If you spend 1 action, that ally can use their reaction to immediately Stride. If you spend 2 actions, that ally can use their reaction to immediately Strike.',
+      'With a resounding cry, you rally your ally to the offensive. Choose one ally within your marshal\'s aura who has a reaction available. If you spend 1 action, that ally can use their reaction to immediately Stride. If you spend 2 actions, that ally can use their reaction to immediately Strike.',
     ],
     source: 'Advanced Player\'s Guide pg. 181',
     archetype: 'Marshal',
@@ -24557,7 +24557,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2016,
     text: [
-      'Your remarkable breath control and concise instructions allow you to coordinate your allies more effectively. When you grant allies the quickened condition using Cadence Call, they can use the extra action to either Stride or Strike, and they aren&apos;t slowed 1 on their following turn if they use the extra action.',
+      'Your remarkable breath control and concise instructions allow you to coordinate your allies more effectively. When you grant allies the quickened condition using Cadence Call, they can use the extra action to either Stride or Strike, and they aren\'t slowed 1 on their following turn if they use the extra action.',
     ],
     source: 'Advanced Player\'s Guide pg. 181',
     archetype: 'Marshal',
@@ -24570,7 +24570,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 2017,
     text: [
-      'You capitalize on your ally&apos;s attack to create a coordinated barrage. Make a ranged Strike with a &#x2013;2 penalty against the opponent targeted by the triggering attack. This Strike doesn&apos;t count toward your multiple attack penalty, and your multiple attack penalty doesn&apos;t apply to this Strike. If this Strike is successful, combine the damage from the attack with the damage from your ally&apos;s attack for the purpose of resistances and weaknesses.',
+      'You capitalize on your ally\'s attack to create a coordinated barrage. Make a ranged Strike with a &#x2013;2 penalty against the opponent targeted by the triggering attack. This Strike doesn\'t count toward your multiple attack penalty, and your multiple attack penalty doesn\'t apply to this Strike. If this Strike is successful, combine the damage from the attack with the damage from your ally\'s attack for the purpose of resistances and weaknesses.',
     ],
     source: 'Advanced Player\'s Guide pg. 181',
     archetype: 'Marshal',
@@ -24586,7 +24586,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2018,
     text: [
-      'You have trained to use your fists as deadly weapons. The damage die for your fist unarmed attacks becomes 1d6 instead of 1d4. You don&apos;t take the &#x2013;2 circumstance penalty for making a lethal attack with your nonlethal unarmed attacks. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in all unarmed attacks.',
+      'You have trained to use your fists as deadly weapons. The damage die for your fist unarmed attacks becomes 1d6 instead of 1d4. You don\'t take the &#x2013;2 circumstance penalty for making a lethal attack with your nonlethal unarmed attacks. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in all unarmed attacks.',
     ],
     source: 'Advanced Player\'s Guide pg. 182',
     archetype: 'Martial Artist',
@@ -24615,7 +24615,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 2020,
     text: [
-      'You know how to deliver focused, powerful blows that bypass your enemies&apos; resistances. Make an unarmed melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal two extra weapon damage dice. If you are at least 18th level, increase this to three extra weapon damage dice.',
+      'You know how to deliver focused, powerful blows that bypass your enemies\' resistances. Make an unarmed melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal two extra weapon damage dice. If you are at least 18th level, increase this to three extra weapon damage dice.',
       ' This attack also ignores an amount of resistance to physical damage, or to a specific physical damage type, equal to your level.',
     ],
     source: 'Advanced Player\'s Guide pg. 182',
@@ -24629,7 +24629,7 @@ export const feats: FeatCollection = {
     actions: 'three_actions',
     id: 2021,
     text: [
-      'With a burst of effort, you weave a path through your enemies, striking each in turn as you move past them. You Stride; this movement doesn&apos;t trigger reactions. You can Strike up to three times at any point during your movement, each against a different enemy. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn&apos;t increase until you have made all your attacks.',
+      'With a burst of effort, you weave a path through your enemies, striking each in turn as you move past them. You Stride; this movement doesn\'t trigger reactions. You can Strike up to three times at any point during your movement, each against a different enemy. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn\'t increase until you have made all your attacks.',
     ],
     source: 'Advanced Player\'s Guide pg. 182',
     archetype: 'Martial Artist',
@@ -24658,7 +24658,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 2023,
     text: [
-      'You put your body behind your massive weapon and swing, shoving enemies to clear a wide path. You attempt to Shove up to five creatures adjacent to you, rolling a separate Athletics check for each target. Then Stride up to half your Speed. This movement doesn&apos;t trigger reactions from any of the creatures you successfully Shoved.',
+      'You put your body behind your massive weapon and swing, shoving enemies to clear a wide path. You attempt to Shove up to five creatures adjacent to you, rolling a separate Athletics check for each target. Then Stride up to half your Speed. This movement doesn\'t trigger reactions from any of the creatures you successfully Shoved.',
     ],
     source: 'Advanced Player\'s Guide pg. 183',
     archetype: 'Mauler',
@@ -24688,7 +24688,7 @@ export const feats: FeatCollection = {
     actions: 'three_actions',
     id: 2025,
     text: [
-      'You smash the ground with your weapon, knocking nearby creatures to the ground. Choose a square within your reach, including your own space. If there&apos;s a foe in the chosen square, Strike that foe with the required weapon. Then attempt to Trip every foe in the chosen square plus each square adjacent to that square, ignoring Trip&apos;s requirement that you have a hand free. This counts as three attacks toward your multiple attack penalty, but the penalty doesn&apos;t increase until after you&apos;ve made the Strike, if any, and all the Trip attempts.',
+      'You smash the ground with your weapon, knocking nearby creatures to the ground. Choose a square within your reach, including your own space. If there\'s a foe in the chosen square, Strike that foe with the required weapon. Then attempt to Trip every foe in the chosen square plus each square adjacent to that square, ignoring Trip\'s requirement that you have a hand free. This counts as three attacks toward your multiple attack penalty, but the penalty doesn\'t increase until after you\'ve made the Strike, if any, and all the Trip attempts.',
     ],
     source: 'Advanced Player\'s Guide pg. 183',
     archetype: 'Mauler',
@@ -24702,7 +24702,7 @@ export const feats: FeatCollection = {
     actions: 'three_actions',
     id: 2026,
     text: [
-      'You attack all nearby adversaries. Make a melee Strike with the required weapon against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but don&apos;t increase your penalty until you have made all your attacks.',
+      'You attack all nearby adversaries. Make a melee Strike with the required weapon against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but don\'t increase your penalty until you have made all your attacks.',
     ],
     source: 'Advanced Player\'s Guide pg. 183',
     archetype: 'Mauler',
@@ -24716,7 +24716,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2027,
     text: [
-      'You become an expert in Medicine. When you succeed with Battle Medicine or Treat Wounds, the target regains 5 additional HP at DC 20, 10 HP at DC 30, or 15 HP at DC 40. Once per day, you can use Battle Medicine on a creature that&apos;s temporarily immune. If you&apos;re a master in Medicine, you can do so once per hour.',
+      'You become an expert in Medicine. When you succeed with Battle Medicine or Treat Wounds, the target regains 5 additional HP at DC 20, 10 HP at DC 30, or 15 HP at DC 40. Once per day, you can use Battle Medicine on a creature that\'s temporarily immune. If you\'re a master in Medicine, you can do so once per hour.',
     ],
     source: 'Advanced Player\'s Guide pg. 184',
     archetype: 'Medic',
@@ -24744,7 +24744,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 2029,
     text: [
-      'You treat an adjacent creature in an attempt to reduce the clumsy, enfeebled, or sickened condition. If a creature has multiple conditions from this list, choose one. Attempt a counteract check against the condition, using your Medicine modifier as your counteract modifier and the condition&apos;s source to determine the DC. You can&apos;t treat a condition that came from an artifact or effect above 20th level unless you have Legendary Medic; even if you do, the counteract DC increases by 10. Treating a Condition that is continually applied under certain circumstances (for instance, the enfeebled condition a good character gains from carrying an <i>unholy</i> weapon) has no effect as long as the circumstances continue.',
+      'You treat an adjacent creature in an attempt to reduce the clumsy, enfeebled, or sickened condition. If a creature has multiple conditions from this list, choose one. Attempt a counteract check against the condition, using your Medicine modifier as your counteract modifier and the condition\'s source to determine the DC. You can\'t treat a condition that came from an artifact or effect above 20th level unless you have Legendary Medic; even if you do, the counteract DC increases by 10. Treating a Condition that is continually applied under certain circumstances (for instance, the enfeebled condition a good character gains from carrying an unholy weapon) has no effect as long as the circumstances continue.',
     ],
     source: 'Advanced Player\'s Guide pg. 184',
     archetype: 'Medic',
@@ -24761,7 +24761,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2030,
     text: [
-      'You provide emotional and spiritual care. Add frightened, stupefied, and stunned to the list of conditions you can reduce with Treat Condition. If the stunned condition has a duration instead of a value, you can&apos;t use Treat Condition to reduce it.',
+      'You provide emotional and spiritual care. Add frightened, stupefied, and stunned to the list of conditions you can reduce with Treat Condition. If the stunned condition has a duration instead of a value, you can\'t use Treat Condition to reduce it.',
     ],
     source: 'Advanced Player\'s Guide pg. 184',
     archetype: 'Medic',
@@ -24774,7 +24774,7 @@ export const feats: FeatCollection = {
     actions: 'three_actions',
     id: 2031,
     text: [
-      'You can use Medicine to resuscitate the dead. Attempt a DC 40 Medicine check to revive a dead creature that has been dead for no more than 3 rounds. If you succeed, the target returns to life with the effects of <i>raise dead</i>, except it still has the wounded condition it had before dying, increased by 1 (or wounded 1 if it wasn&apos;t wounded before dying). Whether you succeed or fail, the target is temporarily immune to Resuscitate for 1 day.',
+      'You can use Medicine to resuscitate the dead. Attempt a DC 40 Medicine check to revive a dead creature that has been dead for no more than 3 rounds. If you succeed, the target returns to life with the effects of raise dead, except it still has the wounded condition it had before dying, increased by 1 (or wounded 1 if it wasn\'t wounded before dying). Whether you succeed or fail, the target is temporarily immune to Resuscitate for 1 day.',
     ],
     source: 'Advanced Player\'s Guide pg. 184',
     archetype: 'Medic',
@@ -24788,7 +24788,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2032,
     text: [
-      'As a pirate, you sail the seas in search of enemy ships to plunder. You become trained in Sailing Lore, or become an expert in it if you were already trained. You ignore the effects of difficult terrain or uneven ground caused by a ship&apos;s movement. Additionally, you gain the Boarding Assault action.',
+      'As a pirate, you sail the seas in search of enemy ships to plunder. You become trained in Sailing Lore, or become an expert in it if you were already trained. You ignore the effects of difficult terrain or uneven ground caused by a ship\'s movement. Additionally, you gain the Boarding Assault action.',
     ],
     source: 'Advanced Player\'s Guide pg. 185',
     archetype: 'Pirate',
@@ -24810,7 +24810,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2033,
     text: [
-      'You&apos;re particularly skilled at wielding traditional pirate weapons. You become trained with the following weapons: hatchet, rapier, scimitar, and whip. Whenever you gain a class feature that grants you expert or greater proficiency with a given weapon or weapons, you also gain that proficiency rank for these weapons.',
+      'You\'re particularly skilled at wielding traditional pirate weapons. You become trained with the following weapons: hatchet, rapier, scimitar, and whip. Whenever you gain a class feature that grants you expert or greater proficiency with a given weapon or weapons, you also gain that proficiency rank for these weapons.',
     ],
     source: 'Advanced Player\'s Guide pg. 185',
     archetype: 'Pirate',
@@ -24823,7 +24823,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2034,
     text: [
-      'You run and climb across ropes and rigging almost as easily as on the ground. You gain a climb Speed of 15 feet, but only on ship&apos;s rigging or similar ropes. Whenever you succeed at an Athletics check to Climb a rope or an Acrobatics check to Balance on a rope, you get a critical success instead. You aren&apos;t flat-footed while Climbing or Balancing on a rope.',
+      'You run and climb across ropes and rigging almost as easily as on the ground. You gain a climb Speed of 15 feet, but only on ship\'s rigging or similar ropes. Whenever you succeed at an Athletics check to Climb a rope or an Acrobatics check to Balance on a rope, you get a critical success instead. You aren\'t flat-footed while Climbing or Balancing on a rope.',
     ],
     source: 'Advanced Player\'s Guide pg. 185',
     archetype: 'Pirate',
@@ -24836,7 +24836,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 2035,
     text: [
-      'You frighten a foe into moving where you want them, traditionally demanding they walk the plank. Attempt to Demoralize an opponent; this check gains the incapacitation trait. On a success, in addition to the normal effects, you can also force the target to Stride up to its Speed. You choose the path the target takes, and it does so as part of your Walk the Plank action. You can&apos;t force the target to move into a harmful space (one where it will take damage, fall, provoke reactions, or similar) unless the result of your check to Demoralize was a critical success. The target then becomes temporarily immune to Walk the Plank for 24 hours.',
+      'You frighten a foe into moving where you want them, traditionally demanding they walk the plank. Attempt to Demoralize an opponent; this check gains the incapacitation trait. On a success, in addition to the normal effects, you can also force the target to Stride up to its Speed. You choose the path the target takes, and it does so as part of your Walk the Plank action. You can\'t force the target to move into a harmful space (one where it will take damage, fall, provoke reactions, or similar) unless the result of your check to Demoralize was a critical success. The target then becomes temporarily immune to Walk the Plank for 24 hours.',
     ],
     source: 'Advanced Player\'s Guide pg. 185',
     archetype: 'Pirate',
@@ -24849,7 +24849,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2036,
     text: [
-      'You make a point of always having a few toxins near at hand&#x2014;you never know when some arsenic or the like might prove useful. You gain the basic alchemy benefits, though they can be used only for alchemical poisons. You gain batches of infused reagents per day equal to your level. Your advanced alchemy level for creating these is 1 and doesn&apos;t increase on its own.',
+      'You make a point of always having a few toxins near at hand&#x2014;you never know when some arsenic or the like might prove useful. You gain the basic alchemy benefits, though they can be used only for alchemical poisons. You gain batches of infused reagents per day equal to your level. Your advanced alchemy level for creating these is 1 and doesn\'t increase on its own.',
     ],
     source: 'Advanced Player\'s Guide pg. 186',
     archetype: 'Poisoner',
@@ -24864,7 +24864,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 2037,
     text: [
-      'Poisons attack specific parts of the body&#x2014;one venom might target the lungs, another the circulatory system, while another deteriorates the nerves. You know how to take advantage of such weaknesses. You deal 1d6 damage of the required Strike&apos;s damage type and 1d6 poison damage to the target. If you&apos;re at least 18th level, you deal 2d6 damage of each type.',
+      'Poisons attack specific parts of the body&#x2014;one venom might target the lungs, another the circulatory system, while another deteriorates the nerves. You know how to take advantage of such weaknesses. You deal 1d6 damage of the required Strike\'s damage type and 1d6 poison damage to the target. If you\'re at least 18th level, you deal 2d6 damage of each type.',
     ],
     source: 'Advanced Player\'s Guide pg. 186',
     archetype: 'Poisoner',
@@ -24892,7 +24892,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 2039,
     text: [
-      'In nature, certain animals are covered in venomous spines, such that even touching them is deadly. To use this reaction, you must have brushed poison onto your clothing or woven sharp poisoned needles into the garment&apos;s fabric. This takes 10 minutes and uses one dose of contact or injury poison. You can have only one such poison suffused into your clothing at a time.',
+      'In nature, certain animals are covered in venomous spines, such that even touching them is deadly. To use this reaction, you must have brushed poison onto your clothing or woven sharp poisoned needles into the garment\'s fabric. This takes 10 minutes and uses one dose of contact or injury poison. You can have only one such poison suffused into your clothing at a time.',
       ' When you use this reaction, the triggering creature is exposed to the suffused poison.',
     ],
     source: 'Advanced Player\'s Guide pg. 186',
@@ -24909,7 +24909,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 2040,
     text: [
-      'A small amount of poison, taken at nonlethal doses, can help the body build up a resistance against a more deadly dosage. Reroll the triggering check and use the second result. Once you use Acquired Tolerance, you can continue to use it against the same type of poison that day, but you can&apos;t use it against a different type of poison until after you make your next daily preparations. For instance, if you used the reaction on a save against giant scorpion venom, you could use it again against giant scorpion venom even if it came from a different source, but you couldn&apos;t use it against nettleweed residue, lich dust, or another poison.',
+      'A small amount of poison, taken at nonlethal doses, can help the body build up a resistance against a more deadly dosage. Reroll the triggering check and use the second result. Once you use Acquired Tolerance, you can continue to use it against the same type of poison that day, but you can\'t use it against a different type of poison until after you make your next daily preparations. For instance, if you used the reaction on a save against giant scorpion venom, you could use it again against giant scorpion venom even if it came from a different source, but you couldn\'t use it against nettleweed residue, lich dust, or another poison.',
     ],
     source: 'Advanced Player\'s Guide pg. 186',
     archetype: 'Poisoner',
@@ -24923,7 +24923,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2041,
     text: [
-      'You have begun to master the difficult art of casting rituals. You gain a +2 circumstance bonus to all primary checks to perform a ritual. You learn two uncommon rituals with a level no higher than half your level; you must meet all prerequisites for casting the ritual to choose it. At 8th level and every 4 levels thereafter, you learn another uncommon ritual with a level no higher than half your level and for which you meet the prerequisites. You can cast these as the primary caster, but you can&apos;t teach them to anyone else or allow someone else to serve as primary caster unless they know the ritual as well.',
+      'You have begun to master the difficult art of casting rituals. You gain a +2 circumstance bonus to all primary checks to perform a ritual. You learn two uncommon rituals with a level no higher than half your level; you must meet all prerequisites for casting the ritual to choose it. At 8th level and every 4 levels thereafter, you learn another uncommon ritual with a level no higher than half your level and for which you meet the prerequisites. You can cast these as the primary caster, but you can\'t teach them to anyone else or allow someone else to serve as primary caster unless they know the ritual as well.',
     ],
     source: 'Advanced Player\'s Guide pg. 187',
     archetype: 'Ritualist',
@@ -24938,7 +24938,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2042,
     text: [
-      'You can perform two aspects of a ritual yourself. When you cast a ritual, you can reduce the number of secondary casters by 1. When you do, you must fulfill any requirements for the secondary caster, and you attempt the secondary check normally performed by that secondary caster. You can&apos;t replace a secondary caster who is the target of the spell (as in the <i>atone</i> ritual).',
+      'You can perform two aspects of a ritual yourself. When you cast a ritual, you can reduce the number of secondary casters by 1. When you do, you must fulfill any requirements for the secondary caster, and you attempt the secondary check normally performed by that secondary caster. You can\'t replace a secondary caster who is the target of the spell (as in the atone ritual).',
     ],
     source: 'Advanced Player\'s Guide pg. 187',
     archetype: 'Ritualist',
@@ -24977,7 +24977,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2045,
     text: [
-      'You can cover for a secondary caster&apos;s error. If you are the primary caster, after rolling all the secondary checks, choose one check on which the secondary caster rolled a failure or critical failure, and treat the result as one degree of success better.',
+      'You can cover for a secondary caster\'s error. If you are the primary caster, after rolling all the secondary checks, choose one check on which the secondary caster rolled a failure or critical failure, and treat the result as one degree of success better.',
     ],
     source: 'Advanced Player\'s Guide pg. 187',
     archetype: 'Ritualist',
@@ -25003,7 +25003,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2047,
     text: [
-      'You are a highly skilled scout, capable of providing your allies a timely warning of any danger. You gain the Scout&apos;s Warning ranger feat. When you&apos;re using the Scout exploration activity, you grant your allies a +2 circumstance bonus to their initiative rolls instead of a +1 circumstance bonus.',
+      'You are a highly skilled scout, capable of providing your allies a timely warning of any danger. You gain the Scout\'s Warning ranger feat. When you\'re using the Scout exploration activity, you grant your allies a +2 circumstance bonus to their initiative rolls instead of a +1 circumstance bonus.',
     ],
     source: 'Advanced Player\'s Guide pg. 188',
     archetype: 'Scout',
@@ -25018,7 +25018,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 2048,
     text: [
-      'You meander around unpredictably, and then ambush your opponents without warning. Choose one enemy. Stride, Feint against that opponent, and then make a Strike against that foe. For your Feint, you can attempt a Stealth check instead of the Deception check that&apos;s usually required, because you use the terrain around you to catch your foe off-guard.',
+      'You meander around unpredictably, and then ambush your opponents without warning. Choose one enemy. Stride, Feint against that opponent, and then make a Strike against that foe. For your Feint, you can attempt a Stealth check instead of the Deception check that\'s usually required, because you use the terrain around you to catch your foe off-guard.',
     ],
     source: 'Advanced Player\'s Guide pg. 188',
     archetype: 'Scout',
@@ -25044,7 +25044,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 2050,
     text: [
-      'You&apos;re able to quickly disappear and then move about stealthily. You Hide, then Sneak twice.',
+      'You\'re able to quickly disappear and then move about stealthily. You Hide, then Sneak twice.',
     ],
     source: 'Advanced Player\'s Guide pg. 188',
     archetype: 'Scout',
@@ -25084,7 +25084,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2053,
     text: [
-      'You&apos;ve studied scrolls in depth. This might have been a comprehensive education in formal setting, or the sort of education where you somehow obtain a number of scrolls and try not to explode anything you didn&apos;t mean to explode. You gain the Trick Magic Item feat, and you gain a +2 circumstance bonus to skill checks to Trick scrolls. If you roll a critical failure to Trick a Magic Item that&apos;s a scroll, you get a failure instead.',
+      'You\'ve studied scrolls in depth. This might have been a comprehensive education in formal setting, or the sort of education where you somehow obtain a number of scrolls and try not to explode anything you didn\'t mean to explode. You gain the Trick Magic Item feat, and you gain a +2 circumstance bonus to skill checks to Trick scrolls. If you roll a critical failure to Trick a Magic Item that\'s a scroll, you get a failure instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 189',
     archetype: 'Scroll Trickster',
@@ -25099,7 +25099,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2054,
     text: [
-      'You have a vast and overflowing collection of scroll scraps, riddled with errors and misspellings and leaking energy like a sieve. With enough care, you can coax these scroll scraps into functioning&#x2014;briefly. Each day during your daily preparations, you can create a single temporary scroll containing a 1st-level spell. The spell must be a common spell from the <i>Core Rulebook</i>, or another spell you learned via Learn a Spell, and it must come from a tradition in which you have the corresponding skill trained. This scroll is an unstable, temporary item and loses its magic the next time you make your daily preparations if you haven&apos;t already used it. It can&apos;t be used to Learn the Spell. ',
+      'You have a vast and overflowing collection of scroll scraps, riddled with errors and misspellings and leaking energy like a sieve. With enough care, you can coax these scroll scraps into functioning&#x2014;briefly. Each day during your daily preparations, you can create a single temporary scroll containing a 1st-level spell. The spell must be a common spell from the Core Rulebook, or another spell you learned via Learn a Spell, and it must come from a tradition in which you have the corresponding skill trained. This scroll is an unstable, temporary item and loses its magic the next time you make your daily preparations if you haven\'t already used it. It can\'t be used to Learn the Spell. ',
       'At 8th level, add a second temporary scroll containing a 2nd-level spell.',
     ],
     source: 'Advanced Player\'s Guide pg. 189',
@@ -25152,9 +25152,9 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2058,
     text: [
-      'You can Craft items even without appropriate tools or a workshop, though you take a &#x2013;2 item penalty to your Crafting check. Additionally, you don&apos;t need a physical formula book to remember all of your formulas; you pay the same cost as normal to learn them, but you memorize them all.',
-      ' You can Craft temporary items out of anything, anywhere, with whatever materials happen to be on hand, spending only 10 minutes to perform the initial Crafting check. The temporary item must be common, non-magical, 1st level or lower, and must be a weapon, armor, or a nonconsumable piece of adventuring gear. Instead of a single item, you can create 10 pieces of a single type of ammunition. This is a shoddy item, but you don&apos;t take the normal penalty when using shoddy items you made using this feat. Your temporary item lasts for 1d4 hours before falling apart into its raw components; the GM rolls the number of hours secretly. You can create only the physical item, not any information or magic, so for example, while you could create a blank journal or one of random pages, you couldn&apos;t use it as a scholarly journal or a religious text.',
-      ' You can incorporate any materials or items that you have on hand, even if they&apos;re not the type of materials that would ordinarily be used to Craft a given item, though you must have enough volume of material to make the item you want. Unless all the materials you used were an appropriate type to make the item, you take a &#x2013;5 penalty to the Crafting check (or a &#x2013;10 penalty if the materials you used were particularly unsuitable, as determined by the GM).',
+      'You can Craft items even without appropriate tools or a workshop, though you take a &#x2013;2 item penalty to your Crafting check. Additionally, you don\'t need a physical formula book to remember all of your formulas; you pay the same cost as normal to learn them, but you memorize them all.',
+      ' You can Craft temporary items out of anything, anywhere, with whatever materials happen to be on hand, spending only 10 minutes to perform the initial Crafting check. The temporary item must be common, non-magical, 1st level or lower, and must be a weapon, armor, or a nonconsumable piece of adventuring gear. Instead of a single item, you can create 10 pieces of a single type of ammunition. This is a shoddy item, but you don\'t take the normal penalty when using shoddy items you made using this feat. Your temporary item lasts for 1d4 hours before falling apart into its raw components; the GM rolls the number of hours secretly. You can create only the physical item, not any information or magic, so for example, while you could create a blank journal or one of random pages, you couldn\'t use it as a scholarly journal or a religious text.',
+      ' You can incorporate any materials or items that you have on hand, even if they\'re not the type of materials that would ordinarily be used to Craft a given item, though you must have enough volume of material to make the item you want. Unless all the materials you used were an appropriate type to make the item, you take a &#x2013;5 penalty to the Crafting check (or a &#x2013;10 penalty if the materials you used were particularly unsuitable, as determined by the GM).',
     ],
     source: 'Advanced Player\'s Guide pg. 190',
     archetype: 'Scrounger',
@@ -25169,7 +25169,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2059,
     text: [
-      'You are able to reverse engineer items into formulas more effectively than most. You gain a +2 circumstance bonus to Crafting checks to reverse engineer a formula from an item. Additionally, if you get a critical success on your Crafting check, you can opt to not only create the formula but also reassemble the original item at the same time, leaving you with the formula and the item instead of the formula and raw materials equal to half the item&apos;s value.',
+      'You are able to reverse engineer items into formulas more effectively than most. You gain a +2 circumstance bonus to Crafting checks to reverse engineer a formula from an item. Additionally, if you get a critical success on your Crafting check, you can opt to not only create the formula but also reassemble the original item at the same time, leaving you with the formula and the item instead of the formula and raw materials equal to half the item\'s value.',
     ],
     source: 'Advanced Player\'s Guide pg. 190',
     archetype: 'Scrounger',
@@ -25182,7 +25182,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2060,
     text: [
-      'When you Craft a temporary item using Scrounger Dedication, it can be an item of up to 3rd level (though the item must still be a weapon, armor, or a nonconsumable piece of adventuring gear). You can instead Craft it for someone else&apos;s use, allowing them to avoid taking the penalty for using a shoddy item when using it, but causing you to take the penalty if you use it.',
+      'When you Craft a temporary item using Scrounger Dedication, it can be an item of up to 3rd level (though the item must still be a weapon, armor, or a nonconsumable piece of adventuring gear). You can instead Craft it for someone else\'s use, allowing them to avoid taking the penalty for using a shoddy item when using it, but causing you to take the penalty if you use it.',
     ],
     source: 'Advanced Player\'s Guide pg. 190',
     archetype: 'Scrounger',
@@ -25235,7 +25235,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2064,
     text: [
-      'You have trained hard to optimize your armor&apos;s protective qualities. You gain the armor specialization effects of medium and heavy armor.',
+      'You have trained hard to optimize your armor\'s protective qualities. You gain the armor specialization effects of medium and heavy armor.',
     ],
     source: 'Advanced Player\'s Guide pg. 191',
     archetype: 'Sentinel',
@@ -25248,7 +25248,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 2065,
     text: [
-      'You rebuff puny attacks with your armor, knocking back your foe. Attempt an Athletics check to Shove the triggering foe, even if you don&apos;t have a hand free. If you succeed, you can&apos;t Stride to follow the foe, as you&apos;re knocking the foe back with the rebounded attack, not by physically moving towards them.',
+      'You rebuff puny attacks with your armor, knocking back your foe. Attempt an Athletics check to Shove the triggering foe, even if you don\'t have a hand free. If you succeed, you can\'t Stride to follow the foe, as you\'re knocking the foe back with the rebounded attack, not by physically moving towards them.',
     ],
     source: 'Advanced Player\'s Guide pg. 191',
     archetype: 'Sentinel',
@@ -25292,7 +25292,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2068,
     text: [
-      'You gain the sneak attack class feature, except you deal 1d6 precision damage regardless of your level. Sneak attack from multiple sources isn&apos;t cumulative. If you have sneak attack from more than one source, use only the highest number of dice when you sneak attack rather than adding the amounts together.',
+      'You gain the sneak attack class feature, except you deal 1d6 precision damage regardless of your level. Sneak attack from multiple sources isn\'t cumulative. If you have sneak attack from more than one source, use only the highest number of dice when you sneak attack rather than adding the amounts together.',
     ],
     source: 'Advanced Player\'s Guide pg. 192',
     archetype: 'Shadowdancer',
@@ -25305,7 +25305,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2069,
     text: [
-      'You gain the ability to fuse and play with shadows by using focus spells specific to shadowdancers. You learn a shadowdancer focus spell of your choice: <i>dance of darkness</i> or <i>shadow jump</i>. If you don&apos;t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by meditating within an area of dim light or darkness. The rules for focus spells appear here.',
+      'You gain the ability to fuse and play with shadows by using focus spells specific to shadowdancers. You learn a shadowdancer focus spell of your choice: dance of darkness or shadow jump. If you don\'t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by meditating within an area of dim light or darkness. The rules for focus spells appear here.',
       'Shadowdancer focus spells are occult spells. You become trained in occult spell attack rolls and spell DCs, and your spellcasting ability for these spells is Charisma.',
     ],
     source: 'Advanced Player\'s Guide pg. 192',
@@ -25319,7 +25319,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2070,
     text: [
-      'Choose an additional shadowdancer focus spell you haven&apos;t already selected from Shadow Magic. Increase the number of Focus Points in your pool by 1.',
+      'Choose an additional shadowdancer focus spell you haven\'t already selected from Shadow Magic. Increase the number of Focus Points in your pool by 1.',
     ],
     source: 'Advanced Player\'s Guide pg. 192',
     archetype: 'Shadowdancer',
@@ -25332,7 +25332,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2071,
     text: [
-      'With an artful eye, you shape shadows into illusory forms. You gain the <i>shadow illusion</i> focus spell. Increase the number of Focus Points in your pool by 1. You become an expert in occult spell attack rolls and DCs.',
+      'With an artful eye, you shape shadows into illusory forms. You gain the shadow illusion focus spell. Increase the number of Focus Points in your pool by 1. You become an expert in occult spell attack rolls and DCs.',
     ],
     source: 'Advanced Player\'s Guide pg. 192',
     archetype: 'Shadowdancer',
@@ -25345,7 +25345,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2072,
     text: [
-      'You can focus the shadows into a powerful blast. You can cast <i>shadow blast</i> as an innate occult spell once per day. Its level is always 1 level lower than the level of your shadowdancer focus spells. You become an expert in occult spell attack rolls and DCs.',
+      'You can focus the shadows into a powerful blast. You can cast shadow blast as an innate occult spell once per day. Its level is always 1 level lower than the level of your shadowdancer focus spells. You become an expert in occult spell attack rolls and DCs.',
     ],
     source: 'Advanced Player\'s Guide pg. 192',
     archetype: 'Shadowdancer',
@@ -25358,7 +25358,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2073,
     text: [
-      'The shadows protect you better than any armor can, and they give you power to plunge others into darkness. Whenever you are in an area of dim light or darkness, you gain resistance 5 to all damage except force and damage from Strikes with the <i>ghost touch</i> property rune. When you attempt a Reflex saving throw in an area of dim light or darkness, you can roll twice and take the higher result; this is a fortune effect.',
+      'The shadows protect you better than any armor can, and they give you power to plunge others into darkness. Whenever you are in an area of dim light or darkness, you gain resistance 5 to all damage except force and damage from Strikes with the ghost touch property rune. When you attempt a Reflex saving throw in an area of dim light or darkness, you can roll twice and take the higher result; this is a fortune effect.',
     ],
     source: 'Advanced Player\'s Guide pg. 192',
     archetype: 'Shadowdancer',
@@ -25371,7 +25371,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2074,
     text: [
-      'You&apos;ve learned to create a limited number of snares at no cost. Each day during your daily preparations, you can prepare four snares from your formula book for quick deployment; if they normally take 1 minute to Craft, you can Craft them with 3 Interact actions. The number of snares increases to six if you&apos;re a master in Crafting and eight if you&apos;re legendary. Snares prepared in this way don&apos;t cost you any resources to Craft.',
+      'You\'ve learned to create a limited number of snares at no cost. Each day during your daily preparations, you can prepare four snares from your formula book for quick deployment; if they normally take 1 minute to Craft, you can Craft them with 3 Interact actions. The number of snares increases to six if you\'re a master in Crafting and eight if you\'re legendary. Snares prepared in this way don\'t cost you any resources to Craft.',
     ],
     source: 'Advanced Player\'s Guide pg. 194',
     archetype: 'Snarecrafter',
@@ -25385,7 +25385,7 @@ export const feats: FeatCollection = {
     actions: 'three_actions',
     id: 2075,
     text: [
-      'You install one of your snares prepared for quick deployment in a space that&apos;s occupied by an opponent. It must be a snare that normally takes 1 minute or less to Craft. The snare automatically triggers, but it takes a &#x2013;2 circumstance penalty to any applicable save DC, as well as any attack rolls or other checks the snare attempts.',
+      'You install one of your snares prepared for quick deployment in a space that\'s occupied by an opponent. It must be a snare that normally takes 1 minute or less to Craft. The snare automatically triggers, but it takes a &#x2013;2 circumstance penalty to any applicable save DC, as well as any attack rolls or other checks the snare attempts.',
     ],
     source: 'Advanced Player\'s Guide pg. 194',
     archetype: 'Snarecrafter',
@@ -25398,7 +25398,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2076,
     text: [
-      'You&apos;ve learned how to trigger snares from afar, creating ranged hazards to assail your opponents and allowing you to disarm enemies&apos; snares harmlessly. You can Strike a snare to trigger it prematurely. If you crafted the snare, you automatically hit. If someone else crafted it, attempt a ranged Strike against the Crafting DC, triggering the snare only if you hit.',
+      'You\'ve learned how to trigger snares from afar, creating ranged hazards to assail your opponents and allowing you to disarm enemies\' snares harmlessly. You can Strike a snare to trigger it prematurely. If you crafted the snare, you automatically hit. If someone else crafted it, attempt a ranged Strike against the Crafting DC, triggering the snare only if you hit.',
     ],
     source: 'Advanced Player\'s Guide pg. 194',
     archetype: 'Snarecrafter',
@@ -25437,8 +25437,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2079,
     text: [
-      'You are trained in the use of talismans and similar magical paraphernalia. This training might have occurred in a formal classroom or been an agglomeration of folk magic picked up over time. You can craft talismans and know the formulas for all common talismans in the <i>Core Rulebook</i> of your level or lower. You remember talisman formulas and don&apos;t need a formula book for them.',
-      ' Additionally, you carry a collection of magical baubles you can turn into temporary talismans. Each day during your daily preparations, you can make two talismans with an item level no higher than half your level. You must know each talisman&apos;s formula. A talisman created this way is a temporary item and loses its magic the next time you make your daily preparations if you haven&apos;t already used it.',
+      'You are trained in the use of talismans and similar magical paraphernalia. This training might have occurred in a formal classroom or been an agglomeration of folk magic picked up over time. You can craft talismans and know the formulas for all common talismans in the Core Rulebook of your level or lower. You remember talisman formulas and don\'t need a formula book for them.',
+      ' Additionally, you carry a collection of magical baubles you can turn into temporary talismans. Each day during your daily preparations, you can make two talismans with an item level no higher than half your level. You must know each talisman\'s formula. A talisman created this way is a temporary item and loses its magic the next time you make your daily preparations if you haven\'t already used it.',
       ' Finally, when you Affix a Talisman, you can (in any combination) affix or remove up to four talismans in the 10-minute span.',
     ],
     source: 'Advanced Player\'s Guide pg. 195',
@@ -25453,7 +25453,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2080,
     text: [
-      'You can attach a talisman using only a bit of glue and some string. You gain the Rapid Affixture skill feat, even if you don&apos;t meet the prerequisites. When you use it, you can affix or remove up to four talismans in 1 minute instead of just one. ',
+      'You can attach a talisman using only a bit of glue and some string. You gain the Rapid Affixture skill feat, even if you don\'t meet the prerequisites. When you use it, you can affix or remove up to four talismans in 1 minute instead of just one. ',
       'You gain the ability to Affix a Talisman as a 3-action activity from that feat at 12th level, regardless of your Crafting proficiency.',
     ],
     source: 'Advanced Player\'s Guide pg. 195',
@@ -25482,7 +25482,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2082,
     text: [
-      'You have forgotten more about talismans than lesser warriors have ever known. Normally, affixing more than one talisman to an item causes the talismans to be suppressed, but when you Affix a Talisman, you can specially treat one item you&apos;re working on, allowing it to have two active talismans at once. This special treatment ends if you use Affix a Talisman to treat a new item for this ability.',
+      'You have forgotten more about talismans than lesser warriors have ever known. Normally, affixing more than one talisman to an item causes the talismans to be suppressed, but when you Affix a Talisman, you can specially treat one item you\'re working on, allowing it to have two active talismans at once. This special treatment ends if you use Affix a Talisman to treat a new item for this ability.',
     ],
     source: 'Advanced Player\'s Guide pg. 195',
     archetype: 'Talisman Dabbler',
@@ -25495,10 +25495,10 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2083,
     text: [
-      'You have two identities, each with its own name, alignment, and abilities. Your social identity is an upstanding member of society, while your vigilante identity is a skilled and cunning warrior. Neither of these identities is a false front; you really are both of these people, and as such, your two identities can be at most one alignment step from each other (for instance, you could be neutral in one identity and neutral evil in the other, but not chaotic evil in the other). If someone attempts to discern your other identity, they must use a Seek action to attempt a Perception check against your Deception DC, as if you were using the Impersonate action. Your Deception DC against such attempts is 20 + your proficiency modifier instead of the normal DC. Unlike with Impersonate, you don&apos;t have to attempt a Deception check to interact with someone to conceal your other identity&#x2014;a check happens only if someone else specifically tries to uncover your other identity.',
-      ' Changing from one identity to the other takes 1 minute and must be done out of sight from other creatures. As this process involves both physical changes such as clothing and makeup along with an altered state of mind, other effects that change your appearance don&apos;t reduce the time required to change identities.',
-      ' Your two identities are completely distinct. You have your current identity&apos;s alignment for effects that rely on alignment, though you are eligible for abilities that require a certain alignment (such as a cleric&apos;s deity) only if both of your identities qualify. Checks to Recall Knowledge about one of your identities don&apos;t reveal information about the other unless the person attempting the check knows both identities are the same person. Effects that detect you based on your identity, such as the <i>detect alignment</i> spell, work only if you are currently in the identity the effect is trying to detect; otherwise, the effect fails as if the target didn&apos;t exist.',
-      ' To maintain the separation between your identities, some of your abilities have one of two traits: social or vigilante. You can use social feats only while in your social identity. Your class feats and vigilante feats are associated with your vigilante identity, and using them while in your social identity risks exposing you as a vigilante. This means that if you were particularly meek or inconspicuous before you took this feat, your identity could be at greater risk of exposure. If your identity is exposed to the public, you lose the benefits of Vigilante Dedication to disguising yourself, but you can otherwise use both social and vigilante abilities in either identity unless they rely on your identity being a secret. You can use feats that don&apos;t have either trait regardless of your current identity.',
+      'You have two identities, each with its own name, alignment, and abilities. Your social identity is an upstanding member of society, while your vigilante identity is a skilled and cunning warrior. Neither of these identities is a false front; you really are both of these people, and as such, your two identities can be at most one alignment step from each other (for instance, you could be neutral in one identity and neutral evil in the other, but not chaotic evil in the other). If someone attempts to discern your other identity, they must use a Seek action to attempt a Perception check against your Deception DC, as if you were using the Impersonate action. Your Deception DC against such attempts is 20 + your proficiency modifier instead of the normal DC. Unlike with Impersonate, you don\'t have to attempt a Deception check to interact with someone to conceal your other identity&#x2014;a check happens only if someone else specifically tries to uncover your other identity.',
+      ' Changing from one identity to the other takes 1 minute and must be done out of sight from other creatures. As this process involves both physical changes such as clothing and makeup along with an altered state of mind, other effects that change your appearance don\'t reduce the time required to change identities.',
+      ' Your two identities are completely distinct. You have your current identity\'s alignment for effects that rely on alignment, though you are eligible for abilities that require a certain alignment (such as a cleric\'s deity) only if both of your identities qualify. Checks to Recall Knowledge about one of your identities don\'t reveal information about the other unless the person attempting the check knows both identities are the same person. Effects that detect you based on your identity, such as the detect alignment spell, work only if you are currently in the identity the effect is trying to detect; otherwise, the effect fails as if the target didn\'t exist.',
+      ' To maintain the separation between your identities, some of your abilities have one of two traits: social or vigilante. You can use social feats only while in your social identity. Your class feats and vigilante feats are associated with your vigilante identity, and using them while in your social identity risks exposing you as a vigilante. This means that if you were particularly meek or inconspicuous before you took this feat, your identity could be at greater risk of exposure. If your identity is exposed to the public, you lose the benefits of Vigilante Dedication to disguising yourself, but you can otherwise use both social and vigilante abilities in either identity unless they rely on your identity being a secret. You can use feats that don\'t have either trait regardless of your current identity.',
     ],
     source: 'Advanced Player\'s Guide pg. 196',
     archetype: 'Vigilante',
@@ -25513,7 +25513,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2084,
     text: [
-      'You&apos;ve learned to hide the magical auras of your gear. During your daily preparations, you carefully tweak any or all of your magic items to appear non-magical. Objects adjusted in this way remain so until your next preparations. A spellcaster using <i>detect magic</i> or <i>read aura</i> must succeed at a Perception check against your Deception DC to see through your obfuscations.',
+      'You\'ve learned to hide the magical auras of your gear. During your daily preparations, you carefully tweak any or all of your magic items to appear non-magical. Objects adjusted in this way remain so until your next preparations. A spellcaster using detect magic or read aura must succeed at a Perception check against your Deception DC to see through your obfuscations.',
     ],
     source: 'Advanced Player\'s Guide pg. 196',
     archetype: 'Vigilante',
@@ -25527,7 +25527,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2085,
     text: [
-      'When you are in your social identity, you can also grant a social identity to an animal companion, familiar, or other minion you gained from a class feature. When changing to your social identity, you also change your minion&apos;s appearance to that of a socially acceptable creature of its type, such as grooming a wolf to appear as a large dog or disguising a familiar to appear as an exotic pet. Commanding your minion to use unusual magical or combat abilities it gained from your class features or feats while in this social identity risks exposing your vigilante identity.',
+      'When you are in your social identity, you can also grant a social identity to an animal companion, familiar, or other minion you gained from a class feature. When changing to your social identity, you also change your minion\'s appearance to that of a socially acceptable creature of its type, such as grooming a wolf to appear as a large dog or disguising a familiar to appear as an exotic pet. Commanding your minion to use unusual magical or combat abilities it gained from your class features or feats while in this social identity risks exposing your vigilante identity.',
     ],
     source: 'Advanced Player\'s Guide pg. 196',
     archetype: 'Vigilante',
@@ -25541,7 +25541,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2086,
     text: [
-      'You establish a safe house&#x2014;a secure space in which to hide your secrets from the outside world. This safe house is roughly the size of a 10-foot cube. It&apos;s in a location you have access to, and it can be part of a larger building or structure, like a hidden room or an underground cave. The safe house protects objects and people inside it from magical detection. This has the effects of <i>nondetection</i>, using your Deception modifier for the counteract DC and half your level rounded up for the counteract level. Setting up or moving your safe house takes a week of downtime. The size of the safe house expands to four 10-foot cubes if you&apos;re an expert in Deception, eight cubes if you&apos;re a master, and 16 cubes if you&apos;re legendary.',
+      'You establish a safe house&#x2014;a secure space in which to hide your secrets from the outside world. This safe house is roughly the size of a 10-foot cube. It\'s in a location you have access to, and it can be part of a larger building or structure, like a hidden room or an underground cave. The safe house protects objects and people inside it from magical detection. This has the effects of nondetection, using your Deception modifier for the counteract DC and half your level rounded up for the counteract level. Setting up or moving your safe house takes a week of downtime. The size of the safe house expands to four 10-foot cubes if you\'re an expert in Deception, eight cubes if you\'re a master, and 16 cubes if you\'re legendary.',
     ],
     source: 'Advanced Player\'s Guide pg. 196',
     archetype: 'Vigilante',
@@ -25554,7 +25554,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2087,
     text: [
-      'You have built a reputation for yourself in your social identity. Choose one archetype that you meet the prerequisites for. You gain that archetype&apos;s dedication feat and can select feats from that archetype, even if you haven&apos;t yet gained enough feats in the vigilante archetype to take another dedication feat. These feats become part of your social identity and gain the social trait&#x2014;for instance, a fighter vigilante could take the wizard dedication feat and have a wizard social identity. Using these feats in your social identity doesn&apos;t risk exposing your vigilante identity, but using them in your vigilante identity could put you at risk for exposure.',
+      'You have built a reputation for yourself in your social identity. Choose one archetype that you meet the prerequisites for. You gain that archetype\'s dedication feat and can select feats from that archetype, even if you haven\'t yet gained enough feats in the vigilante archetype to take another dedication feat. These feats become part of your social identity and gain the social trait&#x2014;for instance, a fighter vigilante could take the wizard dedication feat and have a wizard social identity. Using these feats in your social identity doesn\'t risk exposing your vigilante identity, but using them in your vigilante identity could put you at risk for exposure.',
     ],
     source: 'Advanced Player\'s Guide pg. 196',
     archetype: 'Vigilante',
@@ -25594,7 +25594,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2090,
     text: [
-      'Your disparate identities allow you to defeat magic that detects lies. As long as what you say is true from the point of view of your current identity, you can say it even under effects like <i>zone of truth</i> that force you to speak the truth.',
+      'Your disparate identities allow you to defeat magic that detects lies. As long as what you say is true from the point of view of your current identity, you can say it even under effects like zone of truth that force you to speak the truth.',
     ],
     source: 'Advanced Player\'s Guide pg. 197',
     archetype: 'Vigilante',
@@ -25607,7 +25607,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2091,
     text: [
-      'You can take on any number of mundane guises. Whenever you change your identity, instead of taking on your social or vigilante identity, you can become someone completely ordinary. This identity isn&apos;t a specific individual&#x2014;rather, you become a nondescript member of your ancestry, of any gender, with a neutral alignment and a mundane occupation such as common laborer, farmer, or peasant. Spells and abilities detect you as if you were this ordinary identity, rather than either of your two real identities, unless they succeed at a counteract check against your Deception DC. You can&apos;t use either social abilities or vigilante abilities while in this identity.',
+      'You can take on any number of mundane guises. Whenever you change your identity, instead of taking on your social or vigilante identity, you can become someone completely ordinary. This identity isn\'t a specific individual&#x2014;rather, you become a nondescript member of your ancestry, of any gender, with a neutral alignment and a mundane occupation such as common laborer, farmer, or peasant. Spells and abilities detect you as if you were this ordinary identity, rather than either of your two real identities, unless they succeed at a counteract check against your Deception DC. You can\'t use either social abilities or vigilante abilities while in this identity.',
     ],
     source: 'Advanced Player\'s Guide pg. 197',
     archetype: 'Vigilante',
@@ -25633,7 +25633,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2093,
     text: [
-      'Your sudden appearance leaves your foe unable to respond. When you use Startling Appearance, if your foe&apos;s level is equal to or lower than yours, they are also stunned 1 on a hit, or stunned 2 on a critical hit.',
+      'Your sudden appearance leaves your foe unable to respond. When you use Startling Appearance, if your foe\'s level is equal to or lower than yours, they are also stunned 1 on a hit, or stunned 2 on a critical hit.',
     ],
     source: 'Advanced Player\'s Guide pg. 197',
     archetype: 'Vigilante',
@@ -25646,7 +25646,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2094,
     text: [
-      'Vikings spend long periods of time at sea, only to leap from their boats at a moment&apos;s notice, charge through the surf, and take their enemies by storm. You&apos;re trained in Sailing Lore. When moving through water using your land Speed, you ignore difficult terrain resulting from shallow water, such as in bogs or on beaches. In addition, if you roll a success for your Athletics check to Swim, you get a critical success instead.',
+      'Vikings spend long periods of time at sea, only to leap from their boats at a moment\'s notice, charge through the surf, and take their enemies by storm. You\'re trained in Sailing Lore. When moving through water using your land Speed, you ignore difficult terrain resulting from shallow water, such as in bogs or on beaches. In addition, if you roll a success for your Athletics check to Swim, you get a critical success instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 198',
     archetype: 'Viking',
@@ -25700,7 +25700,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 2098,
     text: [
-      'You&apos;re used to your shield breaking in the middle of battle, and you&apos;re prepared to use a backup or any convenient nearby object to defend yourself. You can Interact to draw a shield on your person or an unattended shield within your reach. If there is an object within your reach that could serve as an improvised shield&#x2014;for example, a table or chair&#x2014; you can Interact to draw it with this feat. The GM determines if something can be used as an improvised shield. Your new shield isn&apos;t raised until you use the Raise a Shield action, as normal.',
+      'You\'re used to your shield breaking in the middle of battle, and you\'re prepared to use a backup or any convenient nearby object to defend yourself. You can Interact to draw a shield on your person or an unattended shield within your reach. If there is an object within your reach that could serve as an improvised shield&#x2014;for example, a table or chair&#x2014; you can Interact to draw it with this feat. The GM determines if something can be used as an improvised shield. Your new shield isn\'t raised until you use the Raise a Shield action, as normal.',
     ],
     source: 'Advanced Player\'s Guide pg. 198',
     archetype: 'Viking',
@@ -25714,7 +25714,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2099,
     text: [
-      'You don&apos;t take the normal &#x2013;2 penalty to attack rolls with improvised weapons. Additionally, whenever you gain a class feature that grants you expert or greater proficiency with any weapon, you also gain that proficiency with improvised weapons.',
+      'You don\'t take the normal &#x2013;2 penalty to attack rolls with improvised weapons. Additionally, whenever you gain a class feature that grants you expert or greater proficiency with any weapon, you also gain that proficiency with improvised weapons.',
     ],
     source: 'Advanced Player\'s Guide pg. 199',
     archetype: 'Weapon Improviser',
@@ -25729,7 +25729,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 2100,
     text: [
-      'You make a Strike with your wielded improvised weapon. You gain a +1 item bonus to the attack roll, and the Strike deals two weapon damage dice if it would have dealt fewer. If the attack is a critical hit, in addition to the effect of the critical hit, the improvised weapon breaks. If the item has a Hardness greater than your level, or if it&apos;s an artifact, cursed item, or other item that&apos;s difficult to break or destroy, the item doesn&apos;t break and the attack is a hit instead of a critical hit.',
+      'You make a Strike with your wielded improvised weapon. You gain a +1 item bonus to the attack roll, and the Strike deals two weapon damage dice if it would have dealt fewer. If the attack is a critical hit, in addition to the effect of the critical hit, the improvised weapon breaks. If the item has a Hardness greater than your level, or if it\'s an artifact, cursed item, or other item that\'s difficult to break or destroy, the item doesn\'t break and the attack is a hit instead of a critical hit.',
       ' At 12th level, your item bonus to the attack roll increases to +2 instead of +1, and at 16th level, the Strike deals three weapon damage dice if it would have dealt fewer, instead of two.',
     ],
     source: 'Advanced Player\'s Guide pg. 199',
@@ -25744,7 +25744,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2101,
     text: [
-      'Whenever you make a Strike with an improvised weapon against a creature that hasn&apos;t seen you make a Strike using an improvised weapon or that is otherwise ignorant of your skill with improvised weapons, the creature is flat-footed against you for that Strike.',
+      'Whenever you make a Strike with an improvised weapon against a creature that hasn\'t seen you make a Strike using an improvised weapon or that is otherwise ignorant of your skill with improvised weapons, the creature is flat-footed against you for that Strike.',
     ],
     source: 'Advanced Player\'s Guide pg. 199',
     archetype: 'Weapon Improviser',
@@ -25770,7 +25770,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 2103,
     text: [
-      'You quickly snatch up whatever&apos;s nearby and then attack with it as an improvised weapon. You Interact to pick up a nearby object you could use as an improvised weapon. It must be located at around your chest level, such as a mug on a table, rather than an object on the floor. You then either Strike or make an Improvised Pummel with the improvised weapon.',
+      'You quickly snatch up whatever\'s nearby and then attack with it as an improvised weapon. You Interact to pick up a nearby object you could use as an improvised weapon. It must be located at around your chest level, such as a mug on a table, rather than an object on the floor. You then either Strike or make an Improvised Pummel with the improvised weapon.',
     ],
     source: 'Advanced Player\'s Guide pg. 199',
     archetype: 'Weapon Improviser',
@@ -25783,7 +25783,7 @@ export const feats: FeatCollection = {
     actions: 'reaction',
     id: 2104,
     text: [
-      'The improvised weapon shatters, destroying it completely but dealing an additional 3d6 piercing damage to the creature you hit with the Improvised Pummel. This extra damage you apply on the critical hit doesn&apos;t double from the critical hit, as normal.',
+      'The improvised weapon shatters, destroying it completely but dealing an additional 3d6 piercing damage to the creature you hit with the Improvised Pummel. This extra damage you apply on the critical hit doesn\'t double from the critical hit, as normal.',
     ],
     source: 'Advanced Player\'s Guide pg. 199',
     archetype: 'Weapon Improviser',
@@ -25798,7 +25798,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2105,
     text: [
-      'You have a reputation in towns and villages you&apos;ve visited, and residents are always willing to open their doors to you. When in a town or village, during downtime, you can spend 8 hours to locate a resident willing to provide lodging for you and up to six allies for up to 24 hours at no charge. The standard of living within the acquired lodging is comfortable, and square meals are provided at no cost. After 24 hours, you must pay standard prices for further lodging and meals or use this feat again to find a new resident willing to host you.',
+      'You have a reputation in towns and villages you\'ve visited, and residents are always willing to open their doors to you. When in a town or village, during downtime, you can spend 8 hours to locate a resident willing to provide lodging for you and up to six allies for up to 24 hours at no charge. The standard of living within the acquired lodging is comfortable, and square meals are provided at no cost. After 24 hours, you must pay standard prices for further lodging and meals or use this feat again to find a new resident willing to host you.',
     ],
     source: 'Advanced Player\'s Guide pg. 202',
     prerequisites: 'Charisma 16',
@@ -25810,7 +25810,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2106,
     text: [
-      'You&apos;re an incredible acrobat, evoking wonder and enrapturing audiences with your prowess. It&apos;s almost a performance! You can roll an Acrobatics check instead of a Performance check when using the Perform action.',
+      'You\'re an incredible acrobat, evoking wonder and enrapturing audiences with your prowess. It\'s almost a performance! You can roll an Acrobatics check instead of a Performance check when using the Perform action.',
     ],
     source: 'Advanced Player\'s Guide pg. 202',
     prerequisites: 'trained in Acrobatics',
@@ -25822,7 +25822,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2107,
     text: [
-      'You use your medical training to ameliorate sickness or assuage fears. When you use Medicine to Administer First Aid, instead of Stabilizing a character or Stopping Bleeding, you can reduce an ally&apos;s frightened or sickened condition by 2, or remove either of those conditions entirely on a critical success. You can remove only one condition at a time. The DC for the Medicine check is usually the DC of the effect that caused the condition.',
+      'You use your medical training to ameliorate sickness or assuage fears. When you use Medicine to Administer First Aid, instead of Stabilizing a character or Stopping Bleeding, you can reduce an ally\'s frightened or sickened condition by 2, or remove either of those conditions entirely on a critical success. You can remove only one condition at a time. The DC for the Medicine check is usually the DC of the effect that caused the condition.',
     ],
     source: 'Advanced Player\'s Guide pg. 202',
     prerequisites: 'master in Medicine',
@@ -25834,7 +25834,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2108,
     text: [
-      'You move with grace in flight and can perform amazing aerial stunts. You gain a +2 circumstance bonus to Acrobatics checks to Maneuver in Flight and can combine two maneuvers into a single action, such as reversing direction while making a steep ascent or descent or hovering in gale-force winds. The DC of the Acrobatics check is equal to the DC of the most difficult maneuver + 5. If you&apos;re legendary in Acrobatics, you can combine three such maneuvers into a single action; the DC of the Acrobatics check is equal to the DC of the most difficult maneuver + 10. Regardless of the combination, these maneuvers rarely allow you to move farther than your fly Speed.',
+      'You move with grace in flight and can perform amazing aerial stunts. You gain a +2 circumstance bonus to Acrobatics checks to Maneuver in Flight and can combine two maneuvers into a single action, such as reversing direction while making a steep ascent or descent or hovering in gale-force winds. The DC of the Acrobatics check is equal to the DC of the most difficult maneuver + 5. If you\'re legendary in Acrobatics, you can combine three such maneuvers into a single action; the DC of the Acrobatics check is equal to the DC of the most difficult maneuver + 10. Regardless of the combination, these maneuvers rarely allow you to move farther than your fly Speed.',
     ],
     source: 'Advanced Player\'s Guide pg. 202',
     prerequisites: 'master in Acrobatics',
@@ -25846,7 +25846,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2109,
     text: [
-      'After your service aiding armored combatants, you are practiced in helping yourself and others don heavy gear. You can attempt an Athletics or Warfare Lore check with a DC determined by the GM (but usually 15 for common armor, DC 20 for uncommon armor, and DC 25 for rare armor) to halve the time you take to don armor. You can halve an ally&apos;s time to don armor by working with them to don the armor and succeeding at an Athletics or Warfare Lore check against the same DC.',
+      'After your service aiding armored combatants, you are practiced in helping yourself and others don heavy gear. You can attempt an Athletics or Warfare Lore check with a DC determined by the GM (but usually 15 for common armor, DC 20 for uncommon armor, and DC 25 for rare armor) to halve the time you take to don armor. You can halve an ally\'s time to don armor by working with them to don the armor and succeeding at an Athletics or Warfare Lore check against the same DC.',
     ],
     source: 'Advanced Player\'s Guide pg. 203',
     prerequisites: 'trained in Athletics or Warfare Lore',
@@ -25858,7 +25858,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2110,
     text: [
-      'You have learned techniques to adjust and modify your armor and movements to reduce the noise you make. When you wear non-noisy armor with which you are trained, your penalty to Stealth checks is reduced by 1 (to a minimum penalty of 0). If you&apos;re a master in Stealth, reduce the penalty by 2, and if you&apos;re legendary, reduce the penalty by 3. If your armor has the noisy trait, instead of reducing the penalty to Stealth checks, you ignore the effects of the noisy trait, enabling you to remove the penalty with a sufficient Strength score as normal.',
+      'You have learned techniques to adjust and modify your armor and movements to reduce the noise you make. When you wear non-noisy armor with which you are trained, your penalty to Stealth checks is reduced by 1 (to a minimum penalty of 0). If you\'re a master in Stealth, reduce the penalty by 2, and if you\'re legendary, reduce the penalty by 3. If your armor has the noisy trait, instead of reducing the penalty to Stealth checks, you ignore the effects of the noisy trait, enabling you to remove the penalty with a sufficient Strength score as normal.',
     ],
     source: 'Advanced Player\'s Guide pg. 203',
     prerequisites: 'expert in Stealth',
@@ -25870,7 +25870,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2111,
     text: [
-      'You rarely misidentify an item. When using Arcana, Nature, Occultism, or Religion checks to Identify Magic, if you roll a critical failure, you get a failure instead. If you would misidentify a cursed item because you roll a success but not a critical success, you simply can&apos;t identify it instead.',
+      'You rarely misidentify an item. When using Arcana, Nature, Occultism, or Religion checks to Identify Magic, if you roll a critical failure, you get a failure instead. If you would misidentify a cursed item because you roll a success but not a critical success, you simply can\'t identify it instead.',
     ],
     source: 'Advanced Player\'s Guide pg. 203',
     prerequisites: 'expert in Arcana, Nature, Occultism, or Religion',
@@ -25882,7 +25882,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2112,
     text: [
-      'You are constantly drawing up plans and battle scenarios, assembling strategies and gathered intelligence for later use. When you scout an enemy&apos;s position or receive a detailed report from an ally who scouted the enemy&apos;s position, if you have a clear indication of the number, position, and identities of your potential foes, you can spend 1 minute to come up with a battle plan that takes such potential factors into account and reduces the role luck plays in the equation. Roll a Warfare Lore check. As long as the information was accurate and remains accurate when you roll initiative against those enemies, you can use the Warfare Lore result you previously rolled for your initiative roll; if you do, this is a fortune effect.',
+      'You are constantly drawing up plans and battle scenarios, assembling strategies and gathered intelligence for later use. When you scout an enemy\'s position or receive a detailed report from an ally who scouted the enemy\'s position, if you have a clear indication of the number, position, and identities of your potential foes, you can spend 1 minute to come up with a battle plan that takes such potential factors into account and reduces the role luck plays in the equation. Roll a Warfare Lore check. As long as the information was accurate and remains accurate when you roll initiative against those enemies, you can use the Warfare Lore result you previously rolled for your initiative roll; if you do, this is a fortune effect.',
     ],
     source: 'Advanced Player\'s Guide pg. 203',
     prerequisites: 'expert in Warfare Lore',
@@ -25894,8 +25894,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2113,
     text: [
-      'In even a brief conversation or social interaction, you pick up on subtle social and visual cues to learn a great deal about a person&apos;s origin and history. You might notice bits of green under the person&apos;s fingernails and determine they&apos;re an herbalist, a pin indicating their membership in a secret society, or something similar. You pick up on only details that have to do with their societal role, so you might learn the city district where a vampire lives, but wouldn&apos;t learn any of their weaknesses, nor necessarily even that they are a vampire. ',
-      'Spend 1 minute in the presence of someone you haven&apos;t met before, or haven&apos;t met since you first gained Biographical Eye, then attempt a DC 30 Society check. You gain a +1 circumstance bonus to the check if you engaged the person in conversation during this time. If the person is deliberately trying to conceal their nature or present a false identity, you learn about their false biography rather than their true one unless the result of your Society check exceeds their Will DC.',
+      'In even a brief conversation or social interaction, you pick up on subtle social and visual cues to learn a great deal about a person\'s origin and history. You might notice bits of green under the person\'s fingernails and determine they\'re an herbalist, a pin indicating their membership in a secret society, or something similar. You pick up on only details that have to do with their societal role, so you might learn the city district where a vampire lives, but wouldn\'t learn any of their weaknesses, nor necessarily even that they are a vampire. ',
+      'Spend 1 minute in the presence of someone you haven\'t met before, or haven\'t met since you first gained Biographical Eye, then attempt a DC 30 Society check. You gain a +1 circumstance bonus to the check if you engaged the person in conversation during this time. If the person is deliberately trying to conceal their nature or present a false identity, you learn about their false biography rather than their true one unless the result of your Society check exceeds their Will DC.',
     ],
     source: 'Advanced Player\'s Guide pg. 203',
     prerequisites: 'master in Society',
@@ -25923,7 +25923,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 2114,
     text: [
-      'You launch an insightful quip at a foe, distracting them. Choose a foe within 30 feet and roll a Diplomacy check against the target&apos;s Will DC.',
+      'You launch an insightful quip at a foe, distracting them. Choose a foe within 30 feet and roll a Diplomacy check against the target\'s Will DC.',
     ],
     source: 'Advanced Player\'s Guide pg. 203',
     prerequisites: 'trained in Diplomacy',
@@ -25952,7 +25952,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2116,
     text: [
-      'Rather than hide an object somewhere the inspectors won&apos;t search, you&apos;re skilled at keeping the object on the move so it&apos;s never where they look. When you Conceal an Object of light Bulk or less, you can use Thievery instead of Stealth for your checks and for the DC of an active searcher&apos;s Perception check. You roll the check only once, but you must continue to use actions to Conceal an Object throughout the process.',
+      'Rather than hide an object somewhere the inspectors won\'t search, you\'re skilled at keeping the object on the move so it\'s never where they look. When you Conceal an Object of light Bulk or less, you can use Thievery instead of Stealth for your checks and for the DC of an active searcher\'s Perception check. You roll the check only once, but you must continue to use actions to Conceal an Object throughout the process.',
     ],
     source: 'Advanced Player\'s Guide pg. 204',
     prerequisites: 'trained in Thievery',
@@ -25965,7 +25965,7 @@ export const feats: FeatCollection = {
     id: 2117,
     text: [
       'You have learned rites or meditations that enable you to perceive minor, invisible spirits within a place. Choose Nature, Occultism, or Religion when you select this feat. Nature allows you to contact the spirits of nature that form leshies, who are born of pure life essence rather than spiritual energy and can answer questions about natural features like the location of nearby water or plant life. Religion reveals the presence of angelic, demonic, or other spirits in service to divine beings, who provide information about sources of powerful positive or negative energy, sacred or profane influences, or the presence of undead. Occultism allows you to contact lingering spirits, psychic echoes of the departed dead, and spirits from beyond reality, who tell you about things like strange auras, effects, or the presence of unnatural occult beings.',
-      ' Spend 10 minutes and attempt a check to Recall Knowledge with the chosen skill; the DC is determined by the GM (usually a very high DC for the level of the highest-level creature you might encounter in the area). If you&apos;re legendary in the chosen skill, you can use this feat once per hour, instead of only once per day, but you can&apos;t use it again on any area that overlaps a previous area.',
+      ' Spend 10 minutes and attempt a check to Recall Knowledge with the chosen skill; the DC is determined by the GM (usually a very high DC for the level of the highest-level creature you might encounter in the area). If you\'re legendary in the chosen skill, you can use this feat once per hour, instead of only once per day, but you can\'t use it again on any area that overlaps a previous area.',
     ],
     source: 'Advanced Player\'s Guide pg. 204',
     frequency: 'once per day',
@@ -25984,7 +25984,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2118,
     text: [
-      'Your knowledge of items&apos; construction allows you to discern their magical effects as well. You can use Crafting instead of a skill associated with a magic tradition to Identify Magic on magic items, though not on any other sorts of magic.',
+      'Your knowledge of items\' construction allows you to discern their magical effects as well. You can use Crafting instead of a skill associated with a magic tradition to Identify Magic on magic items, though not on any other sorts of magic.',
     ],
     source: 'Advanced Player\'s Guide pg. 204',
     prerequisites: 'trained in Crafting',
@@ -25996,7 +25996,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2119,
     text: [
-      'You have dealings with a variety of unsavory characters, which you can leverage to trade favors or meet powerful people. When you&apos;re in an area where you have connections (typically a settlement where you&apos;ve spent downtime building connections or possibly another area in the same nation), you can attempt a Society check to arrange a meeting with an important criminal, such as a thieves&apos; guild leader, or ask for a favor in exchange for a later favor of your contact&apos;s choice. The GM decides the DC based on the difficulty of the favor and the figure&apos;s prominence.',
+      'You have dealings with a variety of unsavory characters, which you can leverage to trade favors or meet powerful people. When you\'re in an area where you have connections (typically a settlement where you\'ve spent downtime building connections or possibly another area in the same nation), you can attempt a Society check to arrange a meeting with an important criminal, such as a thieves\' guild leader, or ask for a favor in exchange for a later favor of your contact\'s choice. The GM decides the DC based on the difficulty of the favor and the figure\'s prominence.',
     ],
     source: 'Advanced Player\'s Guide pg. 204',
     prerequisites: 'expert in Society, Streetwise',
@@ -26020,7 +26020,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2121,
     text: [
-      'You are subtle in your efforts to learn the things you need to know. When Gathering Information, you can hide the true subject of your inquiry among other topics of little interest to you without increasing the difficulty of the check or taking more time to Gather Information. Anyone trying to Gather Information to determine if someone else was asking around about the topic in question must exceed your Deception DC or the normal DC to Gather Information about your inquiries, whichever is higher, or else they don&apos;t learn of your efforts.',
+      'You are subtle in your efforts to learn the things you need to know. When Gathering Information, you can hide the true subject of your inquiry among other topics of little interest to you without increasing the difficulty of the check or taking more time to Gather Information. Anyone trying to Gather Information to determine if someone else was asking around about the topic in question must exceed your Deception DC or the normal DC to Gather Information about your inquiries, whichever is higher, or else they don\'t learn of your efforts.',
     ],
     source: 'Advanced Player\'s Guide pg. 204',
     prerequisites: 'expert in Deception or Diplomacy',
@@ -26044,7 +26044,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 2123,
     text: [
-      'You utter a litany of dreadful names, prophecies, and descriptions of realms beyond mortal comprehension, drawn from your study of forbidden tomes and scrolls. Even those who don&apos;t understand your language are unsettled by these dire secrets. Attempt an Occultism check and compare the result to the Will DC of an enemy within 30 feet, or to the Will DCs of any number of enemies within 30 feet if you are legendary in Occultism. Those creatures are temporarily immune for 24 hours.',
+      'You utter a litany of dreadful names, prophecies, and descriptions of realms beyond mortal comprehension, drawn from your study of forbidden tomes and scrolls. Even those who don\'t understand your language are unsettled by these dire secrets. Attempt an Occultism check and compare the result to the Will DC of an enemy within 30 feet, or to the Will DCs of any number of enemies within 30 feet if you are legendary in Occultism. Those creatures are temporarily immune for 24 hours.',
     ],
     source: 'Advanced Player\'s Guide pg. 205',
     prerequisites: 'master in Occultism',
@@ -26073,7 +26073,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2125,
     text: [
-      'Your knowledge of the tenets of your faith gives you insight into the best ways to get others of your faith to help you or to follow your directions. When you Request something of or Coerce members of your own faith, you can attempt a Religion check instead of Diplomacy or Intimidation, and you gain a +2 circumstance bonus to the check. On a critically failed attempt to make a Request, the target&apos;s attitude toward you doesn&apos;t worsen.',
+      'Your knowledge of the tenets of your faith gives you insight into the best ways to get others of your faith to help you or to follow your directions. When you Request something of or Coerce members of your own faith, you can attempt a Religion check instead of Diplomacy or Intimidation, and you gain a +2 circumstance bonus to the check. On a critically failed attempt to make a Request, the target\'s attitude toward you doesn\'t worsen.',
     ],
     source: 'Advanced Player\'s Guide pg. 205',
     prerequisites: 'expert in Religion, follower of a specific religion',
@@ -26085,7 +26085,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2126,
     text: [
-      'You know how to encourage your mount to cover ground quickly. When calculating your travel speed for the day while mounted, you can attempt a Nature check to Command an Animal to increase your mount&apos;s travel speed. The DC is determined by the GM, but is typically based on the mount&apos;s level or the difficulty of the environment, whichever is harder. On a success, increase your mount&apos;s travel speed by half. This has no effect on your mount&apos;s movement in encounters.',
+      'You know how to encourage your mount to cover ground quickly. When calculating your travel speed for the day while mounted, you can attempt a Nature check to Command an Animal to increase your mount\'s travel speed. The DC is determined by the GM, but is typically based on the mount\'s level or the difficulty of the environment, whichever is harder. On a success, increase your mount\'s travel speed by half. This has no effect on your mount\'s movement in encounters.',
     ],
     source: 'Advanced Player\'s Guide pg. 206',
     prerequisites: 'trained in Nature',
@@ -26097,7 +26097,7 @@ export const feats: FeatCollection = {
     actions: 'single_action',
     id: 2127,
     text: [
-      'You&apos;ve learned to subitize, quickly estimating the number of items in a group with relative accuracy at only a glance. You immediately learn the number of visually similar items in a group you can see (such as coins, books, or people), rounded to the first digit in the total number. For example, you could look at a case of potion vials and learn that it held about 30 vials, but you wouldn&apos;t know that it was exactly 33 vials, how many different types of potions there were, or how many of which type. Similarly, you could look at a pile of 2,805 coins and know that there were about 3,000 coins in all. You can use this ability only on items that can typically be counted, so you can&apos;t use it on grains of sand or stars in the sky, for example.',
+      'You\'ve learned to subitize, quickly estimating the number of items in a group with relative accuracy at only a glance. You immediately learn the number of visually similar items in a group you can see (such as coins, books, or people), rounded to the first digit in the total number. For example, you could look at a case of potion vials and learn that it held about 30 vials, but you wouldn\'t know that it was exactly 33 vials, how many different types of potions there were, or how many of which type. Similarly, you could look at a pile of 2,805 coins and know that there were about 3,000 coins in all. You can use this ability only on items that can typically be counted, so you can\'t use it on grains of sand or stars in the sky, for example.',
       ' In addition, when you attempt to Decipher Writing that is primarily numerical or mathematical, you gain a +2 circumstance bonus to your check.',
     ],
     source: 'Advanced Player\'s Guide pg. 206',
@@ -26123,7 +26123,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2129,
     text: [
-      'You are adept at quickly scanning loose papers and carefully discerning the contents of sealed letters without damaging the seal. You can attempt Society checks to Decipher Writing on a message that is only partially glimpsed, upside down or reversed from your perspective, or even sealed. However, on a critical failure, the recipient is made aware of your efforts (for instance, you damage the seal or disturb the papers in some way). When using this feat to decipher sealed letters, your attempt to Decipher Writing gains the manipulate trait. This feat doesn&apos;t prevent witnesses from noticing your efforts, particularly with sealed letters which you must manipulate directly in order to read; you might need to attempt Deception or Stealth checks to avoid being noticed.',
+      'You are adept at quickly scanning loose papers and carefully discerning the contents of sealed letters without damaging the seal. You can attempt Society checks to Decipher Writing on a message that is only partially glimpsed, upside down or reversed from your perspective, or even sealed. However, on a critical failure, the recipient is made aware of your efforts (for instance, you damage the seal or disturb the papers in some way). When using this feat to decipher sealed letters, your attempt to Decipher Writing gains the manipulate trait. This feat doesn\'t prevent witnesses from noticing your efforts, particularly with sealed letters which you must manipulate directly in order to read; you might need to attempt Deception or Stealth checks to avoid being noticed.',
     ],
     source: 'Advanced Player\'s Guide pg. 206',
     prerequisites: 'trained in Society',
@@ -26147,8 +26147,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2131,
     text: [
-      'You can jury-rig solutions when you don&apos;t have the proper tools on hand. You can attempt to Repair damaged items without a repair kit.',
-      ' If you have the raw materials available, you can Craft a basic caltrop set, candle, compass, crowbar, fishing tackle, flint and steel, hammer, ladder, piton, rope, 10-foot pole, replacement thieves&apos; picks, long or short tool, or torch without consulting a basic crafter&apos;s book.',
+      'You can jury-rig solutions when you don\'t have the proper tools on hand. You can attempt to Repair damaged items without a repair kit.',
+      ' If you have the raw materials available, you can Craft a basic caltrop set, candle, compass, crowbar, fishing tackle, flint and steel, hammer, ladder, piton, rope, 10-foot pole, replacement thieves\' picks, long or short tool, or torch without consulting a basic crafter\'s book.',
     ],
     source: 'Advanced Player\'s Guide pg. 206',
     prerequisites: 'trained in Crafting',
@@ -26160,7 +26160,7 @@ export const feats: FeatCollection = {
     actions: 'three_actions',
     id: 2132,
     text: [
-      'You are skilled at making quick fixes to damaged equipment, but your fixes aren&apos;t meant to last forever. You make a quick repair to a broken non-magical item in your possession. Until the item takes damage again, you can still use it as a shoddy item of its type. This repair restores no Hit Points, so the item is easy to destroy. Once the item is Repaired normally such that it is no longer broken, it is also no longer shoddy.',
+      'You are skilled at making quick fixes to damaged equipment, but your fixes aren\'t meant to last forever. You make a quick repair to a broken non-magical item in your possession. Until the item takes damage again, you can still use it as a shoddy item of its type. This repair restores no Hit Points, so the item is easy to destroy. Once the item is Repaired normally such that it is no longer broken, it is also no longer shoddy.',
     ],
     source: 'Advanced Player\'s Guide pg. 206',
   },
@@ -26183,7 +26183,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2134,
     text: [
-      'With patience and time, you can make bird calls, leave game trails, and ultimately influence the behavior of a certain type of animals in the region to favor and even aid you in the days to come. The GM determines the DC of any check required and the amount of time your work requires (usually at least a day or two of downtime). While you can&apos;t directly control how you&apos;ve influenced nature, you can hope for certain effects, such as easier hunts or birds falling silent whenever danger is approaching. If you&apos;re legendary in Nature, you can elicit these same adjustments to animal behavior in the area by spending only 10 minutes.',
+      'With patience and time, you can make bird calls, leave game trails, and ultimately influence the behavior of a certain type of animals in the region to favor and even aid you in the days to come. The GM determines the DC of any check required and the amount of time your work requires (usually at least a day or two of downtime). While you can\'t directly control how you\'ve influenced nature, you can hope for certain effects, such as easier hunts or birds falling silent whenever danger is approaching. If you\'re legendary in Nature, you can elicit these same adjustments to animal behavior in the area by spending only 10 minutes.',
     ],
     source: 'Advanced Player\'s Guide pg. 207',
     prerequisites: 'master in Nature',
@@ -26230,7 +26230,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2138,
     text: [
-      'You know the wilderness so well that you can help your party travel through it with ease. When you are setting the path for your party through wilderness terrain, your party gains a +10-foot circumstance bonus to its Speed for the purpose of calculating the party&apos;s travel speed, your party&apos;s travel speed doesn&apos;t decrease in difficult terrain, and greater difficult terrain halves your party&apos;s travel speed instead of reducing it to a third. This doesn&apos;t increase your party&apos;s Speed during an encounter or allow your party to ignore difficult terrain during an encounter.',
+      'You know the wilderness so well that you can help your party travel through it with ease. When you are setting the path for your party through wilderness terrain, your party gains a +10-foot circumstance bonus to its Speed for the purpose of calculating the party\'s travel speed, your party\'s travel speed doesn\'t decrease in difficult terrain, and greater difficult terrain halves your party\'s travel speed instead of reducing it to a third. This doesn\'t increase your party\'s Speed during an encounter or allow your party to ignore difficult terrain during an encounter.',
     ],
     source: 'Advanced Player\'s Guide pg. 207',
     prerequisites: 'legendary in Survival',
@@ -26276,8 +26276,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2141,
     text: [
-      'You carry a small token of protection from a site holy to your faith, or you touched your religious symbol to a relic or altar at such a site. So long as this token is in your possession, when you tie an adversary&apos;s initiative roll, you go first.',
-      ' If you select this feat at a later level, or if you lose your pilgrim&apos;s token, you must purchase or Craft a replacement and attune it at a holy site. Such a token usually costs at least 2 sp, and the attunement takes 10 minutes of prayer and requires a successful DC 20 Religion check. Your GM might adjust the price and DC depending on the token&apos;s material and quality and the religious significance of the site; the more significant the location, the easier the attunement.',
+      'You carry a small token of protection from a site holy to your faith, or you touched your religious symbol to a relic or altar at such a site. So long as this token is in your possession, when you tie an adversary\'s initiative roll, you go first.',
+      ' If you select this feat at a later level, or if you lose your pilgrim\'s token, you must purchase or Craft a replacement and attune it at a holy site. Such a token usually costs at least 2 sp, and the attunement takes 10 minutes of prayer and requires a successful DC 20 Religion check. Your GM might adjust the price and DC depending on the token\'s material and quality and the religious significance of the site; the more significant the location, the easier the attunement.',
     ],
     source: 'Advanced Player\'s Guide pg. 208',
     prerequisites: 'trained in Religion',
@@ -26291,7 +26291,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2142,
     text: [
-      'You can predict which consumables you might need in advance. When using Prescient Planner, you can procure a consumable item from your backpack, instead of a piece of adventuring gear. The consumable item must still be common with a level no higher than half your level, and its Bulk must be low enough that carrying it wouldn&apos;t have made you encumbered.',
+      'You can predict which consumables you might need in advance. When using Prescient Planner, you can procure a consumable item from your backpack, instead of a piece of adventuring gear. The consumable item must still be common with a level no higher than half your level, and its Bulk must be low enough that carrying it wouldn\'t have made you encumbered.',
     ],
     source: 'Advanced Player\'s Guide pg. 208',
     prerequisites: 'Prescient Planner',
@@ -26303,7 +26303,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2143,
     text: [
-      'You regularly create convoluted plans and contingencies, using your resources to enact them. You take 1 minute to remove your backpack, then carefully remove an item you hadn&apos;t previously declared that you purchased&#x2014;you intuited that you would come to need the item and purchased it at the latest opportunity. The item must be a piece of adventuring gear, and can&apos;t be a weapon, armor, alchemical item, magic item, or other treasure. It must be common with a level no higher than half your level, and its Bulk must be low enough that carrying it wouldn&apos;t have made you encumbered.',
+      'You regularly create convoluted plans and contingencies, using your resources to enact them. You take 1 minute to remove your backpack, then carefully remove an item you hadn\'t previously declared that you purchased&#x2014;you intuited that you would come to need the item and purchased it at the latest opportunity. The item must be a piece of adventuring gear, and can\'t be a weapon, armor, alchemical item, magic item, or other treasure. It must be common with a level no higher than half your level, and its Bulk must be low enough that carrying it wouldn\'t have made you encumbered.',
     ],
     source: 'Advanced Player\'s Guide pg. 208',
     cost: 'the Price of the chosen item',
@@ -26317,7 +26317,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2144,
     text: [
-      'You know where to go, who to talk to, and how to make new connections, fast. Upon entering a new settlement, spending 1 day of downtime allows you to build enough connections to make use of the Connections or Underworld Connections feats. If you&apos;re legendary in Society, you can form the required connections within 1 hour of entering a new settlement.',
+      'You know where to go, who to talk to, and how to make new connections, fast. Upon entering a new settlement, spending 1 day of downtime allows you to build enough connections to make use of the Connections or Underworld Connections feats. If you\'re legendary in Society, you can form the required connections within 1 hour of entering a new settlement.',
     ],
     source: 'Advanced Player\'s Guide pg. 208',
     prerequisites: 'expert in Society; Connections or Underworld Connections',
@@ -26329,7 +26329,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2145,
     text: [
-      'You take only 1 minute to Affix a Talisman. If you&apos;re legendary in Crafting, you can Affix a Talisman as a 3-action activity.',
+      'You take only 1 minute to Affix a Talisman. If you\'re legendary in Crafting, you can Affix a Talisman as a 3-action activity.',
     ],
     source: 'Advanced Player\'s Guide pg. 208',
     prerequisites: 'master in Crafting',
@@ -26353,7 +26353,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2147,
     text: [
-      'Your talismans ward against foul magic. During your daily preparations, you can assemble a small pouch with bits of herbs, hair, sacred oils, and other ritual ingredients, which you give to one ally. The first time that day the ally attempts a saving throw against a spell or haunt, they gain a +1 circumstance bonus to the roll. This bonus increases to +2 if you&apos;re an expert in Occultism or +3 if you&apos;re legendary.',
+      'Your talismans ward against foul magic. During your daily preparations, you can assemble a small pouch with bits of herbs, hair, sacred oils, and other ritual ingredients, which you give to one ally. The first time that day the ally attempts a saving throw against a spell or haunt, they gain a +1 circumstance bonus to the roll. This bonus increases to +2 if you\'re an expert in Occultism or +3 if you\'re legendary.',
     ],
     source: 'Advanced Player\'s Guide pg. 208',
     prerequisites: 'trained in Occultism',
@@ -26377,7 +26377,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2149,
     text: [
-      'You&apos;ve mastered the preparation of many types of food and drink. You gain a +1 circumstance bonus to checks to Craft food and drink, including potions. If you are a master in one of the prerequisite skills, this bonus increases to +2.',
+      'You\'ve mastered the preparation of many types of food and drink. You gain a +1 circumstance bonus to checks to Craft food and drink, including potions. If you are a master in one of the prerequisite skills, this bonus increases to +2.',
     ],
     source: 'Advanced Player\'s Guide pg. 209',
     prerequisites: 'trained in Alcohol Lore, Cooking Lore, or Crafting',
@@ -26389,7 +26389,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2150,
     text: [
-      'You have learned special tricks that help you follow individuals without them noticing you. When you attempt a Stealth check to Avoid Notice while following a specific target, the target takes a &#x2013;2 circumstance penalty to their Perception DC. If you have master proficiency in Stealth, the penalty is &#x2013;3 or &#x2013;4 if you&apos;re legendary. If you start an encounter with the target while shadowing them, the target takes this penalty to their initiative roll and to their Perception DC to determine if they notice you, as normal for Sneak.',
+      'You have learned special tricks that help you follow individuals without them noticing you. When you attempt a Stealth check to Avoid Notice while following a specific target, the target takes a &#x2013;2 circumstance penalty to their Perception DC. If you have master proficiency in Stealth, the penalty is &#x2013;3 or &#x2013;4 if you\'re legendary. If you start an encounter with the target while shadowing them, the target takes this penalty to their initiative roll and to their Perception DC to determine if they notice you, as normal for Sneak.',
     ],
     source: 'Advanced Player\'s Guide pg. 209',
     prerequisites: 'expert in Stealth',
@@ -26413,8 +26413,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2152,
     text: [
-      'You have refined your palate and have a discerning sense of taste that can detect abnormalities in the flavor and texture of food and beverages. When eating food or drinking a beverage, you automatically attempt to identify the ingredients, which might alert you to the presence of alterations or additives, such as poisons. The GM rolls a secret Perception check using the poison&apos;s level to determine the DC; on a success, you learn that the food or drink was poisoned, but not the specific poison used. ',
-      'If you lick or taste something while Investigating or attempting to Recall Knowledge to identify something, if the taste would provide relevant additional information (at the GM&apos;s discretion), you gain a +2 circumstance bonus to your check.',
+      'You have refined your palate and have a discerning sense of taste that can detect abnormalities in the flavor and texture of food and beverages. When eating food or drinking a beverage, you automatically attempt to identify the ingredients, which might alert you to the presence of alterations or additives, such as poisons. The GM rolls a secret Perception check using the poison\'s level to determine the DC; on a success, you learn that the food or drink was poisoned, but not the specific poison used. ',
+      'If you lick or taste something while Investigating or attempting to Recall Knowledge to identify something, if the taste would provide relevant additional information (at the GM\'s discretion), you gain a +2 circumstance bonus to your check.',
     ],
     source: 'Advanced Player\'s Guide pg. 209',
     prerequisites: 'master in Perception',
@@ -26426,7 +26426,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2153,
     text: [
-      'The spells of those you have Demoralized are less effective on you. If you succeed in Demoralizing a creature, for the next 24 hours you gain a +1 circumstance bonus to saving throws against that creature&apos;s spells.',
+      'The spells of those you have Demoralized are less effective on you. If you succeed in Demoralizing a creature, for the next 24 hours you gain a +1 circumstance bonus to saving throws against that creature\'s spells.',
     ],
     source: 'Advanced Player\'s Guide pg. 209',
     prerequisites: 'expert in Intimidation',
@@ -26450,7 +26450,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2155,
     text: [
-      'Your perceptive abilities and ability to process sensory information are so far beyond the pale that you notice minute discrepancies in all sorts of illusions and transmutations. You are constantly under the effects of a 6th-level <i>true seeing</i> spell, using your Perception modifier for the counteract check.',
+      'Your perceptive abilities and ability to process sensory information are so far beyond the pale that you notice minute discrepancies in all sorts of illusions and transmutations. You are constantly under the effects of a 6th-level true seeing spell, using your Perception modifier for the counteract check.',
     ],
     source: 'Advanced Player\'s Guide pg. 209',
     prerequisites: 'legendary in Perception',
@@ -26462,8 +26462,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2156,
     text: [
-      'You&apos;re connected to groups that know what&apos;s going on in the streets, and you can get information out of them quickly. When you use Society to Gather Information in an area where you have a network (typically a settlement where you&apos;ve spent at least a week or spent a day of downtime to build a network faster), you can contact a member of these groups to get information directly from them. This usually takes about an hour, and it doesn&apos;t draw as much attention as Gathering Information in public might. The check and information gained otherwise follow the normal rules for Gather Information.',
-      ' In addition, if you have successfully consulted the underground network, you get a +1 circumstance bonus to the next check to Recall Knowledge you attempt about the subject you were Gathering Information on, or a +2 circumstance bonus if you&apos;re using Underworld Lore for the check. The GM might change the Lore skill related to the network depending on your location or the specifics of the network you&apos;re tapping into.',
+      'You\'re connected to groups that know what\'s going on in the streets, and you can get information out of them quickly. When you use Society to Gather Information in an area where you have a network (typically a settlement where you\'ve spent at least a week or spent a day of downtime to build a network faster), you can contact a member of these groups to get information directly from them. This usually takes about an hour, and it doesn\'t draw as much attention as Gathering Information in public might. The check and information gained otherwise follow the normal rules for Gather Information.',
+      ' In addition, if you have successfully consulted the underground network, you get a +1 circumstance bonus to the next check to Recall Knowledge you attempt about the subject you were Gathering Information on, or a +2 circumstance bonus if you\'re using Underworld Lore for the check. The GM might change the Lore skill related to the network depending on your location or the specifics of the network you\'re tapping into.',
     ],
     source: 'Advanced Player\'s Guide pg. 209',
     prerequisites: 'expert in Society, Streetwise',
@@ -26475,8 +26475,8 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2157,
     text: [
-      'Experience and training have taught you that water has just enough surface tension for a master sprinter to traverse the surface. When you Stride in a straight line, if you move at least half your Speed over ground, you can move any amount of the remaining distance across a level body of water. If you don&apos;t end your Stride on solid ground, you fall into the water. ',
-      'If you&apos;re legendary in Athletics, as long as you start on solid ground, any part of your Stride can cross the water&apos;s surface, even if you aren&apos;t moving a straight line, though you still fall into the water if you don&apos;t end your movement on solid ground.',
+      'Experience and training have taught you that water has just enough surface tension for a master sprinter to traverse the surface. When you Stride in a straight line, if you move at least half your Speed over ground, you can move any amount of the remaining distance across a level body of water. If you don\'t end your Stride on solid ground, you fall into the water. ',
+      'If you\'re legendary in Athletics, as long as you start on solid ground, any part of your Stride can cross the water\'s surface, even if you aren\'t moving a straight line, though you still fall into the water if you don\'t end your movement on solid ground.',
     ],
     source: 'Advanced Player\'s Guide pg. 209',
     prerequisites: 'master in Athletics',
@@ -26488,7 +26488,7 @@ export const feats: FeatCollection = {
     actions: 'free_action',
     id: 2158,
     text: [
-      'Artokus developed a mixture of volatile materials that burns hotter and longer than typical alchemist&apos;s fire. You include this additive mixture when crafting your alchemist&apos;s fire. The alchemist&apos;s fire deals 1d4 persistent fire damage in addition to what the alchemist fire would normally cause (for instance, a moderate alchemist&apos;s fire deals 1d4+2 persistent fire damage). A creature taking persistent fire damage from the alchemist&apos;s fire requires two successful flat checks to end the persistent damage, or one check if the creature had an assisted recovery that reduces the flat check to DC 10. The enhanced alchemist&apos;s fire burns even underwater, and any attempts to end the persistent damage by using water have no effect.\n',
+      'Artokus developed a mixture of volatile materials that burns hotter and longer than typical alchemist\'s fire. You include this additive mixture when crafting your alchemist\'s fire. The alchemist\'s fire deals 1d4 persistent fire damage in addition to what the alchemist fire would normally cause (for instance, a moderate alchemist\'s fire deals 1d4+2 persistent fire damage). A creature taking persistent fire damage from the alchemist\'s fire requires two successful flat checks to end the persistent damage, or one check if the creature had an assisted recovery that reduces the flat check to DC 10. The enhanced alchemist\'s fire burns even underwater, and any attempts to end the persistent damage by using water have no effect.\n',
     ],
     source: 'Legends pg. 20',
     frequency: 'once per round',
@@ -26501,7 +26501,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2159,
     text: [
-      'You have learned Artokus Kirran&apos;s most hidden secrets, granting you the ability to create alchemy infused with the power of wishes. Once per day when you use advanced alchemy during your daily preparations, you can spend a batch of infused reagents to create a wish vial containing a single common arcane spell of your choice of 8th level or lower. The spell must have a casting time of no more than 3 actions, no Cost, and must be able to target you. Only you can Activate the wish vial, which takes the same number of Interact actions as the spell&apos;s casting time and grants you the effects of the spell.',
+      'You have learned Artokus Kirran\'s most hidden secrets, granting you the ability to create alchemy infused with the power of wishes. Once per day when you use advanced alchemy during your daily preparations, you can spend a batch of infused reagents to create a wish vial containing a single common arcane spell of your choice of 8th level or lower. The spell must have a casting time of no more than 3 actions, no Cost, and must be able to target you. Only you can Activate the wish vial, which takes the same number of Interact actions as the spell\'s casting time and grants you the effects of the spell.',
     ],
     source: 'Legends pg. 20',
   },
@@ -26512,7 +26512,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2160,
     text: [
-      'Azaersi has granted you limited access to the Stone Roads, attuning you to the tiniest sliver of the <i>Onyx Key</i>. You gain <i>plane shift</i> as a primal innate spell. You can cast it twice per week. This can be used only to travel back and forth between the Plane of Earth and the Material Plane. Due to your attunement to the <i>Onyx Key</i>, you can act as the spell focus, and you do not require a tuning fork.\n',
+      'Azaersi has granted you limited access to the Stone Roads, attuning you to the tiniest sliver of the Onyx Key. You gain plane shift as a primal innate spell. You can cast it twice per week. This can be used only to travel back and forth between the Plane of Earth and the Material Plane. Due to your attunement to the Onyx Key, you can act as the spell focus, and you do not require a tuning fork.\n',
     ],
     source: 'Legends pg. 28',
   },
@@ -26523,7 +26523,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2161,
     text: [
-      'You love to kick your enemies when they&apos;re down, and you look fabulous when you do. When you make a melee weapon Strike against a foe that has at least two of the following conditions, you gain a circumstance bonus to your damage roll equal to the number of these conditions the foe has. The qualifying conditions are clumsy, drained, enfeebled, frightened, sickened, and stupefied. If you hit such a foe, you gain a +1 circumstance bonus to skill checks to Tumble Through and to perform your style&apos;s panache-granting actions until the end of your turn.',
+      'You love to kick your enemies when they\'re down, and you look fabulous when you do. When you make a melee weapon Strike against a foe that has at least two of the following conditions, you gain a circumstance bonus to your damage roll equal to the number of these conditions the foe has. The qualifying conditions are clumsy, drained, enfeebled, frightened, sickened, and stupefied. If you hit such a foe, you gain a +1 circumstance bonus to skill checks to Tumble Through and to perform your style\'s panache-granting actions until the end of your turn.',
     ],
     source: 'Legends pg. 28',
   },
@@ -26534,7 +26534,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2162,
     text: [
-      'You sense if a creature you have slain in the last year has been restored to life, as long as you and that creature are on the same plane. You also gain the <i>Achaekek&apos;s clutch</i> focus spell. If you don&apos;t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by praying to Achaekek or researching your assigned kill.\n',
+      'You sense if a creature you have slain in the last year has been restored to life, as long as you and that creature are on the same plane. You also gain the Achaekek\'s clutch focus spell. If you don\'t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by praying to Achaekek or researching your assigned kill.\n',
     ],
     source: 'Legends pg. 58',
     archetype: 'Red Mantis Assassin',
@@ -26563,7 +26563,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2164,
     text: [
-      'You&apos;ve mastered the signature assassination style of the Red Mantis. Attempt to Feint an enemy within 30 feet. If your Feint is successful, when you use Prayer Attack on subsequent turns you automatically make the target flat-footed against your melee attacks for that turn without rolling a check to Feint, so as long as you remain visible to the target and the target remains within 30 feet of you. If you use your Prayer Attack against a different target, you must attempt to Feint the target normally.',
+      'You\'ve mastered the signature assassination style of the Red Mantis. Attempt to Feint an enemy within 30 feet. If your Feint is successful, when you use Prayer Attack on subsequent turns you automatically make the target flat-footed against your melee attacks for that turn without rolling a check to Feint, so as long as you remain visible to the target and the target remains within 30 feet of you. If you use your Prayer Attack against a different target, you must attempt to Feint the target normally.',
       ' When you use Prayer Attack, your next successful Strike with a sawtooth saber that turn deals 2d6 persistent bleed damage to the target.',
     ],
     source: 'Legends pg. 58',
@@ -26578,7 +26578,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2165,
     text: [
-      'To resurrect a creature you&apos;ve slain, a spellcaster must counteract your influence on its death. The DC of this check is equal to your class DC or spell DC, whichever is higher. In addition, add two 5th-level spells to your Red Mantis assassin spellbook&#x2014;both spells must be chosen from the following options: <i>death ward</i>, <i>drop dead</i>, <i>false vision</i>, <i>hallucination</i>, <i>illusory scene</i>, <i>mind probe</i>, or <i>sending</i>. You gain a 5th-level spell slot that you can use to prepare a spell from your Red Mantis assassin spellbook.\n',
+      'To resurrect a creature you\'ve slain, a spellcaster must counteract your influence on its death. The DC of this check is equal to your class DC or spell DC, whichever is higher. In addition, add two 5th-level spells to your Red Mantis assassin spellbook&#x2014;both spells must be chosen from the following options: death ward, drop dead, false vision, hallucination, illusory scene, mind probe, or sending. You gain a 5th-level spell slot that you can use to prepare a spell from your Red Mantis assassin spellbook.\n',
     ],
     source: 'Legends pg. 58',
     archetype: 'Red Mantis Assassin',
@@ -26591,7 +26591,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2166,
     text: [
-      'Thanks to Janatimo&apos;s secret techniques, you can weave your knowledge and words into powerful tools to assist your allies in life-threatening situations. When you use Uzunjati Recollection to tell a story and Recall Knowledge about a creature during a combat encounter, if you succeed at both checks, your story carries deeper meaning. This grants your allies a +1 circumstance bonus to their next attack roll and saving throw against the creature during that encounter, as well as to their AC against that creature&apos;s next attack roll during that encounter. If you critically succeed at both checks, the bonuses also apply to all attack rolls, saves, and AC against that creature for 2 rounds.\n',
+      'Thanks to Janatimo\'s secret techniques, you can weave your knowledge and words into powerful tools to assist your allies in life-threatening situations. When you use Uzunjati Recollection to tell a story and Recall Knowledge about a creature during a combat encounter, if you succeed at both checks, your story carries deeper meaning. This grants your allies a +1 circumstance bonus to their next attack roll and saving throw against the creature during that encounter, as well as to their AC against that creature\'s next attack roll during that encounter. If you critically succeed at both checks, the bonuses also apply to all attack rolls, saves, and AC against that creature for 2 rounds.\n',
     ],
     source: 'Legends pg. 61',
     archetype: 'Magaambyan Attendant',
@@ -26617,7 +26617,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2168,
     text: [
-      'You gain the <i>shall not falter, shall not rout focus</i> spell. If you don&apos;t already have one, you gain a focus pool of 1 Focus Point, which you can regain using the Refocus activity to recite the Crimson Oath and meditate on its teachings. If you already have a focus pool, increase the number of Focus Points in your focus pool by 1. Your knight reclaimant focus spells are divine spells; when you gain this feat, you become trained in divine spell attacks and spell DCs and your spellcasting ability is Charisma.\n',
+      'You gain the shall not falter, shall not rout focus spell. If you don\'t already have one, you gain a focus pool of 1 Focus Point, which you can regain using the Refocus activity to recite the Crimson Oath and meditate on its teachings. If you already have a focus pool, increase the number of Focus Points in your focus pool by 1. Your knight reclaimant focus spells are divine spells; when you gain this feat, you become trained in divine spell attacks and spell DCs and your spellcasting ability is Charisma.\n',
     ],
     source: 'Legends pg. 69',
     archetype: 'Knight Reclaimant',
@@ -26630,7 +26630,7 @@ export const feats: FeatCollection = {
     actions: 'two_actions',
     id: 2169,
     text: [
-      'As part of daily preparation, you can drill with a number of allies up to your Charisma modifier. These allies must be present and listening during this time, but this does not otherwise impede their own preparation. When you use this feat&apos;s benefit, you and all drilled companions within 30 feet who are wielding shields Raise a Shield. Allies who Raise their Shields keep them raised until the start of their next turn, as normal.\n',
+      'As part of daily preparation, you can drill with a number of allies up to your Charisma modifier. These allies must be present and listening during this time, but this does not otherwise impede their own preparation. When you use this feat\'s benefit, you and all drilled companions within 30 feet who are wielding shields Raise a Shield. Allies who Raise their Shields keep them raised until the start of their next turn, as normal.\n',
     ],
     source: 'Legends pg. 69',
     archetype: 'Knight Vigilant',
@@ -26643,7 +26643,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2170,
     text: [
-      'Kassi has taught you not only how to apply medicines with your medical skills but how to craft them as well. When you Craft healer&apos;s kits, vaccines, addiction suppressants, antidotes, antiplagues, elixirs of life, or other non-magical medical or healing items, you can use Medicine instead of Crafting.',
+      'Kassi has taught you not only how to apply medicines with your medical skills but how to craft them as well. When you Craft healer\'s kits, vaccines, addiction suppressants, antidotes, antiplagues, elixirs of life, or other non-magical medical or healing items, you can use Medicine instead of Crafting.',
     ],
     source: 'Legends pg. 72',
     prerequisites: 'trained in Medicine',
@@ -26655,7 +26655,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2171,
     text: [
-      'Kassi Aziril taught you her techniques that originated the modern use of Battle Medicine. When you successfully use Battle Medicine, you can also reduce the target&apos;s sickened, enfeebled, or clumsy condition by 1 (this has no effect if you are subject to an effect continually applying the clumsy condition, like <i>enlarge</i>). If you are legendary in Medicine, you can choose to reduce the target&apos;s frightened or stunned condition by 1 instead, and if you have the Godless Healing feat, you can choose to reduce the target&apos;s stupefied or drained condition by 1 instead. If you have the Mortal Healing feat, you can reduce all available conditions by 1 for a target who hasn&apos;t benefited from positive or healing magic in the last 24 hours, and if you roll a critical success before applying the effects of the feat, you reduce all available conditions by 2 for that target instead.\n',
+      'Kassi Aziril taught you her techniques that originated the modern use of Battle Medicine. When you successfully use Battle Medicine, you can also reduce the target\'s sickened, enfeebled, or clumsy condition by 1 (this has no effect if you are subject to an effect continually applying the clumsy condition, like enlarge). If you are legendary in Medicine, you can choose to reduce the target\'s frightened or stunned condition by 1 instead, and if you have the Godless Healing feat, you can choose to reduce the target\'s stupefied or drained condition by 1 instead. If you have the Mortal Healing feat, you can reduce all available conditions by 1 for a target who hasn\'t benefited from positive or healing magic in the last 24 hours, and if you roll a critical success before applying the effects of the feat, you reduce all available conditions by 2 for that target instead.\n',
     ],
     source: 'Legends pg. 72',
     prerequisites: 'Battle Medicine, master in Medicine',
@@ -26667,7 +26667,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2172,
     text: [
-      'You become trained in your choice of Deception or Diplomacy and in Mzali Lore; if you were already trained, you become an expert instead. You incorporate enough worship of Walkena in your daily life to avoid suspicion. You typically don&apos;t need to Lie or Impersonate to pass yourself off as a worshipper of Walkena. Against careful inspection, you gain a +4 circumstance bonus to Deception checks specifically to pass yourself off as a version of yourself faithful to Walkena.',
+      'You become trained in your choice of Deception or Diplomacy and in Mzali Lore; if you were already trained, you become an expert instead. You incorporate enough worship of Walkena in your daily life to avoid suspicion. You typically don\'t need to Lie or Impersonate to pass yourself off as a worshipper of Walkena. Against careful inspection, you gain a +4 circumstance bonus to Deception checks specifically to pass yourself off as a version of yourself faithful to Walkena.',
     ],
     source: 'Legends pg. 101',
     archetype: 'Bright Lion',
@@ -26683,7 +26683,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2173,
     text: [
-      'You gain a tattoo that serves as a special ward to defend you against Walkena&apos;s forces. The tattoo allows you to cast the <i>light</i> cantrip as a divine innate spell at will. The cantrip is heightened to a spell level equal to half your level rounded up. If you die, the tattoo immediately casts <i>gentle repose</i> on your corpse, heightened to the same spell level.\n',
+      'You gain a tattoo that serves as a special ward to defend you against Walkena\'s forces. The tattoo allows you to cast the light cantrip as a divine innate spell at will. The cantrip is heightened to a spell level equal to half your level rounded up. If you die, the tattoo immediately casts gentle repose on your corpse, heightened to the same spell level.\n',
     ],
     source: 'Legends pg. 101',
     archetype: 'Bright Lion',
@@ -26696,7 +26696,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2174,
     text: [
-      'The Old Sun Gods have granted you a gift in your fight against Walkena. You gain the <i>sun&apos;s fury</i> focus spell. If you don&apos;t already have one, you gain a focus pool of 1 Focus Point, which you can regain using the Refocus activity to pray to the Old Sun Gods; if you already have a focus pool, increase the number of Focus Points in your focus pool by 1. Your Bright Lion focus spells are divine spells; when you gain this feat, if you aren&apos;t already, you become trained in divine spell attacks and spell DCs, using Charisma as your spellcasting ability score.',
+      'The Old Sun Gods have granted you a gift in your fight against Walkena. You gain the sun\'s fury focus spell. If you don\'t already have one, you gain a focus pool of 1 Focus Point, which you can regain using the Refocus activity to pray to the Old Sun Gods; if you already have a focus pool, increase the number of Focus Points in your focus pool by 1. Your Bright Lion focus spells are divine spells; when you gain this feat, if you aren\'t already, you become trained in divine spell attacks and spell DCs, using Charisma as your spellcasting ability score.',
     ],
     source: 'Legends pg. 101',
     archetype: 'Bright Lion',
@@ -26737,7 +26737,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2186,
     text: [
-      'Your internal organs and blood vessels have shifted and changed, and even you don&apos;t know precisely where in your body they are. You gain resistance to precision damage equal to 2 + your number of class feats from the oozemorph archetype. The DC of your flat checks to recover from persistent bleed damage is 13, rather than 15.',
+      'Your internal organs and blood vessels have shifted and changed, and even you don\'t know precisely where in your body they are. You gain resistance to precision damage equal to 2 + your number of class feats from the oozemorph archetype. The DC of your flat checks to recover from persistent bleed damage is 13, rather than 15.',
     ],
     source: 'The Slithering pg. 59',
     archetype: 'Oozemorph',
@@ -26750,7 +26750,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2187,
     text: [
-      'Your throat has multiple separate chambers that can give your voice an eerie echo. You can be clearly heard at distances of up to 300 feet regardless of ambient sound, although your voice doesn&apos;t penetrate a magical <i>silence</i> effect.',
+      'Your throat has multiple separate chambers that can give your voice an eerie echo. You can be clearly heard at distances of up to 300 feet regardless of ambient sound, although your voice doesn\'t penetrate a magical silence effect.',
     ],
     source: 'The Slithering pg. 59',
     archetype: 'Oozemorph',
@@ -26778,7 +26778,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2189,
     text: [
-      'You can connect with oozes (and other amorphous aberrations, at the GM&apos;s discretion) on a rudimentary level. You can use Diplomacy to Make an Impression on oozes and to make very simple Requests of them. In most instances, oozes will give you time to make your case.',
+      'You can connect with oozes (and other amorphous aberrations, at the GM\'s discretion) on a rudimentary level. You can use Diplomacy to Make an Impression on oozes and to make very simple Requests of them. In most instances, oozes will give you time to make your case.',
     ],
     source: 'The Slithering pg. 59',
     archetype: 'Oozemorph',
@@ -26792,7 +26792,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2190,
     text: [
-      'Your skin develops a malleable, rubbery quality. You gain resistance to bludgeoning damage equal to 2 + your number of class feats from the oozemorph archetype. You also gain resistance equal to twice that amount to extra damage from critical hits; if the resistance is greater than the extra damage, it reduces the extra damage to 0 but doesn&apos;t reduce the attack&apos;s normal damage.',
+      'Your skin develops a malleable, rubbery quality. You gain resistance to bludgeoning damage equal to 2 + your number of class feats from the oozemorph archetype. You also gain resistance equal to twice that amount to extra damage from critical hits; if the resistance is greater than the extra damage, it reduces the extra damage to 0 but doesn\'t reduce the attack\'s normal damage.',
     ],
     source: 'The Slithering pg. 59',
     archetype: 'Oozemorph',
@@ -26847,7 +26847,7 @@ export const feats: FeatCollection = {
     actions: 'three_actions',
     id: 2194,
     text: [
-      'You read the body language of an intelligent creature within 30 feet and pick up on subtle cues to detect its general propensity for good or evil and law or chaos. The GM rolls a secret Perception check, comparing the result against the target&apos;s Deception DC.\n',
+      'You read the body language of an intelligent creature within 30 feet and pick up on subtle cues to detect its general propensity for good or evil and law or chaos. The GM rolls a secret Perception check, comparing the result against the target\'s Deception DC.\n',
     ],
     source: 'Pathfinder #157: Devil at the Dreaming Palace pg. 79',
     archetype: 'Edgewatch Detective',
@@ -26866,7 +26866,7 @@ export const feats: FeatCollection = {
     actions: null,
     id: 2195,
     text: [
-      'You can sense the presence of the supernatural, even if you don&apos;t have any magical ability yourself. You can spend a single action (this action has the concentrate trait) to determine if any magical auras are present in the area. This has the effects of a 1st-level <i>detect magic</i> spell but isn&apos;t magical. By straining, you can also discover the source of the magic and its school (with the effect of a 4th-level <i>detect magic</i> spell), but doing so prevents you from using this ability again until you&apos;ve rested for 8 hours.\n',
+      'You can sense the presence of the supernatural, even if you don\'t have any magical ability yourself. You can spend a single action (this action has the concentrate trait) to determine if any magical auras are present in the area. This has the effects of a 1st-level detect magic spell but isn\'t magical. By straining, you can also discover the source of the magic and its school (with the effect of a 4th-level detect magic spell), but doing so prevents you from using this ability again until you\'ve rested for 8 hours.\n',
     ],
     source: 'Pathfinder #157: Devil at the Dreaming Palace pg. 79',
     archetype: 'Edgewatch Detective',

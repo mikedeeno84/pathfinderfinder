@@ -1,0 +1,32 @@
+<table class="feat-table">
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Traits
+      </th>
+      <th>
+        Level
+      </th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let feat of feats | fullFilter: filter">
+    <tr class="top-level">
+      <td>{{ feat.name }}</td>
+      <td>
+        <span *ngFor="let traitDisplay of feat.traits; last as isLast">
+          {{ traitDisplay }}{{ isLast ? "" : ", " }}
+        </span>
+      </td>
+      <td>{{ feat.level }}</td>
+    </tr>
+    <tr *ngIf="feat.actions">Action: {{ feat.actions }}</tr>
+    <tr>
+      <td colspan="3">
+        {{ feat.text }}
+      </td>
+    </tr>
+  </tbody>
+</table>

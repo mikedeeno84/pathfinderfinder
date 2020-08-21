@@ -1,21 +1,9 @@
-<div>
-  <app-filter-group></app-filter-group>
-</div>
-<div>
-  <h1>Its like anon but with better styling</h1>
-  <ul>
-    <li *ngFor="let feat of feats | fullFilter: filter ">
-      <h2>{{ feat.name }} {{ feat.level }}</h2>
-      <h3>
-        Traits:
-        <span *ngFor="let traitDisplay of feat.traits; last as isLast"
-          >{{ traitDisplay }}{{ isLast ? "" : ", " }}</span
-        >
-      </h3>
-      <p>{{ feat.text }}</p>
-      <ul>
-        <li *ngFor="let key of filterKeyList(feat)">{{ key }}: {{ feat[key] }}</li>
-      </ul>
-    </li>
-  </ul>
+<div class="main-container">
+  <h1>Its like AON but will eventually have better styling</h1>
+  <div>
+    <app-filter-group [filterKey]="FILTER_KEY"></app-filter-group>
+  </div>
+  <div>
+    <app-feat-table [feats]="feats" [filterKey]="FILTER_KEY"></app-feat-table>
+  </div>
 </div>

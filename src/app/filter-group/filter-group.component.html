@@ -1,18 +1,24 @@
 <form [formGroup]="filterForm">
-  <mat-form-field>
-    <mat-label>Search:</mat-label>
-    <input type="text" formControlName="$" matInput />
-  </mat-form-field>
-  <label for="traits">Traits</label>
-  <ng-select [multiple]="true" formControlName="traits" name="traits">
-    <ng-option *ngFor="let trait of traitList" [value]="trait">
-      {{ trait }}
-    </ng-option>
-  </ng-select>
-  <label for="actions">Actions</label>
-  <ng-select formControlName="actions" name="actions">
-    <ng-option *ngFor="let action of actionList" [value]="action">
-      {{ action }}
-    </ng-option>
-  </ng-select>
+  <div fxLayout="row" fxLayoutAlign="bottom center" fxLayoutGap="20px">
+    <div fxFlex="25" fxLayout="column">
+        <div>Search:</div>
+        <input type="text" formControlName="$" matInput />
+    </div>
+    <div fxFlex>
+      <label for="traits">Traits</label>
+      <ng-select [multiple]="true" formControlName="traits" name="traits">
+        <ng-option *ngFor="let trait of traitList" [value]="trait">
+          {{ trait }}
+        </ng-option>
+      </ng-select>
+    </div>
+    <div fxFlex>
+      <label for="actions">Actions</label>
+      <ng-select formControlName="actions" name="actions">
+        <ng-option *ngFor="let action of actionList" [value]="action">
+          {{ action }}
+        </ng-option>
+      </ng-select>
+    </div>
+  </div>
 </form>

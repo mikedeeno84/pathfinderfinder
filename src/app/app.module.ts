@@ -11,6 +11,8 @@ import { FilterGroupComponent } from './filter-group/filter-group.component';
 import { FeatListComponent } from './feat-list/feat-list.component';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { FormsModule } from '@angular/forms';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { FeatTableComponent } from './feat-table/feat-table.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     SmartSearchPipe,
     FullFilterPipe,
     FilterGroupComponent,
-    FeatListComponent
+    FeatListComponent,
+    FeatTableComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,8 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     MaterialImportsModule,
     NgSelectModule,
-    FormsModule
+    FormsModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

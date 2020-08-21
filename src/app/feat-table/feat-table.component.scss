@@ -1,0 +1,16 @@
+@import '../../variables.scss'; 
+.feat-table {
+    th {
+        text-align: left;
+        font-size: $feat-table-header-size;
+    }
+    .top-level td {
+        padding-top: 20px;
+        border-bottom: $standard-border;
+        font-weight: bold;
+    }
+    tbody {
+        border: $standard-border;
+    }
+
+}

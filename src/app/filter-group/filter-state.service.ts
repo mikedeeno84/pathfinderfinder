@@ -5,14 +5,17 @@ import { BehaviorSubject, Observable } from 'rxjs';
 })
 export class FilterStateService {
   constructor() {}
-  private filterState: BehaviorSubject<FilterState> = new BehaviorSubject({
-    $: '',
-  });
-  public getFilters(): Observable<FilterState> {
-    return this.filterState.asObservable();
+  private filterStates: { [filterKey: string]: BehaviorSubject<FilterState> } = {
+
+  };
+  public getFilters(filterKey: string): Observable<FilterState> {
+    if (!this.filterStates[filterKey]) {
+      this.filterStates[filterKey] = new BehaviorSubject({ $: '', });
+    } 
+    return this.filterStates[filterKey].asObservable();
   }
-  public setFilters(filter: FilterState): void {
-    this.filterState.next(filter);
+  public setFilters(filterKey: string , filter: FilterState): void {
+    this.filterStates[filterKey].next(filter);
   }
 }
 export interface FilterState {

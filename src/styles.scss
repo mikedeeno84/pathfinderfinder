@@ -2,5 +2,9 @@
 
 @import '~@ng-select/ng-select/themes/material.theme.css';
 @import '@angular/material/prebuilt-themes/purple-green.css';
+@import './variables.scss';
 html, body { height: 100%; color: black }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    font-size: $standard-font-size;
+ }
