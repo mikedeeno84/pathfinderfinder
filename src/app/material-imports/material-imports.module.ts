@@ -5,7 +5,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatChipsModule } from '@angular/material/chips';
-import {LayoutModule} from '@angular/cdk/layout';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { LayoutModule } from '@angular/cdk/layout';
 
 @NgModule({
   declarations: [],
@@ -15,8 +17,10 @@ import {LayoutModule} from '@angular/cdk/layout';
     MatFormFieldModule,
     MatInputModule,
     MatAutocompleteModule,
-    MatChipsModule, 
-    LayoutModule
+    MatChipsModule,
+    LayoutModule,
+    MatTableModule,
+    MatPaginatorModule,
   ],
   exports: [
     MatSelectModule,
@@ -24,7 +28,9 @@ import {LayoutModule} from '@angular/cdk/layout';
     MatInputModule,
     MatAutocompleteModule,
     MatChipsModule,
-    LayoutModule
-  ]
+    LayoutModule,
+    MatTableModule,
+    MatPaginatorModule,
+  ],
 })
 export class MaterialImportsModule {}

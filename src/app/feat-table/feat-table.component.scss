@@ -1,5 +1,6 @@
 @import '../../variables.scss'; 
 .feat-table {
+    width: 100%;
     th {
         text-align: left;
         font-size: $feat-table-header-size;

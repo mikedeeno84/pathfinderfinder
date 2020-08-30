@@ -53,4 +53,25 @@ export class UtilsService {
     }
     return containsMatch;
   }
+  public fullFilter(
+    value: object[],
+    query: { $?: string; [otherFields: string]: any }
+  ): any[] {
+    let filteredValue = [...value];
+    if (query) {
+      if (query.$) {
+        filteredValue = filteredValue.filter((element) =>
+          this.smartSearchHelper(element, query.$)
+        );
+      }
+      const otherFields = { ...query };
+      delete otherFields.$;
+      if (Object.keys(otherFields).length > 0) {
+        filteredValue = filteredValue.filter(element => {
+          return this.matchesQuery(element, otherFields);
+        });
+      }
+    }
+    return filteredValue;
+  }
 }
