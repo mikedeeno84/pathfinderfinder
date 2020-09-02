@@ -12,7 +12,9 @@ import { FeatListComponent } from './feat-list/feat-list.component';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { FormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { FeatTableComponent } from './feat-table/feat-table.component';
+import { MasterTableComponent } from './master-table/master-table.component';
+import { FeatComponent } from './feat/feat.component';
+import { SpellComponent } from './spell/spell.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { FeatTableComponent } from './feat-table/feat-table.component';
     FullFilterPipe,
     FilterGroupComponent,
     FeatListComponent,
-    FeatTableComponent
+    MasterTableComponent,
+    FeatComponent,
+    SpellComponent
   ],
   imports: [
     BrowserModule,

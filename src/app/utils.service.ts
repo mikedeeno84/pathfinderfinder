@@ -34,7 +34,7 @@ export class UtilsService {
   public matchesQuery(input: any, query: object): boolean {
     let containsMatch = true;
     for (const propToCheck in query) {
-      if (query.hasOwnProperty(propToCheck)) {
+      if (query.hasOwnProperty(propToCheck) && query[propToCheck]) {
         const valueToCheck = query[propToCheck];
         const inputToCheck = input[propToCheck];
         if (typeof valueToCheck === 'string' || typeof valueToCheck === 'number') {

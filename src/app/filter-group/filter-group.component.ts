@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy, Input, OnChanges } from '@angular/core';
-import { GetFeatsService } from '@app/get-feats.service';
+import { GetDataService } from '@app/get-data.service';
 import { FormGroup, FormControl } from '@angular/forms';
 import { FilterStateService } from '@app/filter-group/filter-state.service';
 import { Subscription } from 'rxjs';
@@ -10,9 +10,9 @@ import { debounceTime } from 'rxjs/operators';
   templateUrl: './filter-group.component.html',
   styleUrls: ['./filter-group.component.scss'],
 })
-export class FilterGroupComponent implements OnInit, OnDestroy, OnChanges {
+export class FilterGroupComponent implements OnInit, OnDestroy {
   constructor(
-    private getFeatsService: GetFeatsService,
+    private getFeatsService: GetDataService,
     private filterStateService: FilterStateService
   ) {}
   @Input()
@@ -24,20 +24,20 @@ export class FilterGroupComponent implements OnInit, OnDestroy, OnChanges {
   private subscriptions: Subscription[] = [];
 
   ngOnInit(): void {
+    this.filterStateService.initFilter(this.filterKey);
     this.traitList = this.getFeatsService.getTraitList();
     this.actionList = this.getFeatsService.getActionList();
     this.filterForm = new FormGroup({
       $: new FormControl(),
       traits: new FormControl(),
-      actions: new FormControl()
+      actions: new FormControl(),
+      itemType: new FormControl('feat')
     });
     const filterSub = this.filterForm.valueChanges.pipe(debounceTime(500)).subscribe((filterData) => {
       this.filterStateService.setFilters(this.filterKey, filterData);
     });
     this.subscriptions.push(filterSub);
-  }
-  ngOnChanges(changeDetails) {
-    console.log(changeDetails)
+    this.filterStateService.setFilters(this.filterKey, this.filterForm.value);
   }
   ngOnDestroy(): void {
     this.subscriptions.forEach((sub) => {

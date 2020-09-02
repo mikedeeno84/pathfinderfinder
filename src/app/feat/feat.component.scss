@@ -1,0 +1,10 @@
+@import '../../variables.scss'; 
+.feat-wrapper{
+    .feat-row {
+        font-size: $master-table-header-size;
+    }
+    .feat-section {
+        padding: 5px 0px;
+    }
+    padding: 10px 0px;
+}

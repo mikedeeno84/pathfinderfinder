@@ -8,6 +8,7 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { LayoutModule } from '@angular/cdk/layout';
+import {MatRadioModule} from '@angular/material/radio';
 
 @NgModule({
   declarations: [],
@@ -21,6 +22,7 @@ import { LayoutModule } from '@angular/cdk/layout';
     LayoutModule,
     MatTableModule,
     MatPaginatorModule,
+    MatRadioModule,
   ],
   exports: [
     MatSelectModule,
@@ -31,6 +33,7 @@ import { LayoutModule } from '@angular/cdk/layout';
     LayoutModule,
     MatTableModule,
     MatPaginatorModule,
+    MatRadioModule,
   ],
 })
 export class MaterialImportsModule {}

@@ -1,9 +1,10 @@
 @import '../../variables.scss'; 
-.feat-table {
+.master-table {
     width: 100%;
+    padding-top: 10px;
     th {
         text-align: left;
-        font-size: $feat-table-header-size;
+        font-size: $master-table-header-size;
     }
     .top-level td {
         padding-top: 20px;

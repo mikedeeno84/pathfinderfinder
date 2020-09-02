@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { GetFeatsService } from './get-feats.service';
-import { Feat } from 'src/assets/utils';
+import { GetDataService } from './get-data.service';
+import { Feat, Spell } from 'src/assets/utils';
 
 @Component({
   selector: 'app-root',
@@ -8,15 +8,13 @@ import { Feat } from 'src/assets/utils';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  constructor(
-    private getFeatsService: GetFeatsService
-  ) {}
+  constructor(private getDataService: GetDataService) {}
   public FILTER_KEY = 'HOME_FILTER';
   title = 'better-aon';
   feats: Feat[];
- 
+  spells: Spell[];
   ngOnInit(): void {
-    this.feats = Object.values(this.getFeatsService.getFeats()).sort((a, b) => {
+    this.feats = this.getDataService.getFeats().sort((a, b) => {
       if (a.name < b.name) {
         return -1;
       }
@@ -25,6 +23,14 @@ export class AppComponent implements OnInit {
       }
       return 0;
     });
-
+    this.spells = this.getDataService.getSpellList().sort((a, b) => {
+      if (a.name < b.name) {
+        return -1;
+      }
+      if (b.name > a.name) {
+        return 1;
+      }
+      return 0;
+    });
   }
 }

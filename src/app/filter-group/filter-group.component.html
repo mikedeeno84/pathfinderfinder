@@ -1,9 +1,19 @@
 <form [formGroup]="filterForm">
   <div fxLayout="row" fxLayoutAlign="bottom center" fxLayoutGap="20px">
-    <div fxFlex="25" fxLayout="column">
-        <div>Search:</div>
+    <div fxFlex="50" fxLayout="column">
+        <label>Search:</label>
         <input type="text" formControlName="$" matInput />
     </div>
+    <div fxFlex="50">
+      <label for="type">Item Type</label>
+      <mat-radio-group formControlName="itemType" name="itemType">
+        <mat-radio-button value="feat">Feat</mat-radio-button>
+        <mat-radio-button value="spell">Spell</mat-radio-button>
+        <mat-radio-button value="">All</mat-radio-button>
+      </mat-radio-group>
+    </div>
+  </div>
+  <div fxLayout="row" fxLayoutAlign="bottom center" fxLayoutGap="20px">
     <div fxFlex>
       <label for="traits">Traits</label>
       <ng-select [multiple]="true" formControlName="traits" name="traits">

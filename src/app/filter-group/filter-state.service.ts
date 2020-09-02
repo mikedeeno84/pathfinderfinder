@@ -9,10 +9,13 @@ export class FilterStateService {
 
   };
   public getFilters(filterKey: string): Observable<FilterState> {
-    if (!this.filterStates[filterKey]) {
-      this.filterStates[filterKey] = new BehaviorSubject({ $: '', });
-    } 
     return this.filterStates[filterKey].asObservable();
+  }
+  public initFilter(filterKey, filterValue?: FilterState): void {
+    const initValue = filterValue || { $: '', };
+    if (!this.filterStates[filterKey]) {
+      this.filterStates[filterKey] = new BehaviorSubject(initValue);
+    }
   }
   public setFilters(filterKey: string , filter: FilterState): void {
     this.filterStates[filterKey].next(filter);

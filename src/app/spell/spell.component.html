@@ -1,0 +1,37 @@
+<div fxLayout="column" fxFlex class="spell-wrapper">
+    <div fxLayout="row" fxLayoutAlign="space-between center" class="spell-row" fxFlex>
+        <div>
+            Name: {{ spell.name }}
+        </div>
+        <div fxLayout="row">
+            Traits: 
+            <div *ngFor="let traitDisplay of spell.traits; last as isLast">
+                {{ traitDisplay }}{{ isLast ? "" : ", " }}
+            </div>
+        </div>
+        <div>
+            {{ spell.level }}
+        </div>
+    </div>
+    <div fxFlex>
+        <hr>
+    </div>
+    <div *ngIf="spell.action" class="spell-section">
+        Action:
+        {{ spell.action | titlecase }}
+    </div>
+    <div class="spell-section">
+        <span
+        class="additional-prop"
+        *ngFor="let extendedField of getExtendedKeyListPerspell(spell)"
+      >
+        <span class="additional-prop-name"
+          >{{ extendedField.propName | titlecase }}: </span
+        >{{ extendedField.value }}
+      </span>
+    </div>
+    <div class="spell-section">
+        {{ spell.text }}
+    </div>
+
+</div> 
