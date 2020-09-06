@@ -15,6 +15,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MasterTableComponent } from './master-table/master-table.component';
 import { FeatComponent } from './feat/feat.component';
 import { SpellComponent } from './spell/spell.component';
+import { PadComponent } from './pad/pad.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SpellComponent } from './spell/spell.component';
     FeatListComponent,
     MasterTableComponent,
     FeatComponent,
-    SpellComponent
+    SpellComponent,
+    PadComponent
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,12 @@
     <app-filter-group [filterKey]="FILTER_KEY"></app-filter-group>
   </div>
   <div>
-    <app-master-table [feats]="feats" [spells]="spells"  [filterKey]="FILTER_KEY"></app-master-table>
+    <mat-drawer-container class="example-container">
+      <mat-drawer mode="side" #drawer autosize="false"><app-pad></app-pad></mat-drawer>
+      <div>
+        <button mat-button (click)="drawer.toggle()">Show Pad</button>
+        <app-master-table [feats]="feats" [spells]="spells"  [filterKey]="FILTER_KEY"></app-master-table>
+      </div>
+    </mat-drawer-container>
   </div>
 </div>

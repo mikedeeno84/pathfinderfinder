@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { GetDataService } from './get-data.service';
 import { Feat, Spell } from 'src/assets/utils';
+import { MatDrawer } from '@angular/material/sidenav';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,10 @@ export class AppComponent implements OnInit {
   title = 'better-aon';
   feats: Feat[];
   spells: Spell[];
+  showPad: boolean;
+  @ViewChild(MatDrawer, { static: true }) drawer: MatDrawer;
   ngOnInit(): void {
+    console.log(this.drawer);
     this.feats = this.getDataService.getFeats().sort((a, b) => {
       if (a.name < b.name) {
         return -1;

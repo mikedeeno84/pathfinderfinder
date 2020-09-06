@@ -1,9 +1,10 @@
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
-import { FeatEntry, Spell, Feat } from 'src/assets/utils';
+import { Spell, Feat } from 'src/assets/utils';
 import {
   FilterStateService,
   FilterState,
 } from '@app/filter-group/filter-state.service';
+import { PadService } from '@app/pad.service';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { UtilsService } from '@app/utils.service';
@@ -15,7 +16,8 @@ import { UtilsService } from '@app/utils.service';
 export class MasterTableComponent implements OnInit {
   constructor(
     private filterStateService: FilterStateService,
-    private utilsService: UtilsService
+    private utilsService: UtilsService,
+    private padService: PadService
   ) {}
   @Input()
   filterKey: string;
@@ -54,9 +56,14 @@ export class MasterTableComponent implements OnInit {
     this.dataSource.paginator = this.paginator;
     console.log(this.filterKey);
   }
-  addToPad(item: FeatEntry): void {
+  addToPad(item: Feat | Spell): void {
+    if (item.itemType === 'feat') {
+      this.padService.addFeat(item);
+    } else if (item.itemType === 'spell') {
+      this.padService.addSpell(item);
+    }
   }
-  getDisplay(row: FeatEntry): string {
+  getDisplay(row: Feat): string {
     if (row.actions) {
       return 'table-row';
     } else {

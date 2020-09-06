@@ -7,14 +7,16 @@
   <ng-container matColumnDef="details">
     <th mat-header-cell *matHeaderCellDef colspan="3">details</th>
     <td mat-cell *matCellDef="let element" colspan="3">
-      <div fxLayout="row" fxLayoutAlign="space-between start">
+      <div fxLayout="row" fxLayoutAlign="space-between center">
         <div fxFlex fxLayout="column">
           <div>Type: {{ element.itemType | titlecase }}</div>
           <app-feat *ngIf="element.itemType === 'feat' " [feat]="element"></app-feat>
           <app-spell *ngIf="element.itemType === 'spell' " [spell]="element"></app-spell>
         </div>
-        <div>
-          <mat-button (click)="addToPad(element)">Add</mat-button>
+        <div class="button-container">
+          <button (click)="addToPad(element)" mat-mini-fab color="primary">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" class="material-icons">add</mat-icon>
+          </button>
         </div>
       </div>
     </td>

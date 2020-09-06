@@ -2,5 +2,8 @@
     .main-container {
 
         margin: 10px; 
+        mat-drawer {
+            max-width: 25%;
+        }
     }
 }
