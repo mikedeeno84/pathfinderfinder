@@ -49,13 +49,13 @@ export class UtilsService {
           typeof valueToCheck === 'number'
         ) {
           containsMatch = isEqual(inputToCheck, valueToCheck);
-        } else if (Array.isArray(valueToCheck)) {
+        } else if (Array.isArray(valueToCheck) && valueToCheck.length) {
           containsMatch = valueToCheck.some((value) => {
             return (inputToCheck as any).some((inputValue) =>
             this.checkEqual(inputValue, value)
             );
           });
-        } else if (valueToCheck && typeof valueToCheck === 'object') {
+        } else if (valueToCheck && typeof valueToCheck === 'object' && Object.keys(valueToCheck).length) {
           return Object.keys(valueToCheck).some((key) => {
             return this.checkEqual(valueToCheck[key], inputToCheck[key]);
           });
