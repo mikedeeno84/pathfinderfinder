@@ -17,12 +17,12 @@ export class PadService {
   }
   public addFeat(feat: Feat): void {
     const newState = { ...this.getPadState() };
-    newState.feats = [...newState.feats, feat];
+    newState.feats.push(feat);
     this.padStateSubject.next(newState);
   }
   public addSpell(spell: Spell): void {
     const newState = { ...this.getPadState() };
-    newState.spells = [...newState.spells, spell];
+    newState.spells.push(spell);
     this.padStateSubject.next(newState);
   }
   public removeItem(item: Spell | Feat): void {
@@ -34,13 +34,13 @@ export class PadService {
   }
   private removeFeat(feat: Feat): void {
     const newState = { ...this.getPadState() };
-    const feats = [...newState.feats];
+    // const feats = [...newState.feats];
     let featIndex;
-    for (let i = 0; i < feats.length; i++) {
-      if (feats[i].name === feat.name) {
+    for (let i = 0; i < newState.feats.length; i++) {
+      if (newState.feats[i].name === feat.name) {
         featIndex = i;
-        feats.splice(featIndex, 1);
-        newState.feats = feats;
+        newState.feats.splice(featIndex, 1);
+        newState.feats = newState.feats;
         this.padStateSubject.next(newState);
         break;
       }
@@ -48,13 +48,12 @@ export class PadService {
   }
   private removeSpell(spell: Spell): void {
     const newState = { ...this.getPadState() };
-    const spells = [...newState.spells];
     let spellIndex;
-    for (let i = 0; i < spells.length; i++) {
-      if (spells[i].name === spell.name) {
+    for (let i = 0; i < newState.spells.length; i++) {
+      if (newState.spells[i].name === spell.name) {
         spellIndex = i;
-        spells.splice(spellIndex, 1);
-        newState.spells = spells;
+        newState.spells.splice(spellIndex, 1);
+        newState.spells = newState.spells;
         this.padStateSubject.next(newState);
         break;
       }
