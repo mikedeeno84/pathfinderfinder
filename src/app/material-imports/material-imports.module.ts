@@ -11,6 +11,7 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [],
@@ -27,6 +28,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatRadioModule,
     MatButtonModule,
     MatSidenavModule,
+    MatIconModule,
   ],
   exports: [
     MatSelectModule,
@@ -40,6 +42,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatRadioModule,
     MatButtonModule,
     MatSidenavModule,
+    MatIconModule,
   ],
 })
 export class MaterialImportsModule {}

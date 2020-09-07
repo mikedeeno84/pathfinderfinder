@@ -1,0 +1,18 @@
+<div fxLayout="row" fxFlex>
+    <div>
+        <button mat-icon-button (click)="expanded=!expanded">
+            <mat-icon class="material-icons">{{ expanded ? 'keyboard_arrow_down' : 'keyboard_arrow_right' }}</mat-icon>
+        </button>
+    </div>
+    <div *ngIf="item.itemType === 'feat'" fxFlex>
+        <app-feat [feat]="item" [expanded]="expanded"></app-feat>
+    </div>
+    <div *ngIf="item.itemType === 'spell'" fxFlex>
+        <app-spell [spell]="item" [expanded]="expanded"></app-spell>
+    </div>
+    <div>
+        <button mat-icon-button (click)="removeItem(item)">
+            <mat-icon class="material-icons">remove_circle_outline</mat-icon>
+        </button>
+    </div>
+</div>

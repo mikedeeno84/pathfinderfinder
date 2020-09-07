@@ -1,27 +1,35 @@
 <div fxLayout="column" fxFlex class="feat-wrapper">
-    <div fxLayout="row" fxLayoutAlign="space-between center" class="feat-row" fxFlex>
-        <div>
-            Name: {{ feat.name }}
-        </div>
-        <div fxLayout="row">
-            Traits: 
-            <div *ngFor="let traitDisplay of feat.traits; last as isLast">
-                {{ traitDisplay }}{{ isLast ? "" : ", " }}
-            </div>
-        </div>
-        <div>
-            {{ feat.level }}
-        </div>
+  <div
+    fxLayout="row"
+    fxLayoutAlign="space-between center"
+    class="feat-row"
+    fxFlex
+  >
+    <div>
+      {{ feat.name }}
     </div>
+    <div>
+      {{ feat.level }}
+    </div>
+  </div>
+  <div fxLayout="column" *ngIf="expanded">
     <div fxFlex>
-        <hr>
+      <hr />
     </div>
-    <div *ngIf="feat.actions" class="feat-section">
+    <div class="feat-section" fxLayout="row">
+      <div fxLayout="row">
+        Traits:
+        <div *ngFor="let traitDisplay of feat.traits; last as isLast">
+          {{ traitDisplay }}{{ isLast ? "" : ", " }}
+        </div>
+      </div>
+      <div *ngIf="feat.actions" class="margin-left">
         Action:
         {{ feat.actions | titlecase }}
+      </div>
     </div>
     <div class="feat-section">
-        <span
+      <span
         class="additional-prop"
         *ngFor="let extendedField of getExtendedKeyListPerFeat(feat)"
       >
@@ -31,7 +39,7 @@
       </span>
     </div>
     <div class="feat-section">
-        {{ feat.text }}
+      {{ feat.text }}
     </div>
-
-</div> 
+  </div>
+</div>

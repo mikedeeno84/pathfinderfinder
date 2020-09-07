@@ -12,7 +12,8 @@ export class PadComponent implements OnInit, OnDestroy{
   constructor(private padService: PadService) { }
   padDetails: PadState;
   padSub: Subscription;
-
+  expandedFeatList: { [index: string]: boolean } = {};
+  expandedSpellList: { [index: string]: boolean } = {};
   ngOnInit(): void {
     this.padSub = this.padService.getPadStateObservable().subscribe((padDetails ) => {
       this.padDetails = padDetails;

@@ -9,10 +9,14 @@ import { extendedFeatKeys, Feat } from 'src/assets/utils';
 export class FeatComponent implements OnInit {
   @Input()
   feat: Feat;
+  @Input()
+  public expanded = true;
   constructor() {}
   public extendedKeys = extendedFeatKeys;
-
   ngOnInit(): void {
+    if (this.expanded !== false) {
+      this.expanded = true;
+    }
   }
   public getExtendedKeyListPerFeat(
     feat: Feat

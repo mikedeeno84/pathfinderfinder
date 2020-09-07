@@ -1,8 +1,20 @@
-<div>
+<div class="pad-container" fxLayout="column">
+  <div fxFlex fxLayout="column">
     <h2>Feats</h2>
-    <app-feat *ngFor="let feat of padDetails.feats" [feat]="feat"></app-feat>
-</div>
-<div>
+    <div
+      *ngFor="let feat of padDetails.feats | orderBy: 'asc':'level'"
+      fxFlex
+    >
+      <app-pad-list-wrapper [item]="feat"> </app-pad-list-wrapper>
+    </div>
+  </div>
+  <div fxFlex fxLayout="column">
     <h2>Spells</h2>
-    <app-spell *ngFor="let spell of padDetails.spells" [spell]="spell"></app-spell>
+    <div
+      *ngFor="let spell of padDetails.spells | orderBy: 'asc':'level'"
+      fxFlex
+    >
+      <app-pad-list-wrapper [item]="spell"> </app-pad-list-wrapper>
+    </div>
+  </div>
 </div>

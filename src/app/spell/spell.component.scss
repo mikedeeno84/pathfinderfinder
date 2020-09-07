@@ -1,0 +1,10 @@
+@import '../../variables.scss'; 
+.spell-wrapper {
+    .spell-row {
+        font-size: $master-table-header-size;
+    }
+    .spell-section {
+        padding: 5px 0px;
+    }
+    padding: 10px 0px;
+}

@@ -10,11 +10,16 @@ import { SpellEntry, spells } from 'src/assets/spells';
 export class SpellComponent implements OnInit {
   @Input()
   spell: Spell;
+  @Input()
+  public expanded = true;
   constructor() {}
 
   ngOnInit(): void {
     if (Array.isArray(this.spell.action)) {
       this.spell.action = this.spell.action.join(',');
+    }
+    if (this.expanded !== false) {
+      this.expanded = true;
     }
   }
 

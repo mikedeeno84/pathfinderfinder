@@ -31,24 +31,38 @@ export class UtilsService {
   public stringIncludesNoCase(input: string, query: string): boolean {
     return input.toUpperCase().includes(query.toUpperCase());
   }
+  private checkEqual(value, other): boolean {
+    if (typeof value === 'string' && typeof other === 'string') {
+      return value.toUpperCase() === other.toUpperCase();
+    } else {
+      return isEqual(value, other);
+    }
+  }
   public matchesQuery(input: any, query: object): boolean {
     let containsMatch = true;
     for (const propToCheck in query) {
       if (query.hasOwnProperty(propToCheck) && query[propToCheck]) {
         const valueToCheck = query[propToCheck];
         const inputToCheck = input[propToCheck];
-        if (typeof valueToCheck === 'string' || typeof valueToCheck === 'number') {
+        if (
+          typeof valueToCheck === 'string' ||
+          typeof valueToCheck === 'number'
+        ) {
           containsMatch = isEqual(inputToCheck, valueToCheck);
         } else if (Array.isArray(valueToCheck)) {
-          containsMatch = valueToCheck.every(value => {
-            return (inputToCheck as any).some(inputValue => isEqual(inputValue, value));
+          containsMatch = valueToCheck.every((value) => {
+            return (inputToCheck as any).some((inputValue) =>
+            this.checkEqual(inputValue, value)
+            );
           });
         } else if (valueToCheck && typeof valueToCheck === 'object') {
-          return Object.keys(valueToCheck).every(key => {
-            return isEqual(valueToCheck[key], inputToCheck[key]);
+          return Object.keys(valueToCheck).every((key) => {
+            return this.checkEqual(valueToCheck[key], inputToCheck[key]);
           });
         }
-        if (!containsMatch) { break; }
+        if (!containsMatch) {
+          break;
+        }
       }
     }
     return containsMatch;
@@ -67,7 +81,7 @@ export class UtilsService {
       const otherFields = { ...query };
       delete otherFields.$;
       if (Object.keys(otherFields).length > 0) {
-        filteredValue = filteredValue.filter(element => {
+        filteredValue = filteredValue.filter((element) => {
           return this.matchesQuery(element, otherFields);
         });
       }

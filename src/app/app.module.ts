@@ -16,6 +16,8 @@ import { MasterTableComponent } from './master-table/master-table.component';
 import { FeatComponent } from './feat/feat.component';
 import { SpellComponent } from './spell/spell.component';
 import { PadComponent } from './pad/pad.component';
+import { OrderByPipe } from './order-by.pipe';
+import { PadListWrapperComponent } from './pad-list-wrapper/pad-list-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { PadComponent } from './pad/pad.component';
     MasterTableComponent,
     FeatComponent,
     SpellComponent,
-    PadComponent
+    PadComponent,
+    OrderByPipe,
+    PadListWrapperComponent
   ],
   imports: [
     BrowserModule,
