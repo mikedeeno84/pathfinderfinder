@@ -51,7 +51,7 @@
     level: 1,
     source: 'Core Rulebook pg. 387',
     cast: 'verbal',
-    action: 'free',
+    action: 'free_action',
     text: 'You add a flourish to your composition to extend its benefits. If your next action is to cast a cantrip composition with a duration of 1 round, attempt a Performance check. The DC is usually a standard-difficulty DC of a level equal to the highest-level target of your composition, but the GM can assign a different DC based on the circumstances. The effect depends on the result of your check.  \r\n**Critical Success**  The composition lasts 4 rounds.  \r\n**Success**  The composition lasts 3 rounds.  \r\n**Failure**  The composition lasts 1 round, but you don\'t spend the Focus Point for casting this spell.',
     components: [ 'verbal' ]
   },
@@ -63,7 +63,7 @@
     level: 1,
     source: 'Core Rulebook pg. 387',
     cast: 'somatic',
-    action: 'free',
+    action: 'free_action',
     trigger: 'You or an ally within range attempts a skill check to Recall Knowledge',
     range: '30 feet',
     targets: 'you or the triggering ally',
@@ -120,7 +120,7 @@
     level: 4,
     source: 'Core Rulebook pg. 387',
     cast: 'verbal',
-    action: 'free',
+    action: 'free_action',
     text: 'You call upon your muse to greatly increase the benefits you provide to your allies with your inspire courage or inspire defense composition. If your next action is to cast inspire courage or inspire defense, attempt a Performance check. The DC is usually a very hard DC of a level equal to that of the highest-level target of your composition, but the GM can assign a different DC based on the circumstances. The effect of your inspire courage or inspire defense composition depends on the result of your check.  \r\n**Critical Success**  The status bonus from your inspire courage or inspire defense increases to +3.  \r\n**Success**  The status bonus from inspire courage or inspire defense increases to +2.  \r\n**Failure**  Your inspire courage or inspire defense provides only its normal bonus of +1, but you don\'t spend the Focus Point for casting this spell.',
     components: [ 'verbal' ]
   },
@@ -265,7 +265,7 @@
     level: 10,
     source: 'Core Rulebook pg. 387',
     cast: 'verbal',
-    action: 'free',
+    action: 'free_action',
     trigger: 'An attack would bring you to 0 Hit Points.',
     text: 'You shout in defiance, filling you with a sudden burst of healing. Just before applying the attack\'s damage, you recover 10d4+20 Hit Points. If this is enough to prevent the attack from bringing you to 0 Hit Points, you don\'t become unconscious or dying. Either way, cheating death is difficult, and you can\'t use hero\'s defiance again until you Refocus or the next time you prepare. Hero\'s defiance cannot be used against effects with the death trait or that would leave no remains, such as disintegrate.',
     components: [ 'verbal' ]
@@ -1428,7 +1428,7 @@
     level: 6,
     source: 'Core Rulebook pg. 400',
     cast: 'verbal',
-    action: 'free',
+    action: 'free_action',
     text: 'You enhance a summoned creature with the power of the elements. If your next action is to cast either summon animal or summon plant or fungus, choose air, earth, fire, or water, and the creature you summon gains the corresponding abilities. Air The creature gains a fly Speed of 60 feet. Earth The creature gains a burrow Speed of 20 feet, reduces its land Speed by 10 feet (minimum 5 feet), and gains resistance 5 to physical damage. Fire The creature\'s attacks deal 1d6 extra fire damage, and it gains resistance 10 to fire and weakness 5 to cold and water. Water The creature gains a swim Speed of 60 feet, can spend 1 action after a melee attack to attempt a Shove (ignoring multiple attack penalty), and gains resistance 5 to fire.\n\n\t\t\t\t\t',
     components: [ 'verbal' ]
   },
@@ -8565,7 +8565,7 @@
       level: 1,
       source: 'Advanced Player\'s Guide pg. 237',
       cast: 'verbal',
-      action: 'free',
+      action: 'free_action',
       text: 'With a quick burst of laughter, you prolong a magical effect you created. You Sustain a Spell.',
       components: [
           'verbal'
@@ -9036,7 +9036,7 @@
       source: 'Gods & Magic pg. 114',
       domain: 'duty',
       cast: 'verbal',
-      action: 'free',
+      action: 'free_action',
       trigger: 'You make a promise or deal.',
       duration: '1 hour',
       text: 'A magical indicator assures a creature that you’ve upheld your end of a bargain. When you Cast the Spell, you create a bracelet, flower, or other such trinket. If, while the spell persists, you complete the terms of the promise or deal you made, the trinket fades away with a pleasant chime; if you violate the terms instead, the trinket breaks with a dissonant crash.  \r\n**Heightened (3rd)**  The duration becomes 1 day.  \r\n**Heightened (5th)**  The duration becomes 1 week.  \r\n**Heightened (7th)**  The duration becomes 1 month.  \r\n**Heightened (9th)**  The duration becomes 1 year.',
@@ -9446,7 +9446,7 @@
       level: 2,
       source: 'Advanced Player\'s Guide pg. 235',
       cast: 'verbal',
-      action: 'free',
+      action: 'free_action',
       trigger: 'You attempt a check to Recall Knowledge about a creature, but you haven\'t rolled yet.',
       text: 'You have a preternatural ability to remember details about your foes. Roll the triggering check twice and use the better result.',
       components: [

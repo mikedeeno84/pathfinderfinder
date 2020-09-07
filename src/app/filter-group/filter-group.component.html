@@ -1,8 +1,8 @@
 <form [formGroup]="filterForm">
   <div fxLayout="row" fxLayoutAlign="bottom center" fxLayoutGap="20px">
     <div fxFlex="50" fxLayout="column">
-        <label>Search:</label>
-        <input type="text" formControlName="$" matInput />
+      <label>Search:</label>
+      <input type="text" formControlName="$" matInput />
     </div>
     <div fxFlex="50">
       <label for="type">Item Type</label>
@@ -18,7 +18,7 @@
       <label for="traits">Traits</label>
       <ng-select [multiple]="true" formControlName="traits" name="traits">
         <ng-option *ngFor="let trait of traitList" [value]="trait">
-          {{ trait }}
+          {{ trait | titlecase }}
         </ng-option>
       </ng-select>
     </div>
@@ -26,7 +26,7 @@
       <label for="actions">Actions</label>
       <ng-select formControlName="actions" name="actions">
         <ng-option *ngFor="let action of actionList" [value]="action">
-          {{ action }}
+          <app-show-action [action]="action"></app-show-action>
         </ng-option>
       </ng-select>
     </div>

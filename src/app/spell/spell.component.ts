@@ -15,9 +15,6 @@ export class SpellComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    if (Array.isArray(this.spell.action)) {
-      this.spell.action = this.spell.action.join(',');
-    }
     if (this.expanded !== false) {
       this.expanded = true;
     }
@@ -33,4 +30,7 @@ export class SpellComponent implements OnInit {
         return { propName, value: spell[propName] };
       });
   }
+  isArray(thing: any): boolean {
+    return Array.isArray(thing);
+  } 
 }

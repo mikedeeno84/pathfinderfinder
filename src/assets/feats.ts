@@ -74,7 +74,7 @@ export const feats = {
       name: 'Boulder Roll',
       level: '5',
       traits: ['Dwarf'],
-      actions: 'two_actions',
+      actions: '2',
       id: 7,
       text: [
         'Your dwarven build allows you to push foes around, just like a mighty boulder tumbles through a subterranean cavern. Take a Step into the square of a foe that is your size or smaller, and the foe must move into the empty space directly behind it. The foe must move even if doing so places it in harm&#x2019;s way. The foe can attempt a Fortitude saving throw against your Athletics DC to block your Step. If the foe attempts this saving throw, unless it critically succeeds, it takes bludgeoning damage equal to your level plus your Strength modifier.',
@@ -237,7 +237,7 @@ export const feats = {
       name: 'Elf Step',
       level: '9',
       traits: ['Elf'],
-      actions: 'single_action',
+      actions: '1',
       id: 21,
       text: [
         'You move in a graceful dance, and even your steps are broad. You Step 5 feet twice.',
@@ -261,7 +261,7 @@ export const feats = {
       name: 'Universal Longevity',
       level: '13',
       traits: ['Elf'],
-      actions: 'single_action',
+      actions: '1',
       id: 23,
       text: [
         'You&#x2019;ve perfected your ability to keep up with all the skills you&#x2019;ve learned over your long life, so you&#x2019;re almost never truly untrained at a skill. You reflect on your life experiences, changing the skills you selected with Ancestral Longevity and Expert Longevity.',
@@ -378,7 +378,7 @@ export const feats = {
       name: 'Energized Font',
       level: '5',
       traits: ['Gnome'],
-      actions: 'single_action',
+      actions: '1',
       id: 33,
       text: [
         'The magic within you provides increased energy you can use to focus. You regain 1 Focus Point, up to your usual maximum.',
@@ -487,7 +487,7 @@ export const feats = {
       name: 'Goblin Song',
       level: '1',
       traits: ['Goblin'],
-      actions: 'single_action',
+      actions: '1',
       id: 42,
       text: [
         'You sing annoying goblin songs, distracting your foes with silly and repetitive lyrics. Attempt a Performance check against the Will DC of a single enemy within 30 feet. This has all the usual traits and restrictions of a Performance check. You can affect up to two targets within range if you have expert proficiency in Performance, four if you have master proficiency, and eight if you have legendary proficiency.',
@@ -1120,7 +1120,7 @@ export const feats = {
       name: 'Quick Bomber',
       level: '1',
       traits: ['Alchemist'],
-      actions: 'single_action',
+      actions: '1',
       id: 95,
       text: [
         'You keep your bombs in easy-to-reach pouches from which you draw without thinking. You Interact to draw a bomb, then Strike with it.',
@@ -1509,7 +1509,7 @@ export const feats = {
       name: 'Mega Bomb',
       level: '20',
       traits: ['Additive 3', 'Alchemist'],
-      actions: 'single_action',
+      actions: '1',
       id: 128,
       text: [
         'You add an incredibly powerful additive to a held bomb to create a mega bomb, greatly increasing its area and power. You use an Interact action to throw the mega bomb, rather than Strike, and you don&#x2019;t make an attack roll. The mega bomb affects creatures in a 30-foot-radius burst, centered within 60 feet of you. The bomb deals damage as if each creature were the primary target, with a basic Reflex save. On a failed save, a creature also takes any extra effects that affect a primary target (such as flat-footed from bottled lightning). While all targets in the area take splash damage as primary targets, there is no further splash beyond that area. If your next action after creating a mega bomb isn&#x2019;t an Interact action to throw it, the mega bomb denatures and loses all effects.',
@@ -1545,7 +1545,7 @@ export const feats = {
       name: 'Moment of Clarity',
       level: '1',
       traits: ['Barbarian', 'Concentrate', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 131,
       text: [
         'You push back your rage for a moment in order to think clearly. Until the end of this turn, you can use actions with the concentrate trait even if those actions don&#x2019;t have the rage trait.',
@@ -1578,7 +1578,7 @@ export const feats = {
       name: 'Sudden Charge',
       level: '1',
       traits: ['Barbarian', 'Fighter', 'Flourish', 'Open'],
-      actions: 'two_actions',
+      actions: '2',
       id: 134,
       text: [
         'With a quick sprint, you dash up to your foe and swing. Stride twice. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy. You can use Sudden Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.',
@@ -1601,7 +1601,7 @@ export const feats = {
       name: 'Furious Finish',
       level: '2',
       traits: ['Barbarian', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 136,
       text: [
         'Desperate to finish the fight, you pour all your rage into one final blow. Make a Strike. If it hits, you gain a circumstance bonus to damage equal to the number of rounds remaining in your Rage (maximum 10). After this Strike, your Rage immediately ends, and you are fatigued until you rest for at least 10 minutes.',
@@ -1635,7 +1635,7 @@ export const feats = {
       name: 'Shake it Off',
       level: '2',
       traits: ['Barbarian', 'Concentrate', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 139,
       text: [
         'You concentrate on your rage, overcoming fear and fighting back sickness. Reduce your frightened condition value by 1, and attempt a Fortitude save to recover from the sickened condition as if you had spent an action retching; you reduce your sickened condition value by 1 on a failure (but not on a critical failure), by 2 on a success, or by 3 on a critical success.',
@@ -1669,7 +1669,7 @@ export const feats = {
       name: 'Swipe',
       level: '4',
       traits: ['Barbarian', 'Fighter', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 142,
       text: [
         'You make a wide, arcing swing. Make a single melee Strike and compare the attack roll result to the ACs of up to two foes, each of whom must be within your melee reach and adjacent to the other. Roll damage only once and apply it to each creature you hit. A Swipe counts as two attacks for your multiple attack penalty. If you&#x2019;re using a weapon with the sweep trait, its modifier applies to all your Swipe attacks.',
@@ -1747,7 +1747,7 @@ export const feats = {
         'Instinct',
         'Rage',
       ],
-      actions: 'two_actions',
+      actions: '2',
       id: 148,
       text: [
         `You breathe deeply and exhale powerful energy in a 30-foot cone or 60-foot line, dealing 1d6 damage per level. The area and damage type match those of your dragon (see Table 3&#x2013;4. If you used this ability in the last hour, the area and the damage are halved (15-foot cone or 30-foot line; 1d6 damage for every 2 levels). Each creature in the area must attempt a basic Reflex save.Table 3-4: Dragon Instincts<table class="inner"> <tbody><tr><td><b>Dragon</b></td><td><b>Type</b></td><td><b>Breath Weapon</b></td></tr> <tr><td>Black</td><td>Chromatic</td><td>Line of acid</td></tr> <tr><td>Blue</td><td>Chromatic</td><td>Line of electricity</td></tr> <tr><td>Green</td><td>Chromatic</td><td>Cone of poison</td></tr> <tr><td>Red</td><td>Chromatic</td><td>Cone of fire</td></tr> <tr><td>White</td><td>Chromatic</td><td>Cone of cold</td></tr> <tr><td>Brass</td><td>Metallic</td><td>Line of fire</td></tr> <tr><td>Bronze</td><td>Metallic</td><td>Line of electricity</td></tr> <tr><td>Copper</td><td>Metallic</td><td>Line of acid</td></tr> <tr><td>Gold</td><td>Metallic</td><td>Cone of fire</td></tr> <tr><td>Silver</td><td>Metallic</td><td>Cone of cold</td></tr> </tbody></table>`,
@@ -1767,7 +1767,7 @@ export const feats = {
         'Rage',
         'Transmutation',
       ],
-      actions: 'single_action',
+      actions: '1',
       id: 149,
       text: [
         'You grow to incredible size. You become Large, increasing your reach by 5 feet and gaining the clumsy 1 condition until you stop raging. Your equipment grows with you.',
@@ -1780,7 +1780,7 @@ export const feats = {
       name: 'Spirits\' Interference',
       level: '6',
       traits: ['Barbarian', 'Divine', 'Instinct', 'Necromancy', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 150,
       text: [
         'You call forth protective spirits to ward off ranged attacks. Until your rage ends, anyone making a ranged attack against you must succeed at a DC 5 flat check or the attack misses with no effect.',
@@ -1800,7 +1800,7 @@ export const feats = {
         'Rage',
         'Transmutation',
       ],
-      actions: 'single_action',
+      actions: '1',
       id: 151,
       text: [
         'You transform into your animal. You gain the effects of the 3rd-level animal form spell except you use your own statistics, temporary Hit Points, and unarmed attacks instead of those granted by animal form. You also retain the constant abilities of your gear. If your animal is a frog, your tongue&#x2019;s reach increases to 15 feet. Dismissing the transformation gains the rage trait.',
@@ -1824,7 +1824,7 @@ export const feats = {
       name: 'Renewed Vigor',
       level: '8',
       traits: ['Barbarian', 'Concentrate', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 153,
       text: [
         'You pause to recover your raging vigor. You gain temporary Hit Points equal to half your level plus your Constitution modifier.',
@@ -1835,7 +1835,7 @@ export const feats = {
       name: 'Share Rage',
       level: '8',
       traits: ['Auditory', 'Barbarian', 'Rage', 'Visual'],
-      actions: 'single_action',
+      actions: '1',
       id: 154,
       text: [
         'You stoke an ally&#x2019;s fury. While you are raging, one willing creature within 30 feet gains the effects of the Rage action, except it can still use concentrate actions.',
@@ -1847,7 +1847,7 @@ export const feats = {
       name: 'Sudden Leap',
       level: '8',
       traits: ['Barbarian', 'Fighter'],
-      actions: 'two_actions',
+      actions: '2',
       id: 155,
       text: [
         'You make an impressive leap and swing while you soar. Make a Leap, High Jump, or Long Jump and attempt one melee Strike at any point during your jump. Immediately after the Strike, you fall to the ground if you&#x2019;re in the air, even if you haven&#x2019;t reached the maximum distance of your jump. If the distance you fall is no more than the height of your jump, you take no damage and land upright.',
@@ -1860,7 +1860,7 @@ export const feats = {
       name: 'Thrash',
       level: '8',
       traits: ['Barbarian', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 156,
       text: [
         'You thrash the grabbed foe around. It takes bludgeoning damage equal to your Strength modifier plus your weapon specialization damage plus your Rage damage. The foe must attempt a basic Fortitude save against your class DC.',
@@ -1872,7 +1872,7 @@ export const feats = {
       name: 'Come and Get Me',
       level: '10',
       traits: ['Barbarian', 'Concentrate', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 157,
       text: [
         'You open yourself to attacks so you can respond in turn. Until your rage ends, you are flat-footed, and damage rolls against you gain a +2 circumstance bonus. If a creature hits you, that creature is flat-footed to you until the end of your next turn. If you hit it before the end of your next turn, you gain temporary Hit Points equal to your Constitution modifier, or double that on a critical hit. These temporary Hit Points last until the end of your rage.',
@@ -1883,7 +1883,7 @@ export const feats = {
       name: 'Furious Sprint',
       level: '10',
       traits: ['Barbarian', 'Rage'],
-      actions: 'two_actions',
+      actions: '2',
       id: 158,
       text: [
         'You rush forward. Stride up to five times your Speed in a straight line. You can increase the number of actions this activity takes to 3 to Stride up to eight times your Speed in a straight line instead.',
@@ -1906,7 +1906,7 @@ export const feats = {
       name: 'Knockback',
       level: '10',
       traits: ['Barbarian', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 160,
       text: [
         'The weight of your swing drives your enemy back. You push the foe back 5 feet, with the effects of a successful Shove. You can follow the foe as normal for a successful Shove.',
@@ -1918,7 +1918,7 @@ export const feats = {
       name: 'Terrifying Howl',
       level: '10',
       traits: ['Auditory', 'Barbarian', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 161,
       text: [
         'You unleash a terrifying howl. Attempt Intimidate checks to Demoralize each enemy within 30 feet. Regardless of the results of your checks, each enemy is then temporarily immune to Terrifying Howl for 1 minute.',
@@ -1937,7 +1937,7 @@ export const feats = {
         'Rage',
         'Transmutation',
       ],
-      actions: 'single_action',
+      actions: '1',
       id: 162,
       text: [
         'You sprout dragon wings from your back of the same color as your chosen dragon. While you are raging, you gain a fly Speed equal to your land Speed. If you are flying when your rage ends, you start to fall but the transformation only completes at the last moment, so you take no damage from the fall and land standing up.',
@@ -1949,7 +1949,7 @@ export const feats = {
       name: 'Furious Grab',
       level: '12',
       traits: ['Barbarian', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 163,
       text: [
         'You grab your foe while it&#x2019;s distracted by your attack. The foe you hit becomes grabbed, as if you had succeeded at an Athletics check to Grapple the foe.',
@@ -1962,7 +1962,7 @@ export const feats = {
       name: 'Predator\'s Pounce',
       level: '12',
       traits: ['Barbarian', 'Flourish', 'Instinct', 'Open', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 164,
       text: [
         'You close the distance to your prey in a blur, pouncing on the creature before it can react. You Stride up to your Speed and make a Strike at the end of your movement.',
@@ -1975,7 +1975,7 @@ export const feats = {
       name: 'Spirit\'s Wrath',
       level: '12',
       traits: ['Attack', 'Barbarian', 'Concentrate', 'Instinct', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 165,
       text: [
         'You call forth an ephemeral apparition, typically the ghost of an ancestor or a nature spirit, which takes the form of a wisp. The spirit wisp makes a melee wisp rush unarmed attack against an enemy within 120 feet of you. The wisp&#x2019;s attack modifier is equal to your proficiency bonus for martial weapons plus your Strength modifier plus a +2 item bonus, and it applies the same circumstance and status bonuses and penalties that you have. On a hit, the wisp deals damage equal to 4d8 plus your Constitution modifier. The damage is your choice of negative or positive damage; don&#x2019;t apply your Rage damage or your weapon specialization damage, but circumstance and status bonuses and penalties that would also affect the wisp&#x2019;s damage apply. If your wisp&#x2019;s Strike is a critical hit, the target becomes frightened 1. This attack uses and counts toward your multiple attack penalty as if you were the one attacking.',
@@ -2016,7 +2016,7 @@ export const feats = {
       name: 'Giant\'s Lunge',
       level: '14',
       traits: ['Barbarian', 'Concentrate', 'Instinct', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 168,
       text: [
         'You extend your body and prepare to attack foes outside your normal reach. Until your rage ends, all your melee weapons and unarmed attacks gain reach 10. This doesn&#x2019;t increase the reach of any weapon or unarmed attack that already has the reach trait, but it does combine with abilities that increase your reach due to increased size, such as Giant&#x2019;s Stature.',
@@ -2043,7 +2043,7 @@ export const feats = {
       name: 'Whirlwind Strike',
       level: '14',
       traits: ['Barbarian', 'Fighter', 'Flourish', 'Open'],
-      actions: 'three_actions',
+      actions: '3',
       id: 170,
       text: [
         'You attack all nearby adversaries. Make a melee Strike against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but do not increase your penalty until you have made all your attacks.',
@@ -2074,7 +2074,7 @@ export const feats = {
         'Rage',
         'Transmutation',
       ],
-      actions: 'single_action',
+      actions: '1',
       id: 172,
       text: [
         'You transform into a ferocious Large dragon, gaining the effects of 6th-level dragon form except that you use your own AC and attack modifier; you also apply your extra damage from Rage. You use your class DC for your breath weapon DC. The action to Dismiss the transformation gains the rage trait.',
@@ -2122,7 +2122,7 @@ export const feats = {
       name: 'Vicious Evisceration',
       level: '18',
       traits: ['Barbarian', 'Rage'],
-      actions: 'two_actions',
+      actions: '2',
       id: 176,
       text: [
         'You make a vicious attack that maims your enemy. Make a melee Strike. If the Strike hits and deals damage, the target is drained 1, or drained 2 on a critical success.',
@@ -2145,7 +2145,7 @@ export const feats = {
       name: 'Quaking Stomp',
       level: '20',
       traits: ['Barbarian', 'Manipulate', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 178,
       text: [
         'You stomp the ground with such force that it creates a minor earthquake, with the effects of the earthquake spell.',
@@ -2191,7 +2191,7 @@ export const feats = {
         'Witch',
         'Wizard',
       ],
-      actions: 'single_action',
+      actions: '1',
       id: 181,
       text: [
         'You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell&#x2019;s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.',
@@ -2291,7 +2291,7 @@ export const feats = {
       name: 'Melodious Spell',
       level: '4',
       traits: ['Bard', 'Concentrate', 'Manipulate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 189,
       text: [
         'You subtly weave your spellcasting into your performance. If the next action you take is to Cast a Spell, attempt a Performance check against all observers&#x2019; Perception DCs. If your Performance check is successful against an observer&#x2019;s Perception DC, that observer doesn&#x2019;t notice that you are Casting a Spell, even though normally spells have sensory manifestations that would make spellcasting obvious to those around you, and verbal, somatic, and material components are extremely overt. You hide all of these as part of an ordinary performance.',
@@ -2337,7 +2337,7 @@ export const feats = {
       name: 'Harmonize',
       level: '6',
       traits: ['Bard', 'Concentrate', 'Manipulate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 193,
       text: [
         'You can perform multiple compositions simultaneously. If your next action is to cast a composition, it becomes a harmonized composition. Unlike a normal composition, a harmonized composition doesn&#x2019;t end if you cast another composition, and you can cast another composition on the same turn as a harmonized one. Casting another harmonized composition ends any harmonized composition you have in effect.',
@@ -2437,7 +2437,7 @@ export const feats = {
       name: 'Unusual Composition',
       level: '10',
       traits: ['Bard', 'Concentrate', 'Manipulate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 200,
       text: [
         'You can translate the emotion and power of a composition to other mediums. If your next action is to cast a composition spell, you can use a different kind of performance than usual for the composition to change any of its somatic components to verbal components or vice versa. As usual for composition spells, this changes whether the composition is auditory or visual.',
@@ -2495,7 +2495,7 @@ export const feats = {
       name: 'True Hypercognition',
       level: '14',
       traits: ['Bard'],
-      actions: 'single_action',
+      actions: '1',
       id: 205,
       text: [
         'Your mind works at an incredible pace. You instantly use up to five Recall Knowledge actions. If you have any special abilities or free actions that would normally be triggered when you Recall Knowledge, you can&#x2019;t use them for these actions.',
@@ -2742,7 +2742,7 @@ export const feats = {
       name: 'Mercy',
       level: '4',
       traits: ['Champion', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 225,
       text: [
         'Your touch relieves fear and restores movement. If the next action you use is to cast lay on hands, you can attempt to counteract a fear effect or an effect imposing the paralyzed condition on the target, in addition to the other benefits of lay on hands.',
@@ -2790,7 +2790,7 @@ export const feats = {
       name: 'Smite Evil',
       level: '6',
       traits: ['Champion'],
-      actions: 'single_action',
+      actions: '1',
       id: 230,
       text: [
         'Your blade ally becomes an even more powerful tool against evildoers. Select one foe you can see. Until the start of your next turn, your Strikes with the weapon your blade ally inhabits against that foe deal an extra 4 good damage, increasing to 6 if you have master proficiency with this weapon.',
@@ -2961,7 +2961,7 @@ export const feats = {
       name: 'Blade of Justice',
       level: '12',
       traits: ['Champion'],
-      actions: 'two_actions',
+      actions: '2',
       id: 244,
       text: [
         'You call upon divine power and make a weapon or unarmed Strike against a foe you have witnessed harming an ally or innocent. The Strike deals two extra weapon damage dice if the target of your Strike is evil. Whether or not the target is evil, the Strike applies all effects that normally apply on a Retributive Strike (such as divine smite), and you can convert all the physical damage from the attack into good damage.',
@@ -3334,7 +3334,7 @@ export const feats = {
       name: 'Channel Smite',
       level: '4',
       traits: ['Cleric', 'Divine', 'Necromancy'],
-      actions: 'two_actions',
+      actions: '2',
       id: 276,
       text: [
         'You siphon the destructive energies of positive or negative energy through a melee attack and into your foe. Make a melee Strike and add the spell&#x2019;s damage to the Strike&#x2019;s damage. This is negative damage if you expended a harm spell or positive damage if you expended a heal spell. The spell is expended with no effect if your Strike fails or hits a creature that isn&#x2019;t damaged by that energy type (such as if you hit a non-undead creature with a heal spell).',
@@ -3347,7 +3347,7 @@ export const feats = {
       name: 'Command Undead',
       level: '4',
       traits: ['Cleric', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 277,
       text: [
         'You grasp the animating force within an undead creature and bend it to your will. If the next action you use is to cast harm targeting one undead creature, you transform the effects of that harm spell. Instead of harm&#x2019;s normal effects, the target becomes controlled by you if its level is equal to or lower than your level &#x2013; 3. It can attempt a Will saving throw to resist being controlled by you. If the target is already under someone else&#x2019;s command, the controlling creature also rolls a saving throw, and the undead uses the better result.',
@@ -3388,7 +3388,7 @@ export const feats = {
       name: 'Necrotic Infusion',
       level: '4',
       traits: ['Cleric', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 280,
       text: [
         'You pour negative energy into your undead subject to empower its attacks. If the next action you use is to cast harm to restore Hit Points to a single undead creature, the target then deals an additional 1d6 negative damage with its melee weapons and unarmed attacks until the end of its next turn. If the harm spell is at least 5th level, this damage increases to 2d6, and if the harm spell is at least 8th level, the damage increases to 3d6.',
@@ -3400,7 +3400,7 @@ export const feats = {
       name: 'Cast Down',
       level: '6',
       traits: ['Cleric', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 281,
       text: [
         'The sheer force of your faith can bring a foe crashing down. If the next action you use is to cast harm or heal to damage one creature, the target is knocked prone if it takes any damage from the spell. If the target critically fails its save against the spell, it also takes a &#x2013;10-foot status penalty to its Speed for 1 minute.',
@@ -3451,7 +3451,7 @@ export const feats = {
       name: 'Align Armament',
       level: '8',
       traits: ['Cleric', 'Divine', 'Evocation'],
-      actions: 'single_action',
+      actions: '1',
       id: 286,
       text: [
         'You bring a weapon into metaphysical concordance with your deity&#x2019;s beliefs. When you select this feat, choose chaotic, evil, good, or lawful. Your choice must match one of your deity&#x2019;s alignment components. This action has the trait corresponding to the chosen alignment component.',
@@ -3526,7 +3526,7 @@ export const feats = {
       name: 'Heroic Recovery',
       level: '10',
       traits: ['Cleric', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 291,
       text: [
         'The restorative power of your healing invigorates the recipient. If the next action you use is to cast heal targeting a single living creature and the target regains Hit Points from the spell, it also gains three bonuses until the end of its next turn: a +5-foot status bonus to its Speed, a +1 status bonus to attack rolls, and a +1 status bonus to damage rolls.',
@@ -3562,7 +3562,7 @@ export const feats = {
       name: 'Defensive Recovery',
       level: '12',
       traits: ['Cleric', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 294,
       text: [
         'Your faith provides temporary protection in addition to healing. If the next action you use is to cast harm or heal on a single target and the target regains Hit Points from the spell, it also gains a +2 status bonus to AC and saving throws for 1 round.',
@@ -3719,7 +3719,7 @@ export const feats = {
       name: 'Echoing Channel',
       level: '18',
       traits: ['Cleric', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 306,
       text: [
         'When you pull forth positive or negative energy, you also create a smaller pocket of that energy. If the next action you use is to cast a 2-action harm or heal to heal or damage a single creature, choose one additional creature adjacent to either you or the target. Target that creature with a 1-action version of the same spell. This spell is the same level as the 2-action harm or heal you cast and doesn&#x2019;t cost another spell slot.',
@@ -3822,7 +3822,7 @@ export const feats = {
         'Witch',
         'Wizard',
       ],
-      actions: 'single_action',
+      actions: '1',
       id: 315,
       text: [
         'You manipulate the energy of your spell, causing it to spread out and affect a wider area. If the next action you use is to Cast a Spell that has an area of a burst, cone, or line and does not have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line.',
@@ -3869,7 +3869,7 @@ export const feats = {
       name: 'Form Control',
       level: '4',
       traits: ['Druid', 'Manipulate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 321,
       text: [
         'With additional care and effort, you can take on an alternate form for a longer period of time. If your next action is to cast wild shape, wild shape&#x2019;s spell level is 2 lower than normal (minimum 1st level), but you can remain transformed for up to 1 hour or the listed duration (whichever is longer). You can still Dismiss the form at any time, as permitted by the spell.',
@@ -4041,7 +4041,7 @@ export const feats = {
       name: 'Healing Transformation',
       level: '10',
       traits: ['Druid', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 336,
       text: [
         'You can take advantage of shapechanging magic to close wounds and patch injuries. If your next action is to cast a non-cantrip polymorph spell that targets only one creature, your polymorph spell also restores 1d6 Hit Points per spell level to that creature. This is a healing effect.',
@@ -4052,7 +4052,7 @@ export const feats = {
       name: 'Overwhelming Energy',
       level: '10',
       traits: ['Druid', 'Manipulate', 'Metamagic', 'Sorcerer', 'Wizard'],
-      actions: 'single_action',
+      actions: '1',
       id: 337,
       text: [
         'You alter your spells to overcome resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target&#x2019;s resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by wall of fire. A creature&#x2019;s immunities are unaffected.',
@@ -4244,7 +4244,7 @@ export const feats = {
       name: 'Leyline Conduit',
       level: '20',
       traits: ['Concentrate', 'Druid', 'Manipulate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 354,
       text: [
         'You can cast your spells effortlessly by tapping into the leylines of the world. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don&#x2019;t expend the prepared spell as you cast it.',
@@ -4256,7 +4256,7 @@ export const feats = {
       name: 'True Shapeshifter',
       level: '20',
       traits: ['Concentrate', 'Druid'],
-      actions: 'two_actions',
+      actions: '2',
       id: 355,
       text: [
         'You transcend the limitations of form. While under the effects of wild shape, you can change into any other form on your wild shape list; if the durations of the forms would vary, use the shorter of the two durations.',
@@ -4269,7 +4269,7 @@ export const feats = {
       name: 'Double Slice',
       level: '1',
       traits: ['Fighter'],
-      actions: 'two_actions',
+      actions: '2',
       id: 356,
       text: [
         'You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn&#x2019;t have the agile trait, it takes a &#x2013;2 penalty.',
@@ -4283,7 +4283,7 @@ export const feats = {
       name: 'Exacting Strike',
       level: '1',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 357,
       text: [
         'You make a controlled attack, fully accounting for your momentum. Make a Strike. The Strike gains the following failure effect.',
@@ -4295,7 +4295,7 @@ export const feats = {
       name: 'Point-Blank Shot',
       level: '1',
       traits: ['Fighter', 'Open', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 358,
       text: [
         'You take aim to pick off nearby enemies quickly. When using a ranged volley weapon while you are in this stance, you don&#x2019;t take the penalty to your attack rolls from the volley trait. When using a ranged weapon that doesn&#x2019;t have the volley trait, you gain a +2 circumstance bonus to damage rolls on attacks against targets within the weapon&#x2019;s first range increment.',
@@ -4307,7 +4307,7 @@ export const feats = {
       name: 'Power Attack',
       level: '1',
       traits: ['Fighter', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 359,
       text: [
         'You unleash a particularly powerful attack that clobbers your foe but leaves you a bit unsteady. Make a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal an extra die of weapon damage. If you&#x2019;re at least 10th level, increase this to two extra dice, and if you&#x2019;re at least 18th level, increase it to three extra dice.',
@@ -4331,7 +4331,7 @@ export const feats = {
       name: 'Snagging Strike',
       level: '1',
       traits: ['Fighter'],
-      actions: 'single_action',
+      actions: '1',
       id: 361,
       text: [
         'You combine an attack with quick grappling moves to throw an enemy off balance as long as it stays in your reach. Make a Strike while keeping one hand free. If this Strike hits, the target is flat-footed until the start of your next turn or until it&#x2019;s no longer within the reach of your hand, whichever comes first.',
@@ -4357,7 +4357,7 @@ export const feats = {
       name: 'Assisting Shot',
       level: '2',
       traits: ['Fighter'],
-      actions: 'single_action',
+      actions: '1',
       id: 364,
       text: [
         'With a quick shot, you interfere with a foe in combat. You can use the Aid action with a ranged weapon you wield. Instead of being within reach of the target, you must be within maximum range of the target. An Assisting Shot uses ammunition and incurs penalties just like any other attack.',
@@ -4368,7 +4368,7 @@ export const feats = {
       name: 'Brutish Shove',
       level: '2',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 365,
       text: [
         'Throwing your weight behind your attack, you hit your opponent hard enough to make it stumble back. Make a Strike with a two-handed melee weapon. If you hit a target that is your size or smaller, that creature is flat-footed until the end of your current turn, and you can automatically Shove it, with the same benefits as the Shove action (including the critical success effect, if your Strike was a critical hit). If you move to follow the target, your movement doesn&#x2019;t trigger reactions.',
@@ -4383,7 +4383,7 @@ export const feats = {
       name: 'Combat Grab',
       level: '2',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 366,
       text: [
         'You swipe at your opponent and grab at them. Make a melee Strike while keeping one hand free. If the Strike hits, you grab the target using your free hand. The creature remains grabbed until the end of your next turn or until it Escapes, whichever comes first.',
@@ -4396,7 +4396,7 @@ export const feats = {
       name: 'Dueling Parry (Fighter)',
       level: '2',
       traits: ['Fighter'],
-      actions: 'single_action',
+      actions: '1',
       id: 367,
       text: [
         'You can parry attacks against you with your one-handed weapon. You gain a +2 circumstance bonus to AC until the start of your next turn as long as you continue to meet the requirements.',
@@ -4409,7 +4409,7 @@ export const feats = {
       name: 'Intimidating Strike',
       level: '2',
       traits: ['Emotion', 'Fear', 'Fighter', 'Mental'],
-      actions: 'two_actions',
+      actions: '2',
       id: 368,
       text: [
         'Your blow not only wounds creatures but also shatters their confidence. Make a melee Strike. If you hit and deal damage, the target is frightened 1, or frightened 2 on a critical hit.',
@@ -4420,7 +4420,7 @@ export const feats = {
       name: 'Lunge',
       level: '2',
       traits: ['Fighter'],
-      actions: 'single_action',
+      actions: '1',
       id: 369,
       text: [
         'Extending your body to its limits, you attack an enemy that would normally be beyond your reach. Make a Strike with a melee weapon, increasing your reach by 5 feet for that Strike. If the weapon has the disarm, shove, or trip trait, you can use the corresponding action instead of a Strike.',
@@ -4432,7 +4432,7 @@ export const feats = {
       name: 'Double Shot',
       level: '4',
       traits: ['Fighter', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 370,
       text: [
         'You shoot twice in blindingly fast succession. Make two Strikes, each against a separate target and with a &#x2013;2 penalty. Both attacks count toward your multiple attack penalty, but the penalty doesn&#x2019;t increase until after you&#x2019;ve made both of them.',
@@ -4444,7 +4444,7 @@ export const feats = {
       name: 'Dual-Handed Assault',
       level: '4',
       traits: ['Fighter', 'Flourish'],
-      actions: 'single_action',
+      actions: '1',
       id: 371,
       text: [
         'You snap your free hand over to grip your weapon just long enough to add momentum and deliver a more powerful blow to your opponent. Make a Strike with the required weapon. You quickly switch your grip during the Strike in order to make the attack with two hands. If the weapon doesn&#x2019;t normally have the two-hand trait, increase its weapon damage die by one step for this attack. (Rules on increasing die size appear on page 279.) If the weapon has the two-hand trait, you gain the benefit of that trait and a circumstance bonus to damage equal to the weapon&#x2019;s number of damage dice. When the Strike is complete, you resume gripping the weapon with only one hand. This action doesn&#x2019;t end any stance or fighter feat effect that requires you to have one hand free.',
@@ -4457,7 +4457,7 @@ export const feats = {
       name: 'Knockdown',
       level: '4',
       traits: ['Fighter', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 372,
       text: [
         'You make an attack to knock a foe off balance, then follow up immediately with a sweep to topple them. Make a melee Strike. If it hits and deals damage, you can attempt an Athletics check to Trip the creature you hit. If you&#x2019;re wielding a two-handed melee weapon, you can ignore Trip&#x2019;s requirement that you have a hand free. Both attacks count toward your multiple attack penalty, but the penalty doesn&#x2019;t increase until after you&#x2019;ve made both of them.',
@@ -4482,7 +4482,7 @@ export const feats = {
       name: 'Quick Reversal',
       level: '4',
       traits: ['Fighter', 'Flourish', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 374,
       text: [
         'You turn your foes&#x2019; flanking against them with a quick reverse. Make a melee Strike against one of the flanking enemies and make a second Strike with the same weapon or unarmed attack against a different enemy that is flanking you. This second Strike has the same multiple attack penalty of the initial attack and doesn&#x2019;t count toward your multiple attack penalty.',
@@ -4505,7 +4505,7 @@ export const feats = {
       name: 'Twin Parry',
       level: '4',
       traits: ['Fighter', 'Ranger', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 377,
       text: [
         'You use your two weapons to parry attacks. You gain a +1 circumstance bonus to AC until the start of your next turn, or a +2 circumstance bonus if either weapon has the parry trait. You lose this circumstance bonus if you no longer meet this feat&#x2019;s requirement.',
@@ -4528,7 +4528,7 @@ export const feats = {
       name: 'Advantageous Assault',
       level: '6',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 379,
       text: [
         'When an enemy&#x2019;s movement is compromised, you deliver a more deadly blow. Make a Strike against a creature that is grabbed, prone, or restrained. You gain a circumstance bonus to damage on this Strike equal to the number of weapon damage dice, or that number + 2 if you&#x2019;re wielding the weapon in two hands. The Strike gains the following failure effect. ',
@@ -4541,7 +4541,7 @@ export const feats = {
       name: 'Disarming Stance',
       level: '6',
       traits: ['Fighter', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 380,
       text: [
         'You adopt a fencing stance that improves your control over your weapon. While you are in this stance, you gain a +1 circumstance bonus to Athletics checks to Disarm and a +2 circumstance bonus to your Reflex DC when defending against checks to Disarm you. In addition, you can attempt to Disarm creatures up to two sizes larger than you.',
@@ -4593,7 +4593,7 @@ export const feats = {
       name: 'Revealing Stab',
       level: '6',
       traits: ['Fighter'],
-      actions: 'two_actions',
+      actions: '2',
       id: 384,
       text: [
         'You drive your piercing weapon into an imperceptible foe, revealing its location to your allies. Make a Strike with the required melee weapon. You don&#x2019;t have to attempt a flat check to hit a concealed creature, and you have to succeed at only a DC 5 flat check to target a hidden creature. If you hit and deal damage, you can drive the required weapon into a corporeal target, revealing its current position. You Release the weapon, and it becomes lodged in the target. If the target is concealed, other creatures don&#x2019;t need to succeed at a flat check to hit it. If the target is hidden, other creatures have to succeed at only a DC 5 flat check to target it. The creatures need to be able to see your weapon to gain any of these benefits, and the target can&#x2019;t become undetected to anyone who sees your weapon. If the target is invisible, the weapon remains visible while lodged in it.',
@@ -4606,7 +4606,7 @@ export const feats = {
       name: 'Shatter Defenses',
       level: '6',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 385,
       text: [
         'Your offense exploits your enemy&#x2019;s fear. Make a melee Strike against a frightened creature. If you hit and deal damage, the target becomes flat-footed until its frightened condition ends. If the target was already flat-footed to you when you damaged it with this Strike, it can&#x2019;t reduce its frightened value below 1 until the start of your next turn.',
@@ -4658,7 +4658,7 @@ export const feats = {
       name: 'Felling Strike',
       level: '8',
       traits: ['Fighter'],
-      actions: 'two_actions',
+      actions: '2',
       id: 390,
       text: [
         'Your attack can ground an airborne foe. Make a Strike. If it hits and deals damage to a flying target, the target falls up to 120 feet. The fall is gradual enough that if it causes the target to hit the ground, the target takes no damage from the fall. If the attack is a critical hit, the target can&#x2019;t Fly, Leap, levitate, or otherwise leave the ground until the end of your next turn.',
@@ -4669,7 +4669,7 @@ export const feats = {
       name: 'Incredible Aim',
       level: '8',
       traits: ['Concentrate', 'Fighter'],
-      actions: 'two_actions',
+      actions: '2',
       id: 391,
       text: [
         'By spending a moment to focus, you can ensure your attack strikes true. Make a ranged weapon Strike. On this Strike, you gain a +2 circumstance bonus to the attack roll and ignore the target&#x2019;s concealed condition.',
@@ -4680,7 +4680,7 @@ export const feats = {
       name: 'Mobile Shot Stance',
       level: '8',
       traits: ['Fighter', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 392,
       text: [
         'Your shots become nimble and deadly. While you&#x2019;re in this stance, your ranged Strikes don&#x2019;t trigger Attacks of Opportunity or other reactions that are triggered by a ranged attack. If you have Attack of Opportunity, you can use it with a loaded ranged weapon you&#x2019;re wielding. The triggering creature must be within 5 feet of you for you to do so.',
@@ -4691,7 +4691,7 @@ export const feats = {
       name: 'Positioning Assault',
       level: '8',
       traits: ['Fighter', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 393,
       text: [
         'With punishing blows, you force your opponent into position. Make a Strike with the required weapon. If you hit, you move the target 5 feet into a space in your reach. This follows the forced movement rules.',
@@ -4727,7 +4727,7 @@ export const feats = {
       name: 'Certain Strike',
       level: '10',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 397,
       text: [
         'Even when you don&#x2019;t hit squarely, you can still score a glancing blow. Make a melee Strike. It gains the following failure effect. Failure Your attack deals any damage it would have dealt on a hit, excluding all damage dice. (This removes damage dice from weapon runes, spells, and special abilities, in addition to weapon damage dice.)',
@@ -4751,7 +4751,7 @@ export const feats = {
       name: 'Debilitating Shot',
       level: '10',
       traits: ['Fighter', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 399,
       text: [
         'Aiming for a weak point, you impede your foe with a precise shot. Make a ranged weapon Strike. If it hits and deals damage, the target is slowed 1 until the end of its next turn.',
@@ -4762,7 +4762,7 @@ export const feats = {
       name: 'Disarming Twist',
       level: '10',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 400,
       text: [
         'After your initial attack redirects your foe&#x2019;s defenses, your follow-up wrests their weapon from their grasp. Make a melee Strike with the required weapon. In addition to its other effects, this Strike gains the success and critical success effects of the Disarm action. The Strike also has the following failure effect.',
@@ -4777,7 +4777,7 @@ export const feats = {
       name: 'Disruptive Stance',
       level: '10',
       traits: ['Fighter', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 401,
       text: [
         'The slightest distraction can provoke your wrath, and you&#x2019;re prepared to foil enemies&#x2019; actions. As long as you are in this stance, you can use Attack of Opportunity when a creature within your reach uses a concentrate action, in addition to manipulate and move actions. Furthermore, you disrupt a triggering concentrate or manipulate action if your Strike hits (not only if it&#x2019;s a critical hit).',
@@ -4826,7 +4826,7 @@ export const feats = {
       name: 'Brutal Finish',
       level: '12',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 406,
       text: [
         'Your final blow can make an impact even if it rebounds off a foe&#x2019;s defenses. Make a Strike with the required weapon. After the Strike, your turn ends. The Strike deals one extra weapon damage die, or two extra weapon damage dice if you&#x2019;re at least 18th level. The Strike also gains the following failure effect.',
@@ -4840,7 +4840,7 @@ export const feats = {
       name: 'Dueling Dance (Fighter)',
       level: '12',
       traits: ['Fighter', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 407,
       text: [
         'Using your free hand as pivot and balance, you both attack and defend with your weapon. While you are in this stance, you constantly have the benefits of Dueling Parry.',
@@ -4878,7 +4878,7 @@ export const feats = {
       name: 'Incredible Ricochet',
       level: '12',
       traits: ['Concentrate', 'Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 410,
       text: [
         'After your first shot singles out your opponent&#x2019;s position, you direct another that ricochets around obstacles and strikes unerringly. Make a ranged weapon Strike against a creature you previously attacked this turn. You ignore the target&#x2019;s concealed condition and all cover.',
@@ -4890,7 +4890,7 @@ export const feats = {
       name: 'Lunging Stance',
       level: '12',
       traits: ['Fighter', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 411,
       text: [
         'Your body coiled to strike, you can lash out at distant enemies. While you are in this stance, you can use Attack of Opportunity against a creature that is outside your reach but within the reach you would have with a Lunge. If you do, you increase your range with the Strike by 5 feet.',
@@ -4903,7 +4903,7 @@ export const feats = {
       name: 'Paragon\'s Guard',
       level: '12',
       traits: ['Fighter', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 412,
       text: [
         'Once you&#x2019;ve had a moment to set your stance, you always have your shield ready without a thought. While you are in this stance, you constantly have your shield raised as if you&#x2019;d used the Raise a Shield action, as long as you meet that action&#x2019;s requirements.',
@@ -4915,7 +4915,7 @@ export const feats = {
       name: 'Spring Attack',
       level: '12',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 413,
       text: [
         'Springing away from one foe, you Strike at another. Stride up to your Speed, but you must end that movement within melee reach of a different enemy. At the end of your movement, make a melee Strike against an enemy now within reach. You can use Spring Attack while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.',
@@ -4942,7 +4942,7 @@ export const feats = {
       name: 'Determination',
       level: '14',
       traits: ['Concentrate', 'Fighter'],
-      actions: 'single_action',
+      actions: '1',
       id: 415,
       text: [
         'Your training allows you to shrug off your foes&#x2019; spells and conditions when the need is dire. Choose a single nonpermanent spell or condition that is affecting you. If you chose a condition, its effect on you ends. If you chose a spell, attempt to counteract the spell (your level is your counteract level, and you attempt a Will save as your counteract check).',
@@ -4955,7 +4955,7 @@ export const feats = {
       name: 'Guiding Finish',
       level: '14',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 416,
       text: [
         'Using your weapon as a lever, you force your opponent to end up right where you want them. Make a Strike with the required weapon. If the Strike hits, you can move the target up to 10 feet into a space in your reach. You can move the target through your space during this movement. This follows the forced movement rules. Your Strike gains the following failure effect.',
@@ -5006,7 +5006,7 @@ export const feats = {
       name: 'Two-Weapon Flurry',
       level: '14',
       traits: ['Fighter', 'Flourish', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 420,
       text: [
         'You lash out with both your weapons in a sudden frenzy. Strike twice, once with each weapon.',
@@ -5018,7 +5018,7 @@ export const feats = {
       name: 'Graceful Poise',
       level: '16',
       traits: ['Fighter', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 422,
       text: [
         'With the right positioning, your off-hand weapon can strike like a scorpion&#x2019;s stinger. While you are in this stance, if you make your second Strike from Double Slice with an agile weapon, Double Slice counts as one attack when calculating your multiple attack penalty.',
@@ -5042,7 +5042,7 @@ export const feats = {
       name: 'Multishot Stance',
       level: '16',
       traits: ['Fighter', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 424,
       text: [
         'You lock yourself in a stable position so you can fire swiftly and accurately. While you are in this stance, your penalty for Double Shot is reduced to &#x2013;1, or &#x2013;2 if you add the extra action to make three Strikes. If you move from your position, this stance ends.',
@@ -5055,7 +5055,7 @@ export const feats = {
       name: 'Twinned Defense (Fighter)',
       level: '16',
       traits: ['Fighter', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 425,
       text: [
         'You&#x2019;re always ready to use your off-hand weapon to interfere with attacks against you. While you are in this stance, you constantly gain the benefits of the Twin Parry action.',
@@ -5068,7 +5068,7 @@ export const feats = {
       name: 'Impossible Volley',
       level: '18',
       traits: ['Fighter', 'Flourish', 'Open', 'Ranger'],
-      actions: 'three_actions',
+      actions: '3',
       id: 426,
       text: [
         'You fire a volley at all foes in an area. Make one Strike with a &#x2013;2 penalty against each enemy within a 10-foot-radius burst centered at or beyond your weapon&#x2019;s volley range. Roll the damage only once for all targets.',
@@ -5116,7 +5116,7 @@ export const feats = {
       name: 'Crane Stance',
       level: '1',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 430,
       text: [
         'You enter the stance of a crane, holding your arms in an imitation of a crane&#x2019;s wings and using flowing, defensive motions. You gain a +1 circumstance bonus to AC, but the only Strikes you can make are crane wing attacks. These deal 1d6 bludgeoning damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits.',
@@ -5129,7 +5129,7 @@ export const feats = {
       name: 'Dragon Stance',
       level: '1',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 431,
       text: [
         'You enter the stance of a dragon and make powerful leg strikes like a lashing dragon&#x2019;s tail. You can make dragon tail attacks that deal 1d10 bludgeoning damage. They are in the brawling group and have the backswing, nonlethal, and unarmed traits.',
@@ -5176,7 +5176,7 @@ export const feats = {
       name: 'Mountain Stance',
       level: '1',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 435,
       text: [
         'You enter the stance of an implacable mountain&#x2014;a technique first discovered by dwarven monks&#x2014;allowing you to strike with the weight of an avalanche. The only Strikes you can make are falling stone unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the forceful, nonlethal, and unarmed traits.',
@@ -5189,7 +5189,7 @@ export const feats = {
       name: 'Tiger Stance',
       level: '1',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 436,
       text: [
         'You enter the stance of a tiger and can make tiger claw attacks. These deal 1d8 slashing damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits. On a critical success with your tiger claws, if you deal damage, the target takes 1d4 persistent bleed damage.',
@@ -5202,7 +5202,7 @@ export const feats = {
       name: 'Wolf Stance',
       level: '1',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 437,
       text: [
         'You enter the stance of a wolf, low to the ground with your hands held like fanged teeth. You can make wolf jaw unarmed attacks. These deal 1d8 piercing damage; are in the brawling group; and have the agile, backstabber, finesse, nonlethal, and unarmed traits.',
@@ -5298,7 +5298,7 @@ export const feats = {
       name: 'Flying Kick',
       level: '4',
       traits: ['Monk'],
-      actions: 'two_actions',
+      actions: '2',
       id: 445,
       text: [
         'You launch yourself at a foe. Make a Leap or attempt a High Jump or Long Jump. At the end of the jump, if you&#x2019;re adjacent to a foe, you can immediately Strike that foe with an unarmed attack, even if the foe is in mid-air. You fall to the ground after the Strike. If the distance you fall is no more than the height of your jump, you land upright and take no damage.',
@@ -5371,7 +5371,7 @@ export const feats = {
       name: 'Dragon Roar',
       level: '6',
       traits: ['Auditory', 'Emotion', 'Fear', 'Mental', 'Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 451,
       text: [
         'You bellow, instilling fear in your enemies. Enemies within a 15-foot emanation must succeed at a Will save against your Intimidation DC or be frightened 1 (frightened 2 on a critical failure). When a creature frightened by the roar begins its turn adjacent to you, it can&#x2019;t reduce its frightened value below 1 on that turn. Your first attack that hits a frightened creature after you roar and before the end of your next turn gains a +4 circumstance bonus to damage.',
@@ -5397,7 +5397,7 @@ export const feats = {
       name: 'Mountain Stronghold',
       level: '6',
       traits: ['Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 453,
       text: [
         'You focus on your connection to the earth and call upon the mountain to block attacks against you. You gain a +2 circumstance bonus to AC until the beginning of your next turn.',
@@ -5412,7 +5412,7 @@ export const feats = {
       name: 'Tiger Slash',
       level: '6',
       traits: ['Monk'],
-      actions: 'two_actions',
+      actions: '2',
       id: 454,
       text: [
         'You make a fierce swipe with both hands. Make a tiger claw Strike. It deals two extra weapon damage dice (three extra dice if you&#x2019;re 14th level or higher), and you can push the target 5 feet away as if you had successfully Shoved them. If the attack is a critical success and deals damage, add your Strength modifier to the persistent bleed damage from your tiger claw.',
@@ -5436,7 +5436,7 @@ export const feats = {
       name: 'Whirling Throw',
       level: '6',
       traits: ['Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 456,
       text: [
         'You propel your grabbed or restrained foe a great distance. You can throw the creature any distance up to 10 feet, plus 5 feet &#xD7; your Strength modifier. If you successfully throw the creature, it takes bludgeoning damage equal to your Strength modifier plus 1d6 per 10 feet you threw it.',
@@ -5455,7 +5455,7 @@ export const feats = {
       name: 'Wolf Drag',
       level: '6',
       traits: ['Monk'],
-      actions: 'two_actions',
+      actions: '2',
       id: 457,
       text: [
         'You rip your enemy off their feet. Make a wolf jaw Strike. Your wolf jaw gains the fatal d12 trait for this Strike, and if the attack succeeds, you knock the target prone.',
@@ -5480,7 +5480,7 @@ export const feats = {
       name: 'Ironblood Stance',
       level: '8',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 459,
       text: [
         'You enter the stance of impenetrable iron, refusing to yield to any blow. You can make iron sweep unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the nonlethal, parry, sweep, and unarmed traits.',
@@ -5493,7 +5493,7 @@ export const feats = {
       name: 'Mixed Maneuver',
       level: '8',
       traits: ['Monk'],
-      actions: 'two_actions',
+      actions: '2',
       id: 460,
       text: [
         'You combine two different maneuvers together into a single flowing whole. Choose any two of Grapple, Shove, and Trip. Attempt both of the attacks you chose against the same or different creatures, but don&#x2019;t apply the multiple attack penalty until after resolving both attacks.',
@@ -5505,7 +5505,7 @@ export const feats = {
       name: 'Tangled Forest Stance',
       level: '8',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 461,
       text: [
         'You extend your arms like gnarled branches to interfere with your foes&#x2019; movements. You can make lashing branch unarmed attacks. These deal 1d8 slashing damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits.',
@@ -5518,7 +5518,7 @@ export const feats = {
       name: 'Wall Run',
       level: '8',
       traits: ['Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 462,
       text: [
         'You defy gravity, traversing vertical planes as easily as the ground. Stride up to your Speed. You must start your movement on a horizontal surface. During this movement, you can run up vertical surfaces, like walls, at your full Speed. If you end the Stride off the ground, you fall after taking your next action or when your turn ends, whichever comes first (though you can Grab an Edge, if applicable). If you have Water Step or a similar ability, Wall Run lets you run along flimsy vertical surfaces, as well as vertical liquids, such as a waterfall.',
@@ -5541,7 +5541,7 @@ export const feats = {
       name: 'Knockback Strike',
       level: '10',
       traits: ['Concentrate', 'Monk'],
-      actions: 'two_actions',
+      actions: '2',
       id: 464,
       text: [
         'You focus your strength into a blow powerful enough to push an enemy away from you. Make an unarmed Strike. If you hit, attempt an Athletics check to Shove the target. This attack uses the same multiple attack penalty as your Strike, and doesn&#x2019;t count toward your multiple attack penalty.',
@@ -5552,7 +5552,7 @@ export const feats = {
       name: 'Sleeper Hold',
       level: '10',
       traits: ['Attack', 'Incapacitation', 'Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 465,
       text: [
         'You pinch crucial points of your target&#x2019;s nervous system, impeding its ability to function. Attempt an Athletics check to Grapple the creature, with the following success and critical success effects instead of the usual effects.',
@@ -5579,7 +5579,7 @@ export const feats = {
       name: 'Winding Flow',
       level: '10',
       traits: ['Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 467,
       text: [
         'Any journey consists of more than simply reaching your destination. You use two of the following actions in any order: Stand, Step, and Stride. You can&#x2019;t use the same action twice.',
@@ -5602,7 +5602,7 @@ export const feats = {
       name: 'Disrupt Ki',
       level: '12',
       traits: ['Monk', 'Negative'],
-      actions: 'two_actions',
+      actions: '2',
       id: 469,
       text: [
         'Make an unarmed Strike. If it deals damage to a living creature, you block that creature&#x2019;s inner life force. The creature takes 2d6 persistent negative damage and is enfeebled 1 until the persistent damage ends. If you&#x2019;re 18th level or higher, this deals 3d6 persistent negative damage instead.',
@@ -5649,7 +5649,7 @@ export const feats = {
       name: 'Ironblood Surge',
       level: '14',
       traits: ['Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 473,
       text: [
         'You steel yourself, preparing to resist oncoming attacks and using your muscles to absorb the impact. You gain the benefits of your iron sweep&#x2019;s parry trait (a +1 circumstance bonus to AC until the start of your next turn) and your resistance from Ironblood Stance increases to your Strength modifier (if it&#x2019;s higher) for the same duration.',
@@ -5662,7 +5662,7 @@ export const feats = {
       name: 'Mountain Quake',
       level: '14',
       traits: ['Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 474,
       text: [
         'You stomp, shaking the earth beneath you. Creatures on the ground within a 20-foot emanation take damage equal to your Strength modifier (minimum 0), which they can resist with a basic Fortitude save. On a failure, they also fall prone. After you use this action, you can&#x2019;t use it again for 1d4 rounds.',
@@ -5677,7 +5677,7 @@ export const feats = {
       name: 'Tangled Forest Rake',
       level: '14',
       traits: ['Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 475,
       text: [
         'You reposition foes with raking attacks. Make a lashing branch Strike. If you hit and deal damage, you force the target to move 5 feet into a space within your reach. This follows the forced movement rules.',
@@ -5712,7 +5712,7 @@ export const feats = {
       name: 'Wild Winds Gust',
       level: '14',
       traits: ['Air', 'Concentrate', 'Evocation', 'Manipulate', 'Monk'],
-      actions: 'two_actions',
+      actions: '2',
       id: 478,
       text: [
         'You store up energy and release it in an enormous gust of rushing wind. Make a wind crash Strike against each creature in your choice of a 30-foot cone or a 60 foot line. These attacks all count toward your multiple attack penalty, but the penalty doesn&#x2019;t increase until after you make all the attacks.',
@@ -5761,7 +5761,7 @@ export const feats = {
       name: 'Shattering Strike (Monk)',
       level: '16',
       traits: ['Monk'],
-      actions: 'two_actions',
+      actions: '2',
       id: 482,
       text: [
         'The force of your considered blow shatters objects and defenses alike. Make an unarmed Strike. It bypasses the target&#x2019;s resistances. If the target has Hardness, the Strike treats the Hardness as if it were half its value.',
@@ -5869,7 +5869,7 @@ export const feats = {
       name: 'Hunted Shot',
       level: '1',
       traits: ['Flourish', 'Ranger'],
-      actions: 'single_action',
+      actions: '1',
       id: 492,
       text: [
         'You take two quick shots against the one you hunt. Make two Strikes against your prey with the required weapon. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to each Strike normally.',
@@ -5893,7 +5893,7 @@ export const feats = {
       name: 'Twin Takedown',
       level: '1',
       traits: ['Flourish', 'Ranger'],
-      actions: 'single_action',
+      actions: '1',
       id: 494,
       text: [
         'You swiftly attack your hunted prey with both weapons. Make two Strikes against your hunted prey, one with each of the required weapons. If both hit the same hunted prey, combine their damage for the purpose of its resistances and weaknesses. Apply your multiple attack penalty to each Strike normally.',
@@ -5954,7 +5954,7 @@ export const feats = {
       name: 'Hunter\'s Aim',
       level: '2',
       traits: ['Concentrate', 'Ranger'],
-      actions: 'two_actions',
+      actions: '2',
       id: 496,
       text: [
         'When you focus on aiming, your attack becomes particularly accurate. Make a ranged weapon Strike against your hunted prey. On this Strike, you gain a +2 circumstance bonus to the attack roll and ignore your prey&#x2019;s concealed condition.',
@@ -5977,7 +5977,7 @@ export const feats = {
       name: 'Quick Draw',
       level: '2',
       traits: ['Ranger', 'Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 498,
       text: [
         'You draw your weapon and attack with the same motion. You Interact to draw a weapon, then Strike with that weapon.',
@@ -6047,7 +6047,7 @@ export const feats = {
       name: 'Running Reload',
       level: '4',
       traits: ['Ranger'],
-      actions: 'single_action',
+      actions: '1',
       id: 504,
       text: [
         'You can reload your weapon on the move. You Stride, Step, or Sneak, then Interact to reload.',
@@ -6108,7 +6108,7 @@ export const feats = {
       name: 'Skirmish Strike',
       level: '6',
       traits: ['Flourish', 'Ranger', 'Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 510,
       text: [
         'Your feet and weapon move in tandem. Either Step and then Strike, or Strike and then Step.',
@@ -6143,7 +6143,7 @@ export const feats = {
       name: 'Deadly Aim',
       level: '8',
       traits: ['Open', 'Ranger'],
-      actions: 'single_action',
+      actions: '1',
       id: 514,
       text: [
         'You aim for your prey&#x2019;s weak spots, making your shot more challenging but dealing more damage if you hit. Make a ranged Strike against your hunted prey at a &#x2013;2 penalty. You gain a +4 circumstance bonus to damage on that Strike. This bonus increases to +6 at 11th level and +8 at 15th level.',
@@ -6190,7 +6190,7 @@ export const feats = {
       name: 'Warden\'s Boon',
       level: '8',
       traits: ['Ranger'],
-      actions: 'single_action',
+      actions: '1',
       id: 518,
       text: [
         'By pointing out vulnerabilities, you grant the benefits listed in Hunt Prey and your hunter&#x2019;s edge benefit to an ally until the end of their next turn. Depending on whether you call out or use gestures, this action gains either the auditory or visual trait.',
@@ -6237,7 +6237,7 @@ export const feats = {
       name: 'Penetrating Shot',
       level: '10',
       traits: ['Open', 'Ranger'],
-      actions: 'two_actions',
+      actions: '2',
       id: 522,
       text: [
         'You shoot clear through an intervening creature to hit your prey. Choose a target that is giving lesser cover to your hunted prey. Make a single ranged Strike with the required weapon against the chosen target and your hunted prey. This attack ignores any lesser cover the chosen target provides your hunted prey. Roll damage only once, and apply it to each creature you hit. A Penetrating Shot counts as two attacks for your multiple attack penalty.',
@@ -6309,7 +6309,7 @@ export const feats = {
       name: 'Second Sting',
       level: '12',
       traits: ['Press', 'Ranger'],
-      actions: 'single_action',
+      actions: '1',
       id: 528,
       text: [
         'You read your prey&#x2019;s movements and transform them into openings, so failures with one weapon set up glancing blows with the other. Make a melee Strike with one of the required weapons against your hunted prey. The Strike gains the following failure effect. ',
@@ -6372,7 +6372,7 @@ export const feats = {
       name: 'Targeting Shot',
       level: '14',
       traits: ['Concentrate', 'Press', 'Ranger'],
-      actions: 'single_action',
+      actions: '1',
       id: 533,
       text: [
         'You carefully track your prey&#x2019;s position and defenses, allowing you to follow up around obstacles that block your shot. Make a ranged weapon Strike against your hunted prey. You ignore the target&#x2019;s concealed condition and all cover.',
@@ -6455,7 +6455,7 @@ export const feats = {
       name: 'Impossible Flurry',
       level: '18',
       traits: ['Flourish', 'Open', 'Ranger'],
-      actions: 'three_actions',
+      actions: '3',
       id: 540,
       text: [
         'You forgo precision to attack at an impossible speed. Make three melee Strikes with each of the required weapons. All of these Strikes take the maximum multiple attack penalty, as if you had already made two or more attacks this turn.',
@@ -6492,7 +6492,7 @@ export const feats = {
       name: 'Perfect Shot',
       level: '18',
       traits: ['Flourish', 'Ranger'],
-      actions: 'three_actions',
+      actions: '3',
       id: 544,
       text: [
         'After watching the motions of combat with incredible intensity and precision, you fire at your prey at the perfect moment to deliver maximum pain. Make a ranged Strike with the required weapon against your hunted prey. If you hit, the Strike deals maximum damage. After the Strike, your turn ends.',
@@ -6591,7 +6591,7 @@ export const feats = {
       name: 'Twin Feint',
       level: '1',
       traits: ['Rogue'],
-      actions: 'two_actions',
+      actions: '2',
       id: 552,
       text: [
         'You make a dazzling series of attacks with both weapons, using the first attack to throw your foe offguard against a second attack at a different angle. Make one Strike with each of your two melee weapons, both against the same target. The target is automatically flat-footed against the second attack. Apply your multiple attack penalty to the Strikes normally.',
@@ -6675,7 +6675,7 @@ export const feats = {
       name: 'Battle Assessment',
       level: '4',
       traits: ['Rogue', 'Secret'],
-      actions: 'single_action',
+      actions: '1',
       id: 560,
       text: [
         'With careful observation during battle, you identify an enemy&#x2019;s strengths and weaknesses. The GM rolls a secret Perception check for you against the Deception or Stealth DC (whichever is higher) of an enemy of your choice who is not concealed from you, hidden from you, or undetected by you, and who is engaged in combat. The GM might apply a penalty for the distance between you and the enemy. The enemy is then temporarily immune to your Battle Assessment for 1 day.',
@@ -6714,7 +6714,7 @@ export const feats = {
       name: 'Poison Weapon',
       level: '4',
       traits: ['Manipulate', 'Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 563,
       text: [
         'You apply a poison to the required weapon; if you\'re not holding a poison and have a free hand, you can Interact to draw a poison as part of this action. If your next attack with that weapon before the end of your next turn hits and deals damage, it applies the effects of the poison, provided that poison can be delivered by contact or injury. If you critically fail the attack roll, the poison is wasted as normal.',
@@ -6741,7 +6741,7 @@ export const feats = {
       name: 'Sabotage',
       level: '4',
       traits: ['Incapacitation', 'Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 565,
       text: [
         'You subtly damage others&#x2019; equipment. Choose one item that a creature within your reach wields or carries. The item must have moving parts that you could possibly sabotage (a shortbow could be sabotaged, but a longsword could not). Attempt a Thievery check against the Reflex DC of the creature. Damage dealt by Sabotage can&#x2019;t take the item below its Break Threshold.',
@@ -6779,7 +6779,7 @@ export const feats = {
       name: 'Twist the Knife',
       level: '6',
       traits: ['Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 570,
       text: [
         'After stabbing your opponent in a weak spot, you tear the wound open. You deal persistent bleed damage to the target equal to your number of sneak attack damage dice.',
@@ -6977,7 +6977,7 @@ export const feats = {
       name: 'Fantastic Leap',
       level: '12',
       traits: ['Rogue'],
-      actions: 'two_actions',
+      actions: '2',
       id: 583,
       text: [
         'You launch yourself through the air at a foe. Attempt a High Jump or Long Jump. If you attempt a High Jump, determine the distance you can travel using the scale of a Long Jump. At the end of your jump, you can make a melee Strike.',
@@ -6989,7 +6989,7 @@ export const feats = {
       name: 'Felling Shot',
       level: '12',
       traits: ['Rogue'],
-      actions: 'two_actions',
+      actions: '2',
       id: 584,
       text: [
         'Your ranged attacks can shoot an unprepared foe right out of the air. Make a Strike with a ranged weapon or a thrown weapon against a flat-footed creature. If the Strike is a success and deals damage, the target must attempt a Reflex save against your class DC with the following effects.',
@@ -7017,7 +7017,7 @@ export const feats = {
       name: 'Spring from the Shadows',
       level: '12',
       traits: ['Flourish', 'Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 586,
       text: [
         'Leaping out from hiding, you assail your target when they least expect it. You Stride up to your Speed, but you must end your movement next to an enemy you&#x2019;re hidden from or undetected by. You then Strike that enemy; you remain hidden from or undetected by that creature until after you Strike. You can use Spring from the Shadows while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.',
@@ -7041,7 +7041,7 @@ export const feats = {
       name: 'Instant Opening',
       level: '14',
       traits: ['Concentrate', 'Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 588,
       text: [
         'You distract your opponent with a few choice words or a rude gesture. Choose a target within 30 feet. It&#x2019;s flat-footed against your attacks until the end of your next turn. Depending on the way you describe your distraction, this action gains either the auditory or visual trait.',
@@ -7103,7 +7103,7 @@ export const feats = {
       name: 'Dispelling Slice',
       level: '16',
       traits: ['Rogue'],
-      actions: 'two_actions',
+      actions: '2',
       id: 594,
       text: [
         'Your sneak attack slices through the threads binding magic to a target. Make a Strike against a flat-footed creature (your choice). If your Strike deals sneak attack damage, you attempt to counteract a single spell active on the target. Your counteract level is equal to your rogue level, and your counteract check modifier is equal to your class DC &#x2013; 10.',
@@ -7114,7 +7114,7 @@ export const feats = {
       name: 'Perfect Distraction',
       level: '16',
       traits: ['Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 595,
       text: [
         'You use clever tactics to mislead your foes as you sneak away. You Sneak while leaving a decoy behind. The decoy acts as the spell mislead, though you aren&#x2019;t invisible, just undetected. You can continue to concentrate to move your decoy, as with the spell, whether or not you remain hidden throughout the duration. Once you use Perfect Distraction, you need to spend 10 minutes to set up another decoy before you can use it again.',
@@ -7126,7 +7126,7 @@ export const feats = {
       name: 'Implausible Infiltration',
       level: '18',
       traits: ['Magical', 'Move', 'Rogue'],
-      actions: 'two_actions',
+      actions: '2',
       id: 596,
       text: [
         'You find tiny holes or imperfections that no one else could see and try to somehow fit yourself through them, possibly moving directly through the wall or floor from one side to the other. Your movement attempt fails if the wall or floor is made of something other than wood, plaster, or stone; is thicker than 10 feet; or contains even a thin layer of metal. If you have a climb Speed, you can use this ability to attempt to move through a ceiling.',
@@ -7396,7 +7396,7 @@ export const feats = {
       name: 'Interweave Dispel',
       level: '14',
       traits: ['Metamagic', 'Sorcerer'],
-      actions: 'single_action',
+      actions: '1',
       id: 623,
       text: [
         'You weave dispelling energy into a spell, sending both effects at a foe. If your next action is to cast a single-target spell against a creature, and you either hit the foe with the spell attack roll or the foe fails its saving throw, you can cast dispel magic on the foe as a free action, expending a spell slot as normal and targeting one spell effect affecting the foe.',
@@ -7468,7 +7468,7 @@ export const feats = {
       name: 'Bloodline Conduit',
       level: '20',
       traits: ['Metamagic', 'Sorcerer'],
-      actions: 'single_action',
+      actions: '1',
       id: 630,
       text: [
         'Your inborn magical nature lets you redirect ambient energies to fuel your spells. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don&#x2019;t expend the spell&#x2019;s slot when you cast it.',
@@ -7538,7 +7538,7 @@ export const feats = {
       name: 'Conceal Spell',
       level: '2',
       traits: ['Concentrate', 'Manipulate', 'Metamagic', 'Witch', 'Wizard'],
-      actions: 'single_action',
+      actions: '1',
       id: 640,
       text: [
         'Hiding your gestures and incantations within other speech and movement, you attempt to conceal the fact that you are Casting a Spell. If the next action you use is to Cast a Spell, attempt a Stealth check against one or more observers&#x2019; Perception DCs; if the spell has verbal components, you must also attempt a Deception check against the observers&#x2019; Perception DC. If you succeed at your check (or checks) against an observer&#x2019;s DC, that observer doesn&#x2019;t notice you&#x2019;re casting a spell, even though material, somatic, and verbal components are usually noticeable and spells normally have sensory manifestations that would make spellcasting obvious to those nearby.',
@@ -7563,7 +7563,7 @@ export const feats = {
       name: 'Silent Spell',
       level: '4',
       traits: ['Concentrate', 'Metamagic', 'Wizard'],
-      actions: 'single_action',
+      actions: '1',
       id: 644,
       text: [
         'You&#x2019;ve learned how to cast many of your spells without speaking the words of power you would normally need to provide. If the next action you use is Casting a Spell that has a verbal component and at least one other component, you can remove the verbal component. This makes the spell quieter and allows you to cast it in areas where sound can&#x2019;t carry. However, the spell still has visual manifestations, so this doesn&#x2019;t make the spell any less obvious to someone who sees you casting it. When you use Silent Spell, you can choose to gain the benefits of Conceal Spell, and you don&#x2019;t need to attempt a Deception check because the spell has no verbal components.',
@@ -7598,7 +7598,7 @@ export const feats = {
       name: 'Bond Conservation',
       level: '8',
       traits: ['Manipulate', 'Metamagic', 'Wizard'],
-      actions: 'single_action',
+      actions: '1',
       id: 648,
       text: [
         'By carefully manipulating the arcane energies stored in your bonded item as you drain it, you can conserve just enough power to cast another, slightly weaker spell. If the next action you use is to Cast a Spell using the energy from Drain Bonded Item, you gain an extra use of Drain Bonded Item. You must use this extra use of Drain Bonded Item before the end of your next turn or you lose it, and you can use this additional use only to cast a spell 2 or more levels lower than the first spell cast with Drain Bonded Item.',
@@ -7672,7 +7672,7 @@ export const feats = {
       name: 'Spell Tinker',
       level: '16',
       traits: ['Concentrate', 'Wizard'],
-      actions: 'two_actions',
+      actions: '2',
       id: 659,
       text: [
         'You&#x2019;ve learned to alter choices you make when casting spells on yourself. After casting a spell on only yourself that offers several choices of effect (such as resist energy, spell immunity, or a polymorph spell that offers several potential forms), you can alter the choice you made when Casting the Spell (for instance, choosing a different type of damage for resist energy). However, your tinkering weakens the spell&#x2019;s integrity, reducing its remaining duration by half.',
@@ -8957,7 +8957,7 @@ export const feats = {
       name: 'Battle Medicine',
       level: '1',
       traits: ['General', 'Healing', 'Manipulate', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 760,
       text: [
         'You can patch up yourself or an adjacent ally, even in combat. Attempt a Medicine check with the same DC as for Treat Wounds, and restore a corresponding amount of Hit Points; this does not remove the wounded condition. As with Treat Wounds, you can attempt checks against higher DCs if you have the minimum proficiency rank. The target is then temporarily immune to your Battle Medicine for 1 day.',
@@ -9480,7 +9480,7 @@ export const feats = {
       name: 'Legendary Negotiation',
       level: '15',
       traits: ['General', 'Skill'],
-      actions: 'three_actions',
+      actions: '3',
       id: 804,
       text: [
         'You can negotiate incredibly quickly in adverse situations. You attempt to Make an Impression and then Request your opponent cease their current activity and engage in negotiations. You take a &#x2013;5 penalty to your Diplomacy check. The GM sets the DC of the Request based on the circumstances&#x2014;it&#x2019;s generally at least a very hard DC of the creature&#x2019;s level. Some creatures might simply refuse, and even those who agree to parley might ultimately find your arguments lacking and return to violence.',
@@ -9885,7 +9885,7 @@ export const feats = {
       name: 'Scare to Death',
       level: '15',
       traits: ['Death', 'Emotion', 'Fear', 'General', 'Incapacitation', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 837,
       text: [
         'You can frighten foes so much, they might die. Attempt an Intimidation check against the Will DC of a living creature within 30 feet of you that you sense or observe and who can sense or observe you. If the target can&#x2019;t hear you or doesn&#x2019;t understand the language you are speaking, you take a &#x2013;4 circumstance penalty. The creature is temporarily immune for 1 minute.',
@@ -10138,7 +10138,7 @@ export const feats = {
       name: 'Trick Magic Item',
       level: '1',
       traits: ['General', 'Manipulate', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 857,
       text: [
         'You examine a magic item you normally couldn&#x2019;t use in an effort to fool it and activate it temporarily. For example, this might allow a fighter to cast a spell from a wand or allow a wizard to cast a spell that&#x2019;s not on the arcane list using a scroll. You must know what activating the item does, or you can&#x2019;t attempt to trick it.',
@@ -10308,7 +10308,7 @@ export const feats = {
       name: 'Eye of the Arclords',
       level: '2',
       traits: ['General', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 870,
       text: [
         'You open an incandescent third eye upon your forehead. The eye can remain open for 1 minute, and you can close it before then with a single action with the concentrate trait. It can remain open for 2 minutes if you&#x2019;re a master in Arcana, or 5 minutes if you&#x2019;re legendary. While the eye is open, you gain the following benefits: you gain the effects of the detect magic arcane innate spell from your Arcane Sense at the start of each of your turns without needing to cast the spell; you gain darkvision; you gain a +2 status bonus to Perception checks to Seek undetected and hidden creatures and to your Perception DC against Hide and Sneak. After your third eye closes, you are dazzled for an amount of time equal to how long you had it open.',
@@ -10406,7 +10406,7 @@ export const feats = {
       name: 'Aldori Parry',
       level: '4',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 877,
       text: [
         'You can parry attacks against you with your Aldori dueling sword. You gain a +2 circumstance bonus to AC until the start of your next turn as long as you continue to meet the requirement.',
@@ -10589,7 +10589,7 @@ export const feats = {
       prerequisites:
         'Living Monolith Dedication, a sphinx or living monolith with this feat performs a ritual with you',
       activate: {
-        actions: 'two_actions',
+        actions: '2',
         name: '(envision), or a different activation if otherwise specified',
         requirements:
           ' a number of times each day equal to the number of class feats you have from the Living Monolith archetype; ',
@@ -10714,7 +10714,7 @@ export const feats = {
       name: 'Crimson Shroud',
       level: '6',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 898,
       text: [
         'You swathe yourself in a veil of red mist for 1 minute. While the shroud is active, you gain fast healing equal to half your level. You can Interact with your shroud, swirling it around you, to gain a +1 circumstance bonus to AC until the beginning of your next turn. Finally, if you die while the shroud is active, you can choose to have your entire body vanish into red mist, leaving behind only your gear; you make this choice when you activate Crimson Shroud.',
@@ -11051,7 +11051,7 @@ export const feats = {
       name: 'Flicker',
       level: '12',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 922,
       text: [
         'You use your movements and disguises to make yourself a flickering blur. You gain concealment until your next turn. As usual for concealment involving an obvious visual manifestation, you can&#x2019;t use this concealment to Hide.',
@@ -11078,7 +11078,7 @@ export const feats = {
       name: 'Reveal Machinations',
       level: '15',
       traits: ['General', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 924,
       text: [
         'You reveal that you played a minor but recurring role in another humanoid&#x2019;s life&#x2014;or at least convince them that&#x2019;s the case. Attempt a Deception check against the target&#x2019;s Will DC. On a success, the revelation makes them frightened 2, and on a critical success they are frightened 3. In addition, you gain information about the subject as though you had attempted to Recall Knowledge about them using an appropriate skill and received the same result on your roll. You can&#x2019;t use this ability against the same humanoid again until 1 day has passed and you&#x2019;ve also successfully disguised yourself as a different person.',
@@ -11208,7 +11208,7 @@ export const feats = {
       name: 'Cut the Bonds',
       level: '12',
       traits: ['Archetype', 'Attack'],
-      actions: 'single_action',
+      actions: '1',
       id: 934,
       text: [
         'Select a magical effect that has made an adjacent member of your crop clumsy, grabbed, paralyzed, restrained, or slowed. Attempt a counteract check using your attack modifier (including your multiple attack penalty) with a melee weapon with which you have expert proficiency. Your counteract level is half your level rounded up. On a success, you free that member from the effect; on a failure, you can&#x2019;t attempt to use Cut the Bonds on that effect on that crop member until 24 hours have passed.',
@@ -11221,7 +11221,7 @@ export const feats = {
       name: 'Rain of Embers Stance',
       level: '1',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 936,
       text: [
         'You enter the stance of an enraged phoenix, holding your fingers as rigid as deadly talons while moving with quick, flickering gestures that flicker with dancing flames. The only Strikes you can make are fire talon Strikes. These deal 1d4 fire damage; are in the brawling group; and have the agile, finesse, fire, nonlethal, and unarmed traits.',
@@ -11325,7 +11325,7 @@ export const feats = {
       name: 'Saoc Astrology',
       level: '1',
       traits: ['Concentrate', 'Human'],
-      actions: 'single_action',
+      actions: '1',
       id: 946,
       text: [
         'The ancient Saoc Brethren were the masters of astrology, and while your knowledge may be but a pale shadow of their wisdom, it still comes in handy. You recall the stars&#x2019; predictions about your current situation. If your next action requires you to attempt one or more skill checks, roll 1d8. On a result of 6, 7, or 8, you gain a +2 circumstance bonus to the first such skill check you attempt. On a 3, 4, or 5, you gain a +1 circumstance bonus. On a 2, you gain nothing. On a 1, you take a &#x2013;1 circumstance penalty to the skill check.',
@@ -11561,7 +11561,7 @@ export const feats = {
       name: 'Clan\'s Edge',
       level: '1',
       traits: ['Dwarf'],
-      actions: 'two_actions',
+      actions: '2',
       id: 965,
       text: [
         'By moving your clan dagger with rapid precision, you can protect yourself more effectively. Make two clan dagger Strikes against different targets. Your multiple attack penalty applies normally to these Strikes. You then use an Interact action to gain the +1 circumstance bonus to your AC from your clan dagger&#x2019;s parrying trait.',
@@ -11760,7 +11760,7 @@ export const feats = {
       name: 'Forest Stealth',
       level: '5',
       traits: ['Elf'],
-      actions: 'single_action',
+      actions: '1',
       id: 982,
       text: [
         'You are skilled at quickly hiding behind bits of underbrush or foliage. You Take Cover and then use that cover to Hide.',
@@ -11847,7 +11847,7 @@ export const feats = {
       name: 'Inventive Offensive',
       level: '1',
       traits: ['Gnome'],
-      actions: 'three_actions',
+      actions: '3',
       id: 989,
       text: [
         'You can jury-rig your weapons to perform in unexpected ways. When you use this ability, add one of the following weapon traits to a melee weapon you wield: deadly d6, disarm, nonlethal, shove, trip, versatile B, versatile P, or versatile S. You cannot add a trait that the weapon already has. The weapon retains this trait until you a successfully hit and deal damage with the weapon. The weapon retains this trait only while you wield it, and you can have only one weapon modified in this way at any time.',
@@ -12035,7 +12035,7 @@ export const feats = {
       name: 'Tail Spin',
       level: '5',
       traits: ['Goblin'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1004,
       text: [
         'You excel at using your tail as a weapon to upend your foes. Attempt a single Athletics check to Trip up to two adjacent creatures. If you roll a success against a target, you get a critical success against that target instead.',
@@ -12047,7 +12047,7 @@ export const feats = {
       name: 'Torch Goblin',
       level: '5',
       traits: ['Goblin'],
-      actions: 'single_action',
+      actions: '1',
       id: 1005,
       text: [
         'You&#x2019;ve spent enough time on fire that you know how to use it to your advantage. You can light yourself thoroughly on fire with a held torch, a bottle of alchemist&#x2019;s fire, or a similar incendiary, dealing yourself 1d6 persistent fire damage. As long as you are suffering persistent fire damage, all your melee attacks against adjacent creatures deal an additional 1 fire damage per weapon damage die. Any creature that successfully Grapples, Shoves, or Trips you takes 1d6 fire damage; if it uses a weapon for that action, the weapon takes the damage instead. You must still attempt the flat check to remove the persistent fire damage each round, as normal.',
@@ -12071,7 +12071,7 @@ export const feats = {
       name: 'Freeze It!',
       level: '9',
       traits: ['Goblin'],
-      actions: 'single_action',
+      actions: '1',
       id: 1007,
       text: [
         'You are no rime hag or Jadwiga, but the magic of the north has still left a mark on you. Frigid ice runs through your veins, and you can expel frost from your body to freeze your foes. Attempt an Athletics check against the Fortitude DC of an adjacent foe. If you have master proficiency in Athletics, you can affect up to two adjacent foes, rolling one Athletics check against each foe.',
@@ -12505,7 +12505,7 @@ export const feats = {
       name: 'Leshy Glide',
       level: '5',
       traits: ['Leshy'],
-      actions: 'single_action',
+      actions: '1',
       id: 1044,
       text: [
         'Using your own leaves, you can control your descent. You glide slowly toward the ground, 5 feet down and up to 25 feet forward through the air. As long as you spend at least 1 action gliding each round and have not yet reached the ground, you remain in the air at the end of your turn.',
@@ -12517,7 +12517,7 @@ export const feats = {
       name: 'Ritual Reversion',
       level: '5',
       traits: ['Leshy', 'Polymorph', 'Primal', 'Transmutation'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1045,
       text: [
         'You can temporarily revert to a less conspicuous form without diminishing your senses. You take the form of an ordinary specimen of the type of plant or fungus that most closely resembles you, reverting to your body&#x2019;s appearance just before your spirit joined with it. This otherwise has the effects of tree shape, except that your size remains Small.',
@@ -12652,7 +12652,7 @@ export const feats = {
       name: 'Envenom Fangs',
       level: '5',
       traits: ['Lizardfolk'],
-      actions: 'single_action',
+      actions: '1',
       id: 1057,
       text: [
         'You envenom your fangs. If the next fangs Strike you make before the end of your next turn hits and deals damage, the Strike deals an additional 1d6 poison damage. On a critical failure, the poison is wasted as normal.',
@@ -12784,7 +12784,7 @@ export const feats = {
       name: 'Firebrand Braggart Dedication',
       level: '4',
       traits: ['Archetype', 'Dedication', 'Misfortune'],
-      actions: 'single_action',
+      actions: '1',
       id: 1067,
       text: [
         'Your Firebrand training has taught you that achieving something is more satisfying if you boast about it first. You declare a boast about a particular skill action, such as Balance, Demoralize, or Recall Knowledge. The first time you attempt this action within the next minute in a context the GM deems both suitably challenging and meaningful, you must roll twice and use the lower result. If you succeed at this check, you gain a +1 circumstance bonus to checks to attempt the same action for 10 minutes. If you fail this check or don&#x2019;t attempt the action within 1 minute, you instead take a &#x2013;1 circumstance penalty on checks to attempt the same action for 1 hour.',
@@ -12801,7 +12801,7 @@ export const feats = {
       name: 'Boaster\'s Challenge',
       level: '6',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 1068,
       text: [
         'You call out a foe, causing them to become flustered and easier to defeat. Select one creature you can see and declare a challenge. For your challenge, attempt a Deception, Diplomacy, or Intimidation check against that creature&#x2019;s Will DC. Your challenge must include a linguistic, auditory, or visual component and gains the corresponding trait. If you succeed, you gain a +2 status bonus to damage rolls with your weapon or unarmed Strikes against that foe until the end of your next turn; if you have master proficiency in the skill you used, you gain a +4 status bonus instead, and if you&#x2019;re legendary, you gain a +6 status bonus. On a critical success, the status bonus lasts for 3 rounds instead. Whether you succeed or fail, creatures who witnessed your challenge gain a +4 circumstance bonus to their Will DCs against your attempts to challenge for 1 minute.',
@@ -12815,7 +12815,7 @@ export const feats = {
       name: 'Daring Act',
       level: '6',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1069,
       text: [
         'You attempt a death-defying maneuver to distract your enemies. Select one foe within reach and attempt either an Acrobatics or Athletics check against your target&#x2019;s Reflex DC. If you succeed, you can Stride up to half your Speed (or up to your full Speed if you critically succeed) without triggering reactions from the target due to your movement, and the target is flat-footed against the next melee attack you attempt against it before the end of your turn.',
@@ -12971,7 +12971,7 @@ export const feats = {
       name: 'Blade of Law',
       level: '12',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1080,
       text: [
         'You call upon the power of law and make a weapon or unarmed Strike against a foe you have witnessed breaking or disrespecting the law or otherwise acting disorderly. The Strike deals two extra weapon damage dice if the target of your Strike is chaotic. Whether or not the target is chaotic, you can convert the physical damage from the attack into lawful damage.',
@@ -13068,7 +13068,7 @@ export const feats = {
       name: 'Everstand Stance',
       level: '1',
       traits: ['Champion', 'Fighter', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 1087,
       text: [
         'You brace your shield with both hands, enhancing its potential for both offense and defense. When in this stance, you wield the shield with both hands. When wielding a shield this way, increase the weapon damage die of the shield&#x2019;s boss or spikes by one step, and increase the shield&#x2019;s Hardness by 2 when using the Shield Block reaction. class="title">Knights of Lastwall Class Feats<b>Source</b> Character Guide pg. 90<br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
@@ -13081,7 +13081,7 @@ export const feats = {
       name: 'Everstand Strike',
       level: '4',
       traits: ['Champion', 'Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 1088,
       text: [
         'Your follow-up blow leaves you an opening to set your shield. Make a Strike with the wielded shield. If the Strike hits and deals damage, you also Raise your Shield. class="title">Knights of Lastwall Class Feats<b>Source</b> Character Guide pg. 90<br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
@@ -13119,7 +13119,7 @@ export const feats = {
       name: 'Impassable Wall Stance',
       level: '8',
       traits: ['Champion', 'Fighter'],
-      actions: 'single_action',
+      actions: '1',
       id: 1091,
       text: [
         'You refuse to let foes past your guard. As long as you are in this stance, when you critically hit with an Attack of Opportunity triggered by a move action, you disrupt that move action. class="title">Knights of Lastwall Class Feats<b>Source</b> Character Guide pg. 90<br>The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn&#x2019;t apply to your class.',
@@ -13177,7 +13177,7 @@ export const feats = {
       name: 'Aegis of Arnisant',
       level: '12',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1095,
       text: [
         'Inspired by the tale of Arnisant, you transform your shield into a magic ward. Until the beginning of your next turn, you gain the following reaction: class="title">Absorb into the Aegis <img alt="Reaction" style="height:15px;" src="Images\\Actions\\Reaction.png"><b>Source</b> Character Guide pg. 94<br><b>Trigger</b> An enemy casts a spell that targets you or an ally within 15 feet of you',
@@ -13263,7 +13263,7 @@ export const feats = {
       name: 'Blade of the Crimson Oath',
       level: '12',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1101,
       text: [
         'You call upon the Crimson Oath to smite undead and then make a weapon or unarmed Strike against an undead foe. The Strike deals two extra weapon damage dice, and you can convert all the physical damage from the attack into positive damage.',
@@ -13365,7 +13365,7 @@ export const feats = {
       name: 'Tempest-Sun Redirection',
       level: '6',
       traits: ['Archetype', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1108,
       text: [
         'If the next action you use is to Cast a Spell from your spell slots that damages other creatures, you can bend some of that spell&#x2019;s offensive energy, protecting allies in the area and boosting your own defenses against certain foes. Select any number of targets of the spell and reduce the spell&#x2019;s damage to those targets by an amount equal to the spell&#x2019;s level. Until your next turn, when one of those targets damages you, that damage is reduced by twice the spell&#x2019;s level.',
@@ -13379,7 +13379,7 @@ export const feats = {
       name: 'Uzunjati Storytelling',
       level: '6',
       traits: ['Archetype', 'Concentrate', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 1109,
       text: [
         'You tell a quick story or begin telling a longer tale. This is most useful when you want to prove your scholarly credibility or impress someone quickly. Roll a check with a skill that can be used to Recall Knowledge in which you have expert proficiency, using the result entry for the Perform action. Like Performing, Storytelling rarely has an effect on its own, but it might influence the DCs of subsequent Diplomacy checks against the observers&#x2014;or even change their attitudes&#x2014;if the GM sees fit. This action is not a Performance and cannot be used in place of anything that requires you to Perform.',
@@ -13421,7 +13421,7 @@ export const feats = {
       name: 'Rain-Scribe Mobility',
       level: '10',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1112,
       text: [
         'You surround yourself in a mantle of Rain-Scribe magic and Stride twice; difficult terrain does not reduce your Speed, even if the difficult terrain has been manipulated by magic. Your magic clears the difficult terrain in each square you entered; until your next turn, those squares aren&#x2019;t difficult terrain for any creature walking through them (or are normal difficult terrain if they were previously greater difficult terrain).',
@@ -13448,7 +13448,7 @@ export const feats = {
       name: 'Uzunjati Recollection',
       level: '10',
       traits: ['Archetype', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 1114,
       text: [
         'You tell a story spontaneously from nearly forgotten facts, delving into your memory and entertaining your audience in the process. Recall Knowledge with a skill in which you have master proficiency, then use Uzunjati Storytelling with the same skill. You gain a +1 circumstance bonus to your skill check for Uzunjati Storytelling from the added details.',
@@ -13477,7 +13477,7 @@ export const feats = {
       name: 'Dualistic Synergy',
       level: '8',
       traits: ['Archetype', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1116,
       text: [
         'If your next action is to Cast a Spell from your spell slots, you gain a benefit. If the spell is arcane, you can attempt a skill check to Recall Knowledge with a +1 status bonus to the check after casting the spell, or a +2 status bonus if the spell is 7th level or higher. If the spell is primal, you gain a number of temporary Hit Points equal to the spell&#x2019;s level for 1 round. If the spell is a halcyon spell, you gain both benefits.',
@@ -13596,7 +13596,7 @@ export const feats = {
       name: 'Synergistic Spell',
       level: '20',
       traits: ['Archetype', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1125,
       text: [
         'You combine your synergy and spells into a fantastic web of magic, allowing you to cast two spells at once. If the next action you use is to Cast a Spell from one of your halcyon spell slots, after that spell resolves, you can Cast another Spell as a free action. This spell must be cast from one of your halcyon spell slots and be a spell that would normally take two actions to cast.',
@@ -13655,7 +13655,7 @@ export const feats = {
       name: 'Educated Assessment',
       level: '12',
       traits: ['Archetype', 'Secret'],
-      actions: 'single_action',
+      actions: '1',
       id: 1129,
       text: [
         'You attempt to Recall Knowledge about a creature, and the GM uses the same secret roll result against the creature&#x2019;s Deception or Stealth DC, giving you the information from a Battle Assessment. You might get a different degree of success on the Recall Knowledge check than what you get for the Battle Assessment. If you have the Battle Assessment feat, you gain the effects of Educated Assessment whenever you Recall Knowledge (such as with the Automatic Knowledge feat).',
@@ -13815,7 +13815,7 @@ export const feats = {
       name: 'Harrying Strike',
       level: '10',
       traits: ['Archetype', 'Attack', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 1140,
       text: [
         'Your attack prevents a foe from pursuing your allies. Make a melee Strike, adding the following effects in addition to the normal effects of the Strike.',
@@ -13958,7 +13958,7 @@ export const feats = {
       name: 'Pesh Skin',
       level: '12',
       traits: ['Druid', 'Morph'],
-      actions: 'single_action',
+      actions: '1',
       id: 1152,
       text: [
         'Your plant form sprouts hundreds of spines, and your blood causes mild hallucinations in creatures exposed to it. Each time a creature touches you, hits you with an unarmed attack, or hits you with a melee weapon attack while adjacent to you, that creature takes 1d6 piercing damage. Increase the damage to 2d6 if the polymorph spell is 8th level or higher, or to 3d6 if it&#x2019;s 10th level.',
@@ -14041,7 +14041,7 @@ export const feats = {
       name: 'Unfazed Assessment',
       level: '8',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 1158,
       text: [
         'You have witnessed hundreds of fighting styles and quickly adapt to defend against complicated maneuvers. Choose a creature within 30 feet who you&#x2019;re aware of, and attempt a Perception check against that target&#x2019;s Will DC. If you succeed, you size up their fighting style, gaining a +1 circumstance bonus to AC and saving throws against that creature&#x2019;s attacks (or a +2 circumstance bonus for a critical success). These benefits last until the end of your next turn.',
@@ -14232,7 +14232,7 @@ export const feats = {
       name: 'Battle Prayer',
       level: '7',
       traits: ['Divine', 'General', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 1174,
       text: [
         'Calling out to your deity, you recite scripture to harm a foe. When you select this feat, choose chaos, evil, good, or law. Your choice must match one of your deity&#x2019;s alignment components. This action has the trait corresponding to the chosen alignment.',
@@ -14313,7 +14313,7 @@ export const feats = {
       name: 'Evangelize',
       level: '7',
       traits: ['Auditory', 'General', 'Linguistic', 'Mental', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 1180,
       text: [
         'You point out a detail that incontrovertibly supports your faith, causing a listener&#x2019;s mind to whirl. Attempt a Diplomacy check and compare the result to the Will DC of a single target that can hear you and understands your language; that target is then temporarily immune to Evangelize with respect to your deity or philosophy for 1 day. A creature that already agrees with you is unaffected, and at the GM&#x2019;s discretion, a target that genuinely changes its perspective to support your faith as a result of the argument is also otherwise unaffected.',
@@ -14353,7 +14353,7 @@ export const feats = {
       name: 'Sacred Defense',
       level: '7',
       traits: ['Divine', 'General', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 1183,
       text: [
         'You call upon your deity to grant you their protective blessing. Attempt a DC 30 Religion check. If you have legendary proficiency in Religion, you can instead attempt a DC 40 Religion check to increase the temporary Hit Points you gain on a successful check to 15 (25 on a critical success).',
@@ -14385,7 +14385,7 @@ export const feats = {
       name: 'Sanctify Water',
       level: '7',
       traits: ['General', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 1185,
       text: [
         'You imbue water with your deity&#x2019;s blessing. Choose a container of water on your person that is of light Bulk. For 1 round, if you or an ally throw this container at a foe, it has the damaging effects of holy water (if you follow a good deity) or unholy water (if you follow an evil deity). The water&#x2019;s transient power doesn&#x2019;t make it gain any value, allow it to be used to supply the cost for a spell or ritual, and so on. If you have legendary proficiency in Religion, you can sanctify three containers held by you or allies within your reach instead of one.',
@@ -14467,7 +14467,7 @@ export const feats = {
       name: 'Lobbed Attack',
       level: '8',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 1191,
       text: [
         'You make a thrown ranged Strike with the required weapon, using the weapon&#x2019;s normal range increment. This attack doesn&#x2019;t trigger reactions, and if the target has never seen you use this feat before, the target is flat-footed against this attack.',
@@ -14526,7 +14526,7 @@ export const feats = {
       name: 'Staff Sweep',
       level: '6',
       traits: ['Archetype', 'Flourish'],
-      actions: 'single_action',
+      actions: '1',
       id: 1195,
       text: [
         'You sweep your foes away with your staff. Roll an Athletics check to Shove or Trip, and compare the result to the appropriate DCs of up to two foes, each of whom must be within your reach and no more than 5 feet apart.',
@@ -14540,7 +14540,7 @@ export const feats = {
       name: 'Levering Strike',
       level: '8',
       traits: ['Archetype', 'Press'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1196,
       text: [
         'Make a Strike with your staff. As long as you don&#x2019;t critically fail, the target becomes flat-footed and takes a &#x2013;2 circumstance penalty to its DC against Shove, Trip, and Tumble Through attempts until the start of your next turn.',
@@ -14554,7 +14554,7 @@ export const feats = {
       name: 'Whirlwind Stance',
       level: '10',
       traits: ['Archetype', 'Flourish', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 1197,
       text: [
         'You use your staff as a defensive implement as well as an offensive one. You gain a +2 circumstance bonus to AC as long as you remain in this stance.',
@@ -14568,7 +14568,7 @@ export const feats = {
       name: 'Pivot Strike',
       level: '14',
       traits: ['Archetype', 'Attack', 'Open'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1198,
       text: [
         'You Leap and then Strike using your staff. You gain a circumstance bonus to damage for the Strike equal to twice the number of weapon damage dice. Regardless of whether your Strike hit, you can then attempt to Shove or Trip the target.',
@@ -14582,7 +14582,7 @@ export const feats = {
       name: 'Juggle',
       level: '2',
       traits: ['Concentrate', 'General', 'Manipulate', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 1199,
       text: [
         'You can Juggle items and still use your hands between tosses. You can use the Juggle action in several ways.',
@@ -14682,7 +14682,7 @@ export const feats = {
       name: 'Encouraging Words',
       level: '2',
       traits: ['Auditory', 'General', 'Linguistic', 'Mental', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 1210,
       text: [
         'You give an ally within 30 feet a quick pep talk, helping them recover. Attempt a Diplomacy check. The DC is usually 15, though the GM might adjust it based on the circumstances. If you have expert proficiency in Diplomacy, you can instead attempt a DC 20 check to increase the Stamina Points recovered by 5; if you have master proficiency, you can attempt a DC 30 check to increase the Stamina Points by 15; if you have legendary proficiency, you can attempt a DC 40 check to increase the Stamina Points by 25. No matter the result, the ally is temporarily immune to Encouraging Words until they either Take a Breather or rest for the day.\n',
@@ -14699,7 +14699,7 @@ export const feats = {
       name: 'Steel Your Resolve',
       level: '3',
       traits: ['General'],
-      actions: 'single_action',
+      actions: '1',
       id: 1211,
       text: ['Regain Stamina Points equal to half your maximum.'],
       source: 'Gamemastery Guide pg. 201',
@@ -14721,7 +14721,7 @@ export const feats = {
       name: 'Dig Quickly',
       level: '1',
       traits: ['Manipulate', 'Shoony'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1214,
       text: [
         'Your hands work as effectively as shovels when you need to dig a quick hole. You dig a shallow pit in the square you currently occupy, turning the square into difficult terrain (including for you). In addition, you also kick up a cloud of grit in a direction of your choice. The cloud extinguishes small, unattended, non-magical fires and helps smother the flames on burning creatures located within the cone; creatures in this cone that are taking persistent fire damage can immediately attempt an additional flat DC 15 check to end the persistent damage.',
@@ -14902,7 +14902,7 @@ export const feats = {
       name: 'Quicken Heartbeat',
       level: '10',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 1229,
       text: [
         'You&#x2019;ve replaced your heart with one made of animated quicksilver and living adamantine. You reduce your slowed condition by 1. Alternatively, if you are not slowed, you are quickened 1 during your next turn, and can use your extra action to Stride or Strike.',
@@ -14974,7 +14974,7 @@ export const feats = {
       name: 'Log Roll',
       level: '4',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 1234,
       text: [
         'You shuffle your feet to dislodge the surface beneath you or otherwise cause your opponent to become unsteady. Attempt an Acrobatics check against the adjacent creature&#x2019;s Reflex saving throw DC. On a success, the creature falls. On a critical failure, you fall.',
@@ -15045,7 +15045,7 @@ export const feats = {
       name: 'Annihilating Swing',
       level: '20',
       traits: ['Barbarian'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1240,
       text: [
         'You have learned from the brute destructive power of xulgaths and their kind. You make a melee Strike that ignores any resistances the target has. If you target a solid unattended object or surface with your Strike, you might automatically destroy it without an attack roll. If you target any object or surface with Hardness 20 or less that isn\'t a magic item or the effect of a spell, you destroy it. If the target object or surface is a magic item or the effect of a spell, you attempt to counteract it using your attack bonus with the Strike for the counteract check. On a successful counteract check, you destroy the object or surface unless it has Hardness greater than 20, is an artifact, or is similarly difficult to destroy. You destroy up to a 5-foot cube of an object or surface larger than Medium.',
@@ -15119,7 +15119,7 @@ export const feats = {
       name: 'Reclaim Spell',
       level: '20',
       traits: ['Wizard'],
-      actions: 'single_action',
+      actions: '1',
       id: 1246,
       text: [
         'You have learned to manipulate reflections of magic, similar to the resonant reflections. You reclaim the magic of an ongoing spell, using it reprepare a spell with a duration. You Dismiss a Spell of 4th level or lower that you cast today from a spell slot with at least half its duration remaining, even if that spell can\'t normally be Dismissed. You can then spend 10 minutes to reprepare the spell in that spell slot, as Reprepare Spell.',
@@ -15159,7 +15159,7 @@ export const feats = {
       name: 'Steal Essence',
       level: '20',
       traits: ['Rogue'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1249,
       text: [
         'Being in the presence of the aeon orbs as they deteriorated has taught you how to siphon energy, and you do so with the required magic item. The DC to steal the properties of a magic item is equal to the DC for the item\'s level or the normal DC to Steal the item, whichever is higher. The targeted item then becomes temporarily immune for 24 hours. If the object was on a creature, that creature is also temporarily immune (which prevents you from attempting to Steal the Essence of another object on it).',
@@ -15269,7 +15269,7 @@ export const feats = {
       name: 'Light Paws',
       level: '5',
       traits: ['Catfolk'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1260,
       text: [
         'You can balance on your toes to step carefully over obstructions. You Stride and then Step, or Step and then Stride, ignoring difficult terrain during this movement.',
@@ -15414,7 +15414,7 @@ export const feats = {
       name: 'Kobold Breath',
       level: '1',
       traits: ['Arcane', 'Evocation', 'Kobold'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1272,
       text: [
         'You channel your draconic exemplar\'s power into a gout of energy that manifests as a 30-foot line or a 15-foot cone, dealing 1d4 damage. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC. You can\'t use this ability again for 1d4 rounds.',
@@ -15437,7 +15437,7 @@ export const feats = {
       name: 'Scamper',
       level: '1',
       traits: ['Kobold'],
-      actions: 'single_action',
+      actions: '1',
       id: 1274,
       text: [
         'You instinctively know how to flee danger. You Stride up to your Speed, with a +5-foot status bonus to your Speed, and you gain a +2 circumstance bonus to AC against reactions triggered by this movement. You must end this movement in a space that\'s not adjacent to any enemy.',
@@ -15475,7 +15475,7 @@ export const feats = {
       name: 'Grovel',
       level: '5',
       traits: ['Auditory', 'Concentrate', 'Emotion', 'Kobold', 'Mental'],
-      actions: 'single_action',
+      actions: '1',
       id: 1277,
       text: [
         'With obsequious words and begging gestures, you convince your foe you\'re less of a threat. You attempt to Feint against a creature. Unlike a normal Feint, the creature can be within 30 feet instead of in your melee reach, and you make your check against its Will DC instead of its Perception DC.',
@@ -15845,7 +15845,7 @@ export const feats = {
       name: 'Rat Form',
       level: '9',
       traits: ['Concentrate', 'Polymorph', 'Primal', 'Ratfolk', 'Transmutation'],
-      actions: 'single_action',
+      actions: '1',
       id: 1308,
       text: [
         'You can transform into an innocuous-looking rat to scout an area or slip through tight spaces. You gain the effects of a 1st-level pest form spell, except that you must assume the battle form of a Tiny rat.',
@@ -15937,7 +15937,7 @@ export const feats = {
       name: 'Long-Nosed Form',
       level: '5',
       traits: ['Concentrate', 'Polymorph', 'Primal', 'Tengu', 'Transmutation'],
-      actions: 'single_action',
+      actions: '1',
       id: 1316,
       text: [
         'You can transform into a specific, curious-looking human form. This human form is the same age and body type as your tengu form and has roughly analogous physical traits, such as height, though your nose remains as long as your beak and your complexion has red undertones, no matter the skin color of your human form. Using Long-Nosed Form counts as creating a disguise for the Impersonate use of Deception. Due to your imperfect transformation, your transformation doesn\'t automatically defeat Perception DCs to determine whether you are human, though you may be able to explain away or hide your tengu traits. You lose your beak unarmed Strike in your human form, as well as any other unarmed Strikes you gained from a tengu heritage or ancestry feat. You can remain in your human form indefinitely, and you can shift back to your tengu form by using this action again.',
@@ -15948,7 +15948,7 @@ export const feats = {
       name: 'One-Toed Hop',
       level: '5',
       traits: ['Tengu'],
-      actions: 'single_action',
+      actions: '1',
       id: 1317,
       text: [
         'Assuming a peculiar stance, you make a short hop on each toe. You make a vertical Leap without triggering reactions that can be triggered by move actions or upon leaving or entering a square.',
@@ -15983,7 +15983,7 @@ export const feats = {
       name: 'Soaring Flight',
       level: '9',
       traits: ['Morph', 'Primal', 'Tengu', 'Transmutation'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1320,
       text: [
         'To be a tengu is to be unburdened by the concerns of the world below. You grow a pair of magical wings or expand your existing ones. For 5 minutes, you gain a fly Speed equal to your land Speed or 20 feet, whichever is greater.',
@@ -16287,7 +16287,7 @@ export const feats = {
       name: 'Form of the Bat',
       level: '13',
       traits: ['Concentrate', 'Dhampir', 'Divine', 'Polymorph', 'Transmutation'],
-      actions: 'single_action',
+      actions: '1',
       id: 1346,
       text: [
         'You can transform into a harmless bat. You gain the effects of a 4th-level pest form, except you always transform into a bat.',
@@ -16447,7 +16447,7 @@ export const feats = {
       name: 'Celestial Wings',
       level: '9',
       traits: ['Aasimar', 'Divine', 'Morph', 'Transmutation'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1360,
       text: [
         'With effort, you can call forth magical wings from your back, similar in appearance to those of your celestial forebears. These wings remain for 10 minutes. You gain a fly Speed equal to your Speed while you\'ve manifested your wings.',
@@ -16800,7 +16800,7 @@ export const feats = {
       name: 'Fiendish Wings',
       level: '9',
       traits: ['Divine', 'Morph', 'Tiefling', 'Transmutation'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1390,
       text: [
         'You can strain to call forth bat-like or otherwise fiendish wings from your back, similar in appearance to those of your fiendish ancestors. Once manifested, these wings remain for 10 minutes. You gain a fly Speed equal to your land Speed while you\'ve manifested your wings.',
@@ -16937,7 +16937,7 @@ export const feats = {
       name: 'Echoes in Stone',
       level: '9',
       traits: ['Concentrate', 'Dwarf'],
-      actions: 'single_action',
+      actions: '1',
       id: 1402,
       text: [
         'You pause a moment to attune your senses to the stone around you. Until the start of your next turn, you gain a new sense: imprecise tremorsense with a range of 20 feet.',
@@ -16949,7 +16949,7 @@ export const feats = {
       name: 'Returning Throw',
       level: '9',
       traits: ['Dwarf'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1403,
       text: [
         'You have mastered the technique of arcing a projectile so that it returns to your hand after being thrown, though this requires a moment to precisely calculate the trajectory and possible ricochets. Make a ranged Strike with a thrown weapon. Once the Strike is complete, the weapon arcs or ricochets back to your hand. If your hands are full when the weapon returns, it falls to the ground in your space.',
@@ -17076,7 +17076,7 @@ export const feats = {
       name: 'Avenge Ally',
       level: '13',
       traits: ['Elf', 'Fortune'],
-      actions: 'single_action',
+      actions: '1',
       id: 1414,
       text: [
         'Though you know that you will eventually outlive your companions, seeing them at death\'s door brings clarity to your attacks. Make a Strike. Roll twice on the attack roll and use the higher result.',
@@ -17133,7 +17133,7 @@ export const feats = {
       name: 'Project Persona',
       level: '5',
       traits: ['Concentrate', 'Gnome', 'Illusion', 'Primal', 'Visual'],
-      actions: 'single_action',
+      actions: '1',
       id: 1418,
       text: [
         'Where others etch their armor to serve as a conduit for their imaginations, your vivid mind and bold personality allow you to project a more fitting persona over your lackluster armor. You change the shape and appearance of your armor to appear as ordinary or fine clothes of your imagining. The armor\'s statistics don\'t change. This effect lasts as long as you remain conscious and are wearing the armor. A creature can disbelieve the illusion by Seeking or touching your armor. The DC equals your Will DC.',
@@ -17157,7 +17157,7 @@ export const feats = {
       name: 'Life Leap',
       level: '9',
       traits: ['Gnome', 'Move', 'Necromancy', 'Teleportation'],
-      actions: 'single_action',
+      actions: '1',
       id: 1420,
       text: [
         'You phase through a space that a living creature occupies in a flash, spontaneously appearing on the opposite side of it in a vibrant display of colorful light. You move from your current location to another location that\'s still adjacent to the same living creature, but on the opposite side or corner of the creature\'s space. To determine whether a position is valid, use the same rules as for flanking: a line through the center of the two spaces must pass through opposite sides or corners of the creature\'s space.',
@@ -17220,7 +17220,7 @@ export const feats = {
       name: 'Kneecap',
       level: '5',
       traits: ['Goblin'],
-      actions: 'single_action',
+      actions: '1',
       id: 1425,
       text: [
         'You deliver a punishing blow to an enemy\'s knee, shin, or other vulnerable anatomy within your reach. Make a Strike with one of your melee weapons or melee unarmed attacks. This attack doesn\'t deal damage. On a hit, the target takes a &#x2013;10-foot status penalty to its Speed or a &#x2013;15-foot status penalty on a critical hit. This penalty applies only if the target has a land Speed and depends on legs or other targetable appendages to use its land Speed. As with all penalties to Speed, this can\'t reduce a creature\'s Speed below 5 feet.',
@@ -17254,7 +17254,7 @@ export const feats = {
       name: 'Cling',
       level: '9',
       traits: ['Goblin'],
-      actions: 'single_action',
+      actions: '1',
       id: 1428,
       text: [
         'You hang onto a foe to harry them into submission. If your target moves while you\'re hanging onto it, you can choose to move with the target. The target is released if you choose not to move with it, at the start of your next turn, or if the target Escapes. Attempts to Escape from a Cling follow the rules for Escape, but use your Acrobatics DC and end the Cling instead of the conditions normally ended by the Escape action.',
@@ -17435,7 +17435,7 @@ export const feats = {
       name: 'Heroic Presence',
       level: '17',
       traits: ['Emotion', 'Human', 'Mental'],
-      actions: 'single_action',
+      actions: '1',
       id: 1443,
       text: [
         'The blood of heroes courses through your veins, and you inspire your allies to dig deep and find a new level of resolve. You grant up to 10 willing creatures within 30 feet the effects of a 6th-level zealous conviction, though the effect automatically ends on a target if you give that target a command they would normally find repugnant. This action has the auditory trait or visual trait, depending on how you inspire your allies.',
@@ -17683,7 +17683,7 @@ export const feats = {
       name: 'Just One More Thing',
       level: '10',
       traits: ['Fortune', 'Investigator'],
-      actions: 'single_action',
+      actions: '1',
       id: 1468,
       text: [
         'After your attempt to influence someone goes poorly, you add another bit of information or ask a pointed question, possibly salvaging your previous attempt. Reroll the failed check and use the new result. If the target of the failed check is the subject of a lead you\'re pursuing, double your bonus from Pursue a Lead on the rerolled check. That creature is temporarily immune to Just One More Thing for 1 day.',
@@ -17734,7 +17734,7 @@ export const feats = {
       name: 'Reason Rapidly',
       level: '12',
       traits: ['Investigator'],
-      actions: 'single_action',
+      actions: '1',
       id: 1472,
       text: [
         'Your mind works through clues at an unbelievable speed. You instantly use up to five Recall Knowledge actions. If you have any special abilities or free actions that would normally be triggered when you Recall Knowledge, you can\'t use them for these actions.',
@@ -17837,7 +17837,7 @@ export const feats = {
       name: 'Glean Lore',
       level: '1',
       traits: ['Divination', 'Divine', 'Oracle', 'Secret'],
-      actions: 'single_action',
+      actions: '1',
       id: 1483,
       text: [
         'You tap into the collected lore of the divine, accessing a variety of potentially useful information. Attempt a Religion check to understand the information you gain. The GM sets the DC (similar to the DC to Recall Knowledge), potentially adjusting the DC of the check for topics far removed from your mystery.',
@@ -17964,7 +17964,7 @@ export const feats = {
       name: 'Surging Might',
       level: '10',
       traits: ['Manipulate', 'Metamagic', 'Oracle'],
-      actions: 'single_action',
+      actions: '1',
       id: 1499,
       text: [
         'With a complex gesture, you focus the divine power of your spell to overcome enemies\' resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target\'s resistance equal to your level against all the following types of damage: chaotic, evil, good, lawful, negative, and positive. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the positive energy within a field of life. This doesn\'t cause the spell to ignore immunities, only resistances.',
@@ -17999,7 +17999,7 @@ export const feats = {
       name: 'Forestall Curse',
       level: '14',
       traits: ['Concentrate', 'Metamagic', 'Oracle'],
-      actions: 'single_action',
+      actions: '1',
       id: 1503,
       text: [
         'You\'ve learned to forestall the effects of your curse somewhat. If the next action you use is to cast a revelation spell, the severity of your curse doesn\'t increase.',
@@ -18036,7 +18036,7 @@ export const feats = {
       name: 'Portentous Spell',
       level: '16',
       traits: ['Manipulate', 'Mental', 'Metamagic', 'Oracle', 'Visual'],
-      actions: 'single_action',
+      actions: '1',
       id: 1506,
       text: [
         'Your spellcasting is rife with strange lights, esoteric gestures, and other captivating effects that befuddle your foes. If the next action you use is to Cast a Spell, any creature that attempts to use a reaction triggered by your Cast a Spell activity takes a &#x2013;2 circumstance penalty to attack rolls and skill checks rolled as part of the reaction. In addition, if the spell includes a spell attack roll or requires a saving throw, creatures you hit or that fail their saves are fascinated with you until the start of your next turn.',
@@ -18132,7 +18132,7 @@ export const feats = {
       name: 'Dueling Parry (Swashbuckler)',
       level: '1',
       traits: ['Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1514,
       text: [
         'You can parry attacks against you with your weapon. You gain a +2 circumstance bonus to AC until the start of your next turn as long as you continue to meet the requirements.',
@@ -18192,7 +18192,7 @@ export const feats = {
         'Mental',
         'Swashbuckler',
       ],
-      actions: 'single_action',
+      actions: '1',
       id: 1519,
       text: [
         'With precisely the right words of encouragement, you bolster an ally\'s efforts. Designate an ally within 30 feet; this action counts as sufficient preparation to Aid that ally. When you use the Aid reaction to help that ally, you can roll Diplomacy in place of the usual check. If your swashbuckler\'s style is wit and your Diplomacy check to Aid meets or exceeds the very hard DC for your level, you gain panache.',
@@ -18262,7 +18262,7 @@ export const feats = {
       name: 'Unbalancing Finisher',
       level: '2',
       traits: ['Finisher', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1526,
       text: [
         'You attack with a flashy assault that leaves your target off balance. Make a melee Strike. If you hit and deal damage, the target is flat-footed until the end of your next turn.',
@@ -18288,7 +18288,7 @@ export const feats = {
       name: 'Impaling Finisher',
       level: '4',
       traits: ['Finisher', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1529,
       text: [
         'You stab two foes with a single thrust or bash them together with one punch. Make a bludgeoning or piercing melee Strike and compare the attack roll result against the AC of up to two foes. One foe must be adjacent to you, and the other foe must be adjacent to and directly behind the first foe, in a straight line from your space. Roll damage once and apply it to each creature you hit. An Impaling Finisher counts as two attacks when calculating your multiple attack penalty.',
@@ -18299,7 +18299,7 @@ export const feats = {
       name: 'Leading Dance',
       level: '4',
       traits: ['Move', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1530,
       text: [
         'You sweep your foe into your dance. Attempt a Performance check against an adjacent enemy\'s Will DC. If your swashbuckler\'s style is battledancer and you succeed, you gain panache.',
@@ -18365,7 +18365,7 @@ export const feats = {
       name: 'Vexing Tumble',
       level: '6',
       traits: ['Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1537,
       text: [
         'You tumble around your foes, expertly avoiding their reactions. Stride up to half your Speed and roll an Acrobatics check. Compare the result to the Reflex DC of each foe whose reach you began in or enter during the movement, in sequence.',
@@ -18382,7 +18382,7 @@ export const feats = {
       name: 'Bleeding Finisher',
       level: '8',
       traits: ['Finisher', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1538,
       text: [
         'Your blow inflicts profuse bleeding. Make a slashing or piercing Strike with a weapon or unarmed attack that allows you to add your precise strike damage. If you hit, the target also takes persistent bleed damage equal to your precise strike finisher damage.',
@@ -18393,7 +18393,7 @@ export const feats = {
       name: 'Dual Finisher',
       level: '8',
       traits: ['Finisher', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1539,
       text: [
         'You split your attacks. Make two melee Strikes, one with each required weapon, each against a different foe. If the second Strike is made with a non-agile weapon, it takes a &#x2013;2 penalty. Increase your multiple attack penalty only after attempting both Strikes.',
@@ -18405,7 +18405,7 @@ export const feats = {
       name: 'Stunning Finisher',
       level: '8',
       traits: ['Finisher', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1541,
       text: [
         'You attempt a dizzying blow. Make a melee Strike. If you hit, your foe must attempt a Fortitude save against your class DC with the following results; the save has the incapacitation trait.',
@@ -18420,7 +18420,7 @@ export const feats = {
       name: 'Vivacious Bravado',
       level: '8',
       traits: ['Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1542,
       text: [
         'Your ego swells, granting you a temporary reprieve from your pain. You gain temporary Hit Points equal to your level plus your Charisma modifier that last until the start of your next turn.',
@@ -18432,7 +18432,7 @@ export const feats = {
       name: 'Buckler Dance',
       level: '10',
       traits: ['Stance', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1543,
       text: [
         'You spin your buckler defensively toward every attack. While you are in this stance, you constantly have your buckler raised as if you\'d used Raise a Shield, as long as you meet that action\'s requirements.',
@@ -18455,7 +18455,7 @@ export const feats = {
       name: 'Dueling Dance (Swashbuckler)',
       level: '10',
       traits: ['Stance', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1545,
       text: [
         'Using your free hand as pivot and balance, you both attack and defend with your weapon. While you are in this stance, you constantly have the benefits of Dueling Parry.',
@@ -18481,7 +18481,7 @@ export const feats = {
       name: 'Targeting Finisher',
       level: '10',
       traits: ['Finisher', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1547,
       text: [
         'Your attack harms and hinders your foe. Choose a particular part of your foe from the list below and Strike. If you hit and damage the target, apply the effect corresponding to the chosen part. This hindrance lasts until the end of your next turn. On a critical hit, you also apply a lesser effect lasting for 1 minute. <li><b>Arm (or another limb used for attacks, such as a tentacle)</b> The target is enfeebled 2. On a critical hit, it is also enfeebled 1 for 1 minute.</li><li><b>Head</b> The target is stupefied 2. On a critical hit, it is also stupefied 1 for 1 minute.</li><li><b>Legs</b> The target takes a &#x2013;10-foot status penalty to its Speeds. On a critical hit, it also takes a &#x2013;5-foot status penalty to its Speeds for 1 minute.</li>',
@@ -18519,7 +18519,7 @@ export const feats = {
       name: 'Mobile Finisher',
       level: '12',
       traits: ['Finisher', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1549,
       text: [
         'You attack in motion. Stride and then Strike. You can use Mobile Finisher while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.',
@@ -18530,7 +18530,7 @@ export const feats = {
       name: 'Flamboyant Leap',
       level: '14',
       traits: ['Swashbuckler'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1550,
       text: [
         'You stylishly leap and deliver a powerful finisher. Make a Leap, High Jump, or Long Jump and attempt one single-action finisher at any point during your jump; the finisher can\'t be one that includes other movement, such as Mobile Finisher. Immediately after the finisher, you fall to the ground if you\'re in the air, even if you haven\'t reached the maximum distance of your jump. If the distance you fall is no more than the height of your jump, you take no damage and land upright. When attempting a High Jump or Long Jump during a Flamboyant Leap, determine the DC using the Long Jump DCs, and increase the maximum distance to double your Speed, rather than just your Speed.',
@@ -18555,7 +18555,7 @@ export const feats = {
       name: 'Perfect Finisher',
       level: '14',
       traits: ['Finisher', 'Fortune', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1552,
       text: [
         'You focus your panache into an impeccable assault. Make a Strike, rolling the attack roll twice and using the better result.',
@@ -18566,7 +18566,7 @@ export const feats = {
       name: 'Twinned Defense (Swashbuckler)',
       level: '14',
       traits: ['Stance', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1553,
       text: [
         'You\'re always ready to use your off-hand weapon to interfere with attacks against you. While you are in this stance, you constantly gain the benefits of the Twin Parry action.',
@@ -18613,7 +18613,7 @@ export const feats = {
       name: 'Lethal Finisher',
       level: '18',
       traits: ['Death', 'Finisher', 'Swashbuckler'],
-      actions: 'single_action',
+      actions: '1',
       id: 1557,
       text: [
         'You stab your foe in a vital organ, possibly killing them outright. Make a Strike. On a success, you forego your precise strike damage from the finisher. Instead, your target takes additional precision damage based on a Fortitude save against your class DC. If your Strike was a critical hit, the target\'s saving throw outcome is one degree worse.',
@@ -18867,7 +18867,7 @@ export const feats = {
       name: 'Familiar\'s Eyes',
       level: '12',
       traits: ['Concentrate', 'Divination', 'Witch'],
-      actions: 'single_action',
+      actions: '1',
       id: 1582,
       text: [
         'You use your familiar\'s senses as easily as your own. You project your senses into your familiar. When you do, you lose all sensory information from your own body, but you can sense through your familiar\'s body until you Dismiss the effect. While projecting your senses in this way, you can converse telepathically with your familiar if it understands a language.',
@@ -18930,7 +18930,7 @@ export const feats = {
       name: 'Split Hex',
       level: '18',
       traits: ['Concentrate', 'Metamagic', 'Witch'],
-      actions: 'single_action',
+      actions: '1',
       id: 1589,
       text: [
         'You siphon some of the power from an offensive hex you cast to direct it at a second target as well. If the next action you use is to Cast a Spell to cast a harmful hex with a single target, reduce its level by 2 (making it 2 levels lower than the maximum spell level you can cast). If you do, you can select a second target for that hex to affect.',
@@ -19114,7 +19114,7 @@ export const feats = {
       name: 'Bashing Charge',
       level: '2',
       traits: ['Barbarian', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1604,
       text: [
         'You smash, bust, and charge through solid obstacles without hesitation. Stride twice. Once during your movement, if your movement passes through or ends adjacent to a door, window, fence, wall, or similar obstacle, you can attempt an Athletics check to Force Open the obstacle with a +1 circumstance bonus to the roll; on a failure, your movement ends at that obstacle.',
@@ -19126,7 +19126,7 @@ export const feats = {
       name: 'Barreling Charge',
       level: '4',
       traits: ['Barbarian', 'Fighter', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1605,
       text: [
         'You rush forward, moving enemies aside to reach your foe. You Stride, attempting to move through your enemies\' spaces and make a melee Strike. Roll an Athletics check and compare the result to the Fortitude DC of each creature whose space you attempt to move through during your Stride, moving through its space on a success but ending your movement before entering its space on a failure. You can use Barreling Charge to Burrow, Climb, Fly, or Swim instead of Stride, as long as you have the corresponding movement type.',
@@ -19138,7 +19138,7 @@ export const feats = {
       name: 'Oversized Throw',
       level: '4',
       traits: ['Barbarian', 'Rage'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1606,
       text: [
         'With a great heave, you seize a piece of your surroundings, such as a boulder, log, table, wagon, or chunk of earth, and hurl it at your foes. The object must be your size or one size smaller than you, and it must not have too much Bulk for you to lift it in the first place. Make a ranged Strike with the object; regardless of the result, the object takes the same amount of damage it would deal on a success. The object is a simple ranged weapon that deals 1d10 bludgeoning damage, has a range increment of 20 feet, and has the thrown weapon trait. The damage increases to 2d10 if you have weapon specialization in simple weapons, or 3d10 if you have greater weapon specialization.',
@@ -19177,7 +19177,7 @@ export const feats = {
       name: 'Inner Strength',
       level: '6',
       traits: ['Barbarian', 'Concentrate', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 1609,
       text: [
         'Your strength is part of your rage, so as long as your anger remains, you can gather your strength and rage to overcome any sort of enfeeblement. You reduce your enfeebled condition\'s value by 1.',
@@ -19228,7 +19228,7 @@ export const feats = {
       name: 'Disarming Assault',
       level: '8',
       traits: ['Barbarian', 'Flourish', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 1613,
       text: [
         'You attack with enough force to knock the weapon out of your foe\'s hands. Make a melee Strike; if you hit, you can attempt an Athletics check to Disarm that foe.',
@@ -19240,7 +19240,7 @@ export const feats = {
       name: 'Follow-Up Assault',
       level: '8',
       traits: ['Barbarian', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 1614,
       text: [
         'Even in the face of failure you press the attack, determined to succeed. Make a Strike with the same weapon, adding the effects of the backswing and forceful weapon traits.',
@@ -19253,7 +19253,7 @@ export const feats = {
       name: 'Friendly Toss',
       level: '8',
       traits: ['Barbarian', 'Manipulate', 'Rage'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1615,
       text: [
         'You toss your friends around the battlefield. Pick up an adjacent ally of your size or smaller and throw them to an unoccupied space you can see within 30 feet. Their movement doesn\'t trigger reactions. Your ally ends this movement on their feet and doesn\'t take damage from the fall. If your ally ends this movement within melee reach of at least one enemy, they can make a melee Strike against an enemy within their reach as a reaction.',
@@ -19266,7 +19266,7 @@ export const feats = {
       name: 'Instinctive Strike',
       level: '8',
       traits: ['Barbarian', 'Manipulate', 'Rage'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1616,
       text: [
         'You trust your instincts and your sense of smell, using all of your senses to pinpoint your opponent\'s location. Make a melee Strike against an opponent that isn\'t hiding its scent with an effect like negate aroma. This attack ignores any flat check required due to the target being concealed or hidden.',
@@ -19278,7 +19278,7 @@ export const feats = {
       name: 'Determined Dash',
       level: '10',
       traits: ['Barbarian', 'Rage'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1617,
       text: [
         'Nothing can keep you from your enemy. Stride twice. During this movement you ignore difficult terrain, greater difficult terrain, and any effects that would impose a penalty to Speed. You can attempt an Athletics check instead of an Acrobatics check to Balance when moving across narrow surfaces or uneven ground, using the same DC. This doesn\'t prevent you from being harmed by hazardous terrain. You can increase the number of actions this activity takes to 3 to Stride three times instead.',
@@ -19313,7 +19313,7 @@ export const feats = {
       name: 'Resounding Blow',
       level: '10',
       traits: ['Barbarian', 'Rage'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1620,
       text: [
         'You strike your enemy in the head with such force that their ears ring. Make a melee Strike. If the Strike hits and deals damage, the target is deafened until the start of your next turn (or for 1 minute on a critical hit).',
@@ -19326,7 +19326,7 @@ export const feats = {
       name: 'Silencing Strike',
       level: '10',
       traits: ['Barbarian', 'Incapacitation', 'Rage'],
-      actions: 'single_action',
+      actions: '1',
       id: 1621,
       text: [
         'A quick strike to the face or mouth silences your opponent. Make a melee Strike against a foe. The foe must succeed at a Fortitude save against your class DC.',
@@ -19365,7 +19365,7 @@ export const feats = {
       name: 'Sunder Spell',
       level: '12',
       traits: ['Attack', 'Barbarian', 'Concentrate', 'Rage'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1624,
       text: [
         'You draw upon your superstitious fury to destroy a spell. Make a Strike with a melee weapon or an unarmed attack against a creature, object, or a spell manifestation (such as the wall created by wall of fire or the guardian from spiritual guardian). If your Strike hits, you can attempt to counteract a single spell or magical effect on the target. Your counteract level for this attempt is equal to half your level rounded up, and you use the result of your attack roll for the counteract check. ',
@@ -19378,7 +19378,7 @@ export const feats = {
       name: 'Unbalancing Sweep',
       level: '12',
       traits: ['Barbarian', 'Flourish', 'Open'],
-      actions: 'three_actions',
+      actions: '3',
       id: 1625,
       text: [
         'You make a great sweep about yourself, knocking creatures off their feet and away from you. Choose up to three adjacent foes and choose whether to Shove or Trip all three of them. Whichever of the two options you choose, roll a separate Athletics check against each foe, performing the same action against each foe. Each attempt counts toward your multiple attack penalty, but don\'t increase your penalty until you have made all the attempts.',
@@ -19389,7 +19389,7 @@ export const feats = {
       name: 'Impaling Thrust',
       level: '14',
       traits: ['Barbarian', 'Rage'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1626,
       text: [
         'You impale your enemy and hold them in place with your weapon. Make a melee Strike with the required weapon. If the Strike hits and deals damage, your target is grabbed until they successfully Escape, you attack with the required weapon, or you Release the required weapon, whichever comes first. When the target is no longer grabbed, they take persistent bleed damage equal to the number of weapon damage dice.',
@@ -19427,7 +19427,7 @@ export const feats = {
       name: 'Penetrating Projectile',
       level: '16',
       traits: ['Barbarian', 'Flourish', 'Rage'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1629,
       text: [
         'Your projectiles are unhindered by flesh and bone. Make a ranged Strike against each creature in a 30-foot line. These attacks ignore lesser cover, cover, and greater cover granted by creatures. Roll damage only once and apply it to each creature you hit. Each attack counts toward your multiple attack penalty, but don\'t increase your penalty until you have made all your attacks.',
@@ -19520,7 +19520,7 @@ export const feats = {
       name: 'Combat Reading',
       level: '4',
       traits: ['Bard', 'Secret'],
-      actions: 'single_action',
+      actions: '1',
       id: 1637,
       text: [
         'You use a performer\'s cold reading techniques, aura reading, and other tricks to discover your foe\'s strengths and weaknesses. The GM rolls a secret Occultism check for you against the Deception or Stealth DC (whichever is higher) of an enemy of your choice who is engaged in combat and isn\'t concealed from you, hidden from you, or undetected by you. The GM might apply a penalty for the distance between you and the enemy. The enemy is then temporarily immune to your Combat Reading for 1 day.',
@@ -19537,7 +19537,7 @@ export const feats = {
       name: 'Courageous Advance',
       level: '4',
       traits: ['Auditory', 'Bard', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1638,
       text: [
         'With a rousing call, you exhort an ally to advance. If your next action is to cast the inspire courage composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to Stride.',
@@ -19573,7 +19573,7 @@ export const feats = {
       name: 'Defensive Coordination',
       level: '6',
       traits: ['Auditory', 'Bard', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1641,
       text: [
         'Like the storied heroes who persist in the face of overwhelming odds, you and your allies will hold the line. If your next action is to cast the inspire defense composition cantrip, you can Raise a Shield, and one ally who gains a status bonus from the spell can immediately use a reaction to Raise a Shield.',
@@ -19622,7 +19622,7 @@ export const feats = {
       name: 'Call and Response',
       level: '8',
       traits: ['Auditory', 'Bard', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1645,
       text: [
         'Your composition takes the form of a call-and-response chant, which lets your allies continue the effect without you. If your next action is to cast a composition cantrip with a duration of 1 round, it becomes a call. While the spell is active, one ally affected by the spell can respond to your call as a single action that has the auditory and concentrate traits to extend the spell\'s duration by 1 round. Only one ally can respond to a given call, and responding to the ally\'s response has no additional effect.',
@@ -19672,7 +19672,7 @@ export const feats = {
       name: 'Courageous Assault',
       level: '10',
       traits: ['Auditory', 'Bard', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1649,
       text: [
         'With a mighty shout, you can stir an ally to attack. If your next action is to cast the inspire courage composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to make a melee Strike.',
@@ -19774,7 +19774,7 @@ export const feats = {
       name: 'Vigorous Inspiration',
       level: '14',
       traits: ['Auditory', 'Bard', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1657,
       text: [
         'You instill magical vigor in your allies when you inspire them to attack. If your next action is to cast the inspire courage composition cantrip, you and all affected allies gain temporary Hit Points equal to 3 + your Charisma modifier that last for 1 minute.',
@@ -19785,7 +19785,7 @@ export const feats = {
       name: 'Courageous Onslaught',
       level: '16',
       traits: ['Auditory', 'Bard', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1658,
       text: [
         'You use your performance to orchestrate an onslaught against your enemies. If your next action is to cast the inspire courage composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to Stride and then make a melee Strike.',
@@ -19971,7 +19971,7 @@ export const feats = {
       name: 'Cruelty',
       level: '4',
       traits: ['Champion', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1673,
       text: [
         'The harm you deal with your corrupting touch saps the strength from your enemy\'s body. If your next action is to cast touch of corruption on a living creature, the target is also enfeebled 1 for 1 minute if it fails its save (enfeebled 2 if it critically fails).',
@@ -20008,7 +20008,7 @@ export const feats = {
       name: 'Smite Good',
       level: '6',
       traits: ['Champion'],
-      actions: 'single_action',
+      actions: '1',
       id: 1676,
       text: [
         'Your blade ally shares your lust for the blood of good creatures. Select one enemy you can see. Until the start of your next turn, your Strikes against that foe using the weapon your blade ally inhabits deal an extra 4 evil damage, increasing to 6 if you have master proficiency with this weapon.',
@@ -20105,7 +20105,7 @@ export const feats = {
       name: 'Enforce Oath',
       level: '12',
       traits: ['Champion'],
-      actions: 'single_action',
+      actions: '1',
       id: 1684,
       text: [
         'You call on your oath to embolden you in combat. When you Enforce your Oath, select one creature you can see that you\'ve sworn to defeat as part of your oath. You gain a +1 status bonus to AC and saves against attacks and effects by the chosen creature. You also gain a +1 status bonus to attack rolls against the chosen creature. However, your dedication to Enforcing your Oath draws your focus away from all other foes. While you are Enforcing your Oath, you take a &#x2013;1 status penalty to AC, attack rolls, and saves against all other creatures until you stop Enforcing your Oath. ',
@@ -20120,7 +20120,7 @@ export const feats = {
       name: 'Gruesome Strike',
       level: '12',
       traits: ['Champion'],
-      actions: 'single_action',
+      actions: '1',
       id: 1685,
       text: [
         'Make a Strike against the creature that triggered your champion\'s reaction. If you hit, the target takes double the extra damage from your reaction and must succeed at a Fortitude save against your class DC or be drained 1. Regardless of the result, the creature is temporarily immune to your Gruesome Strike for 24 hours.',
@@ -20183,7 +20183,7 @@ export const feats = {
       name: 'Expand Aura',
       level: '16',
       traits: ['Champion', 'Concentrate'],
-      actions: 'single_action',
+      actions: '1',
       id: 1690,
       text: [
         'You focus your divine power to extend your influence. Select one aura you have from a champion feat or feature, such as Aura of Courage or Aura of Life. The radius of the aura is doubled until the start of your next turn.',
@@ -20293,7 +20293,7 @@ export const feats = {
       name: 'Radiant Infusion',
       level: '4',
       traits: ['Cleric', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1699,
       text: [
         'You pour invigorating positive energy into a living ally. If the next action you use is to cast heal to restore Hit Points to a single living creature, the target deals an additional 1d6 positive damage with its melee weapons and unarmed attacks until the end of its next turn. If the heal spell is at least 5th level, this damage increases to 2d6, or 3d6 if the spell is at least 8th level.',
@@ -20317,7 +20317,7 @@ export const feats = {
       name: 'Martyr',
       level: '8',
       traits: ['Cleric', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1701,
       text: [
         'You go to extreme lengths to support your allies, even when it means bringing harm to yourself. If your next action is to cast harm or heal from your healing or harmful font to restore Hit Points to a single ally, you can channel your own vitality along with the spell. You lose 1d8 Hit Points per level of the spell, which can\'t be reduced or mitigated in any way, and your ally regains an equal number of Hit Points.',
@@ -20366,7 +20366,7 @@ export const feats = {
       name: 'Through Spell',
       level: '10',
       traits: ['Cleric', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1705,
       text: [
         'Spells you cast can transform briefly into vital essence, traveling harmlessly through living and undead creatures between you and your target, blocked only by solid objects. If the next action you use is to Cast a Spell that requires a spell attack roll, your targets don\'t benefit from cover provided by living or undead creatures.',
@@ -20377,7 +20377,7 @@ export const feats = {
       name: 'Ebb and Flow',
       level: '14',
       traits: ['Cleric', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1706,
       text: [
         'You can pull forth both positive and negative energy simultaneously to harm your enemies and heal your allies. If your next action is to cast a 1-action or 2-action heal or harm spell, choose one creature in range that would be harmed by the spell, and choose another creature within range that would be healed by the spell. Your heal or harm targets both creatures.',
@@ -20490,7 +20490,7 @@ export const feats = {
       name: 'Current Spell',
       level: '6',
       traits: ['Abjuration', 'Concentrate', 'Druid', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1714,
       text: [
         'As you use your magic to manipulate air or water, you divert some of its currents to form a barrier around you. If your next action is to Cast a Spell with the air or water trait, until the start of your next turn, you gain a +1 circumstance bonus to AC or a +2 circumstance bonus against ranged attacks. This effect has the air or water trait, or both, depending on the traits of the spell you cast. You also gain a +1 circumstance bonus to all saves against effects with the air trait, water trait, or both until the start of your next turn, depending on the spell\'s traits.',
@@ -20501,7 +20501,7 @@ export const feats = {
       name: 'Deimatic Display',
       level: '8',
       traits: ['Druid'],
-      actions: 'single_action',
+      actions: '1',
       id: 1715,
       text: [
         'Imitating animal threat displays, you make yourself appear larger and more imposing. Roll one Intimidation check to Demoralize and compare the result to the Will DC of each animal, fungus, and plant creature in a 15-foot cone. When you do, Demoralize gains the visual trait, and creatures are affected if they can see you. You don\'t take a penalty if the creature doesn\'t understand your language.',
@@ -20569,7 +20569,7 @@ export const feats = {
       name: 'Sow Spell',
       level: '14',
       traits: ['Concentrate', 'Druid', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1719,
       text: [
         'You fold your spell into a seed. If your next action is to Cast a Spell using 1 action or 2 actions, the spell instead plants itself in an adjacent square. You must make all decisions regarding the spell at the time you cast it. Within the next 10 minutes, you can direct your sown spell to sprout and produce the spell\'s effects as a reaction, which is triggered when a creature enters the sown spell\'s space or a square adjacent to it. You can have only one sown spell at a time, and if you don\'t trigger the spell within 10 minutes, it dissipates and the spell is lost. A creature can notice the sown spell with a successful Perception check against your spell DC.',
@@ -20591,7 +20591,7 @@ export const feats = {
       name: 'Combat Assessment',
       level: '1',
       traits: ['Fighter'],
-      actions: 'single_action',
+      actions: '1',
       id: 1721,
       text: [
         'You make a telegraphed attack to learn about your foe. Make a melee Strike. On a hit, you can immediately attempt a check to Recall Knowledge about the target. On a critical hit, you gain a +2 circumstance bonus to the check to Recall Knowledge. The target is temporarily immune to Combat Assessment for 1 day.',
@@ -20602,7 +20602,7 @@ export const feats = {
       name: 'Dragging Strike',
       level: '2',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 1722,
       text: [
         'You aim your weapon to snag a foe\'s armor, clothing, or flesh to pull them closer. Make a melee Strike. If you hit a target that is your size or smaller, that creature is flat-footed until the end of your current turn, and you can move it 5 feet toward you. When you move the creature, you can move the same distance in the same direction as it, even if you\'re adjacent to the target. This movement doesn\'t trigger reactions. ',
@@ -20615,7 +20615,7 @@ export const feats = {
       name: 'Rebounding Toss',
       level: '2',
       traits: ['Fighter', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1723,
       text: [
         'You bounce your weapon off one foe to strike another. Make a ranged Strike with a thrown weapon. If this Strike hits, the weapon rebounds toward an enemy within 10 feet of the original target. Make an additional Strike against this second target. Both attacks count toward your multiple attack penalty, but the penalty doesn\'t increase until after you\'ve made both attacks.',
@@ -20627,7 +20627,7 @@ export const feats = {
       name: 'Parting Shot',
       level: '4',
       traits: ['Fighter'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1724,
       text: [
         'You jump back and fire a quick shot that catches your opponent off guard. You Step and then make a ranged Strike with the required weapon. Your target is flat-footed against the attack.',
@@ -20640,7 +20640,7 @@ export const feats = {
       name: 'Dazing Blow',
       level: '6',
       traits: ['Fighter', 'Press'],
-      actions: 'single_action',
+      actions: '1',
       id: 1725,
       text: [
         'You pummel a held foe, hoping to stagger them. Make a melee Strike against a creature you have grabbed. The weapon damage from this Strike is bludgeoning damage. If the Strike hits, the creature must attempt a Fortitude save against your class DC; this is an incapacitation effect.',
@@ -20656,7 +20656,7 @@ export const feats = {
       name: 'Ricochet Stance (Fighter)',
       level: '6',
       traits: ['Fighter', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 1726,
       text: [
         'You adopt a stance designed to rebound your thrown weapons back toward you. While you are in this stance, any thrown weapons you use as part of a ranged Strike to deal bludgeoning or slashing damage immediately return to your hand, enabling you to use them for additional Strikes. You must be within the weapon\'s listed range increment and have a hand free to catch the weapon. If you make a ranged Strike with a thrown weapon outside of its listed range increment, it instead flies back toward you a number of feet equal to its listed range increment and then falls to the ground.',
@@ -20704,7 +20704,7 @@ export const feats = {
       name: 'Overwhelming Blow',
       level: '16',
       traits: ['Fighter'],
-      actions: 'three_actions',
+      actions: '3',
       id: 1730,
       text: [
         'You throw your weight into a powerful attack that leaves you vulnerable. Make a melee Strike. This counts as three attacks when calculating your multiple attack penalty. If this Strike hits, you get a critical hit. If you roll a critical hit, your attack also gains the deadly d12 trait. Whether or not you hit, you become stunned 1 and are flat-footed until the start of your next turn.',
@@ -20739,7 +20739,7 @@ export const feats = {
       name: 'Gorilla Stance',
       level: '1',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 1733,
       text: [
         'You lower yourself to the ground and take an imposing, knuckle-walking stance. While in this stance, the only Strikes you can make are gorilla slam unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the backswing, forceful, grapple, nonlethal, and unarmed traits. While you are in Gorilla Stance, you gain a +2 circumstance bonus to Athletics checks to Climb, and if you roll a success on an Athletics check to Climb, you get a critical success instead.',
@@ -20750,7 +20750,7 @@ export const feats = {
       name: 'Monastic Archer Stance',
       level: '1',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 1734,
       text: [
         'You enter a specialized stance for a unique martial art centered around the use of a bow. While in this stance, the only Strikes you can make are those using longbows, shortbows, or bows with the monk trait. You can use Flurry of Blows with these bows. You can use your other monk feats or monk abilities that normally require unarmed attacks with these bows when attacking within half the first range increment (normally 50 feet for a longbow and 30 feet for a shortbow), so long as the feat or ability doesn\'t require a single, specific Strike.',
@@ -20764,7 +20764,7 @@ export const feats = {
       name: 'Stumbling Stance',
       level: '1',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 1735,
       text: [
         'You enter a seemingly unfocused stance that mimics the movements of the inebriated&#x2014;bobbing, weaving, leaving false openings, and distracting your enemies from your true movements. While in this stance, you gain a +1 circumstance bonus to Deception checks to Feint. The only Strikes you can make are stumbling swing unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the agile, backstabber, finesse, nonlethal, and unarmed traits. If an enemy hits you with a melee Strike while in this stance, it becomes flat-footed against the next stumbling swing Strike you make against it before the end of your next turn.',
@@ -20789,7 +20789,7 @@ export const feats = {
       name: 'Shooting Stars Stance',
       level: '2',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 1737,
       text: [
         'You enter a stance that lets you throw shuriken with lightning speed. While in this stance, you can use your monk feats or monk abilities that normally require unarmed attacks with shuriken instead.',
@@ -20801,7 +20801,7 @@ export const feats = {
       name: 'Cobra Stance',
       level: '4',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 1738,
       text: [
         'You enter a tight stance, coiled up like a lashing cobra with your hands poised as venomous fangs. While in this stance, the only Strikes you can make are cobra fang unarmed attacks. These deal 1d4 poison damage; are in the brawling group; and have the agile, deadly d10, finesse, nonlethal, poison, and unarmed traits.',
@@ -20813,7 +20813,7 @@ export const feats = {
       name: 'Peafowl Stance',
       level: '4',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 1739,
       text: [
         'You enter a tall and proud stance while remaining mobile, with all the grace and composure of a peafowl. While in this stance, the only Strikes you can make are melee Strikes with the required sword. Once per round, after you hit with a monk sword Strike, you can Step as a free action as your next action.',
@@ -20840,7 +20840,7 @@ export const feats = {
       name: 'Gorilla Pound',
       level: '6',
       traits: ['Emotion', 'Flourish', 'Mental', 'Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 1741,
       text: [
         'You pound your chest before slamming into your foes. Attempt an Intimidation check to Demoralize, then make one gorilla slam Strike against the same target. If your Strike hits, you gain a circumstance bonus to the damage roll equal to triple the value of the target\'s frightened condition.',
@@ -20855,7 +20855,7 @@ export const feats = {
       name: 'One-Inch Punch',
       level: '6',
       traits: ['Monk'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1742,
       text: [
         'You put all your force into a single mighty, carefully controlled blow. Make an unarmed Strike. If you spend two actions and this Strike hits, you deal an extra die of weapon damage. You can instead spend 3 actions to perform an even more powerful attack, dealing a second additional die of weapon damage on a hit.',
@@ -20919,7 +20919,7 @@ export const feats = {
       name: 'Cobra Envenom',
       level: '10',
       traits: ['Monk', 'Poison'],
-      actions: 'single_action',
+      actions: '1',
       id: 1747,
       text: [
         'You lash out with devious intent and the power to envenom your foe. Make a cobra fang Strike. Your reach with this Strike is 5 feet greater than normal. If this Strike hits, the target takes 1d4 persistent poison damage per weapon damage die.',
@@ -20935,7 +20935,7 @@ export const feats = {
       name: 'Peafowl Strut',
       level: '10',
       traits: ['Flourish', 'Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 1748,
       text: [
         'You slowly move across the battlefield with dangerous grace. Step twice and then Strike. The Strike must be made with the sword required by Peafowl Stance.',
@@ -20975,7 +20975,7 @@ export const feats = {
       name: 'Focused Shot',
       level: '12',
       traits: ['Concentrate', 'Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 1751,
       text: [
         'You achieve a state of perfect calm before unleashing your attack, opening your mind to the minute movements of the world around you to increase your accuracy. Make a ranged weapon Strike against a target within your weapon\'s first range increment. This Strike ignores the target\'s concealed condition and all cover.',
@@ -20988,7 +20988,7 @@ export const feats = {
       name: 'Overwhelming Breath',
       level: '12',
       traits: ['Concentrate', 'Metamagic', 'Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 1752,
       text: [
         'You control your breathing and align it with your ki, exhaling with controlled force in order to overcome your opponent\'s resistance. If you use your next action to Cast a Spell that has the monk trait and no duration, the spell and any Strikes you make as a result of casting it ignore an amount of the target\'s resistance to physical damage equal to your level.',
@@ -21000,7 +21000,7 @@ export const feats = {
       name: 'Form Lock',
       level: '14',
       traits: ['Attack', 'Monk'],
-      actions: 'single_action',
+      actions: '1',
       id: 1753,
       text: [
         'Your ability to control your own ki empowers you to pressure other creatures into resuming their true forms. Attempt an Athletics check to counteract a polymorph effect currently affecting your target. If the target is somehow under the effect of multiple polymorph effects, you can choose which one to attempt to counteract, or the GM chooses randomly if the separate effects aren\'t obvious. The target is then temporarily immune for 1 day.',
@@ -21025,7 +21025,7 @@ export const feats = {
       name: 'Whirling Blade Stance',
       level: '14',
       traits: ['Monk', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 1755,
       text: [
         'You enter a mindful stance that creates a deep connection between you and your monk weapons, allowing you to manipulate them with your ki even at a distance. All melee monk weapons you wield with the finesse trait gain the thrown 10 feet trait (unless they already have the thrown trait with a greater range).',
@@ -21038,7 +21038,7 @@ export const feats = {
       name: 'Flinging Blow',
       level: '16',
       traits: ['Monk'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1756,
       text: [
         'You take a moment to center yourself, then unleash a powerful blow that sends your target tumbling away. Make an unarmed Strike. If you hit, the target must succeed at a Fortitude save against your class DC or be pushed up to 10 feet directly away from you (or 20 feet, on a critical failure) and fall prone. If another creature or physical object would prevent this movement, both your target and the blocking creature or object take 1d6 bludgeoning damage per 5 feet of movement that was prevented.',
@@ -21098,7 +21098,7 @@ export const feats = {
       name: 'Triangle Shot',
       level: '18',
       traits: ['Concentrate', 'Flourish', 'Monk'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1761,
       text: [
         'You string three arrows to your bow and fire them all at once. Make three ranged Strikes against a single target with the required weapon, each using your current multiple attack penalty, and you take an additional &#x2013;2 penalty. This counts as two attacks when calculating your multiple attack penalty, and you combine the attacks\' damage for the purpose of resistances and weaknesses. Your Stunning Fist benefit applies to Triangle Shot, even though it isn\'t a Flurry of Blows. If all three Strikes hit, the target takes 3d6 persistent bleed damage.',
@@ -21344,7 +21344,7 @@ export const feats = {
       name: 'Plant Evidence',
       level: '1',
       traits: ['Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 1781,
       text: [
         'You can put a single item you\'re holding of light or negligible Bulk onto a person without them noticing by succeeding at a Thievery check against their Perception DC. If you have the ruffian racket, you can do this as a free action when you successfully Shove a target.',
@@ -21381,7 +21381,7 @@ export const feats = {
       name: 'Underhanded Assault',
       level: '2',
       traits: ['Rogue'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1784,
       text: [
         'You capitalize on the distraction provided by an ally. You Sneak up to a foe adjacent to one of your allies. You can roll against the foe you\'re Sneaking up on, even if it\'s currently observing you, as though you were hidden. You take a &#x2013;2 penalty on your Stealth check. If your Stealth check against the chosen foe succeeds, you can make a melee Strike against that foe at the end of your Sneak.',
@@ -21393,7 +21393,7 @@ export const feats = {
       name: 'Head Stomp',
       level: '4',
       traits: ['Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 1785,
       text: [
         'Make an unarmed melee attack against a prone target. On a hit, the target becomes flat-footed to all attacks until the end of your next turn.',
@@ -21404,7 +21404,7 @@ export const feats = {
       name: 'Mug',
       level: '4',
       traits: ['Rogue'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1786,
       text: [
         'You make a quick attack and rob your foe in the process. Make a melee Strike against an adjacent foe. If you hit and deal sneak attack damage, you can also attempt to Steal from the target, even if the target is in combat.',
@@ -21415,7 +21415,7 @@ export const feats = {
       name: 'Predictable!',
       level: '4',
       traits: ['Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 1787,
       text: [
         'By observing an opponent, you can get a sense of their next move and prepare to counter or resist it. Choose one target and attempt a Perception check to Sense Motive against the foe\'s Deception DC or a hard DC of the foe\'s level, whichever is higher.',
@@ -21458,7 +21458,7 @@ export const feats = {
       name: 'Analyze Weakness',
       level: '6',
       traits: ['Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 1790,
       text: [
         'Your knowledge of a creature\'s physiology and understanding of tactics helps you attack with pinpoint accuracy. You carefully study a creature that you\'ve identified to scope out particularly weak points in its positioning or physical form. The next time you deal sneak attack damage to the chosen creature with a Strike before the end of your turn, add an additional 2d6 precision damage. At 11th and 17th levels, if your additional damage from sneak attack increases, increase the additional damage from Analyze Weakness to 3d6 at 11th level and 4d6 at 17th level.',
@@ -21507,7 +21507,7 @@ export const feats = {
       name: 'Watch Your Back',
       level: '6',
       traits: ['Emotion', 'Fear', 'Mental', 'Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 1794,
       text: [
         'You menace the target, stoking their fears and drawing their attention. Attempt an Intimidation check against the Will DC of a target within 30 feet. If you succeed, for 1 minute, that target gains a +2 status bonus to Perception checks against you, but they take a &#x2013;2 status penalty to Will saves against fear effects.',
@@ -21519,7 +21519,7 @@ export const feats = {
       name: 'Bullseye',
       level: '8',
       traits: ['Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 1795,
       text: [
         'You carefully take aim before making your attack in order to avoid your foe\'s concealment and cover. On your next Strike with a thrown weapon before the end of your turn, you gain a +1 circumstance bonus to your attack roll and ignore your target\'s concealed condition, as well as the target\'s lesser cover or standard cover; if the target had greater cover, they instead have only standard cover against the Strike.',
@@ -21568,7 +21568,7 @@ export const feats = {
       name: 'Ricochet Stance (Rogue)',
       level: '8',
       traits: ['Rogue', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 1799,
       text: [
         'You adopt a stance to rebound your thrown weapons toward you. While you are in this stance, any thrown weapons you use as part of a ranged Strike to deal bludgeoning or slashing damage immediately return to your hand, enabling you to use them for additional Strikes. You must be within the weapon\'s listed range increment and have a hand free to catch the weapon. If you make a ranged Strike with a thrown weapon outside of its listed range increment, it instead flies back toward you a number of feet equal to its listed range increment and then falls to the ground.',
@@ -21653,7 +21653,7 @@ export const feats = {
       name: 'Preparation',
       level: '12',
       traits: ['Flourish', 'Rogue'],
-      actions: 'single_action',
+      actions: '1',
       id: 1804,
       text: [
         'You survey the battlefield, calculating the possibilities. You gain one additional reaction, which you can use before the beginning of your next turn for any rogue reaction.',
@@ -21737,7 +21737,7 @@ export const feats = {
       name: 'Anoint Ally',
       level: '2',
       traits: ['Manipulate', 'Sorcerer'],
-      actions: 'single_action',
+      actions: '1',
       id: 1811,
       text: [
         'You forge a mystical connection with an ally using your body as a focus, allowing them to benefit from your magic. You place a blood rune on an adjacent ally that lasts for 1 minute. When you would gain a blood magic effect, you can forgo it, granting it to your ally instead. You can anoint only one ally at a time; if you place another rune, your previous designation ends.',
@@ -21760,7 +21760,7 @@ export const feats = {
       name: 'Elaborate Flourish',
       level: '4',
       traits: ['Concentrate', 'Manipulate', 'Metamagic', 'Sorcerer'],
-      actions: 'single_action',
+      actions: '1',
       id: 1813,
       text: [
         'You embellish your spellcasting with entrancing flourishes and grand pronouncements, making it harder to identify or counter. If the next action you use is to Cast a Spell, creatures with the ability to Cast that Spell don\'t automatically know what the spell is. In addition, creatures that witness your spellcasting take a &#x2013;2 circumstance penalty to checks to identify the spell with Recall Knowledge and checks to counteract the spell during its casting (such as with Counterspell).',
@@ -21771,7 +21771,7 @@ export const feats = {
       name: 'Split Shot',
       level: '4',
       traits: ['Concentrate', 'Metamagic', 'Sorcerer'],
-      actions: 'single_action',
+      actions: '1',
       id: 1814,
       text: [
         'You fragment a ranged spell into a pair of smaller shots. If your next action is to Cast a Spell without a duration that requires an attack roll against a single target and has no effect beyond dealing damage, you roll a single attack roll and compare the result to the AC of two targets within the spell\'s range. The spell deals only half its usual damage to each target. This counts as one attack for your multiple attack penalty.',
@@ -21782,7 +21782,7 @@ export const feats = {
       name: 'Diverting Vortex',
       level: '6',
       traits: ['Sorcerer'],
-      actions: 'single_action',
+      actions: '1',
       id: 1815,
       text: [
         'You transfer vestiges of magical energy to the air around you, creating a vortex that deflects ranged attacks. Until the start of your next turn, you gain a +1 status bonus to AC against ranged weapon attacks and physical ranged unarmed attacks.',
@@ -21821,7 +21821,7 @@ export const feats = {
       name: 'Safeguarded Spell',
       level: '8',
       traits: ['Concentrate', 'Metamagic', 'Sorcerer'],
-      actions: 'single_action',
+      actions: '1',
       id: 1818,
       text: [
         'You bring the magical wavelengths of your spell into sync with the ones produced by your own body. If the next action you take is to Cast a Spell with an area, you aren\'t affected by the spell even if you are within the area.',
@@ -21844,7 +21844,7 @@ export const feats = {
       name: 'Energy Fusion',
       level: '10',
       traits: ['Concentrate', 'Metamagic', 'Sorcerer'],
-      actions: 'single_action',
+      actions: '1',
       id: 1821,
       text: [
         'You fuse two spells together, combining their energy types. If the next action you use is to Cast a Spell that deals acid, cold, electricity, fire, or sonic damage, select a non-cantrip spell in your spell repertoire that deals a different type of energy damage from that list, and expend an additional spell slot of the same level as this secondary spell. The spell you cast deals additional damage equal to the level of the secondary spell slot expended. The spell\'s total damage is divided evenly between the energy type of the spell you cast and the energy type of the secondary spell.',
@@ -21928,7 +21928,7 @@ export const feats = {
       name: 'Spell Shroud',
       level: '14',
       traits: ['Concentrate', 'Metamagic', 'Sorcerer'],
-      actions: 'single_action',
+      actions: '1',
       id: 1828,
       text: [
         'Your spell shrouds you in a billowing cloud. If your next action is to Cast a Spell that targets you, you surround yourself in a 15-foot emanation of dense magical mist that lasts until the start of your next turn. All creatures within the cloud become concealed, and all creatures outside the cloud are concealed to creatures within it.',
@@ -21939,7 +21939,7 @@ export const feats = {
       name: 'Scintillating Spell',
       level: '16',
       traits: ['Concentrate', 'Light', 'Metamagic', 'Sorcerer'],
-      actions: 'single_action',
+      actions: '1',
       id: 1829,
       text: [
         'Your spells become a radiant display of light and color. If your next action is to Cast a Spell that doesn\'t have the darkness trait, has no duration, and requires creatures to attempt a Reflex save, the spell explodes in a spray of scintillating lights, in addition to its other effects. Each creature that failed its Reflex save against the spell is dazzled for 1 round, and those who critically failed are instead blinded for 1 round.',
@@ -21950,7 +21950,7 @@ export const feats = {
       name: 'Terraforming Spell',
       level: '16',
       traits: ['Concentrate', 'Earth', 'Metamagic', 'Sorcerer', 'Transmutation'],
-      actions: 'single_action',
+      actions: '1',
       id: 1830,
       text: [
         'You capture transformative fragments of magic and slam them into the ground, creating a shock wave that alters your surroundings. If your next action is to Cast a non-cantrip transmutation Spell, either each space adjacent to you becomes difficult terrain, or each space adjacent to you is no longer difficult terrain. This doesn\'t have any effect on greater difficult terrain and doesn\'t remove the damaging effects of hazardous terrain.',
@@ -21961,7 +21961,7 @@ export const feats = {
       name: 'Echoing Spell',
       level: '18',
       traits: ['Concentrate', 'Metamagic', 'Sorcerer'],
-      actions: 'single_action',
+      actions: '1',
       id: 1831,
       text: [
         'You time the components of your spell with exacting precision, setting up a resonance that duplicates the spell\'s effects. If your next action is to Cast a Spell of 4th level or lower that has no duration, the spell\'s energy reverberates and echoes. You can Cast the Spell a second time before the end of your next turn without expending a spell slot.',
@@ -21984,7 +21984,7 @@ export const feats = {
       name: 'Energy Ablation',
       level: '2',
       traits: ['Metamagic', 'Wizard'],
-      actions: 'single_action',
+      actions: '1',
       id: 1834,
       text: [
         'When you cast energy spells, you retain some of that energy as a protective barrier. If your next action is to Cast a Spell that deals energy damage, whether or not it successfully deals damage, you gain resistance to that type of energy equal to the spell\'s level (minimum 1) until the end of your next turn. If the spell deals more than one type of energy damage, choose one and gain resistance to that type.',
@@ -21995,7 +21995,7 @@ export const feats = {
       name: 'Nonlethal Spell',
       level: '2',
       traits: ['Manipulate', 'Metamagic', 'Wizard'],
-      actions: 'single_action',
+      actions: '1',
       id: 1835,
       text: [
         'You can alter offensive spells to be less deadly. If your next action is to Cast a Spell that deals damage and doesn\'t have the death or negative trait, that spell gains the nonlethal trait.',
@@ -22006,7 +22006,7 @@ export const feats = {
       name: 'Call Bonded Item',
       level: '4',
       traits: ['Concentrate', 'Conjuration', 'Teleportation', 'Wizard'],
-      actions: 'single_action',
+      actions: '1',
       id: 1836,
       text: [
         'You\'re mystically connected to your bonded item and can call it to your hand. If your bonded item is 1 Bulk or less, you teleport your bonded item into your hand from up to 1 mile away.',
@@ -22066,7 +22066,7 @@ export const feats = {
       name: 'Forcible Energy',
       level: '12',
       traits: ['Manipulate', 'Metamagic', 'Wizard'],
-      actions: 'single_action',
+      actions: '1',
       id: 1841,
       text: [
         'You perform complex manipulations to make the energy from your spells so powerful that your enemies remain vulnerable to it afterward. If your next action is to Cast a Spell that deals acid, electricity, fire, or sonic damage, you can select one target that was damaged to gain weakness 5 to that damage type until the end of your next turn. If a spell deals multiple types of energy damage, choose one that the target gains weakness to. This has no effect on creatures with resistance or immunity to the energy type you choose.',
@@ -22343,7 +22343,7 @@ export const feats = {
       archetype: 'Swashbuckler',
       prerequisites: 'Swashbuckler Dedication',
       activate: {
-        actions: 'single_action',
+        actions: '1',
         name: '(',
         requirements: ', ',
         effect:
@@ -22556,7 +22556,7 @@ export const feats = {
       name: 'Tumbling Strike',
       level: '8',
       traits: ['Archetype', 'Flourish', 'Move'],
-      actions: 'single_action',
+      actions: '1',
       id: 1877,
       text: [
         'Attempt an Acrobatics check against the Reflex DC of an enemy adjacent to you.',
@@ -22689,7 +22689,7 @@ export const feats = {
       name: 'Quick Shot',
       level: '4',
       traits: ['Archetype', 'Open'],
-      actions: 'single_action',
+      actions: '1',
       id: 1886,
       text: [
         'You draw your bow and attack with the same action. You Interact to draw a weapon from the bow weapon group that is loaded or has reload 0, then Strike with that weapon.',
@@ -22728,7 +22728,7 @@ export const feats = {
       name: 'Archer\'s Aim',
       level: '8',
       traits: ['Archetype', 'Concentrate'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1889,
       text: [
         'You slow down, focus, and take a careful shot. Make a ranged Strike with a weapon in the bow weapon group. You gain a +2 circumstance bonus to the attack roll and ignore the target\'s concealed condition. If the target is hidden, reduce the flat check from being hidden from 11 to 5.',
@@ -22751,7 +22751,7 @@ export const feats = {
       prerequisites:
         'Alchemical Crafting; trained in Crafting, Deception, and Stealth',
       activate: {
-        actions: 'three_actions',
+        actions: '3',
         name: 'Mark for Death',
         requirements: ' You can see and hear the creature you intend to mark; ',
         effect: ' your mark and on ',
@@ -22802,7 +22802,7 @@ export const feats = {
       name: 'Assassinate',
       level: '12',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1894,
       text: [
         'You strike with one swift movement, trying to instantly slay your mark. Make a Strike against your mark. If you hit, your mark takes 6d6 extra precision damage with a basic Fortitude save against your class DC or spell DC, whichever is higher. If the mark critically fails, they die. This is an incapacitation effect. The creature then becomes temporarily immune to your Assassinate for 1 day.',
@@ -22980,7 +22980,7 @@ export const feats = {
       name: 'Beastmaster\'s Call',
       level: '12',
       traits: ['Archetype', 'Auditory', 'Concentrate', 'Primal'],
-      actions: 'single_action',
+      actions: '1',
       id: 1907,
       text: [
         'You quickly call in a primal projection of a non-active companion to provide the companion\'s support benefit. The projection arrives in an unoccupied square of your choice within 30 feet of you, grants you its support benefit, and then disappears on your next turn. The projection has the same AC and saving throw modifiers as the real companion, and if it would take any damage before your next turn, it disappears and the support benefit ends immediately.',
@@ -23050,7 +23050,7 @@ export const feats = {
       name: 'Blessed Spell',
       level: '8',
       traits: ['Archetype', 'Concentrate', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1912,
       text: [
         'When you focus your magic on an ally, you can remove harmful conditions. If your next action is to Cast a Spell from a spell slot, and that spell targets only a single ally, you can also attempt to remove a harmful condition from that ally. The condition must be one that could be removed by your Mercy feat, including those granted by later feats such as Greater Mercy. Attempt a counteract check based on the spell\'s DC and level. This effect is in addition to the normal effects of your spell.',
@@ -23183,7 +23183,7 @@ export const feats = {
       name: 'Cavalier\'s Charge',
       level: '4',
       traits: ['Archetype', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1921,
       text: [
         'You Command an Animal to order your mount to Stride twice. At any point during this movement, you can Strike one enemy within reach or within the first range increment of a ranged weapon. You gain a +1 circumstance bonus to your attack roll.',
@@ -23210,7 +23210,7 @@ export const feats = {
       name: 'Quick Mount',
       level: '4',
       traits: ['Archetype', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 1923,
       text: [
         'You and your mount can spring into action at a moment\'s notice. You Mount the creature and Command an Animal to issue it an order of your choice.',
@@ -23266,7 +23266,7 @@ export const feats = {
       name: 'Trampling Charge',
       level: '10',
       traits: ['Archetype', 'Flourish'],
-      actions: 'three_actions',
+      actions: '3',
       id: 1927,
       text: [
         'You urge your mount forward, trampling enemies in your path. You command your mount to Stride up to its Speed (or to Burrow, Climb, Fly, or Swim, if it has the corresponding movement type), moving through the spaces of any foes in your path up to one size smaller than your mount. Your mount deals damage equal to the melee Strike using its legs to each creature whose space you move through, subject to a basic Reflex save against your mount\'s Athletics DC. On a critical failure, the creature also becomes flat-footed until the end of your next turn. You can damage a given creature only once during this movement.',
@@ -23281,7 +23281,7 @@ export const feats = {
       name: 'Unseat',
       level: '10',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 1928,
       text: [
         'You attempt to knock an opponent off their mount. Make a melee Strike against a mounted opponent. If your attack hits, attempt an Athletics check against the opponent\'s Fortitude DC. If you succeed, the foe is knocked off its mount into a space of its choice adjacent to its mount. If you critically succeed, it lands prone.',
@@ -23365,7 +23365,7 @@ export const feats = {
       name: 'Mesmerizing Gaze',
       level: '6',
       traits: ['Archetype', 'Emotion', 'Enchantment', 'Mental', 'Visual'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1933,
       text: [
         'When you meet someone\'s gaze, they are unable to look away. Choose one target creature. That creature must succeed at a Will save or be fascinated until the end of your next turn; the DC for this save is equal to your class DC or spell DC, whichever is higher. If the creature succeeds at its save or its fascination ends due to a hostile action, it becomes temporarily immune to your Mesmerizing Gaze for 1 day.',
@@ -23386,7 +23386,7 @@ export const feats = {
         'Mental',
         'Visual',
       ],
-      actions: 'single_action',
+      actions: '1',
       id: 1934,
       text: [
         'You command the attention of all around you with style, ensuring their gaze falls only upon you until the end of your next turn. When creatures within 30 feet of you attempt saving throws against other visual effects, they use the outcome for one degree of success better than the result they rolled. An enemy within the area attempting to use a visual effect that involves focusing its attention on a particular creature (such as a medusa\'s Focus Gaze) must succeed at a Will save against your class DC or spell DC, whichever is higher, in order to target any creature except you. Allies in the area can attempt to Hide even if they don\'t have cover, as you are continually providing a distraction.',
@@ -23601,7 +23601,7 @@ export const feats = {
       name: 'Disciple\'s Breath',
       level: '16',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1948,
       text: [
         'You unleash your breath weapon without spending focus. This has the effects of your dragon breath sorcerer bloodline spell, though it deals 9d6 damage instead of its usual damage, and you don\'t have to cast it or spend a Focus Point. You can\'t use Disciple\'s Breath again for 1d4 rounds.',
@@ -23654,7 +23654,7 @@ export const feats = {
       name: 'Dual-Weapon Reload',
       level: '4',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 1952,
       text: [
         'You carry your ammunition in a way that allows you to reload while holding two weapons. You Interact to reload a one-handed ranged weapon you\'re holding. Unlike most Interact actions, you don\'t need a free hand to reload your ranged weapon in this way.',
@@ -23669,7 +23669,7 @@ export const feats = {
       name: 'Flensing Slice',
       level: '8',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 1953,
       text: [
         'When you hit with both attacks with Double Slice, you flense the target, making it bleed and creating a weak spot. The target takes 1d8 persistent bleed damage per weapon damage die of whichever of the weapons you used that has the most weapon damage dice (maximum 4d8 for a major striking weapon). The target becomes flat-footed, and its resistances to any physical damage types are reduced by 5; these two effects last until the beginning of your next turn.',
@@ -23683,7 +23683,7 @@ export const feats = {
       name: 'Dual-Weapon Blitz',
       level: '10',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1954,
       text: [
         'You attack as you dash among foes. Stride up to your Speed. At any point during this movement, you can Strike once with each of the two required weapons. These Strikes can be against the same or different targets, as you see fit.',
@@ -23726,7 +23726,7 @@ export const feats = {
       name: 'Duelist\'s Challenge',
       level: '4',
       traits: ['Archetype', 'Open'],
-      actions: 'single_action',
+      actions: '1',
       id: 1957,
       text: [
         'Select one foe that you can see and proclaim a challenge. That foe is your dueling opponent until they are defeated, flee, or the encounter ends. Any time you hit that enemy using a single one-handed melee weapon while your other hand or hands are free, you gain a circumstance bonus to the Strike\'s damage equal to the number of damage dice your weapon deals.',
@@ -23779,7 +23779,7 @@ export const feats = {
       archetype: 'Eldrith Archer',
       prerequisites: 'expert in at least one type of',
       activate: {
-        actions: 'three_actions',
+        actions: '3',
         name: 'Eldritch Shot',
         requirements: ' You are wielding a ',
         effect:
@@ -23805,7 +23805,7 @@ export const feats = {
       name: 'Enchanting Arrow',
       level: '8',
       traits: ['Archetype', 'Emotion', 'Enchantment', 'Magical', 'Mental'],
-      actions: 'two_actions',
+      actions: '2',
       id: 1962,
       text: [
         'With a single whisper carried on the wind, you enchant your ammunition to make a foe more vulnerable to your attacks. Make a bow Strike. On a hit, the target takes an additional 2d6 mental damage. On a critical hit, the target also becomes stunned 1. The mental damage increases to 3d6 if your bow has a greater striking rune, or to 4d6 if your bow has a major striking rune.',
@@ -23835,7 +23835,7 @@ export const feats = {
       name: 'Precious Arrow',
       level: '8',
       traits: ['Archetype', 'Magical', 'Transmutation'],
-      actions: 'single_action',
+      actions: '1',
       id: 1964,
       text: [
         'You enchant a piece of ammunition with the magical essence of a precious material, allowing you to leverage certain creatures\' weaknesses. Choose cold iron or silver; if you shoot the arrow before the end of your turn, it counts as that material. At 14th level, add adamantine to the list of materials you can choose from.',
@@ -23859,7 +23859,7 @@ export const feats = {
       name: 'Seeker Arrow',
       level: '14',
       traits: ['Archetype', 'Divination', 'Magical'],
-      actions: 'single_action',
+      actions: '1',
       id: 1966,
       text: [
         'Your shots zip around corners and fly at impossible angles to reach your target. Make a bow Strike against a foe you can see; the ammunition travels to your target, even around corners. You ignore the target\'s concealed condition and all cover.',
@@ -23872,7 +23872,7 @@ export const feats = {
       name: 'Phase Arrow',
       level: '16',
       traits: ['Archetype', 'Conjuration', 'Magical'],
-      actions: 'single_action',
+      actions: '1',
       id: 1967,
       text: [
         'You can concentrate an immense amount of magic to create a piece of ammunition that phases through everything but your target. Make a bow Strike against a foe who is observed or hidden to you (but not undetected). The ammunition travels to your target in a straight line, passing through any non-magical barriers or walls in its way, though magical barriers stop the arrow. The shot ignores all cover, the concealed condition, the hidden condition, and circumstance bonuses to AC from shields. It has a +4 status bonus to hit creatures wearing any type of armor. The Strike\'s damage can\'t be reduced with a Shield Block reaction using a non-magical shield.',
@@ -23886,7 +23886,7 @@ export const feats = {
       name: 'Arrow of Death',
       level: '18',
       traits: ['Archetype', 'Magical', 'Necromancy'],
-      actions: 'three_actions',
+      actions: '3',
       id: 1968,
       text: [
         'You modify an arrow or bolt to bring death to your target in a single potent hit. Make a bow Strike. On a hit, you deal an additional 10d10 precision damage. On a critical hit, the target must also succeed at a Fortitude saving throw against your class DC or spell DC, whichever is higher, or be immediately slain; this save has the death and incapacitation traits.',
@@ -23938,7 +23938,7 @@ export const feats = {
       name: 'Familiar Conduit',
       level: '4',
       traits: ['Archetype', 'Conjuration', 'Metamagic'],
-      actions: 'single_action',
+      actions: '1',
       id: 1972,
       text: [
         'Under your tutelage, your familiar has grown attuned to the hidden currents of the world and can serve as a conduit for your magic. If the next action you use is to Cast a Spell that has a range, the spell uses the familiar as its origin point.',
@@ -24409,7 +24409,7 @@ export const feats = {
       name: 'Dread Marshal Stance',
       level: '4',
       traits: ['Archetype', 'Open', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 2006,
       text: [
         'Putting on a grim face for the battle ahead, you encourage your allies to strike fear into their foes with vicious attacks. When you use this action, attempt an Intimidation check. The DC is usually a standard-difficulty DC of your level, but the GM can assign a different DC based on the circumstances. The effect depends on the result of your check.',
@@ -24428,7 +24428,7 @@ export const feats = {
       name: 'Inspiring Marshal Stance',
       level: '4',
       traits: ['Archetype', 'Open', 'Stance'],
-      actions: 'single_action',
+      actions: '1',
       id: 2007,
       text: [
         'You become a brilliant example of dedication and poise in battle, encouraging your allies to follow suit. When you spend this action, attempt a Diplomacy check. The DC is usually a standard-difficulty DC of your level, but the GM can assign a different DC based on the circumstances. The effect depends on the result of your check.',
@@ -24447,7 +24447,7 @@ export const feats = {
       name: 'Snap Out of It!',
       level: '4',
       traits: ['Archetype', 'Auditory', 'Emotion', 'Mental'],
-      actions: 'single_action',
+      actions: '1',
       id: 2008,
       text: [
         'You give a quick shout, hoping to shake the fog clouding your ally\'s thoughts. Choose one target ally within your marshal\'s aura who is affected by a mental effect that allowed a Will save and has a duration of no longer than 1 minute. That ally can immediately attempt a Will save with a +1 circumstance bonus against the effect\'s DC, ending the effect on a success. This can\'t end the effect for any creatures other than your target ally. Regardless of the result of the save, your ally is temporarily immune to Snap Out of It! for 10 minutes.',
@@ -24460,7 +24460,7 @@ export const feats = {
       name: 'Steel Yourself!',
       level: '4',
       traits: ['Archetype', 'Auditory', 'Emotion', 'Mental'],
-      actions: 'single_action',
+      actions: '1',
       id: 2009,
       text: [
         'You encourage an ally to toughen up, giving them a fighting chance. Choose one ally within your marshal\'s aura. The ally gains temporary Hit Points equal to your Charisma modifier and a +2 circumstance bonus to Fortitude saves. Both benefits last until the start of your next turn.',
@@ -24473,7 +24473,7 @@ export const feats = {
       name: 'Cadence Call',
       level: '6',
       traits: ['Archetype', 'Auditory', 'Flourish'],
-      actions: 'single_action',
+      actions: '1',
       id: 2010,
       text: [
         'You call out a quick cadence, guiding your allies into a more efficient rhythm. Each willing ally within your marshal\'s aura is quickened until the end of their next turn, and they can use the extra action only to Stride. At the end of each ally\'s turn, if they used the extra action, they then become slowed 1 until the end of their following turn.',
@@ -24487,7 +24487,7 @@ export const feats = {
       name: 'Rallying Charge',
       level: '6',
       traits: ['Archetype', 'Open', 'Visual'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2011,
       text: [
         'Your fearless charge into battle reinvigorates your allies to carry on the fight. You Stride up to your Speed and make a melee Strike. If your Strike hits and damages an enemy, each ally within 60 feet who saw you hit gains temporary Hit Points equal to your Charisma modifier. These temporary Hit Points last until the start of your next turn.',
@@ -24513,7 +24513,7 @@ export const feats = {
       name: 'To Battle!',
       level: '8',
       traits: ['Archetype', 'Auditory', 'Flourish'],
-      actions: 'single_action',
+      actions: '1',
       id: 2013,
       text: [
         'With a resounding cry, you rally your ally to the offensive. Choose one ally within your marshal\'s aura who has a reaction available. If you spend 1 action, that ally can use their reaction to immediately Stride. If you spend 2 actions, that ally can use their reaction to immediately Strike.',
@@ -24541,7 +24541,7 @@ export const feats = {
       name: 'Coordinated Charge',
       level: '12',
       traits: ['Archetype', 'Open', 'Visual'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2015,
       text: [
         'You heroically dash into the fray, inspiring your allies to follow. You Stride up to your Speed and make a melee Strike. If your Strike hits and damages an enemy, each ally within 60 feet who saw you hit can use a reaction to Stride, but they each must end their Stride closer to the creature you hit than where they started.',
@@ -24597,7 +24597,7 @@ export const feats = {
       name: 'Follow-Up Strike',
       level: '6',
       traits: ['Archetype', 'Flourish'],
-      actions: 'single_action',
+      actions: '1',
       id: 2019,
       text: [
         'You have trained to use all parts of your body as a weapon, and when you miss with an attack, you can usually continue the attack with a different body part and still deal damage. Make another Strike with a melee unarmed attack, using the same multiple attack penalty as for the missed Strike, if any.',
@@ -24612,7 +24612,7 @@ export const feats = {
       name: 'Grievous Blow',
       level: '8',
       traits: ['Archetype', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2020,
       text: [
         'You know how to deliver focused, powerful blows that bypass your enemies\' resistances. Make an unarmed melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal two extra weapon damage dice. If you are at least 18th level, increase this to three extra weapon damage dice.',
@@ -24626,7 +24626,7 @@ export const feats = {
       name: 'Path of Iron',
       level: '14',
       traits: ['Archetype', 'Flourish'],
-      actions: 'three_actions',
+      actions: '3',
       id: 2021,
       text: [
         'With a burst of effort, you weave a path through your enemies, striking each in turn as you move past them. You Stride; this movement doesn\'t trigger reactions. You can Strike up to three times at any point during your movement, each against a different enemy. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn\'t increase until you have made all your attacks.',
@@ -24655,7 +24655,7 @@ export const feats = {
       name: 'Clear the Way',
       level: '6',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2023,
       text: [
         'You put your body behind your massive weapon and swing, shoving enemies to clear a wide path. You attempt to Shove up to five creatures adjacent to you, rolling a separate Athletics check for each target. Then Stride up to half your Speed. This movement doesn\'t trigger reactions from any of the creatures you successfully Shoved.',
@@ -24685,7 +24685,7 @@ export const feats = {
       name: 'Hammer Quake',
       level: '14',
       traits: ['Archetype', 'Flourish', 'Open'],
-      actions: 'three_actions',
+      actions: '3',
       id: 2025,
       text: [
         'You smash the ground with your weapon, knocking nearby creatures to the ground. Choose a square within your reach, including your own space. If there\'s a foe in the chosen square, Strike that foe with the required weapon. Then attempt to Trip every foe in the chosen square plus each square adjacent to that square, ignoring Trip\'s requirement that you have a hand free. This counts as three attacks toward your multiple attack penalty, but the penalty doesn\'t increase until after you\'ve made the Strike, if any, and all the Trip attempts.',
@@ -24699,7 +24699,7 @@ export const feats = {
       name: 'Avalanche Strike',
       level: '16',
       traits: ['Archetype', 'Flourish', 'Open'],
-      actions: 'three_actions',
+      actions: '3',
       id: 2026,
       text: [
         'You attack all nearby adversaries. Make a melee Strike with the required weapon against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but don\'t increase your penalty until you have made all your attacks.',
@@ -24728,7 +24728,7 @@ export const feats = {
       name: 'Doctor\'s Visitation',
       level: '4',
       traits: ['Archetype', 'Flourish'],
-      actions: 'single_action',
+      actions: '1',
       id: 2028,
       text: [
         'You move to provide immediate care to those who need it. Stride, then use one of the following: Battle Medicine or Treat Poison. You can spend a second action to instead Stride and then Administer First Aid or Treat a Condition (if you have it).',
@@ -24741,7 +24741,7 @@ export const feats = {
       name: 'Treat Condition',
       level: '4',
       traits: ['Archetype', 'Healing', 'Manipulate', 'Skill'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2029,
       text: [
         'You treat an adjacent creature in an attempt to reduce the clumsy, enfeebled, or sickened condition. If a creature has multiple conditions from this list, choose one. Attempt a counteract check against the condition, using your Medicine modifier as your counteract modifier and the condition\'s source to determine the DC. You can\'t treat a condition that came from an artifact or effect above 20th level unless you have Legendary Medic; even if you do, the counteract DC increases by 10. Treating a Condition that is continually applied under certain circumstances (for instance, the enfeebled condition a good character gains from carrying an unholy weapon) has no effect as long as the circumstances continue.',
@@ -24771,7 +24771,7 @@ export const feats = {
       name: 'Resuscitate',
       level: '16',
       traits: ['Archetype', 'Healing', 'Manipulate'],
-      actions: 'three_actions',
+      actions: '3',
       id: 2031,
       text: [
         'You can use Medicine to resuscitate the dead. Attempt a DC 40 Medicine check to revive a dead creature that has been dead for no more than 3 rounds. If you succeed, the target returns to life with the effects of raise dead, except it still has the wounded condition it had before dying, increased by 1 (or wounded 1 if it wasn\'t wounded before dying). Whether you succeed or fail, the target is temporarily immune to Resuscitate for 1 day.',
@@ -24794,7 +24794,7 @@ export const feats = {
       archetype: 'Pirate',
       prerequisites: 'trained in Intimidation',
       activate: {
-        actions: 'two_actions',
+        actions: '2',
         name: '(',
         requirements: ') Boarding Assault; ',
         effect:
@@ -24833,7 +24833,7 @@ export const feats = {
       name: 'Walk the Plank',
       level: '8',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2035,
       text: [
         'You frighten a foe into moving where you want them, traditionally demanding they walk the plank. Attempt to Demoralize an opponent; this check gains the incapacitation trait. On a success, in addition to the normal effects, you can also force the target to Stride up to its Speed. You choose the path the target takes, and it does so as part of your Walk the Plank action. You can\'t force the target to move into a harmful space (one where it will take damage, fall, provoke reactions, or similar) unless the result of your check to Demoralize was a critical success. The target then becomes temporarily immune to Walk the Plank for 24 hours.',
@@ -24861,7 +24861,7 @@ export const feats = {
       name: 'Poisoner\'s Twist',
       level: '4',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 2037,
       text: [
         'Poisons attack specific parts of the body&#x2014;one venom might target the lungs, another the circulatory system, while another deteriorates the nerves. You know how to take advantage of such weaknesses. You deal 1d6 damage of the required Strike\'s damage type and 1d6 poison damage to the target. If you\'re at least 18th level, you deal 2d6 damage of each type.',
@@ -25015,7 +25015,7 @@ export const feats = {
       name: 'Scout\'s Charge',
       level: '4',
       traits: ['Archetype', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2048,
       text: [
         'You meander around unpredictably, and then ambush your opponents without warning. Choose one enemy. Stride, Feint against that opponent, and then make a Strike against that foe. For your Feint, you can attempt a Stealth check instead of the Deception check that\'s usually required, because you use the terrain around you to catch your foe off-guard.',
@@ -25041,7 +25041,7 @@ export const feats = {
       name: 'Fleeting Shadow',
       level: '6',
       traits: ['Archetype', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2050,
       text: [
         'You\'re able to quickly disappear and then move about stealthily. You Hide, then Sneak twice.',
@@ -25067,7 +25067,7 @@ export const feats = {
       name: 'Scout\'s Pounce',
       level: '10',
       traits: ['Archetype', 'Flourish'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2052,
       text: [
         'You leap from the shadows to strike your foes. Stride up to your Speed, then Strike twice. If you were hidden or unnoticed by the target of these Strikes, your foe is flat-footed against both attacks. Your multiple attack penalty applies normally for both attacks.',
@@ -25110,7 +25110,7 @@ export const feats = {
       name: 'Skim Scroll',
       level: '8',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 2055,
       text: [
         'You can activate the magic of a scroll with a cursory read as you draw it from your belt. You Interact to draw forth a scroll, then use Trick Magic Item on the scroll.',
@@ -25382,7 +25382,7 @@ export const feats = {
       name: 'Surprise Snare',
       level: '4',
       traits: ['Archetype', 'Manipulate'],
-      actions: 'three_actions',
+      actions: '3',
       id: 2075,
       text: [
         'You install one of your snares prepared for quick deployment in a space that\'s occupied by an opponent. It must be a snare that normally takes 1 minute or less to Craft. The snare automatically triggers, but it takes a &#x2013;2 circumstance penalty to any applicable save DC, as well as any attack rolls or other checks the snare attempts.',
@@ -25564,7 +25564,7 @@ export const feats = {
       name: 'Startling Appearance',
       level: '6',
       traits: ['Archetype', 'Emotion', 'Fear', 'Mental', 'Vigilante'],
-      actions: 'single_action',
+      actions: '1',
       id: 2088,
       text: [
         'You can startle foes who are unaware of your presence. Make a Strike against your target. That creature is flat-footed against this Strike, as normal. If your Strike hits, the target remains flat-footed for the rest of your turn and is frightened 1 (frightened 2 on a critical hit).',
@@ -25658,7 +25658,7 @@ export const feats = {
       name: 'Hurling Charge',
       level: '4',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2095,
       text: [
         'You make a ranged Strike with a thrown weapon you already have in your hand, Stride, and then Interact to draw another weapon. If you are raging, you can add the additional damage with melee weapons you receive from raging to your damage with the thrown weapon.',
@@ -25726,7 +25726,7 @@ export const feats = {
       name: 'Improvised Pummel',
       level: '4',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 2100,
       text: [
         'You make a Strike with your wielded improvised weapon. You gain a +1 item bonus to the attack roll, and the Strike deals two weapon damage dice if it would have dealt fewer. If the attack is a critical hit, in addition to the effect of the critical hit, the improvised weapon breaks. If the item has a Hardness greater than your level, or if it\'s an artifact, cursed item, or other item that\'s difficult to break or destroy, the item doesn\'t break and the attack is a hit instead of a critical hit.',
@@ -25767,7 +25767,7 @@ export const feats = {
       name: 'Makeshift Strike',
       level: '8',
       traits: ['Archetype'],
-      actions: 'single_action',
+      actions: '1',
       id: 2103,
       text: [
         'You quickly snatch up whatever\'s nearby and then attack with it as an improvised weapon. You Interact to pick up a nearby object you could use as an improvised weapon. It must be located at around your chest level, such as a mug on a table, rather than an object on the floor. You then either Strike or make an Improvised Pummel with the improvised weapon.',
@@ -25920,7 +25920,7 @@ export const feats = {
         'Mental',
         'Skill',
       ],
-      actions: 'single_action',
+      actions: '1',
       id: 2114,
       text: [
         'You launch an insightful quip at a foe, distracting them. Choose a foe within 30 feet and roll a Diplomacy check against the target\'s Will DC.',
@@ -26041,7 +26041,7 @@ export const feats = {
       name: 'Disturbing Knowledge',
       level: '7',
       traits: ['Emotion', 'Fear', 'General', 'Mental', 'Skill'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2123,
       text: [
         'You utter a litany of dreadful names, prophecies, and descriptions of realms beyond mortal comprehension, drawn from your study of forbidden tomes and scrolls. Even those who don\'t understand your language are unsettled by these dire secrets. Attempt an Occultism check and compare the result to the Will DC of an enemy within 30 feet, or to the Will DCs of any number of enemies within 30 feet if you are legendary in Occultism. Those creatures are temporarily immune for 24 hours.',
@@ -26094,7 +26094,7 @@ export const feats = {
       name: 'Eye for Numbers',
       level: '1',
       traits: ['General', 'Skill'],
-      actions: 'single_action',
+      actions: '1',
       id: 2127,
       text: [
         'You\'ve learned to subitize, quickly estimating the number of items in a group with relative accuracy at only a glance. You immediately learn the number of visually similar items in a group you can see (such as coins, books, or people), rounded to the first digit in the total number. For example, you could look at a case of potion vials and learn that it held about 30 vials, but you wouldn\'t know that it was exactly 33 vials, how many different types of potions there were, or how many of which type. Similarly, you could look at a pile of 2,805 coins and know that there were about 3,000 coins in all. You can use this ability only on items that can typically be counted, so you can\'t use it on grains of sand or stars in the sky, for example.',
@@ -26157,7 +26157,7 @@ export const feats = {
       name: 'Improvised Repair',
       level: '3',
       traits: ['General'],
-      actions: 'three_actions',
+      actions: '3',
       id: 2132,
       text: [
         'You are skilled at making quick fixes to damaged equipment, but your fixes aren\'t meant to last forever. You make a quick repair to a broken non-magical item in your possession. Until the item takes damage again, you can still use it as a shoddy item of its type. This repair restores no Hit Points, so the item is easy to destroy. Once the item is Repaired normally such that it is no longer broken, it is also no longer shoddy.',
@@ -26247,7 +26247,7 @@ export const feats = {
         'Mental',
         'Skill',
       ],
-      actions: 'three_actions',
+      actions: '3',
       id: 2139,
       text: [
         'You attempt to reduce panic. Attempt a Diplomacy check, comparing it to the Will DC of creatures in a 10-foot emanation around you who are frightened. Each of them is temporarily immune for 1 hour.',
@@ -26627,7 +26627,7 @@ export const feats = {
       name: 'Vigil\'s Walls Rise Anew!',
       level: '10',
       traits: ['Archetype'],
-      actions: 'two_actions',
+      actions: '2',
       id: 2169,
       text: [
         'As part of daily preparation, you can drill with a number of allies up to your Charisma modifier. These allies must be present and listening during this time, but this does not otherwise impede their own preparation. When you use this feat\'s benefit, you and all drilled companions within 30 feet who are wielding shields Raise a Shield. Allies who Raise their Shields keep them raised until the start of their next turn, as normal.\n',
@@ -26844,7 +26844,7 @@ export const feats = {
       name: 'Sense Alignment',
       level: '4',
       traits: ['Archetype', 'Secret'],
-      actions: 'three_actions',
+      actions: '3',
       id: 2194,
       text: [
         'You read the body language of an intelligent creature within 30 feet and pick up on subtle cues to detect its general propensity for good or evil and law or chaos. The GM rolls a secret Perception check, comparing the result against the target\'s Deception DC.\n',
@@ -26876,7 +26876,7 @@ export const feats = {
       name: 'Bolera\'s Interrogation',
       level: '6',
       traits: ['Archetype'],
-      actions: 'three_actions',
+      actions: '3',
       id: 2196,
       text: [
         'You focus your attention on a single creature within 30 feet. That creature must attempt a Will save against your Perception DC. On a failure, the creature finds itself unable to speak any deliberate and intentional lies and takes a &#x2013;2 penalty to Deception checks. On a critical failure, the penalty to Deception checks is &#x2013;4. This effect lasts for 10 minutes as long as you are within 30 feet of the target and the target is aware that you are using the ability against it. If you begin a new interrogation, this effect ends for any previous target. After your interrogation ends, the target is immune to this ability for 24 hours.\n',

@@ -50,13 +50,13 @@ export class UtilsService {
         ) {
           containsMatch = isEqual(inputToCheck, valueToCheck);
         } else if (Array.isArray(valueToCheck)) {
-          containsMatch = valueToCheck.every((value) => {
+          containsMatch = valueToCheck.some((value) => {
             return (inputToCheck as any).some((inputValue) =>
             this.checkEqual(inputValue, value)
             );
           });
         } else if (valueToCheck && typeof valueToCheck === 'object') {
-          return Object.keys(valueToCheck).every((key) => {
+          return Object.keys(valueToCheck).some((key) => {
             return this.checkEqual(valueToCheck[key], inputToCheck[key]);
           });
         }
@@ -68,7 +68,7 @@ export class UtilsService {
     return containsMatch;
   }
   public fullFilter(
-    value: object[],
+    value: any[],
     query: { $?: string; [otherFields: string]: any }
   ): any[] {
     let filteredValue = [...value];
@@ -77,12 +77,21 @@ export class UtilsService {
         filteredValue = filteredValue.filter((element) =>
           this.smartSearchHelper(element, query.$)
         );
+      } else if (query.actions) {
+          filteredValue = filteredValue.filter((element) => {
+            if (Array.isArray(element.action)) {
+              return element.action.includes(query.actions);
+            } else {
+              return query.actions?.toUpperCase() === element.action?.toUpperCase();
+            }
+          });
       }
-      const otherFields = { ...query };
-      delete otherFields.$;
-      if (Object.keys(otherFields).length > 0) {
+      const remainingQuery = { ...query };
+      delete remainingQuery.$;
+      delete remainingQuery.actions;
+      if (Object.keys(remainingQuery).length > 0) {
         filteredValue = filteredValue.filter((element) => {
-          return this.matchesQuery(element, otherFields);
+          return this.matchesQuery(element, remainingQuery);
         });
       }
     }

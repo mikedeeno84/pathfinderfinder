@@ -86,6 +86,7 @@ interface BaseFeat {
 export type requiredKeys = keyof BaseFeat;
 export interface Spell extends SpellEntry {
   itemType: 'spell';
+  actions?: string;
 }
 export interface Feat extends FeatEntry {
   itemType: 'feat';

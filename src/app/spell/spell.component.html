@@ -21,8 +21,15 @@
       </div>
     </div>
     <div *ngIf="spell.action" class="spell-section">
-      Action:
-      {{ spell.action | titlecase }}
+      <div *ngIf="isArray(spell.action); else singleActionTemplate">
+        <span *ngFor="let action of spell.action; let last=last" >
+          <app-show-action [action]="action"></app-show-action>
+          <span *ngIf="!last">,</span>
+        </span>
+      </div>
+      <ng-template #singleActionTemplate>
+        <app-show-action [action]="spell.action"></app-show-action>
+      </ng-template>
     </div>
     <div class="spell-section">
       <span

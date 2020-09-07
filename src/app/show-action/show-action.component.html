@@ -1,0 +1,6 @@
+<span *ngIf="!filterImageNameMap[action]; else imgblock">{{
+    action | titlecase
+  }}</span>
+  <ng-template #imgblock
+    ><img [src]="filterImageNameMap[action]" height="16"
+  /></ng-template>

@@ -24,8 +24,7 @@
         </div>
       </div>
       <div *ngIf="feat.actions" class="margin-left">
-        Action:
-        {{ feat.actions | titlecase }}
+        <app-show-action [action]="feat.actions"></app-show-action>
       </div>
     </div>
     <div class="feat-section">

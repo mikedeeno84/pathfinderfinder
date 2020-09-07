@@ -18,6 +18,7 @@ import { SpellComponent } from './spell/spell.component';
 import { PadComponent } from './pad/pad.component';
 import { OrderByPipe } from './order-by.pipe';
 import { PadListWrapperComponent } from './pad-list-wrapper/pad-list-wrapper.component';
+import { ShowActionComponent } from './show-action/show-action.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { PadListWrapperComponent } from './pad-list-wrapper/pad-list-wrapper.com
     SpellComponent,
     PadComponent,
     OrderByPipe,
-    PadListWrapperComponent
+    PadListWrapperComponent,
+    ShowActionComponent
   ],
   imports: [
     BrowserModule,

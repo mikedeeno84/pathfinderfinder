@@ -22,7 +22,6 @@ export class FilterGroupComponent implements OnInit, OnDestroy {
   actionList: string[];
   filterForm: FormGroup;
   private subscriptions: Subscription[] = [];
-
   ngOnInit(): void {
     this.filterStateService.initFilter(this.filterKey);
     this.traitList = this.getFeatsService.getTraitList();
@@ -31,11 +30,13 @@ export class FilterGroupComponent implements OnInit, OnDestroy {
       $: new FormControl(),
       traits: new FormControl(),
       actions: new FormControl(),
-      itemType: new FormControl('feat')
+      itemType: new FormControl('feat'),
     });
-    const filterSub = this.filterForm.valueChanges.pipe(debounceTime(500)).subscribe((filterData) => {
-      this.filterStateService.setFilters(this.filterKey, filterData);
-    });
+    const filterSub = this.filterForm.valueChanges
+      .pipe(debounceTime(500))
+      .subscribe((filterData) => {
+        this.filterStateService.setFilters(this.filterKey, filterData);
+      });
     this.subscriptions.push(filterSub);
     this.filterStateService.setFilters(this.filterKey, this.filterForm.value);
   }
@@ -44,5 +45,4 @@ export class FilterGroupComponent implements OnInit, OnDestroy {
       sub.unsubscribe();
     });
   }
-
 }

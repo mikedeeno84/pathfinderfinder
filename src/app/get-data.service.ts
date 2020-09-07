@@ -11,6 +11,7 @@ export class GetDataService {
       return mappedFeat;
     });
     this.spells = Object.values(SpellList).map((spell) => {
+      // const actions: string = Array.isArray(spell.action) ? spell.action.join(',') : spell.action;
       const mappedSpell: Spell = { ...spell, itemType: 'spell' };
       return mappedSpell;
     });
@@ -30,8 +31,9 @@ export class GetDataService {
     Object.values(this.feats).forEach((feat) => {
       if (feat.traits) {
         feat.traits.forEach((trait) => {
-          if (!traits[trait]) {
-            traits[trait] = true;
+          const traitUpper = trait.toUpperCase();
+          if (!traits[traitUpper]) {
+            traits[traitUpper] = true;
           }
         });
       }
@@ -43,8 +45,9 @@ export class GetDataService {
     Object.values(this.spells).forEach((spell) => {
       if (spell.traits) {
         spell.traits.forEach((trait) => {
-          if (!traits[trait]) {
-            traits[trait] = true;
+          const traitUpper = trait.toUpperCase();
+          if (!traits[traitUpper]) {
+            traits[traitUpper] = true;
           }
         });
       }
