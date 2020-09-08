@@ -1,21 +1,23 @@
 <form [formGroup]="filterForm">
-  <div fxLayout="row" fxLayoutAlign="bottom center" fxLayoutGap="20px">
-    <div fxFlex="50" fxLayout="column">
-      <label>Search:</label>
-      <input type="text" formControlName="$" matInput />
+  <div fxLayout="row wrap" fxLayoutAlign="start start" fxLayoutGap="20px" class="filter-row">
+    <div fxLayout="column">
+      <div>Free Text</div>
+      <mat-form-field>
+        <input type="text" formControlName="$" matInput />
+      </mat-form-field>
     </div>
-    <div fxFlex="50">
-      <label for="type">Item Type</label>
-      <mat-radio-group formControlName="itemType" name="itemType">
-        <mat-radio-button value="feat">Feat</mat-radio-button>
-        <mat-radio-button value="spell">Spell</mat-radio-button>
-        <mat-radio-button value="">All</mat-radio-button>
-      </mat-radio-group>
+    <div class="item-container">
+      <div fxLayout="column">
+        <label for="type">Item Type</label>
+        <mat-radio-group formControlName="itemType" name="itemType">
+          <mat-radio-button value="feat">Feat</mat-radio-button>
+          <mat-radio-button class="margin-left" value="spell">Spell</mat-radio-button>
+          <mat-radio-button class="margin-left" value="">All</mat-radio-button>
+        </mat-radio-group>
+      </div>
     </div>
-  </div>
-  <div fxLayout="row" fxLayoutAlign="bottom center" fxLayoutGap="20px">
     <div fxFlex>
-      <label for="traits">Traits</label>
+      <div>Traits</div>
       <ng-select [multiple]="true" formControlName="traits" name="traits">
         <ng-option *ngFor="let trait of traitList" [value]="trait">
           {{ trait | titlecase }}
@@ -23,12 +25,29 @@
       </ng-select>
     </div>
     <div fxFlex>
-      <label for="actions">Actions</label>
+      <div>Actions</div>
       <ng-select formControlName="actions" name="actions">
         <ng-option *ngFor="let action of actionList" [value]="action">
           <app-show-action [action]="action"></app-show-action>
         </ng-option>
       </ng-select>
+    </div>
+  </div>
+</form>
+<form [formGroup]="sortingForm" fxLayout="column">
+  <div fxFlex>Sorting</div>
+  <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px">
+    <div fxFlex="15">
+      <ng-select formControlName="sortField" name="sortField">
+        <ng-option value="name">Name</ng-option>
+        <ng-option value="level">Level</ng-option>
+      </ng-select>
+    </div>
+    <div fxFlex="25">
+      <mat-radio-group formControlName="sortDirection" name="sortDirection">
+        <mat-radio-button class="margin-left" value="asc">Ascending</mat-radio-button>
+        <mat-radio-button class="margin-left" value="desc">Descending</mat-radio-button>
+      </mat-radio-group>
     </div>
   </div>
 </form>

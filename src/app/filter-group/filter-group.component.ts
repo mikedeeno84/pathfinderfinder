@@ -16,14 +16,15 @@ export class FilterGroupComponent implements OnInit, OnDestroy {
     private filterStateService: FilterStateService
   ) {}
   @Input()
-  filterKey: string;
+  stateKey: string;
 
   traitList: string[];
   actionList: string[];
   filterForm: FormGroup;
+  sortingForm: FormGroup;
   private subscriptions: Subscription[] = [];
   ngOnInit(): void {
-    this.filterStateService.initFilter(this.filterKey);
+    this.filterStateService.initState(this.stateKey);
     this.traitList = this.getFeatsService.getTraitList();
     this.actionList = this.getFeatsService.getActionList();
     this.filterForm = new FormGroup({
@@ -32,13 +33,20 @@ export class FilterGroupComponent implements OnInit, OnDestroy {
       actions: new FormControl(),
       itemType: new FormControl('feat'),
     });
+    this.sortingForm = new FormGroup({
+      sortField: new FormControl('name'),
+      sortDirection: new FormControl('asc'),
+    });
     const filterSub = this.filterForm.valueChanges
       .pipe(debounceTime(500))
       .subscribe((filterData) => {
-        this.filterStateService.setFilters(this.filterKey, filterData);
+        this.filterStateService.setFilters(this.stateKey, filterData);
       });
-    this.subscriptions.push(filterSub);
-    this.filterStateService.setFilters(this.filterKey, this.filterForm.value);
+    const sortingSub = this.sortingForm.valueChanges.subscribe((sortState) => {
+      this.filterStateService.setSortState(this.stateKey, sortState);
+    });
+    this.subscriptions.push(filterSub, sortingSub);
+    this.filterStateService.setFilters(this.stateKey, this.filterForm.value);
   }
   ngOnDestroy(): void {
     this.subscriptions.forEach((sub) => {

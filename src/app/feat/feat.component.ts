@@ -21,10 +21,12 @@ export class FeatComponent implements OnInit {
   public getExtendedKeyListPerFeat(
     feat: Feat
   ): { propName: string; value: any }[] {
-    return this.extendedKeys
-      .filter((key) => feat[key] && ['action', 'itemType'].includes(key))
+    const featKeys = this.extendedKeys
+      .filter((key) => feat[key] && !['action', 'itemType'].includes(key))
       .map((propName) => {
         return { propName, value: feat[propName] };
       });
+    console.log(featKeys);
+    return featKeys;
   }
 }
