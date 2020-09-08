@@ -40,10 +40,10 @@ export class FilterGroupComponent implements OnInit, OnDestroy {
     const filterSub = this.filterForm.valueChanges
       .pipe(debounceTime(500))
       .subscribe((filterData) => {
-        this.filterStateService.setFilters(this.stateKey, filterData);
+        this.filterStateService.setFilters(this.stateKey, filterData );
       });
     const sortingSub = this.sortingForm.valueChanges.subscribe((sortState) => {
-      this.filterStateService.setSortState(this.stateKey, sortState);
+      this.filterStateService.setSortState(this.stateKey, sortState );
     });
     this.subscriptions.push(filterSub, sortingSub);
     this.filterStateService.setFilters(this.stateKey, this.filterForm.value);

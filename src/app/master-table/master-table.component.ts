@@ -35,6 +35,7 @@ export class MasterTableComponent implements OnInit {
   public displayedColumns: string[] = ['name', 'traits', 'level', 'text'];
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
   ngOnInit(): void {
+    const a = { a: 1 };
     this.dataSource = new MatTableDataSource(
       [...this.feats, ...this.spells].sort((a, b) => {
         if (a.name < b.name) {
@@ -49,22 +50,19 @@ export class MasterTableComponent implements OnInit {
     this.filterStateService
       .getConsolidatedState(this.stateKey)
       .subscribe((combinedFormState) => {
-        let updatedMasterList = [...this.dataSource.data];
-        if (!isEqual(this.filter, combinedFormState.filterState)) {
-          this.filter = combinedFormState.filterState;
-          updatedMasterList = this.utilsService.fullFilter(
-            updatedMasterList,
-            this.filter
-          );
-        }
-        if (!isEqual(this.orderBy, combinedFormState.sortState)) {
-          this.orderBy = combinedFormState.sortState;
-          const sortfun = this.getSortFunction(
-            this.orderBy.sortField,
-            this.orderBy.sortDirection
-          );
-          updatedMasterList = updatedMasterList.sort(sortfun);
-        }
+        let updatedMasterList = [...this.feats, ...this.spells];
+        this.filter = combinedFormState.filterState;
+        updatedMasterList = this.utilsService.fullFilter(
+          updatedMasterList,
+          this.filter
+        );
+        this.orderBy = combinedFormState.sortState;
+        const sortfun = this.getSortFunction(
+          this.orderBy.sortField,
+          this.orderBy.sortDirection
+        );
+        updatedMasterList = updatedMasterList.sort(sortfun);
+
         this.dataSource.data = [...updatedMasterList];
       });
     this.dataSource.paginator = this.paginator;

@@ -26,7 +26,6 @@ export class FeatComponent implements OnInit {
       .map((propName) => {
         return { propName, value: feat[propName] };
       });
-    console.log(featKeys);
     return featKeys;
   }
 }

@@ -1,7 +1,5 @@
 import { feats } from './feats';
 import { spells, SpellEntry } from './spells';
-// console.log(Object.values(feats).length);
-// console.log(filteredErrors.length);
 export const SpellList = spells;
 export const FeatList: {
   [index: string]: FeatEntry;

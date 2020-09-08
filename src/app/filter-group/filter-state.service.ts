@@ -35,7 +35,9 @@ export class FilterStateService {
       map(([filterState, sortState]) => {
         return { filterState, sortState };
       }),
-      distinctUntilChanged(isEqual)
+      distinctUntilChanged((prev, incoming ) => {
+        return isEqual(prev, incoming);
+      })
     );
   }
   private initFilterState(stateKey: string, filterState: FilterState): void {
